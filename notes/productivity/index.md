@@ -1,3 +1,3 @@
 How to be more productive?!
 ===========================
-[link](http://productiveblog.tumblr.com/)
+[Read about it here](http://productiveblog.tumblr.com/)

@@ -32,12 +32,11 @@ function fetchNote(url) {
 }
 
 module.exports.fetchNote = fetchNote;
+console.log('ajax loaded');
 },{"./markdown":3,"superagent":7}],2:[function(require,module,exports){
-var request = require('superagent');
 var ajax = require('./ajax');
 var markdown = require('./markdown');
 
-console.log('test superagent 2');
 /*
  request.get('/notes/security/index.md', function(res){
  console.log('response', res);
@@ -46,12 +45,12 @@ console.log('test superagent 2');
  });*/
 
 
-ajax.fetchNote('/notes/security/index.md');
+//ajax.fetchNote('/notes/security/index.md');
+console.log('index loaded');
 
-},{"./ajax":1,"./markdown":3,"superagent":7}],3:[function(require,module,exports){
+},{"./ajax":1,"./markdown":3}],3:[function(require,module,exports){
 var pagedown = require('pagedown');
 
-console.log('markdown loaded');
 //var converter = new pagedown.Converter();
 //var safeConverter = pagedown.getSanitizingConverter();
 //var html = safeConverter.makeHtml("*Hello <script>doEvil();</script>*");
@@ -63,6 +62,7 @@ function makeHtml(markdown) {
 }
 
 module.exports.makeHtml = makeHtml;
+console.log('markdown loaded');
 
 
 },{"pagedown":6}],4:[function(require,module,exports){
