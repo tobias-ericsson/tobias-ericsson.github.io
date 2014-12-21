@@ -1,0 +1,6 @@
+./notes/ide/intellij.md,./notes/ide,intellij.md
+./notes/nix-commands/index.md,./notes/nix-commands,index.md
+./notes/nodejs/index.md,./notes/nodejs,index.md
+./notes/productivity/index.md,./notes/productivity,index.md
+./notes/security/index.md,./notes/security,index.md
+./notes/win-commands/index.md,./notes/win-commands,index.md
