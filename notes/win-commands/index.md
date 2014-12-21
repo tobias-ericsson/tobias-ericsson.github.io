@@ -1,19 +1,20 @@
 WIN Commands
 ============
 
-WIN + S	| WIN + F	Search
+WIN + S	or WIN + F	| Search
 
-WIN + M		Minimize all
+WIN + M		        | Minimize all
 
-WIN + SHIFT + M Revert Minimize all
+WIN + SHIFT + M     | Revert Minimize all
 
-WIN + R		Run ...
+WIN + R		        | Run ...
 
-WIN + E		Explorer
+WIN + E		        | Explorer
 
-WIN + BREAK	Dialog for System Properties
+WIN + BREAK	        | Dialog for System Properties
 
 
-shutdown /s /t 0	Shutdown
 
-shutdown /r /t 0	Restart
+shutdown /s /t 0	| Shutdown
+
+shutdown /r /t 0	| Restart
