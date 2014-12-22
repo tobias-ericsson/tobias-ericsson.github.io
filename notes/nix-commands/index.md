@@ -11,3 +11,18 @@ tail -1000f logfile.log | awk '/<Body>/,/<\/Body>/'
 How to recursively find all folders named X and remove them and their subdirectories
 ------------------------------------------------------------------------------------
 find ./ -type d -name X -exec rm -r {} \;
+
+
+About cd
+--------
+go home:
+cd ~ (or only cd)
+
+go back and forth:
+cd -
+
+remember dir:
+pushd mydir
+
+go to the remembered dir:
+popd
