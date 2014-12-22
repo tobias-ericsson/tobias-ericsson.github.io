@@ -26,3 +26,15 @@ pushd mydir
 
 go to the remembered dir:
 popd
+
+
+How to get random quotes, like in a fortune cookie
+--------------------------------------------------
+
+```
+sudo apt-get install fortune-mod
+fortune
+```
+
+
+
