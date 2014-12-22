@@ -4,11 +4,29 @@ body {
     font-style: italic;
 }
 
+header,
+nav,
+article,
+footer {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0px 0px 8px 1px rgba(242,162,102,0.5);
+    -moz-box-shadow: inset 0px 0px 8px 1px rgba(242,162,102,0.5);
+    box-shadow: inset 0px 0px 8px 1px rgba(242,162,102,0.5);
+    border-bottom:  2px outset #201000;
+    background-color: #FFEBCD;
+    color: #8B4513;
+    /*border-right: 4px outset #000000;*/
+
+/*
+    -webkit-box-shadow: 3px 3px 2px 0px rgba(41,33,7,0.7);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(41,33,7,0.7);
+    box-shadow: 4px 4px 1px 0px rgba(28,20,0,0.7);*/
+    background: rgba(255,235,205,1);
+    background: linear-gradient(142deg, rgba(255,235,205,1) 0%, rgba(255,235,205,1) 72%, rgba(242,222,190,1) 98%, rgba(232,202,180,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffebcd', endColorstr='#ad8d5e', GradientType=1 );
+}
+
 header {
-    background-color: blanchedalmond;
-    color: saddlebrown;
-    border-radius: 6px;
-    /*box-shadow: 0px 2px 3px 4px dimgrey;*/
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
@@ -34,9 +52,6 @@ header h2 {
 }
 
 nav {
-    background-color: blanchedalmond;
-    color: saddlebrown;
-    border-radius: 6px;
     float: right;
     width: 29%;
     margin: 0px;
@@ -48,12 +63,9 @@ nav {
 }
 
 article {
-    background-color: blanchedalmond;
     width: 66%;
-    border-radius: 6px;
     padding: 1%;
     margin: 0px 0px 1%;
-    /*box-shadow: 0px 2px 3px 4px dimgrey;*/
 }
 
 article h1 {
@@ -80,9 +92,7 @@ section {
 }
 
 footer {
-    background-color: blanchedalmond;
     color: #aeaeae;
-    border-radius: 6px;
     margin-top: 1%;
     margin-bottom: 1%;
     padding: 1%;
