@@ -1,4 +1,4 @@
 tobias-ericsson.github.io
 =========================
 
-Github Pages
+General notes on Mobenga specific server setup, for an easy to find productivity boost.

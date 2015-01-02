@@ -11,9 +11,9 @@ request.get('/notes/notes.txt', function (res) {
         if (lines[index].length > 0) {
             var elements = lines[index].split(',');
             var path = elements[0];
-            var label = elements[1].replace('./', '');
+            var label = elements[2].replace('.md', '');
 
-            html = html + '<p><a href="' + path + '">' + label + '</a></p>';
+            html = html + '<p><a href="#' + path + '">' + label + '</a></p>';
             fetchNote(path);
         }
     }
@@ -26,7 +26,16 @@ function fetchNote(url) {
     request.get(url, function (res) {
         console.log('response', res);
         var contentSection = document.getElementById("content-section");
-        contentSection.insertAdjacentHTML('beforeend', '<article>' + markdown.makeHtml(res.text) + '</article>');
+        var html = '';
+        if (url.indexOf('.md') > -1) {
+            html = markdown.makeHtml(res.text);
+        } else if (url.indexOf('.html') > -1) {
+            html = res.text;
+        } else {
+            html = '<pre>' + res.text + '</pre>';
+        }
+        contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
+            '<div class="article">' + html + '</div></article>');
     });
 }
 
