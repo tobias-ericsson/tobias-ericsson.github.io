@@ -25,7 +25,7 @@ request.get('/notes.txt', function (res) {
 
                 }
                 var label = elements[2].replace('.md', '');
-                html = html + '<p><a href="#' + href + '">' +
+                html = html + '<p><a target="_self" href="#' + href + '" >' +
                     label.split('-').join(' ') + '</a></p>';
                 fetchNote(href);
             }
@@ -38,31 +38,9 @@ request.get('/notes.txt', function (res) {
     }
 });
 
-/*
- request.get('/notes/notes.txt', function (res) {
- console.log('response', res);
-
-
- var lines = res.text.split('\n');
- var html = '<div>';
- for (var index in lines) {
- if (lines[index].length > 0) {
- var elements = lines[index].split(',');
- var path = elements[0];
- var label = elements[2].replace('.md', '');
-
- html = html + '<p><a href="#' + path + '">' + label + '</a></p>';
- fetchNote(path);
- }
- }
- html = html + '</div>';
- var menuNav = document.getElementById("menu-nav");
- menuNav.innerHTML = html;
- });*/
-
 function fetchNote(url) {
     request.get(url, function (res) {
-        console.log('response', res);
+        //console.log('response', res);
         var contentSection = document.getElementById("content-section");
         var html = '';
 

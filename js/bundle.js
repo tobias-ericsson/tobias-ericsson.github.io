@@ -26,7 +26,7 @@ request.get('/notes.txt', function (res) {
 
                 }
                 var label = elements[2].replace('.md', '');
-                html = html + '<p><a href="#' + href + '">' +
+                html = html + '<p><a target="_self" href="#' + href + '" >' +
                     label.split('-').join(' ') + '</a></p>';
                 fetchNote(href);
             }
