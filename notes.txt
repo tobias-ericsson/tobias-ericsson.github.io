@@ -1,4 +1,5 @@
-./notes/Code/groovy/HtmlParser.groovy,./notes/Code/groovy,HtmlParser.groovy,477 
+./notes/Code/Groovy/HtmlParser.groovy,./notes/Code/Groovy,HtmlParser.groovy,477 
+./notes/Code/JavaScript/StringUtil.js,./notes/Code/JavaScript,StringUtil.js,103 
 ./notes/Commands/nix-commands.md,./notes/Commands,nix-commands.md,727 
 ./notes/Commands/win-commands.md,./notes/Commands,win-commands.md,319 
 ./notes/IDE/Intellij-IDEA.md,./notes/IDE,Intellij-IDEA.md,202 
