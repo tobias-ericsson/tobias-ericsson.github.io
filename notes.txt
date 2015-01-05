@@ -1,7 +1,7 @@
 ./notes/Code/groovy/HtmlParser.groovy,./notes/Code/groovy,HtmlParser.groovy,477 
 ./notes/Commands/nix-commands.md,./notes/Commands,nix-commands.md,727 
 ./notes/Commands/win-commands.md,./notes/Commands,win-commands.md,319 
-./notes/IDE/intellij.md,./notes/IDE,intellij.md,206 
+./notes/IDE/Intellij-IDEA.md,./notes/IDE,Intellij-IDEA.md,202 
 ./notes/Nodejs/static-file-server.md,./notes/Nodejs,static-file-server.md,252 
 ./notes/Productivity/how-to-be-productive.md,./notes/Productivity,how-to-be-productive.md,115 
 ./notes/Security/ssh.md,./notes/Security,ssh.md,636 

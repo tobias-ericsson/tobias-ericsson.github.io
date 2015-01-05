@@ -22,7 +22,7 @@ request.get('/notes.txt', function (res) {
 
                 if (currentPath != path) {
                     currentPath = path;
-                    html = html + '<h2>' + currentPath.replace('./notes/','') + '</h2>';
+                    html = html + '<h2>' + currentPath.replace('./notes/', '') + '</h2>';
 
                 }
                 var label = elements[2].replace('.md', '');
@@ -66,15 +66,22 @@ function fetchNote(url) {
         console.log('response', res);
         var contentSection = document.getElementById("content-section");
         var html = '';
-        if (url.indexOf('.md') > -1) {
-            html = markdown.makeHtml(res.text);
-        } else if (url.indexOf('.html') > -1) {
-            html = res.text;
+
+        if (res.status == 200) {
+
+            if (url.indexOf('.md') > -1) {
+                html = markdown.makeHtml(res.text);
+            } else if (url.indexOf('.html') > -1) {
+                html = res.text;
+            } else {
+                html = '<pre>' + res.text + '</pre>';
+            }
         } else {
-            html = '<pre>' + res.text + '</pre>';
+            html = "Error " + res.status;
         }
         contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
             '<div class="article">' + html + '</div></article>');
+
     });
 }
 
