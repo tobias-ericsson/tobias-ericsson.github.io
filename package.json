@@ -1,0 +1,21 @@
+{
+    "name": "Tobias-Ericsson",
+    "description": "...",
+    "author": "Tobias Ericsson",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/...username/repository.git"
+    },
+    "dependencies": {
+        "pagedown": "1.x.x",
+        "superagent": "0.x.x"
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+        "noteslist": "noteslist.sh",
+        "browserify" : "browserify js/index.js -o js/bundle.js",
+        "start" : "noteslist.sh && npm run browserify && http-server"
+    }
+
+}
