@@ -36,6 +36,28 @@ header,
     margin-right: 6px;
 }
 
+#menu-nav p {
+    margin: 1px 1px 1px 20px;
+    font-size: 1.2em;
+    padding: 0px;
+}
+
+#menu-nav a {
+    color: black;
+    font-style: italic;
+}
+
+#menu-nav a:hover {
+    color: blue;
+    text-decoration: none;
+    border-bottom: 0px solid;
+}
+
+#menu-nav h2 {
+    margin-bottom: 2px;
+    padding: 0px;
+}
+
 header {
     margin-top: 0px;
     margin-bottom: 10px;

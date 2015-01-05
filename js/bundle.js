@@ -1,117 +1,65 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
-
-},{}],2:[function(require,module,exports){
-// shim for using process in browser
-
-var process = module.exports = {};
-
-process.nextTick = (function () {
-    var canSetImmediate = typeof window !== 'undefined'
-    && window.setImmediate;
-    var canMutationObserver = typeof window !== 'undefined'
-    && window.MutationObserver;
-    var canPost = typeof window !== 'undefined'
-    && window.postMessage && window.addEventListener
-    ;
-
-    if (canSetImmediate) {
-        return function (f) { return window.setImmediate(f) };
-    }
-
-    var queue = [];
-
-    if (canMutationObserver) {
-        var hiddenDiv = document.createElement("div");
-        var observer = new MutationObserver(function () {
-            var queueList = queue.slice();
-            queue.length = 0;
-            queueList.forEach(function (fn) {
-                fn();
-            });
-        });
-
-        observer.observe(hiddenDiv, { attributes: true });
-
-        return function nextTick(fn) {
-            if (!queue.length) {
-                hiddenDiv.setAttribute('yes', 'no');
-            }
-            queue.push(fn);
-        };
-    }
-
-    if (canPost) {
-        window.addEventListener('message', function (ev) {
-            var source = ev.source;
-            if ((source === window || source === null) && ev.data === 'process-tick') {
-                ev.stopPropagation();
-                if (queue.length > 0) {
-                    var fn = queue.shift();
-                    fn();
-                }
-            }
-        }, true);
-
-        return function nextTick(fn) {
-            queue.push(fn);
-            window.postMessage('process-tick', '*');
-        };
-    }
-
-    return function nextTick(fn) {
-        setTimeout(fn, 0);
-    };
-})();
-
-process.title = 'browser';
-process.browser = true;
-process.env = {};
-process.argv = [];
-
-function noop() {}
-
-process.on = noop;
-process.addListener = noop;
-process.once = noop;
-process.off = noop;
-process.removeListener = noop;
-process.removeAllListeners = noop;
-process.emit = noop;
-
-process.binding = function (name) {
-    throw new Error('process.binding is not supported');
-};
-
-// TODO(shtylman)
-process.cwd = function () { return '/' };
-process.chdir = function (dir) {
-    throw new Error('process.chdir is not supported');
-};
-
-},{}],3:[function(require,module,exports){
 var request = require('superagent');
 var markdown = require('./markdown');
 
-request.get('/notes/notes.txt', function (res) {
-    console.log('response', res);
+function endsWith(str, suffix) {
+    return str.indexOf(suffix, str.length - suffix.length) !== -1;
+}
 
+request.get('/notes.txt', function (res) {
 
     var lines = res.text.split('\n');
     var html = '<div>';
-    for (var index in lines) {
-        if (lines[index].length > 0) {
-            var elements = lines[index].split(',');
-            var path = elements[0];
-            var label = elements[2].replace('.md', '');
 
-            html = html + '<p><a href="#' + path + '">' + label + '</a></p>';
-            fetchNote(path);
+    if (res.status === 200) {
+        var currentPath = '';
+        for (var index in lines) {
+            if (lines[index].length > 0) {
+
+                var elements = lines[index].split(',');
+                var href = elements[0];
+                var path = elements[1];
+
+                if (currentPath != path) {
+                    currentPath = path;
+                    html = html + '<h2>' + currentPath.replace('./notes/','') + '</h2>';
+
+                }
+                var label = elements[2].replace('.md', '');
+                html = html + '<p><a href="#' + href + '">' +
+                    label.split('-').join(' ') + '</a></p>';
+                fetchNote(href);
+            }
         }
+        html = html + '</div>';
+        var menuNav = document.getElementById("menu-nav");
+        menuNav.innerHTML = html;
+    } else {
+        console.log("status: " + res.status);
     }
-    html = html + '</div>';
-    var menuNav = document.getElementById("menu-nav");
-    menuNav.innerHTML = html;
 });
+
+/*
+ request.get('/notes/notes.txt', function (res) {
+ console.log('response', res);
+
+
+ var lines = res.text.split('\n');
+ var html = '<div>';
+ for (var index in lines) {
+ if (lines[index].length > 0) {
+ var elements = lines[index].split(',');
+ var path = elements[0];
+ var label = elements[2].replace('.md', '');
+
+ html = html + '<p><a href="#' + path + '">' + label + '</a></p>';
+ fetchNote(path);
+ }
+ }
+ html = html + '</div>';
+ var menuNav = document.getElementById("menu-nav");
+ menuNav.innerHTML = html;
+ });*/
 
 function fetchNote(url) {
     request.get(url, function (res) {
@@ -132,45 +80,15 @@ function fetchNote(url) {
 
 module.exports.fetchNote = fetchNote;
 console.log('ajax loaded');
-},{"./markdown":5,"superagent":9}],4:[function(require,module,exports){
-(function (process){
+},{"./markdown":3,"superagent":7}],2:[function(require,module,exports){
 var ajax = require('./ajax');
 var markdown = require('./markdown');
-var fs = require('fs');
 
 console.log('index loaded');
 
-var walk = function(dir, done) {
-    var results = [];
-    fs.readdir(dir, function(err, list) {
-        if (err) return done(err);
-        var i = 0;
-        (function next() {
-            var file = list[i++];
-            if (!file) return done(null, results);
-            file = dir + '/' + file;
-            fs.stat(file, function(err, stat) {
-                if (stat && stat.isDirectory()) {
-                    walk(file, function(err, res) {
-                        results = results.concat(res);
-                        next();
-                    });
-                } else {
-                    results.push(file);
-                    next();
-                }
-            });
-        })();
-    });
-};
 
-walk(process.env.HOME, function(err, results) {
-    if (err) throw err;
-    console.log(results);
-});
 
-}).call(this,require('_process'))
-},{"./ajax":3,"./markdown":5,"_process":2,"fs":1}],5:[function(require,module,exports){
+},{"./ajax":1,"./markdown":3}],3:[function(require,module,exports){
 var pagedown = require('pagedown');
 
 //var converter = new pagedown.Converter();
@@ -187,7 +105,7 @@ module.exports.makeHtml = makeHtml;
 console.log('markdown loaded');
 
 
-},{"pagedown":8}],6:[function(require,module,exports){
+},{"pagedown":6}],4:[function(require,module,exports){
 var Markdown;
 
 if (typeof exports === "object" && typeof require === "function") // we're in a CommonJS (e.g. Node.js) module
@@ -1589,7 +1507,7 @@ else
 
 })();
 
-},{}],7:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 (function () {
     var output, Converter;
     if (typeof exports === "object" && typeof require === "function") { // we're in a CommonJS (e.g. Node.js) module
@@ -1699,11 +1617,11 @@ else
     }
 })();
 
-},{"./Markdown.Converter":6}],8:[function(require,module,exports){
+},{"./Markdown.Converter":4}],6:[function(require,module,exports){
 exports.Converter = require("./Markdown.Converter").Converter;
 exports.getSanitizingConverter = require("./Markdown.Sanitizer").getSanitizingConverter;
 
-},{"./Markdown.Converter":6,"./Markdown.Sanitizer":7}],9:[function(require,module,exports){
+},{"./Markdown.Converter":4,"./Markdown.Sanitizer":5}],7:[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -2786,7 +2704,7 @@ request.put = function(url, data, fn){
 
 module.exports = request;
 
-},{"emitter":10,"reduce":11}],10:[function(require,module,exports){
+},{"emitter":8,"reduce":9}],8:[function(require,module,exports){
 
 /**
  * Expose `Emitter`.
@@ -2952,7 +2870,7 @@ Emitter.prototype.hasListeners = function(event){
   return !! this.listeners(event).length;
 };
 
-},{}],11:[function(require,module,exports){
+},{}],9:[function(require,module,exports){
 
 /**
  * Reduce `arr` with `fn`.
@@ -2977,4 +2895,4 @@ module.exports = function(arr, fn, initial){
   
   return curr;
 };
-},{}]},{},[4]);
+},{}]},{},[2]);
