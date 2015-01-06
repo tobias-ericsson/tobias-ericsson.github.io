@@ -8,5 +8,5 @@
 
 
 
-find ./notes -name '*' -type f -mindepth 1 -printf '%p,%h,%f,%s \n' | sort > notes.txt
+find ./notes -name '*' -type f -mindepth 1 -printf '%p,%h,%f,%Tx,%TY-%Tm-%Td \n' | sort > notes.txt
 echo "done"

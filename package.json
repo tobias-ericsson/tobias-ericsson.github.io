@@ -15,7 +15,8 @@
     "scripts": {
         "noteslist": "noteslist.sh",
         "browserify" : "browserify js/index.js -o js/bundle.js",
-        "start" : "noteslist.sh && npm run browserify && http-server"
+        "build": "noteslist.sh && npm run browserify",
+        "start" : "npm run build && http-server"
     }
 
 }

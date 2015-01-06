@@ -40,22 +40,28 @@ request.get('/notes.txt', function (res) {
 
 function fetchNote(url) {
     request.get(url, function (res) {
-        //console.log('response', res);
+
+
+
         var contentSection = document.getElementById("content-section");
         var html = '';
+        var title = '';
+        var modifiedDate = '';
 
         if (res.status == 200) {
-
             if (url.indexOf('.md') > -1) {
                 html = markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
-                html = res.text;
+                html = html + res.text;
             } else {
-                html = '<pre>' + res.text + '</pre>';
+                title = url.substring(url.lastIndexOf('/')+1);
+                html = '<h1>' + title + '</h1>';
+                html = html + '<pre>' + res.text + '</pre>';
             }
         } else {
-            html = "Error " + res.status;
+            html = html + "Error " + res.status;
         }
+        html = html + '<p>' + modifiedDate + '</p>';
         contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
             '<div class="article">' + html + '</div></article>');
 

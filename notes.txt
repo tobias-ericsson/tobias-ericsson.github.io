@@ -1,9 +1,11 @@
-./notes/Code/Groovy/HtmlParser.groovy,./notes/Code/Groovy,HtmlParser.groovy,477 
-./notes/Code/JavaScript/StringUtil.js,./notes/Code/JavaScript,StringUtil.js,103 
-./notes/Commands/nix-commands.md,./notes/Commands,nix-commands.md,727 
-./notes/Commands/win-commands.md,./notes/Commands,win-commands.md,319 
-./notes/IDE/Intellij-IDEA.md,./notes/IDE,Intellij-IDEA.md,202 
-./notes/Nodejs/static-file-server.md,./notes/Nodejs,static-file-server.md,252 
-./notes/Productivity/how-to-be-productive.md,./notes/Productivity,how-to-be-productive.md,115 
-./notes/Security/ssh.md,./notes/Security,ssh.md,636 
-./notes/Style/css.md,./notes/Style,css.md,234 
+./notes/Code/Groovy/HtmlParser.groovy,./notes/Code/Groovy,HtmlParser.groovy,Tue Jan 06 2015,2015-01-06 
+./notes/Code/JavaScript/Links.md,./notes/Code/JavaScript,Links.md,Tue Jan 06 2015,2015-01-06 
+./notes/Code/JavaScript/StringUtil.js,./notes/Code/JavaScript,StringUtil.js,Tue Jan 06 2015,2015-01-06 
+./notes/Commands/nix-commands.md,./notes/Commands,nix-commands.md,Tue Jan 06 2015,2015-01-06 
+./notes/Commands/win-commands.md,./notes/Commands,win-commands.md,Tue Jan 06 2015,2015-01-06 
+./notes/IDE/Intellij-IDEA.md,./notes/IDE,Intellij-IDEA.md,Tue Jan 06 2015,2015-01-06 
+./notes/Nodejs/How-to-watch.md,./notes/Nodejs,How-to-watch.md,Tue Jan 06 2015,2015-01-06 
+./notes/Nodejs/static-file-server.md,./notes/Nodejs,static-file-server.md,Tue Jan 06 2015,2015-01-06 
+./notes/Productivity/how-to-be-productive.md,./notes/Productivity,how-to-be-productive.md,Tue Jan 06 2015,2015-01-06 
+./notes/Security/ssh.md,./notes/Security,ssh.md,Tue Jan 06 2015,2015-01-06 
+./notes/Style/css.md,./notes/Style,css.md,Tue Jan 06 2015,2015-01-06 

@@ -41,22 +41,27 @@ request.get('/notes.txt', function (res) {
 
 function fetchNote(url) {
     request.get(url, function (res) {
-        //console.log('response', res);
+
+        var modifiedDate = '';
+
         var contentSection = document.getElementById("content-section");
         var html = '';
+        var title = '';
 
         if (res.status == 200) {
-
             if (url.indexOf('.md') > -1) {
                 html = markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
-                html = res.text;
+                html = html + res.text;
             } else {
-                html = '<pre>' + res.text + '</pre>';
+                title = url.substring(url.lastIndexOf('/')+1);
+                html = '<h1>' + title + '</h1>';
+                html = html + '<pre>' + res.text + '</pre>';
             }
         } else {
-            html = "Error " + res.status;
+            html = html + "Error " + res.status;
         }
+        html = html + '<p>' + modifiedDate + '</p>';
         contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
             '<div class="article">' + html + '</div></article>');
 
@@ -97,7 +102,7 @@ if (typeof exports === "object" && typeof require === "function") // we're in a 
     Markdown = exports;
 else
     Markdown = {};
-    
+
 // The following text is included for historical reasons, but should
 // be taken with a pinch of salt; it's not all true anymore.
 
@@ -145,10 +150,16 @@ else
 
 (function () {
 
-    function identity(x) { return x; }
-    function returnFalse(x) { return false; }
+    function identity(x) {
+        return x;
+    }
 
-    function HookCollection() { }
+    function returnFalse(x) {
+        return false;
+    }
+
+    function HookCollection() {
+    }
 
     HookCollection.prototype = {
 
@@ -188,7 +199,9 @@ else
     // http://meta.stackoverflow.com/questions/64655/strange-wmd-bug
     // (granted, switching from Array() to Object() alone would have left only __proto__
     // to be a problem)
-    function SaveHash() { }
+    function SaveHash() {
+    }
+
     SaveHash.prototype = {
         set: function (key, value) {
             this["s_" + key] = value;
@@ -200,26 +213,26 @@ else
 
     Markdown.Converter = function () {
         var pluginHooks = this.hooks = new HookCollection();
-        
+
         // given a URL that was encountered by itself (without markup), should return the link text that's to be given to this link
         pluginHooks.addNoop("plainLinkText");
-        
+
         // called with the orignal text as given to makeHtml. The result of this plugin hook is the actual markdown source that will be cooked
         pluginHooks.addNoop("preConversion");
-        
+
         // called with the text once all normalizations have been completed (tabs to spaces, line endings, etc.), but before any conversions have
         pluginHooks.addNoop("postNormalization");
-        
+
         // Called with the text before / after creating block elements like code blocks and lists. Note that this is called recursively
         // with inner content, e.g. it's called with the full text, and then only with the content of a blockquote. The inner
         // call will receive outdented text.
         pluginHooks.addNoop("preBlockGamut");
         pluginHooks.addNoop("postBlockGamut");
-        
+
         // called with the text of a single block element before / after the span-level conversions (bold, code spans, etc.) have been made
         pluginHooks.addNoop("preSpanGamut");
         pluginHooks.addNoop("postSpanGamut");
-        
+
         // called with the final cooked HTML code. The result of this plugin hook is the actual output of makeHtml
         pluginHooks.addNoop("postConversion");
 
@@ -249,7 +262,7 @@ else
             // Don't do that.
             if (g_urls)
                 throw new Error("Recursive call to converter.makeHtml");
-        
+
             // Create the private state objects.
             g_urls = new SaveHash();
             g_titles = new SaveHash();
@@ -284,7 +297,7 @@ else
             // match consecutive blank lines with /\n+/ instead of something
             // contorted like /[ \t]*\n+/ .
             text = text.replace(/^[ \t]+$/mg, "");
-            
+
             text = pluginHooks.postNormalization(text);
 
             // Turn block-level HTML blocks into hash entries
@@ -319,27 +332,27 @@ else
             // Link defs are in the form: ^[id]: url "optional title"
 
             /*
-            text = text.replace(/
-                ^[ ]{0,3}\[(.+)\]:  // id = $1  attacklab: g_tab_width - 1
-                [ \t]*
-                \n?                 // maybe *one* newline
-                [ \t]*
-                <?(\S+?)>?          // url = $2
-                (?=\s|$)            // lookahead for whitespace instead of the lookbehind removed below
-                [ \t]*
-                \n?                 // maybe one newline
-                [ \t]*
-                (                   // (potential) title = $3
-                    (\n*)           // any lines skipped = $4 attacklab: lookbehind removed
-                    [ \t]+
-                    ["(]
-                    (.+?)           // title = $5
-                    [")]
-                    [ \t]*
-                )?                  // title is optional
-                (?:\n+|$)
-            /gm, function(){...});
-            */
+             text = text.replace(/
+             ^[ ]{0,3}\[(.+)\]:  // id = $1  attacklab: g_tab_width - 1
+             [ \t]*
+             \n?                 // maybe *one* newline
+             [ \t]*
+             <?(\S+?)>?          // url = $2
+             (?=\s|$)            // lookahead for whitespace instead of the lookbehind removed below
+             [ \t]*
+             \n?                 // maybe one newline
+             [ \t]*
+             (                   // (potential) title = $3
+             (\n*)           // any lines skipped = $4 attacklab: lookbehind removed
+             [ \t]+
+             ["(]
+             (.+?)           // title = $5
+             [")]
+             [ \t]*
+             )?                  // title is optional
+             (?:\n+|$)
+             /gm, function(){...});
+             */
 
             text = text.replace(/^[ ]{0,3}\[(.+)\]:[ \t]*\n?[ \t]*<?(\S+?)>?(?=\s|$)[ \t]*\n?[ \t]*((\n*)["(](.+?)[")][ \t]*)?(?:\n+)/gm,
                 function (wholeMatch, m1, m2, m3, m4, m5) {
@@ -387,19 +400,19 @@ else
             // attacklab: This regex can be expensive when it fails.
 
             /*
-            text = text.replace(/
-                (                       // save in $1
-                    ^                   // start of line  (with /m)
-                    <($block_tags_a)    // start tag = $2
-                    \b                  // word break
-                                        // attacklab: hack around khtml/pcre bug...
-                    [^\r]*?\n           // any number of lines, minimally matching
-                    </\2>               // the matching end tag
-                    [ \t]*              // trailing spaces/tabs
-                    (?=\n+)             // followed by a newline
-                )                       // attacklab: there are sentinel newlines at end of document
-            /gm,function(){...}};
-            */
+             text = text.replace(/
+             (                       // save in $1
+             ^                   // start of line  (with /m)
+             <($block_tags_a)    // start tag = $2
+             \b                  // word break
+             // attacklab: hack around khtml/pcre bug...
+             [^\r]*?\n           // any number of lines, minimally matching
+             </\2>               // the matching end tag
+             [ \t]*              // trailing spaces/tabs
+             (?=\n+)             // followed by a newline
+             )                       // attacklab: there are sentinel newlines at end of document
+             /gm,function(){...}};
+             */
             text = text.replace(/^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math|ins|del)\b[^\r]*?\n<\/\2>[ \t]*(?=\n+))/gm, hashElement);
 
             //
@@ -407,76 +420,76 @@ else
             //
 
             /*
-            text = text.replace(/
-                (                       // save in $1
-                    ^                   // start of line  (with /m)
-                    <($block_tags_b)    // start tag = $2
-                    \b                  // word break
-                                        // attacklab: hack around khtml/pcre bug...
-                    [^\r]*?             // any number of lines, minimally matching
-                    .*</\2>             // the matching end tag
-                    [ \t]*              // trailing spaces/tabs
-                    (?=\n+)             // followed by a newline
-                )                       // attacklab: there are sentinel newlines at end of document
-            /gm,function(){...}};
-            */
+             text = text.replace(/
+             (                       // save in $1
+             ^                   // start of line  (with /m)
+             <($block_tags_b)    // start tag = $2
+             \b                  // word break
+             // attacklab: hack around khtml/pcre bug...
+             [^\r]*?             // any number of lines, minimally matching
+             .*</\2>             // the matching end tag
+             [ \t]*              // trailing spaces/tabs
+             (?=\n+)             // followed by a newline
+             )                       // attacklab: there are sentinel newlines at end of document
+             /gm,function(){...}};
+             */
             text = text.replace(/^(<(p|div|h[1-6]|blockquote|pre|table|dl|ol|ul|script|noscript|form|fieldset|iframe|math)\b[^\r]*?.*<\/\2>[ \t]*(?=\n+)\n)/gm, hashElement);
 
             // Special case just for <hr />. It was easier to make a special case than
             // to make the other regex more complicated.  
 
             /*
-            text = text.replace(/
-                \n                  // Starting after a blank line
-                [ ]{0,3}
-                (                   // save in $1
-                    (<(hr)          // start tag = $2
-                        \b          // word break
-                        ([^<>])*?
-                    \/?>)           // the matching end tag
-                    [ \t]*
-                    (?=\n{2,})      // followed by a blank line
-                )
-            /g,hashElement);
-            */
+             text = text.replace(/
+             \n                  // Starting after a blank line
+             [ ]{0,3}
+             (                   // save in $1
+             (<(hr)          // start tag = $2
+             \b          // word break
+             ([^<>])*?
+             \/?>)           // the matching end tag
+             [ \t]*
+             (?=\n{2,})      // followed by a blank line
+             )
+             /g,hashElement);
+             */
             text = text.replace(/\n[ ]{0,3}((<(hr)\b([^<>])*?\/?>)[ \t]*(?=\n{2,}))/g, hashElement);
 
             // Special case for standalone HTML comments:
 
             /*
-            text = text.replace(/
-                \n\n                                            // Starting after a blank line
-                [ ]{0,3}                                        // attacklab: g_tab_width - 1
-                (                                               // save in $1
-                    <!
-                    (--(?:|(?:[^>-]|-[^>])(?:[^-]|-[^-])*)--)   // see http://www.w3.org/TR/html-markup/syntax.html#comments and http://meta.stackoverflow.com/q/95256
-                    >
-                    [ \t]*
-                    (?=\n{2,})                                  // followed by a blank line
-                )
-            /g,hashElement);
-            */
+             text = text.replace(/
+             \n\n                                            // Starting after a blank line
+             [ ]{0,3}                                        // attacklab: g_tab_width - 1
+             (                                               // save in $1
+             <!
+             (--(?:|(?:[^>-]|-[^>])(?:[^-]|-[^-])*)--)   // see http://www.w3.org/TR/html-markup/syntax.html#comments and http://meta.stackoverflow.com/q/95256
+             >
+             [ \t]*
+             (?=\n{2,})                                  // followed by a blank line
+             )
+             /g,hashElement);
+             */
             text = text.replace(/\n\n[ ]{0,3}(<!(--(?:|(?:[^>-]|-[^>])(?:[^-]|-[^-])*)--)>[ \t]*(?=\n{2,}))/g, hashElement);
 
             // PHP and ASP-style processor instructions (<?...?> and <%...%>)
 
             /*
-            text = text.replace(/
-                (?:
-                    \n\n            // Starting after a blank line
-                )
-                (                   // save in $1
-                    [ ]{0,3}        // attacklab: g_tab_width - 1
-                    (?:
-                        <([?%])     // $2
-                        [^\r]*?
-                        \2>
-                    )
-                    [ \t]*
-                    (?=\n{2,})      // followed by a blank line
-                )
-            /g,hashElement);
-            */
+             text = text.replace(/
+             (?:
+             \n\n            // Starting after a blank line
+             )
+             (                   // save in $1
+             [ ]{0,3}        // attacklab: g_tab_width - 1
+             (?:
+             <([?%])     // $2
+             [^\r]*?
+             \2>
+             )
+             [ \t]*
+             (?=\n{2,})      // followed by a blank line
+             )
+             /g,hashElement);
+             */
             text = text.replace(/(?:\n\n)([ ]{0,3}(?:<([?%])[^\r]*?\2>)[ \t]*(?=\n{2,}))/g, hashElement);
 
             return text;
@@ -496,17 +509,19 @@ else
 
             return blockText;
         }
-        
-        var blockGamutHookCallback = function (t) { return _RunBlockGamut(t); }
+
+        var blockGamutHookCallback = function (t) {
+            return _RunBlockGamut(t);
+        }
 
         function _RunBlockGamut(text, doNotUnhash) {
             //
             // These are all the transformations that form block-level
             // tags like paragraphs, headers, and list items.
             //
-            
+
             text = pluginHooks.preBlockGamut(text, blockGamutHookCallback);
-            
+
             text = _DoHeaders(text);
 
             // Do Horizontal Rules:
@@ -518,7 +533,7 @@ else
             text = _DoLists(text);
             text = _DoCodeBlocks(text);
             text = _DoBlockQuotes(text);
-            
+
             text = pluginHooks.postBlockGamut(text, blockGamutHookCallback);
 
             // We already ran _HashHTMLBlocks() before, in Markdown(), but that
@@ -538,7 +553,7 @@ else
             //
 
             text = pluginHooks.preSpanGamut(text);
-            
+
             text = _DoCodeSpans(text);
             text = _EscapeSpecialCharsWithinTagAttributes(text);
             text = _EncodeBackslashEscapes(text);
@@ -552,15 +567,15 @@ else
             // Must come after _DoAnchors(), because you can use < and >
             // delimiters in inline links like [this](<url>).
             text = _DoAutoLinks(text);
-            
+
             text = text.replace(/~P/g, "://"); // put in place to prevent autolinking; reset now
-            
+
             text = _EncodeAmpsAndAngles(text);
             text = _DoItalicsAndBold(text);
 
             // Do hard breaks:
             text = text.replace(/  +\n/g, " <br>\n");
-            
+
             text = pluginHooks.postSpanGamut(text);
 
             return text;
@@ -597,28 +612,28 @@ else
             //
 
             /*
-            text = text.replace(/
-                (                           // wrap whole match in $1
-                    \[
-                    (
-                        (?:
-                            \[[^\]]*\]      // allow brackets nested one level
-                            |
-                            [^\[]           // or anything else
-                        )*
-                    )
-                    \]
+             text = text.replace(/
+             (                           // wrap whole match in $1
+             \[
+             (
+             (?:
+             \[[^\]]*\]      // allow brackets nested one level
+             |
+             [^\[]           // or anything else
+             )*
+             )
+             \]
 
-                    [ ]?                    // one optional space
-                    (?:\n[ ]*)?             // one optional newline followed by spaces
+             [ ]?                    // one optional space
+             (?:\n[ ]*)?             // one optional newline followed by spaces
 
-                    \[
-                    (.*?)                   // id = $3
-                    \]
-                )
-                ()()()()                    // pad remaining backreferences
-            /g, writeAnchorTag);
-            */
+             \[
+             (.*?)                   // id = $3
+             \]
+             )
+             ()()()()                    // pad remaining backreferences
+             /g, writeAnchorTag);
+             */
             text = text.replace(/(\[((?:\[[^\]]*\]|[^\[\]])*)\][ ]?(?:\n[ ]*)?\[(.*?)\])()()()()/g, writeAnchorTag);
 
             //
@@ -626,38 +641,38 @@ else
             //
 
             /*
-            text = text.replace(/
-                (                           // wrap whole match in $1
-                    \[
-                    (
-                        (?:
-                            \[[^\]]*\]      // allow brackets nested one level
-                            |
-                            [^\[\]]         // or anything else
-                        )*
-                    )
-                    \]
-                    \(                      // literal paren
-                    [ \t]*
-                    ()                      // no id, so leave $3 empty
-                    <?(                     // href = $4
-                        (?:
-                            \([^)]*\)       // allow one level of (correctly nested) parens (think MSDN)
-                            |
-                            [^()\s]
-                        )*?
-                    )>?                
-                    [ \t]*
-                    (                       // $5
-                        (['"])              // quote char = $6
-                        (.*?)               // Title = $7
-                        \6                  // matching quote
-                        [ \t]*              // ignore any spaces/tabs between closing quote and )
-                    )?                      // title is optional
-                    \)
-                )
-            /g, writeAnchorTag);
-            */
+             text = text.replace(/
+             (                           // wrap whole match in $1
+             \[
+             (
+             (?:
+             \[[^\]]*\]      // allow brackets nested one level
+             |
+             [^\[\]]         // or anything else
+             )*
+             )
+             \]
+             \(                      // literal paren
+             [ \t]*
+             ()                      // no id, so leave $3 empty
+             <?(                     // href = $4
+             (?:
+             \([^)]*\)       // allow one level of (correctly nested) parens (think MSDN)
+             |
+             [^()\s]
+             )*?
+             )>?
+             [ \t]*
+             (                       // $5
+             (['"])              // quote char = $6
+             (.*?)               // Title = $7
+             \6                  // matching quote
+             [ \t]*              // ignore any spaces/tabs between closing quote and )
+             )?                      // title is optional
+             \)
+             )
+             /g, writeAnchorTag);
+             */
 
             text = text.replace(/(\[((?:\[[^\]]*\]|[^\[\]])*)\]\([ \t]*()<?((?:\([^)]*\)|[^()\s])*?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))/g, writeAnchorTag);
 
@@ -668,15 +683,15 @@ else
             //
 
             /*
-            text = text.replace(/
-                (                   // wrap whole match in $1
-                    \[
-                    ([^\[\]]+)      // link text = $2; can't contain '[' or ']'
-                    \]
-                )
-                ()()()()()          // pad rest of backreferences
-            /g, writeAnchorTag);
-            */
+             text = text.replace(/
+             (                   // wrap whole match in $1
+             \[
+             ([^\[\]]+)      // link text = $2; can't contain '[' or ']'
+             \]
+             )
+             ()()()()()          // pad rest of backreferences
+             /g, writeAnchorTag);
+             */
             text = text.replace(/(\[([^\[\]]+)\])()()()()()/g, writeAnchorTag);
 
             return text;
@@ -737,22 +752,22 @@ else
             //
 
             /*
-            text = text.replace(/
-                (                   // wrap whole match in $1
-                    !\[
-                    (.*?)           // alt text = $2
-                    \]
+             text = text.replace(/
+             (                   // wrap whole match in $1
+             !\[
+             (.*?)           // alt text = $2
+             \]
 
-                    [ ]?            // one optional space
-                    (?:\n[ ]*)?     // one optional newline followed by spaces
+             [ ]?            // one optional space
+             (?:\n[ ]*)?     // one optional newline followed by spaces
 
-                    \[
-                    (.*?)           // id = $3
-                    \]
-                )
-                ()()()()            // pad rest of backreferences
-            /g, writeImageTag);
-            */
+             \[
+             (.*?)           // id = $3
+             \]
+             )
+             ()()()()            // pad rest of backreferences
+             /g, writeImageTag);
+             */
             text = text.replace(/(!\[(.*?)\][ ]?(?:\n[ ]*)?\[(.*?)\])()()()()/g, writeImageTag);
 
             //
@@ -760,32 +775,32 @@ else
             // Don't forget: encode * and _
 
             /*
-            text = text.replace(/
-                (                   // wrap whole match in $1
-                    !\[
-                    (.*?)           // alt text = $2
-                    \]
-                    \s?             // One optional whitespace character
-                    \(              // literal paren
-                    [ \t]*
-                    ()              // no id, so leave $3 empty
-                    <?(\S+?)>?      // src url = $4
-                    [ \t]*
-                    (               // $5
-                        (['"])      // quote char = $6
-                        (.*?)       // title = $7
-                        \6          // matching quote
-                        [ \t]*
-                    )?              // title is optional
-                    \)
-                )
-            /g, writeImageTag);
-            */
+             text = text.replace(/
+             (                   // wrap whole match in $1
+             !\[
+             (.*?)           // alt text = $2
+             \]
+             \s?             // One optional whitespace character
+             \(              // literal paren
+             [ \t]*
+             ()              // no id, so leave $3 empty
+             <?(\S+?)>?      // src url = $4
+             [ \t]*
+             (               // $5
+             (['"])      // quote char = $6
+             (.*?)       // title = $7
+             \6          // matching quote
+             [ \t]*
+             )?              // title is optional
+             \)
+             )
+             /g, writeImageTag);
+             */
             text = text.replace(/(!\[(.*?)\]\s?\([ \t]*()<?(\S+?)>?[ \t]*((['"])(.*?)\6[ \t]*)?\))/g, writeImageTag);
 
             return text;
         }
-        
+
         function attributeEncode(text) {
             // unconditionally replace angle brackets here -- what ends up in an attribute (e.g. alt or title)
             // never makes sense to have verbatim HTML in it (and the sanitizer would totally break it)
@@ -818,7 +833,7 @@ else
                     return whole_match;
                 }
             }
-            
+
             alt_text = escapeCharacters(attributeEncode(alt_text), "*_[]()");
             url = escapeCharacters(url, "*_");
             var result = "<img src=\"" + url + "\" alt=\"" + alt_text + "\"";
@@ -847,11 +862,15 @@ else
             //  --------
             //
             text = text.replace(/^(.+)[ \t]*\n=+[ \t]*\n+/gm,
-                function (wholeMatch, m1) { return "<h1>" + _RunSpanGamut(m1) + "</h1>\n\n"; }
+                function (wholeMatch, m1) {
+                    return "<h1>" + _RunSpanGamut(m1) + "</h1>\n\n";
+                }
             );
 
             text = text.replace(/^(.+)[ \t]*\n-+[ \t]*\n+/gm,
-                function (matchFound, m1) { return "<h2>" + _RunSpanGamut(m1) + "</h2>\n\n"; }
+                function (matchFound, m1) {
+                    return "<h2>" + _RunSpanGamut(m1) + "</h2>\n\n";
+                }
             );
 
             // atx-style headers:
@@ -863,15 +882,15 @@ else
             //
 
             /*
-            text = text.replace(/
-                ^(\#{1,6})      // $1 = string of #'s
-                [ \t]*
-                (.+?)           // $2 = Header text
-                [ \t]*
-                \#*             // optional closing #'s (not counted)
-                \n+
-            /gm, function() {...});
-            */
+             text = text.replace(/
+             ^(\#{1,6})      // $1 = string of #'s
+             [ \t]*
+             (.+?)           // $2 = Header text
+             [ \t]*
+             \#*             // optional closing #'s (not counted)
+             \n+
+             /gm, function() {...});
+             */
 
             text = text.replace(/^(\#{1,6})[ \t]*(.+?)[ \t]*\#*\n+/gm,
                 function (wholeMatch, m1, m2) {
@@ -895,27 +914,27 @@ else
             // Re-usable pattern to match any entirel ul or ol list:
 
             /*
-            var whole_list = /
-                (                                   // $1 = whole list
-                    (                               // $2
-                        [ ]{0,3}                    // attacklab: g_tab_width - 1
-                        ([*+-]|\d+[.])              // $3 = first list item marker
-                        [ \t]+
-                    )
-                    [^\r]+?
-                    (                               // $4
-                        ~0                          // sentinel for workaround; should be $
-                        |
-                        \n{2,}
-                        (?=\S)
-                        (?!                         // Negative lookahead for another list item marker
-                            [ \t]*
-                            (?:[*+-]|\d+[.])[ \t]+
-                        )
-                    )
-                )
-            /g
-            */
+             var whole_list = /
+             (                                   // $1 = whole list
+             (                               // $2
+             [ ]{0,3}                    // attacklab: g_tab_width - 1
+             ([*+-]|\d+[.])              // $3 = first list item marker
+             [ \t]+
+             )
+             [^\r]+?
+             (                               // $4
+             ~0                          // sentinel for workaround; should be $
+             |
+             \n{2,}
+             (?=\S)
+             (?!                         // Negative lookahead for another list item marker
+             [ \t]*
+             (?:[*+-]|\d+[.])[ \t]+
+             )
+             )
+             )
+             /g
+             */
             var whole_list = /^(([ ]{0,3}([*+-]|\d+[.])[ \t]+)[^\r]+?(~0|\n{2,}(?=\S)(?![ \t]*(?:[*+-]|\d+[.])[ \t]+)))/gm;
 
             if (g_list_level) {
@@ -952,7 +971,7 @@ else
             return text;
         }
 
-        var _listItemMarkers = { ol: "\\d+[.]", ul: "[*+-]" };
+        var _listItemMarkers = {ol: "\\d+[.]", ul: "[*+-]"};
 
         function _ProcessListItems(list_str, list_type) {
             //
@@ -1001,19 +1020,19 @@ else
             //
             // We changed this to behave identical to MarkdownSharp. This is the constructed RegEx,
             // with {MARKER} being one of \d+[.] or [*+-], depending on list_type:
-        
+
             /*
-            list_str = list_str.replace(/
-                (^[ \t]*)                       // leading whitespace = $1
-                ({MARKER}) [ \t]+               // list marker = $2
-                ([^\r]+?                        // list item text   = $3
-                    (\n+)
-                )
-                (?=
-                    (~0 | \2 ({MARKER}) [ \t]+)
-                )
-            /gm, function(){...});
-            */
+             list_str = list_str.replace(/
+             (^[ \t]*)                       // leading whitespace = $1
+             ({MARKER}) [ \t]+               // list marker = $2
+             ([^\r]+?                        // list item text   = $3
+             (\n+)
+             )
+             (?=
+             (~0 | \2 ({MARKER}) [ \t]+)
+             )
+             /gm, function(){...});
+             */
 
             var marker = _listItemMarkers[list_type];
             var re = new RegExp("(^[ \\t]*)(" + marker + ")[ \\t]+([^\\r]+?(\\n+))(?=(~0|\\1(" + marker + ")[ \\t]+))", "gm");
@@ -1052,17 +1071,17 @@ else
             //  
 
             /*
-            text = text.replace(/
-                (?:\n\n|^)
-                (                               // $1 = the code block -- one or more lines, starting with a space/tab
-                    (?:
-                        (?:[ ]{4}|\t)           // Lines must start with a tab or a tab-width of spaces - attacklab: g_tab_width
-                        .*\n+
-                    )+
-                )
-                (\n*[ ]{0,3}[^ \t\n]|(?=~0))    // attacklab: g_tab_width
-            /g ,function(){...});
-            */
+             text = text.replace(/
+             (?:\n\n|^)
+             (                               // $1 = the code block -- one or more lines, starting with a space/tab
+             (?:
+             (?:[ ]{4}|\t)           // Lines must start with a tab or a tab-width of spaces - attacklab: g_tab_width
+             .*\n+
+             )+
+             )
+             (\n*[ ]{0,3}[^ \t\n]|(?=~0))    // attacklab: g_tab_width
+             /g ,function(){...});
+             */
 
             // attacklab: sentinel workarounds for lack of \A and \Z, safari\khtml bug
             text += "~0";
@@ -1121,17 +1140,17 @@ else
             //
 
             /*
-            text = text.replace(/
-                (^|[^\\])       // Character before opening ` can't be a backslash
-                (`+)            // $2 = Opening run of `
-                (               // $3 = The code block
-                    [^\r]*?
-                    [^`]        // attacklab: work around lack of lookbehind
-                )
-                \2              // Matching closer
-                (?!`)
-            /gm, function(){...});
-            */
+             text = text.replace(/
+             (^|[^\\])       // Character before opening ` can't be a backslash
+             (`+)            // $2 = Opening run of `
+             (               // $3 = The code block
+             [^\r]*?
+             [^`]        // attacklab: work around lack of lookbehind
+             )
+             \2              // Matching closer
+             (?!`)
+             /gm, function(){...});
+             */
 
             text = text.replace(/(^|[^\\])(`+)([^\r]*?[^`])\2(?!`)/gm,
                 function (wholeMatch, m1, m2, m3, m4) {
@@ -1181,10 +1200,10 @@ else
 
             // <strong> must go first:
             text = text.replace(/([\W_]|^)(\*\*|__)(?=\S)([^\r]*?\S[\*_]*)\2([\W_]|$)/g,
-            "$1<strong>$3</strong>$4");
+                "$1<strong>$3</strong>$4");
 
             text = text.replace(/([\W_]|^)(\*|_)(?=\S)([^\r\*_]*?\S)\2([\W_]|$)/g,
-            "$1<em>$3</em>$4");
+                "$1<em>$3</em>$4");
 
             return text;
         }
@@ -1192,17 +1211,17 @@ else
         function _DoBlockQuotes(text) {
 
             /*
-            text = text.replace(/
-                (                           // Wrap whole match in $1
-                    (
-                        ^[ \t]*>[ \t]?      // '>' at the start of a line
-                        .+\n                // rest of the first line
-                        (.+\n)*             // subsequent consecutive lines
-                        \n*                 // blanks
-                    )+
-                )
-            /gm, function(){...});
-            */
+             text = text.replace(/
+             (                           // Wrap whole match in $1
+             (
+             ^[ \t]*>[ \t]?      // '>' at the start of a line
+             .+\n                // rest of the first line
+             (.+\n)*             // subsequent consecutive lines
+             \n*                 // blanks
+             )+
+             )
+             /gm, function(){...});
+             */
 
             text = text.replace(/((^[ \t]*>[ \t]?.+\n(.+\n)*\n*)+)/gm,
                 function (wholeMatch, m1) {
@@ -1222,7 +1241,7 @@ else
                     bq = bq.replace(/(^|\n)/g, "$1  ");
                     // These leading spaces screw with <pre> content, so we need to fix that:
                     bq = bq.replace(
-                            /(\s*<pre>[^\r]+?<\/pre>)/gm,
+                        /(\s*<pre>[^\r]+?<\/pre>)/gm,
                         function (wholeMatch, m1) {
                             var pre = m1;
                             // attacklab: hack around Konqueror 3.5.4 bug:
@@ -1249,7 +1268,7 @@ else
 
             var grafs = text.split(/\n{2,}/g);
             var grafsOut = [];
-            
+
             var markerRe = /~K(\d+)K/;
 
             //
@@ -1323,7 +1342,7 @@ else
             text = text.replace(/\\([`*_{}\[\]()>#+-.!])/g, escapeCharacters_callback);
             return text;
         }
-        
+
         function handleTrailingParens(wholeMatch, lookbehind, protocol, link) {
             if (lookbehind)
                 return wholeMatch;
@@ -1350,7 +1369,7 @@ else
                     return "";
                 });
             }
-            
+
             return "<" + protocol + link + ">" + tail;
         }
 
@@ -1366,31 +1385,33 @@ else
             text = text.replace(/(="|<)?\b(https?|ftp)(:\/\/[-A-Z0-9+&@#\/%?=~_|\[\]\(\)!:,\.;]*[-A-Z0-9+&@#\/%=~_|\[\])])(?=$|\W)/gi, handleTrailingParens);
 
             //  autolink anything like <http://example.com>
-            
-            var replacer = function (wholematch, m1) { return "<a href=\"" + m1 + "\">" + pluginHooks.plainLinkText(m1) + "</a>"; }
+
+            var replacer = function (wholematch, m1) {
+                return "<a href=\"" + m1 + "\">" + pluginHooks.plainLinkText(m1) + "</a>";
+            }
             text = text.replace(/<((https?|ftp):[^'">\s]+)>/gi, replacer);
 
             // Email addresses: <address@domain.foo>
             /*
-            text = text.replace(/
-                <
-                (?:mailto:)?
-                (
-                    [-.\w]+
-                    \@
-                    [-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+
-                )
-                >
-            /gi, _DoAutoLinks_callback());
-            */
+             text = text.replace(/
+             <
+             (?:mailto:)?
+             (
+             [-.\w]+
+             \@
+             [-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+
+             )
+             >
+             /gi, _DoAutoLinks_callback());
+             */
 
             /* disabling email autolinking, since we don't do that on the server, either
-            text = text.replace(/<(?:mailto:)?([-.\w]+\@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)>/gi,
-                function(wholeMatch,m1) {
-                    return _EncodeEmailAddress( _UnescapeSpecialChars(m1) );
-                }
-            );
-            */
+             text = text.replace(/<(?:mailto:)?([-.\w]+\@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)>/gi,
+             function(wholeMatch,m1) {
+             return _EncodeEmailAddress( _UnescapeSpecialChars(m1) );
+             }
+             );
+             */
             return text;
         }
 
@@ -1428,8 +1449,8 @@ else
                 return text;
 
             var spaces = ["    ", "   ", "  ", " "],
-            skew = 0,
-            v;
+                skew = 0,
+                v;
 
             return text.replace(/[\n\t]/g, function (match, offset) {
                 if (match === "\n") {
@@ -1502,7 +1523,7 @@ else
         output = window.Markdown;
         Converter = output.Converter;
     }
-        
+
     output.getSanitizingConverter = function () {
         var converter = new Converter();
         converter.hooks.chain("postConversion", sanitizeHtml);
@@ -1619,14 +1640,15 @@ var reduce = require('reduce');
  */
 
 var root = 'undefined' == typeof window
-  ? this
-  : window;
+    ? this
+    : window;
 
 /**
  * Noop.
  */
 
-function noop(){};
+function noop() {
+};
 
 /**
  * Check if `obj` is a host object,
@@ -1640,16 +1662,16 @@ function noop(){};
  */
 
 function isHost(obj) {
-  var str = {}.toString.call(obj);
+    var str = {}.toString.call(obj);
 
-  switch (str) {
-    case '[object File]':
-    case '[object Blob]':
-    case '[object FormData]':
-      return true;
-    default:
-      return false;
-  }
+    switch (str) {
+        case '[object File]':
+        case '[object Blob]':
+        case '[object FormData]':
+            return true;
+        default:
+            return false;
+    }
 }
 
 /**
@@ -1657,16 +1679,28 @@ function isHost(obj) {
  */
 
 function getXHR() {
-  if (root.XMLHttpRequest
-    && ('file:' != root.location.protocol || !root.ActiveXObject)) {
-    return new XMLHttpRequest;
-  } else {
-    try { return new ActiveXObject('Microsoft.XMLHTTP'); } catch(e) {}
-    try { return new ActiveXObject('Msxml2.XMLHTTP.6.0'); } catch(e) {}
-    try { return new ActiveXObject('Msxml2.XMLHTTP.3.0'); } catch(e) {}
-    try { return new ActiveXObject('Msxml2.XMLHTTP'); } catch(e) {}
-  }
-  return false;
+    if (root.XMLHttpRequest
+        && ('file:' != root.location.protocol || !root.ActiveXObject)) {
+        return new XMLHttpRequest;
+    } else {
+        try {
+            return new ActiveXObject('Microsoft.XMLHTTP');
+        } catch (e) {
+        }
+        try {
+            return new ActiveXObject('Msxml2.XMLHTTP.6.0');
+        } catch (e) {
+        }
+        try {
+            return new ActiveXObject('Msxml2.XMLHTTP.3.0');
+        } catch (e) {
+        }
+        try {
+            return new ActiveXObject('Msxml2.XMLHTTP');
+        } catch (e) {
+        }
+    }
+    return false;
 }
 
 /**
@@ -1678,8 +1712,12 @@ function getXHR() {
  */
 
 var trim = ''.trim
-  ? function(s) { return s.trim(); }
-  : function(s) { return s.replace(/(^\s*|\s*$)/g, ''); };
+    ? function (s) {
+    return s.trim();
+}
+    : function (s) {
+    return s.replace(/(^\s*|\s*$)/g, '');
+};
 
 /**
  * Check if `obj` is an object.
@@ -1690,7 +1728,7 @@ var trim = ''.trim
  */
 
 function isObject(obj) {
-  return obj === Object(obj);
+    return obj === Object(obj);
 }
 
 /**
@@ -1702,44 +1740,44 @@ function isObject(obj) {
  */
 
 function serialize(obj) {
-  if (!isObject(obj)) return obj;
-  var pairs = [];
-  for (var key in obj) {
-    if (null != obj[key]) {
-      pairs.push(encodeURIComponent(key)
-        + '=' + encodeURIComponent(obj[key]));
+    if (!isObject(obj)) return obj;
+    var pairs = [];
+    for (var key in obj) {
+        if (null != obj[key]) {
+            pairs.push(encodeURIComponent(key)
+            + '=' + encodeURIComponent(obj[key]));
+        }
     }
-  }
-  return pairs.join('&');
+    return pairs.join('&');
 }
 
 /**
  * Expose serialization method.
  */
 
- request.serializeObject = serialize;
+request.serializeObject = serialize;
 
- /**
-  * Parse the given x-www-form-urlencoded `str`.
-  *
-  * @param {String} str
-  * @return {Object}
-  * @api private
-  */
+/**
+ * Parse the given x-www-form-urlencoded `str`.
+ *
+ * @param {String} str
+ * @return {Object}
+ * @api private
+ */
 
 function parseString(str) {
-  var obj = {};
-  var pairs = str.split('&');
-  var parts;
-  var pair;
+    var obj = {};
+    var pairs = str.split('&');
+    var parts;
+    var pair;
 
-  for (var i = 0, len = pairs.length; i < len; ++i) {
-    pair = pairs[i];
-    parts = pair.split('=');
-    obj[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
-  }
+    for (var i = 0, len = pairs.length; i < len; ++i) {
+        pair = pairs[i];
+        parts = pair.split('=');
+        obj[decodeURIComponent(parts[0])] = decodeURIComponent(parts[1]);
+    }
 
-  return obj;
+    return obj;
 }
 
 /**
@@ -1756,12 +1794,12 @@ request.parseString = parseString;
  */
 
 request.types = {
-  html: 'text/html',
-  json: 'application/json',
-  xml: 'application/xml',
-  urlencoded: 'application/x-www-form-urlencoded',
-  'form': 'application/x-www-form-urlencoded',
-  'form-data': 'application/x-www-form-urlencoded'
+    html: 'text/html',
+    json: 'application/json',
+    xml: 'application/xml',
+    urlencoded: 'application/x-www-form-urlencoded',
+    'form': 'application/x-www-form-urlencoded',
+    'form-data': 'application/x-www-form-urlencoded'
 };
 
 /**
@@ -1773,23 +1811,23 @@ request.types = {
  *
  */
 
- request.serialize = {
-   'application/x-www-form-urlencoded': serialize,
-   'application/json': JSON.stringify
- };
+request.serialize = {
+    'application/x-www-form-urlencoded': serialize,
+    'application/json': JSON.stringify
+};
 
- /**
-  * Default parsers.
-  *
-  *     superagent.parse['application/xml'] = function(str){
+/**
+ * Default parsers.
+ *
+ *     superagent.parse['application/xml'] = function(str){
   *       return { object parsed from str };
   *     };
-  *
-  */
+ *
+ */
 
 request.parse = {
-  'application/x-www-form-urlencoded': parseString,
-  'application/json': JSON.parse
+    'application/x-www-form-urlencoded': parseString,
+    'application/json': JSON.parse
 };
 
 /**
@@ -1802,24 +1840,24 @@ request.parse = {
  */
 
 function parseHeader(str) {
-  var lines = str.split(/\r?\n/);
-  var fields = {};
-  var index;
-  var line;
-  var field;
-  var val;
+    var lines = str.split(/\r?\n/);
+    var fields = {};
+    var index;
+    var line;
+    var field;
+    var val;
 
-  lines.pop(); // trailing CRLF
+    lines.pop(); // trailing CRLF
 
-  for (var i = 0, len = lines.length; i < len; ++i) {
-    line = lines[i];
-    index = line.indexOf(':');
-    field = line.slice(0, index).toLowerCase();
-    val = trim(line.slice(index + 1));
-    fields[field] = val;
-  }
+    for (var i = 0, len = lines.length; i < len; ++i) {
+        line = lines[i];
+        index = line.indexOf(':');
+        field = line.slice(0, index).toLowerCase();
+        val = trim(line.slice(index + 1));
+        fields[field] = val;
+    }
 
-  return fields;
+    return fields;
 }
 
 /**
@@ -1830,8 +1868,8 @@ function parseHeader(str) {
  * @api private
  */
 
-function type(str){
-  return str.split(/ *; */).shift();
+function type(str) {
+    return str.split(/ *; */).shift();
 };
 
 /**
@@ -1842,15 +1880,15 @@ function type(str){
  * @api private
  */
 
-function params(str){
-  return reduce(str.split(/ *; */), function(obj, str){
-    var parts = str.split(/ *= */)
-      , key = parts.shift()
-      , val = parts.shift();
+function params(str) {
+    return reduce(str.split(/ *; */), function (obj, str) {
+        var parts = str.split(/ *= */)
+            , key = parts.shift()
+            , val = parts.shift();
 
-    if (key && val) obj[key] = val;
-    return obj;
-  }, {});
+        if (key && val) obj[key] = val;
+        return obj;
+    }, {});
 };
 
 /**
@@ -1900,22 +1938,22 @@ function params(str){
  */
 
 function Response(req, options) {
-  options = options || {};
-  this.req = req;
-  this.xhr = this.req.xhr;
-  this.text = this.req.method !='HEAD' 
-     ? this.xhr.responseText 
-     : null;
-  this.setStatusProperties(this.xhr.status);
-  this.header = this.headers = parseHeader(this.xhr.getAllResponseHeaders());
-  // getAllResponseHeaders sometimes falsely returns "" for CORS requests, but
-  // getResponseHeader still works. so we get content-type even if getting
-  // other headers fails.
-  this.header['content-type'] = this.xhr.getResponseHeader('content-type');
-  this.setHeaderProperties(this.header);
-  this.body = this.req.method != 'HEAD'
-    ? this.parseBody(this.text)
-    : null;
+    options = options || {};
+    this.req = req;
+    this.xhr = this.req.xhr;
+    this.text = this.req.method != 'HEAD'
+        ? this.xhr.responseText
+        : null;
+    this.setStatusProperties(this.xhr.status);
+    this.header = this.headers = parseHeader(this.xhr.getAllResponseHeaders());
+    // getAllResponseHeaders sometimes falsely returns "" for CORS requests, but
+    // getResponseHeader still works. so we get content-type even if getting
+    // other headers fails.
+    this.header['content-type'] = this.xhr.getResponseHeader('content-type');
+    this.setHeaderProperties(this.header);
+    this.body = this.req.method != 'HEAD'
+        ? this.parseBody(this.text)
+        : null;
 }
 
 /**
@@ -1926,8 +1964,8 @@ function Response(req, options) {
  * @api public
  */
 
-Response.prototype.get = function(field){
-  return this.header[field.toLowerCase()];
+Response.prototype.get = function (field) {
+    return this.header[field.toLowerCase()];
 };
 
 /**
@@ -1942,14 +1980,14 @@ Response.prototype.get = function(field){
  * @api private
  */
 
-Response.prototype.setHeaderProperties = function(header){
-  // content-type
-  var ct = this.header['content-type'] || '';
-  this.type = type(ct);
+Response.prototype.setHeaderProperties = function (header) {
+    // content-type
+    var ct = this.header['content-type'] || '';
+    this.type = type(ct);
 
-  // params
-  var obj = params(ct);
-  for (var key in obj) this[key] = obj[key];
+    // params
+    var obj = params(ct);
+    for (var key in obj) this[key] = obj[key];
 };
 
 /**
@@ -1963,11 +2001,11 @@ Response.prototype.setHeaderProperties = function(header){
  * @api private
  */
 
-Response.prototype.parseBody = function(str){
-  var parse = request.parse[this.type];
-  return parse && str && str.length
-    ? parse(str)
-    : null;
+Response.prototype.parseBody = function (str) {
+    var parse = request.parse[this.type];
+    return parse && str && str.length
+        ? parse(str)
+        : null;
 };
 
 /**
@@ -1991,30 +2029,30 @@ Response.prototype.parseBody = function(str){
  * @api private
  */
 
-Response.prototype.setStatusProperties = function(status){
-  var type = status / 100 | 0;
+Response.prototype.setStatusProperties = function (status) {
+    var type = status / 100 | 0;
 
-  // status / class
-  this.status = status;
-  this.statusType = type;
+    // status / class
+    this.status = status;
+    this.statusType = type;
 
-  // basics
-  this.info = 1 == type;
-  this.ok = 2 == type;
-  this.clientError = 4 == type;
-  this.serverError = 5 == type;
-  this.error = (4 == type || 5 == type)
-    ? this.toError()
-    : false;
+    // basics
+    this.info = 1 == type;
+    this.ok = 2 == type;
+    this.clientError = 4 == type;
+    this.serverError = 5 == type;
+    this.error = (4 == type || 5 == type)
+        ? this.toError()
+        : false;
 
-  // sugar
-  this.accepted = 202 == status;
-  this.noContent = 204 == status || 1223 == status;
-  this.badRequest = 400 == status;
-  this.unauthorized = 401 == status;
-  this.notAcceptable = 406 == status;
-  this.notFound = 404 == status;
-  this.forbidden = 403 == status;
+    // sugar
+    this.accepted = 202 == status;
+    this.noContent = 204 == status || 1223 == status;
+    this.badRequest = 400 == status;
+    this.unauthorized = 401 == status;
+    this.notAcceptable = 406 == status;
+    this.notFound = 404 == status;
+    this.forbidden = 403 == status;
 };
 
 /**
@@ -2024,18 +2062,18 @@ Response.prototype.setStatusProperties = function(status){
  * @api public
  */
 
-Response.prototype.toError = function(){
-  var req = this.req;
-  var method = req.method;
-  var url = req.url;
+Response.prototype.toError = function () {
+    var req = this.req;
+    var method = req.method;
+    var url = req.url;
 
-  var msg = 'cannot ' + method + ' ' + url + ' (' + this.status + ')';
-  var err = new Error(msg);
-  err.status = this.status;
-  err.method = method;
-  err.url = url;
+    var msg = 'cannot ' + method + ' ' + url + ' (' + this.status + ')';
+    var err = new Error(msg);
+    err.status = this.status;
+    err.method = method;
+    err.url = url;
 
-  return err;
+    return err;
 };
 
 /**
@@ -2053,27 +2091,27 @@ request.Response = Response;
  */
 
 function Request(method, url) {
-  var self = this;
-  Emitter.call(this);
-  this._query = this._query || [];
-  this.method = method;
-  this.url = url;
-  this.header = {};
-  this._header = {};
-  this.on('end', function(){
-    var err = null;
-    var res = null;
+    var self = this;
+    Emitter.call(this);
+    this._query = this._query || [];
+    this.method = method;
+    this.url = url;
+    this.header = {};
+    this._header = {};
+    this.on('end', function () {
+        var err = null;
+        var res = null;
 
-    try {
-      res = new Response(self); 
-    } catch(e) {
-      err = new Error('Parser is unable to parse the response');
-      err.parse = true;
-      err.original = e;
-    }
+        try {
+            res = new Response(self);
+        } catch (e) {
+            err = new Error('Parser is unable to parse the response');
+            err.parse = true;
+            err.original = e;
+        }
 
-    self.callback(err, res);
-  });
+        self.callback(err, res);
+    });
 }
 
 /**
@@ -2086,9 +2124,9 @@ Emitter(Request.prototype);
  * Allow for extension
  */
 
-Request.prototype.use = function(fn) {
-  fn(this);
-  return this;
+Request.prototype.use = function (fn) {
+    fn(this);
+    return this;
 }
 
 /**
@@ -2099,9 +2137,9 @@ Request.prototype.use = function(fn) {
  * @api public
  */
 
-Request.prototype.timeout = function(ms){
-  this._timeout = ms;
-  return this;
+Request.prototype.timeout = function (ms) {
+    this._timeout = ms;
+    return this;
 };
 
 /**
@@ -2111,10 +2149,10 @@ Request.prototype.timeout = function(ms){
  * @api public
  */
 
-Request.prototype.clearTimeout = function(){
-  this._timeout = 0;
-  clearTimeout(this._timer);
-  return this;
+Request.prototype.clearTimeout = function () {
+    this._timeout = 0;
+    clearTimeout(this._timer);
+    return this;
 };
 
 /**
@@ -2124,13 +2162,13 @@ Request.prototype.clearTimeout = function(){
  * @api public
  */
 
-Request.prototype.abort = function(){
-  if (this.aborted) return;
-  this.aborted = true;
-  this.xhr.abort();
-  this.clearTimeout();
-  this.emit('abort');
-  return this;
+Request.prototype.abort = function () {
+    if (this.aborted) return;
+    this.aborted = true;
+    this.xhr.abort();
+    this.clearTimeout();
+    this.emit('abort');
+    return this;
 };
 
 /**
@@ -2153,16 +2191,16 @@ Request.prototype.abort = function(){
  * @api public
  */
 
-Request.prototype.set = function(field, val){
-  if (isObject(field)) {
-    for (var key in field) {
-      this.set(key, field[key]);
+Request.prototype.set = function (field, val) {
+    if (isObject(field)) {
+        for (var key in field) {
+            this.set(key, field[key]);
+        }
+        return this;
     }
+    this._header[field.toLowerCase()] = val;
+    this.header[field] = val;
     return this;
-  }
-  this._header[field.toLowerCase()] = val;
-  this.header[field] = val;
-  return this;
 };
 
 /**
@@ -2179,10 +2217,10 @@ Request.prototype.set = function(field, val){
  * @api public
  */
 
-Request.prototype.unset = function(field){
-  delete this._header[field.toLowerCase()];
-  delete this.header[field];
-  return this;
+Request.prototype.unset = function (field) {
+    delete this._header[field.toLowerCase()];
+    delete this.header[field];
+    return this;
 };
 
 /**
@@ -2193,8 +2231,8 @@ Request.prototype.unset = function(field){
  * @api private
  */
 
-Request.prototype.getHeader = function(field){
-  return this._header[field.toLowerCase()];
+Request.prototype.getHeader = function (field) {
+    return this._header[field.toLowerCase()];
 };
 
 /**
@@ -2219,9 +2257,9 @@ Request.prototype.getHeader = function(field){
  * @api public
  */
 
-Request.prototype.type = function(type){
-  this.set('Content-Type', request.types[type] || type);
-  return this;
+Request.prototype.type = function (type) {
+    this.set('Content-Type', request.types[type] || type);
+    return this;
 };
 
 /**
@@ -2244,9 +2282,9 @@ Request.prototype.type = function(type){
  * @api public
  */
 
-Request.prototype.accept = function(type){
-  this.set('Accept', request.types[type] || type);
-  return this;
+Request.prototype.accept = function (type) {
+    this.set('Accept', request.types[type] || type);
+    return this;
 };
 
 /**
@@ -2258,30 +2296,30 @@ Request.prototype.accept = function(type){
  * @api public
  */
 
-Request.prototype.auth = function(user, pass){
-  var str = btoa(user + ':' + pass);
-  this.set('Authorization', 'Basic ' + str);
-  return this;
+Request.prototype.auth = function (user, pass) {
+    var str = btoa(user + ':' + pass);
+    this.set('Authorization', 'Basic ' + str);
+    return this;
 };
 
 /**
-* Add query-string `val`.
-*
-* Examples:
-*
-*   request.get('/shoes')
-*     .query('size=10')
-*     .query({ color: 'blue' })
-*
-* @param {Object|String} val
-* @return {Request} for chaining
-* @api public
-*/
+ * Add query-string `val`.
+ *
+ * Examples:
+ *
+ *   request.get('/shoes')
+ *     .query('size=10')
+ *     .query({ color: 'blue' })
+ *
+ * @param {Object|String} val
+ * @return {Request} for chaining
+ * @api public
+ */
 
-Request.prototype.query = function(val){
-  if ('string' != typeof val) val = serialize(val);
-  if (val) this._query.push(val);
-  return this;
+Request.prototype.query = function (val) {
+    if ('string' != typeof val) val = serialize(val);
+    if (val) this._query.push(val);
+    return this;
 };
 
 /**
@@ -2300,10 +2338,10 @@ Request.prototype.query = function(val){
  * @api public
  */
 
-Request.prototype.field = function(name, val){
-  if (!this._formData) this._formData = new FormData();
-  this._formData.append(name, val);
-  return this;
+Request.prototype.field = function (name, val) {
+    if (!this._formData) this._formData = new FormData();
+    this._formData.append(name, val);
+    return this;
 };
 
 /**
@@ -2323,10 +2361,10 @@ Request.prototype.field = function(name, val){
  * @api public
  */
 
-Request.prototype.attach = function(field, file, filename){
-  if (!this._formData) this._formData = new FormData();
-  this._formData.append(field, file, filename);
-  return this;
+Request.prototype.attach = function (field, file, filename) {
+    if (!this._formData) this._formData = new FormData();
+    this._formData.append(field, file, filename);
+    return this;
 };
 
 /**
@@ -2370,42 +2408,42 @@ Request.prototype.attach = function(field, file, filename){
  *         .end(callback)
  *
  *       // defaults to x-www-form-urlencoded
-  *      request.post('/user')
-  *        .send('name=tobi')
-  *        .send('species=ferret')
-  *        .end(callback)
+ *      request.post('/user')
+ *        .send('name=tobi')
+ *        .send('species=ferret')
+ *        .end(callback)
  *
  * @param {String|Object} data
  * @return {Request} for chaining
  * @api public
  */
 
-Request.prototype.send = function(data){
-  var obj = isObject(data);
-  var type = this.getHeader('Content-Type');
+Request.prototype.send = function (data) {
+    var obj = isObject(data);
+    var type = this.getHeader('Content-Type');
 
-  // merge
-  if (obj && isObject(this._data)) {
-    for (var key in data) {
-      this._data[key] = data[key];
-    }
-  } else if ('string' == typeof data) {
-    if (!type) this.type('form');
-    type = this.getHeader('Content-Type');
-    if ('application/x-www-form-urlencoded' == type) {
-      this._data = this._data
-        ? this._data + '&' + data
-        : data;
+    // merge
+    if (obj && isObject(this._data)) {
+        for (var key in data) {
+            this._data[key] = data[key];
+        }
+    } else if ('string' == typeof data) {
+        if (!type) this.type('form');
+        type = this.getHeader('Content-Type');
+        if ('application/x-www-form-urlencoded' == type) {
+            this._data = this._data
+                ? this._data + '&' + data
+                : data;
+        } else {
+            this._data = (this._data || '') + data;
+        }
     } else {
-      this._data = (this._data || '') + data;
+        this._data = data;
     }
-  } else {
-    this._data = data;
-  }
 
-  if (!obj) return this;
-  if (!type) this.type('json');
-  return this;
+    if (!obj) return this;
+    if (!type) this.type('json');
+    return this;
 };
 
 /**
@@ -2417,12 +2455,12 @@ Request.prototype.send = function(data){
  * @api private
  */
 
-Request.prototype.callback = function(err, res){
-  var fn = this._callback;
-  this.clearTimeout();
-  if (2 == fn.length) return fn(err, res);
-  if (err) return this.emit('error', err);
-  fn(res);
+Request.prototype.callback = function (err, res) {
+    var fn = this._callback;
+    this.clearTimeout();
+    if (2 == fn.length) return fn(err, res);
+    if (err) return this.emit('error', err);
+    fn(res);
 };
 
 /**
@@ -2431,10 +2469,10 @@ Request.prototype.callback = function(err, res){
  * @api private
  */
 
-Request.prototype.crossDomainError = function(){
-  var err = new Error('Origin is not allowed by Access-Control-Allow-Origin');
-  err.crossDomain = true;
-  this.callback(err);
+Request.prototype.crossDomainError = function () {
+    var err = new Error('Origin is not allowed by Access-Control-Allow-Origin');
+    err.crossDomain = true;
+    this.callback(err);
 };
 
 /**
@@ -2443,11 +2481,11 @@ Request.prototype.crossDomainError = function(){
  * @api private
  */
 
-Request.prototype.timeoutError = function(){
-  var timeout = this._timeout;
-  var err = new Error('timeout of ' + timeout + 'ms exceeded');
-  err.timeout = timeout;
-  this.callback(err);
+Request.prototype.timeoutError = function () {
+    var timeout = this._timeout;
+    var err = new Error('timeout of ' + timeout + 'ms exceeded');
+    err.timeout = timeout;
+    this.callback(err);
 };
 
 /**
@@ -2461,9 +2499,9 @@ Request.prototype.timeoutError = function(){
  * @api public
  */
 
-Request.prototype.withCredentials = function(){
-  this._withCredentials = true;
-  return this;
+Request.prototype.withCredentials = function () {
+    this._withCredentials = true;
+    return this;
 };
 
 /**
@@ -2475,72 +2513,72 @@ Request.prototype.withCredentials = function(){
  * @api public
  */
 
-Request.prototype.end = function(fn){
-  var self = this;
-  var xhr = this.xhr = getXHR();
-  var query = this._query.join('&');
-  var timeout = this._timeout;
-  var data = this._formData || this._data;
+Request.prototype.end = function (fn) {
+    var self = this;
+    var xhr = this.xhr = getXHR();
+    var query = this._query.join('&');
+    var timeout = this._timeout;
+    var data = this._formData || this._data;
 
-  // store callback
-  this._callback = fn || noop;
+    // store callback
+    this._callback = fn || noop;
 
-  // state change
-  xhr.onreadystatechange = function(){
-    if (4 != xhr.readyState) return;
-    if (0 == xhr.status) {
-      if (self.aborted) return self.timeoutError();
-      return self.crossDomainError();
-    }
-    self.emit('end');
-  };
-
-  // progress
-  if (xhr.upload) {
-    xhr.upload.onprogress = function(e){
-      e.percent = e.loaded / e.total * 100;
-      self.emit('progress', e);
+    // state change
+    xhr.onreadystatechange = function () {
+        if (4 != xhr.readyState) return;
+        if (0 == xhr.status) {
+            if (self.aborted) return self.timeoutError();
+            return self.crossDomainError();
+        }
+        self.emit('end');
     };
-  }
 
-  // timeout
-  if (timeout && !this._timer) {
-    this._timer = setTimeout(function(){
-      self.abort();
-    }, timeout);
-  }
+    // progress
+    if (xhr.upload) {
+        xhr.upload.onprogress = function (e) {
+            e.percent = e.loaded / e.total * 100;
+            self.emit('progress', e);
+        };
+    }
 
-  // querystring
-  if (query) {
-    query = request.serializeObject(query);
-    this.url += ~this.url.indexOf('?')
-      ? '&' + query
-      : '?' + query;
-  }
+    // timeout
+    if (timeout && !this._timer) {
+        this._timer = setTimeout(function () {
+            self.abort();
+        }, timeout);
+    }
 
-  // initiate request
-  xhr.open(this.method, this.url, true);
+    // querystring
+    if (query) {
+        query = request.serializeObject(query);
+        this.url += ~this.url.indexOf('?')
+            ? '&' + query
+            : '?' + query;
+    }
 
-  // CORS
-  if (this._withCredentials) xhr.withCredentials = true;
+    // initiate request
+    xhr.open(this.method, this.url, true);
 
-  // body
-  if ('GET' != this.method && 'HEAD' != this.method && 'string' != typeof data && !isHost(data)) {
-    // serialize stuff
-    var serialize = request.serialize[this.getHeader('Content-Type')];
-    if (serialize) data = serialize(data);
-  }
+    // CORS
+    if (this._withCredentials) xhr.withCredentials = true;
 
-  // set header fields
-  for (var field in this.header) {
-    if (null == this.header[field]) continue;
-    xhr.setRequestHeader(field, this.header[field]);
-  }
+    // body
+    if ('GET' != this.method && 'HEAD' != this.method && 'string' != typeof data && !isHost(data)) {
+        // serialize stuff
+        var serialize = request.serialize[this.getHeader('Content-Type')];
+        if (serialize) data = serialize(data);
+    }
 
-  // send stuff
-  this.emit('request', this);
-  xhr.send(data);
-  return this;
+    // set header fields
+    for (var field in this.header) {
+        if (null == this.header[field]) continue;
+        xhr.setRequestHeader(field, this.header[field]);
+    }
+
+    // send stuff
+    this.emit('request', this);
+    xhr.send(data);
+    return this;
 };
 
 /**
@@ -2565,17 +2603,17 @@ request.Request = Request;
  */
 
 function request(method, url) {
-  // callback
-  if ('function' == typeof url) {
-    return new Request('GET', method).end(url);
-  }
+    // callback
+    if ('function' == typeof url) {
+        return new Request('GET', method).end(url);
+    }
 
-  // url first
-  if (1 == arguments.length) {
-    return new Request('GET', method);
-  }
+    // url first
+    if (1 == arguments.length) {
+        return new Request('GET', method);
+    }
 
-  return new Request(method, url);
+    return new Request(method, url);
 }
 
 /**
@@ -2588,12 +2626,12 @@ function request(method, url) {
  * @api public
  */
 
-request.get = function(url, data, fn){
-  var req = request('GET', url);
-  if ('function' == typeof data) fn = data, data = null;
-  if (data) req.query(data);
-  if (fn) req.end(fn);
-  return req;
+request.get = function (url, data, fn) {
+    var req = request('GET', url);
+    if ('function' == typeof data) fn = data, data = null;
+    if (data) req.query(data);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2606,12 +2644,12 @@ request.get = function(url, data, fn){
  * @api public
  */
 
-request.head = function(url, data, fn){
-  var req = request('HEAD', url);
-  if ('function' == typeof data) fn = data, data = null;
-  if (data) req.send(data);
-  if (fn) req.end(fn);
-  return req;
+request.head = function (url, data, fn) {
+    var req = request('HEAD', url);
+    if ('function' == typeof data) fn = data, data = null;
+    if (data) req.send(data);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2623,10 +2661,10 @@ request.head = function(url, data, fn){
  * @api public
  */
 
-request.del = function(url, fn){
-  var req = request('DELETE', url);
-  if (fn) req.end(fn);
-  return req;
+request.del = function (url, fn) {
+    var req = request('DELETE', url);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2639,12 +2677,12 @@ request.del = function(url, fn){
  * @api public
  */
 
-request.patch = function(url, data, fn){
-  var req = request('PATCH', url);
-  if ('function' == typeof data) fn = data, data = null;
-  if (data) req.send(data);
-  if (fn) req.end(fn);
-  return req;
+request.patch = function (url, data, fn) {
+    var req = request('PATCH', url);
+    if ('function' == typeof data) fn = data, data = null;
+    if (data) req.send(data);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2657,12 +2695,12 @@ request.patch = function(url, data, fn){
  * @api public
  */
 
-request.post = function(url, data, fn){
-  var req = request('POST', url);
-  if ('function' == typeof data) fn = data, data = null;
-  if (data) req.send(data);
-  if (fn) req.end(fn);
-  return req;
+request.post = function (url, data, fn) {
+    var req = request('POST', url);
+    if ('function' == typeof data) fn = data, data = null;
+    if (data) req.send(data);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2675,12 +2713,12 @@ request.post = function(url, data, fn){
  * @api public
  */
 
-request.put = function(url, data, fn){
-  var req = request('PUT', url);
-  if ('function' == typeof data) fn = data, data = null;
-  if (data) req.send(data);
-  if (fn) req.end(fn);
-  return req;
+request.put = function (url, data, fn) {
+    var req = request('PUT', url);
+    if ('function' == typeof data) fn = data, data = null;
+    if (data) req.send(data);
+    if (fn) req.end(fn);
+    return req;
 };
 
 /**
@@ -2690,7 +2728,6 @@ request.put = function(url, data, fn){
 module.exports = request;
 
 },{"emitter":8,"reduce":9}],8:[function(require,module,exports){
-
 /**
  * Expose `Emitter`.
  */
@@ -2704,7 +2741,7 @@ module.exports = Emitter;
  */
 
 function Emitter(obj) {
-  if (obj) return mixin(obj);
+    if (obj) return mixin(obj);
 };
 
 /**
@@ -2716,10 +2753,10 @@ function Emitter(obj) {
  */
 
 function mixin(obj) {
-  for (var key in Emitter.prototype) {
-    obj[key] = Emitter.prototype[key];
-  }
-  return obj;
+    for (var key in Emitter.prototype) {
+        obj[key] = Emitter.prototype[key];
+    }
+    return obj;
 }
 
 /**
@@ -2732,12 +2769,12 @@ function mixin(obj) {
  */
 
 Emitter.prototype.on =
-Emitter.prototype.addEventListener = function(event, fn){
-  this._callbacks = this._callbacks || {};
-  (this._callbacks[event] = this._callbacks[event] || [])
-    .push(fn);
-  return this;
-};
+    Emitter.prototype.addEventListener = function (event, fn) {
+        this._callbacks = this._callbacks || {};
+        (this._callbacks[event] = this._callbacks[event] || [])
+            .push(fn);
+        return this;
+    };
 
 /**
  * Adds an `event` listener that will be invoked a single
@@ -2749,18 +2786,18 @@ Emitter.prototype.addEventListener = function(event, fn){
  * @api public
  */
 
-Emitter.prototype.once = function(event, fn){
-  var self = this;
-  this._callbacks = this._callbacks || {};
+Emitter.prototype.once = function (event, fn) {
+    var self = this;
+    this._callbacks = this._callbacks || {};
 
-  function on() {
-    self.off(event, on);
-    fn.apply(this, arguments);
-  }
+    function on() {
+        self.off(event, on);
+        fn.apply(this, arguments);
+    }
 
-  on.fn = fn;
-  this.on(event, on);
-  return this;
+    on.fn = fn;
+    this.on(event, on);
+    return this;
 };
 
 /**
@@ -2774,38 +2811,38 @@ Emitter.prototype.once = function(event, fn){
  */
 
 Emitter.prototype.off =
-Emitter.prototype.removeListener =
-Emitter.prototype.removeAllListeners =
-Emitter.prototype.removeEventListener = function(event, fn){
-  this._callbacks = this._callbacks || {};
+    Emitter.prototype.removeListener =
+        Emitter.prototype.removeAllListeners =
+            Emitter.prototype.removeEventListener = function (event, fn) {
+                this._callbacks = this._callbacks || {};
 
-  // all
-  if (0 == arguments.length) {
-    this._callbacks = {};
-    return this;
-  }
+                // all
+                if (0 == arguments.length) {
+                    this._callbacks = {};
+                    return this;
+                }
 
-  // specific event
-  var callbacks = this._callbacks[event];
-  if (!callbacks) return this;
+                // specific event
+                var callbacks = this._callbacks[event];
+                if (!callbacks) return this;
 
-  // remove all handlers
-  if (1 == arguments.length) {
-    delete this._callbacks[event];
-    return this;
-  }
+                // remove all handlers
+                if (1 == arguments.length) {
+                    delete this._callbacks[event];
+                    return this;
+                }
 
-  // remove specific handler
-  var cb;
-  for (var i = 0; i < callbacks.length; i++) {
-    cb = callbacks[i];
-    if (cb === fn || cb.fn === fn) {
-      callbacks.splice(i, 1);
-      break;
-    }
-  }
-  return this;
-};
+                // remove specific handler
+                var cb;
+                for (var i = 0; i < callbacks.length; i++) {
+                    cb = callbacks[i];
+                    if (cb === fn || cb.fn === fn) {
+                        callbacks.splice(i, 1);
+                        break;
+                    }
+                }
+                return this;
+            };
 
 /**
  * Emit `event` with the given args.
@@ -2815,19 +2852,19 @@ Emitter.prototype.removeEventListener = function(event, fn){
  * @return {Emitter}
  */
 
-Emitter.prototype.emit = function(event){
-  this._callbacks = this._callbacks || {};
-  var args = [].slice.call(arguments, 1)
-    , callbacks = this._callbacks[event];
+Emitter.prototype.emit = function (event) {
+    this._callbacks = this._callbacks || {};
+    var args = [].slice.call(arguments, 1)
+        , callbacks = this._callbacks[event];
 
-  if (callbacks) {
-    callbacks = callbacks.slice(0);
-    for (var i = 0, len = callbacks.length; i < len; ++i) {
-      callbacks[i].apply(this, args);
+    if (callbacks) {
+        callbacks = callbacks.slice(0);
+        for (var i = 0, len = callbacks.length; i < len; ++i) {
+            callbacks[i].apply(this, args);
+        }
     }
-  }
 
-  return this;
+    return this;
 };
 
 /**
@@ -2838,9 +2875,9 @@ Emitter.prototype.emit = function(event){
  * @api public
  */
 
-Emitter.prototype.listeners = function(event){
-  this._callbacks = this._callbacks || {};
-  return this._callbacks[event] || [];
+Emitter.prototype.listeners = function (event) {
+    this._callbacks = this._callbacks || {};
+    return this._callbacks[event] || [];
 };
 
 /**
@@ -2851,12 +2888,11 @@ Emitter.prototype.listeners = function(event){
  * @api public
  */
 
-Emitter.prototype.hasListeners = function(event){
-  return !! this.listeners(event).length;
+Emitter.prototype.hasListeners = function (event) {
+    return !!this.listeners(event).length;
 };
 
 },{}],9:[function(require,module,exports){
-
 /**
  * Reduce `arr` with `fn`.
  *
@@ -2867,17 +2903,17 @@ Emitter.prototype.hasListeners = function(event){
  * TODO: combatible error handling?
  */
 
-module.exports = function(arr, fn, initial){  
-  var idx = 0;
-  var len = arr.length;
-  var curr = arguments.length == 3
-    ? initial
-    : arr[idx++];
+module.exports = function (arr, fn, initial) {
+    var idx = 0;
+    var len = arr.length;
+    var curr = arguments.length == 3
+        ? initial
+        : arr[idx++];
 
-  while (idx < len) {
-    curr = fn.call(null, curr, arr[idx], ++idx, arr);
-  }
-  
-  return curr;
+    while (idx < len) {
+        curr = fn.call(null, curr, arr[idx], ++idx, arr);
+    }
+
+    return curr;
 };
 },{}]},{},[2]);
