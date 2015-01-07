@@ -54,8 +54,7 @@ function fetchNote(url, date, label) {
         var modifiedDate = date.split(' ')[0];
 
         if (res.status == 200) {
-            title = url.substring(url.lastIndexOf('/') + 1);
-            html = '<h1>' + label + '</h1>';
+            html = '<h1 class="label" >' + label + '</h1>';
             if (url.indexOf('.md') > -1) {
                 html = html + markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
