@@ -1,5 +1,4 @@
-Generate box-shadow or gradients
-================================
+## Generate box-shadow or gradients
 
 http://www.cssmatic.com/box-shadow
 

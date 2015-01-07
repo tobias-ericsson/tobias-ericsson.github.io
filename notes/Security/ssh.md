@@ -1,6 +1,3 @@
-How to be secure?!
-==================
-
 SSH - without password
 ----------------------
 

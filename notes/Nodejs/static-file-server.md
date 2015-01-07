@@ -1,6 +1,3 @@
-Nodejs
-======
-
 How to quickly setup a static file server?
 ------------------------------------------
 

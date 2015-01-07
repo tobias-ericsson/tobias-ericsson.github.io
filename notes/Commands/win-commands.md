@@ -1,5 +1,3 @@
-WIN Commands
-============
 
 WIN + S	or WIN + F	| Search
 

@@ -1,5 +1,3 @@
-Links
-=====
 
 http://js-spells.noblackmagic.com/
 

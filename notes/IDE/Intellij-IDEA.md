@@ -1,5 +1,5 @@
-Intellij IDEA
-=============
+Keyboard shortcuts
+------------------
 
 CTRL+K	Open git commit changes dialog
 

@@ -1,7 +1,3 @@
-*NIX Commands
-=============
-
-
 
 How to extract text between two values from a file
 --------------------------------------------------

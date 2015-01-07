@@ -1,5 +1,3 @@
-Watch
-=====
 <pre>
     npm install watch -g
 </pre>

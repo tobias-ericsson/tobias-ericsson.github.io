@@ -10,4 +10,4 @@
 ./notes/Security/LastPass.md,2015-01-07 10:20:27 +0100
 ./notes/Security/ssh.md,2015-01-05 19:53:01 +0100
 ./notes/Style/css.md,2015-01-07 10:20:27 +0100
-./notes/Style/favicon.ico.md,
+./notes/Style/favicon.ico.md,2015-01-07 10:48:07 +0100

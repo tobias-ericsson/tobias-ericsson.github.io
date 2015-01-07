@@ -33,10 +33,10 @@ request.get('/notes.txt', function (res) {
                     currentPath = url.path;
                     html = html + '<h2>' + currentPath.replace('./notes/', '') + '</h2>';
                 }
-                var label = url.file.replace('.md', '');
+                var label = url.file.replace('.md', '').split('-').join(' ');
                 html = html + '<p><a target="_self" href="#' + url.href + '" >' +
-                    label.split('-').join(' ') + '</a></p>';
-                fetchNote(url.href, date);
+                    label + '</a></p>';
+                fetchNote(url.href, date, label);
             }
         }
         html = html + '</div>';
@@ -46,22 +46,21 @@ request.get('/notes.txt', function (res) {
     }
 });
 
-function fetchNote(url, date) {
+function fetchNote(url, date, label) {
     request.get(url, function (res) {
 
         var contentSection = document.getElementById("content-section");
         var html = '';
-        var title = '';
         var modifiedDate = date.split(' ')[0];
 
         if (res.status == 200) {
+            title = url.substring(url.lastIndexOf('/') + 1);
+            html = '<h1>' + label + '</h1>';
             if (url.indexOf('.md') > -1) {
-                html = markdown.makeHtml(res.text);
+                html = html + markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
                 html = html + res.text;
             } else {
-                title = url.substring(url.lastIndexOf('/') + 1);
-                html = '<h1>' + title + '</h1>';
                 html = html + '<pre>' + res.text + '</pre>';
             }
         } else {
