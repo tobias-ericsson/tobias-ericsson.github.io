@@ -9,7 +9,7 @@ function splitUrl(url) {
     var lastIndexOfSlash = url.lastIndexOf('/');
     var file = url.substring(lastIndexOfSlash + 1);
     var path = url.substring(0, lastIndexOfSlash);
-    return { path: path, file: file, href: url};
+    return {path: path, file: file, href: url};
 }
 
 request.get('/notes.txt', function (res) {
@@ -30,15 +30,18 @@ request.get('/notes.txt', function (res) {
 
                 if (currentPath != url.path) {
                     currentPath = url.path;
-                    html = html + '<h2>' + currentPath.replace('./notes/', '') + '</h2>';
+                    html = html +
+                    '</div><h2 state="minified" onclick="animation.toggleExpanded(this)">'
+                    + currentPath.replace('./notes/', '') +
+                    '</h2><div class="hidden">';
                 }
                 var label = url.file.replace('.md', '').split('-').join(' ');
                 html = html + '<p><a target="_self" href="#' + url.href + '" >' +
-                    label + '</a></p>';
+                label + '</a></p>';
                 fetchNote(url.href, date, label);
             }
         }
-        html = html + '</div>';
+        html = html + '</div><div class="extra_space"></div>';
         menuNav.innerHTML = html;
     } else {
         console.log("status: " + res.status);
@@ -66,7 +69,7 @@ function fetchNote(url, date, label) {
         }
         html = html + '<p>' + modifiedDate + '</p>';
         contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
-            '<div class="article">' + html + '</div></article>');
+        '<div class="article">' + html + '</div></article>');
 
     });
 }
