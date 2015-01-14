@@ -9,6 +9,22 @@ How to recursively find all folders named X and remove them and their subdirecto
 find ./ -type d -name X -exec rm -r {} \;
 
 
+How to find all files containing a specific string of text
+----------------------------------------------------------
+
+<pre>
+    grep -rnw 'directory' -e "pattern"
+</pre>
+-r is recursive, -n is line number and -w stands match the whole word.
+
+Only show file name, not the result itself
+<pre>
+    grep -rnl '.' -e "pattern"
+</pre>
+
+
+
+
 About cd
 --------
 go home:
