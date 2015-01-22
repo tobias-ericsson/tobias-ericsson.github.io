@@ -1,6 +1,3 @@
-JMeter
-======
-
 Apache JMeter may be used to test performance both on static and dynamic resources.
 
 It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength

@@ -61,9 +61,12 @@ function fetchNote(url, date, label) {
                 html = html + markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
                 html = html + res.text;
+            } else if (url.indexOf('.jmx') > -1 || url.indexOf('.xml') > -1) {
+                html = html + '<pre>' + res.text.split('<').join('&lt;').split('>').join('&gt;') + '</pre>';
             } else {
                 html = html + '<pre>' + res.text + '</pre>';
             }
+
         } else {
             html = html + "Error " + res.status;
         }
