@@ -9,3 +9,4 @@ git pull <remote> <branch>
 git read-tree -mu HEAD
 
 http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/
+
