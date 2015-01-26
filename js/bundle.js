@@ -62,9 +62,12 @@ function fetchNote(url, date, label) {
                 html = html + markdown.makeHtml(res.text);
             } else if (url.indexOf('.html') > -1) {
                 html = html + res.text;
+            } else if (url.indexOf('.jmx') > -1 || url.indexOf('.xml') > -1) {
+                html = html + '<pre>' + res.text.split('<').join('&lt;').split('>').join('&gt;') + '</pre>';
             } else {
                 html = html + '<pre>' + res.text + '</pre>';
             }
+
         } else {
             html = html + "Error " + res.status;
         }
@@ -78,20 +81,14 @@ function fetchNote(url, date, label) {
 module.exports.fetchNote = fetchNote;
 console.log('ajax loaded');
 },{"./markdown":4,"superagent":6}],2:[function(require,module,exports){
-function setUpMenuEventListeners() {
-    var menuNav = document.getElementById("menu-nav");
-    var expandables = menuNav.getElementsByClassName("expandables");
-    console.log("e", expandables);
-}
-
-window.animation = {};
-
 function nextElementSibling(el) {
     do {
         el = el.nextSibling
     } while (el && el.nodeType !== 1);
     return el;
 }
+
+window.animation = {};
 
 window.animation.onResize = function () {
     var menuNav = document.getElementById("menu-nav");
@@ -101,10 +98,9 @@ window.animation.onResize = function () {
 }
 
 window.animation.toggleExpanded = function (element) {
-    console.log("e", element);
+    //console.log("e", element);
     var state = element.getAttribute("state");
     var nextElementSibling = element.nextElementSibling || nextElementSibling(element);
-    console.log(state);
     if (state == 'minified') {
         element.setAttribute("state", "expanded");
         nextElementSibling.setAttribute("class", "visible");
@@ -112,11 +108,8 @@ window.animation.toggleExpanded = function (element) {
         element.setAttribute("state", "minified");
         nextElementSibling.setAttribute("class", "hidden");
     }
-    console.log("next", nextElementSibling);
+    console.log("toggleExpanded", nextElementSibling);
 }
-
-
-setUpMenuEventListeners();
 
 window.animation.onResize();
 
