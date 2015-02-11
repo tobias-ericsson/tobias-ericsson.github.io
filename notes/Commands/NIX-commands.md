@@ -50,3 +50,15 @@ fortune
 
 
 
+Port Scanning
+-------------
+
+### find open ports and running services
+nc -zv host.example.com 20-30
+
+### find which server software is running
+echo "QUIT" | nc host.example.com 20-30
+
+http://www.computerhope.com/unix/nc.htm
+
+
