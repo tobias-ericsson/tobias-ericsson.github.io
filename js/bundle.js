@@ -13,7 +13,7 @@ function splitUrl(url) {
     return {path: path, file: file, href: url};
 }
 
-request.get('/notes.txt', function (res) {
+request.get('notes.txt', function (res) {
 
     var lines = res.text.split('\n');
     var html = '<div>';
