@@ -64,4 +64,17 @@ echo "QUIT" | nc host.example.com 20-30
 
 http://www.computerhope.com/unix/nc.htm
 
+ngrep -d en0 port 80
+
+ngrep -d any 'error' port syslog
+
+
+Process Scanning
+------------
+pgrep ssh
+pgrep java
+
+ps -ef |  grep 'tomcat'
+
+
 
