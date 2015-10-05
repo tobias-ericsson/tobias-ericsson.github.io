@@ -1,6 +1,6 @@
 ./notes/Android/ADB.md,2015-01-13 14:40:41 +0100
 ./notes/CheatSheet/Intellij-IDEA.md,2015-10-05 19:21:26 +0200
-./notes/CheatSheet/Vim.md,2015-10-05 19:21:26 +0200
+./notes/CheatSheet/Vim.md,2015-10-05 20:28:50 +0200
 ./notes/Code/Groovy/HtmlParser.groovy,2015-01-05 20:53:16 +0100
 ./notes/Code/JavaScript/Debugging.md,2015-06-08 08:51:06 +0200
 ./notes/Code/JavaScript/Links.md,2015-01-07 11:06:14 +0100
