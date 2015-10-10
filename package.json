@@ -7,7 +7,7 @@
         "url": "git://github.com/...username/repository.git"
     },
     "dependencies": {
-        "marked": "0.x.x",
+        "marked": "0.3.x",
         "superagent": "0.x.x"
     },
     "devDependencies": {
