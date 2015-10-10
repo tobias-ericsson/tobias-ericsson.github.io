@@ -5,7 +5,15 @@ body {
     font-style: italic;
 }
 
-
+.modifiedDate {
+    font-size: 80%;
+    font-weight: bold;
+    float:right;
+    margin-right: 8px;
+    margin-bottom: -2px;
+    color: #292107;
+    font-style: normal;
+}
 
 header,
 .article,
@@ -162,11 +170,15 @@ footer a {
     text-align: center;
 }
 
+footer p {
+    color: #292107;
+    font-weight: bold;
+    font-style: italic;
+}
+
 a:link, a:visited {
-    color: #057025;
     text-decoration: none;
     border-bottom: none;
-
 }
 
 article {

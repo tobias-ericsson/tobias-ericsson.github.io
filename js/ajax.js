@@ -70,7 +70,7 @@ function fetchNote(url, date, label) {
         } else {
             html = html + "Error " + res.status;
         }
-        html = html + '<p>' + modifiedDate + '</p>';
+        html = html + '<p class="modifiedDate">' + modifiedDate + '</p>';
         contentSection.insertAdjacentHTML('beforeend', '<article id="' + url + '">' +
         '<div class="article">' + html + '</div></article>');
 
