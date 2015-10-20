@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<h2 id="android-debug-bridge-adb-">Android Debug Bridge (ADB)</h2>
+<p>You can find the adb tool in <sdk>/platform-tools/.</p>
+<p>Commands:</p>
+<ul>
+<li><p>devices</p>
+</li>
+<li><p>start-server</p>
+</li>
+<li><p>kill-server</p>
+</li>
+<li><p>logcat</p>
+</li>
+<li><p>install -r path\ProjectName.apk</p>
+</li>
+<li><p>shell pm uninstall -k com.embarcadero.ProjectName</p>
+</li>
+<li><p>adb shell am start -n com.embarcadero.ProjectName/com.embarcadero.firemonkey.FMXNativeActivity</p>
+</li>
+<li><p>adb shell am force-stop com.embarcadero.ProjectName</p>
+</li>
+<li><p>adb pull <remote> <local></p>
+</li>
+<li><p>adb push foo.txt /sdcard/foo.txt</p>
+</li>
+<li><p>adb shell</p>
+</li>
+<li><p>adb shell input keyevent 26 (should turn on/off the screen)</p>
+</li>
+<li><p>adb shell input text 1234</p>
+</li>
+<li><p>adb shell input keyevent 66 (simulate enter key)</p>
+</li>
+</ul>
+<p><a href="http://stackoverflow.com/questions/7789826/adb-shell-input-events">http://stackoverflow.com/questions/7789826/adb-shell-input-events</a></p>
+<p><a href="http://delphi.org/2013/11/installing-and-running-android-apps-from-command-line/">http://delphi.org/2013/11/installing-and-running-android-apps-from-command-line/</a></p>
+</body>
+</html>
