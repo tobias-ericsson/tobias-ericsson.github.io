@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<p><a href="http://conqueringthecommandline.com/book/frontmatter">http://conqueringthecommandline.com/book/frontmatter</a></p>
+<p><a href="http://www.commandlinefu.com/commands/browse/sort-by-votes">http://www.commandlinefu.com/commands/browse/sort-by-votes</a></p>
+<h2 id="how-to-extract-text-between-two-values-from-a-file">How to extract text between two values from a file</h2>
+<p>tail -1000f logfile.log | awk &#39;/<Body>/,/&lt;\/Body&gt;/&#39;</p>
+<h2 id="how-to-recursively-find-all-folders-named-x-and-remove-them-and-their-subdirectories">How to recursively find all folders named X and remove them and their subdirectories</h2>
+<p>find ./ -type d -name X -exec rm -r {} \;</p>
+<h2 id="how-to-find-all-files-containing-a-specific-string-of-text">How to find all files containing a specific string of text</h2>
+<pre>
+    grep -rnw 'directory' -e "pattern"
+</pre>
+-r is recursive, -n is line number and -w stands match the whole word.
+
+Only show file name, not the result itself
+<pre>
+    grep -rnl '.' -e "pattern"
+</pre>
+
+
+
+
+<h2 id="about-cd">About cd</h2>
+<p>go home:
+cd ~ (or only cd)</p>
+<p>go back and forth:
+cd -</p>
+<p>remember dir:
+pushd mydir</p>
+<p>go to the remembered dir:
+popd</p>
+<h2 id="how-to-get-random-quotes-like-in-a-fortune-cookie">How to get random quotes, like in a fortune cookie</h2>
+<pre><code>sudo apt-get install fortune-mod
+fortune
+</code></pre><h2 id="port-scanning">Port Scanning</h2>
+<h3 id="find-open-ports-and-running-services">find open ports and running services</h3>
+<p>nc -zv host.example.com 20-30</p>
+<h3 id="find-which-server-software-is-running">find which server software is running</h3>
+<p>echo &quot;QUIT&quot; | nc host.example.com 20-30</p>
+<p><a href="http://www.computerhope.com/unix/nc.htm">http://www.computerhope.com/unix/nc.htm</a></p>
+<p>ngrep -d en0 port 80</p>
+<p>ngrep -d any &#39;error&#39; port syslog</p>
+<h2 id="process-scanning">Process Scanning</h2>
+<p>pgrep ssh
+pgrep java</p>
+<p>ps -ef |  grep &#39;tomcat&#39;</p>
+</body>
+</html>
