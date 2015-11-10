@@ -24,3 +24,11 @@ cat id_rsa.pub >> .ssh/authorized_keys2
 ```
 
 Now you are all set and can ssh without password from the host to the server.
+
+Port forwarding
+---------------
+"-L Specifies that the given port on the local (client) host is to be forwarded to the given host and port on the remote side".
+ssh -L 9200:localhost:9200 user@server
+
+
+
