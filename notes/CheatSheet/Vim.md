@@ -17,3 +17,8 @@ u       | undo
 v       | visual-lines mode
 y       | yank copy
 yy      | copies line
+d,x	| remove
+CTRL+a	| add to number
+:%s/search/replace/g | substitute search with replace
+G=gg	| auto (re)ident entire document
+
