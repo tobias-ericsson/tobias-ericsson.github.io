@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Malmö Seawind</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+<body>
+<div class="flex-container">
+    <header>
+        <h1>Malmö Seawind</h1>
+        <h4>Wind forecast for sailors, wind and kite surfers in the Malmö region</h4>
+    </header>
+
+    <section>
+        <h1>Lomma Beach</h1>
+
+        <div class="wind-container" id='lomma'></div>
+    </section>
+    <section>
+        <h1>Habo Ljung Beach</h1>
+
+        <div class="wind-container" id='haboljung'></div>
+    </section>
+    <section>
+        <h1>Ribban Beach</h1>
+
+        <div class="wind-container" id='ribban'></div>
+    </section>
+    <section>
+        <h1>Klagshamn</h1>
+
+        <div class="wind-container" id='klagshamn'></div>
+    </section>
+    <section>
+        <h1>Ribban Beach</h1>
+
+        <div class="wind-container">
+            <div>
+                <p>
+                    <svg viewBox="0 0 49.636 49.636" style="enable-background:new 0 0 49.636 49.636;" xml:space="preserve">
+                        <polygon style="fill:#1081E0;" points="23.001,27.245 0,23.39 49.636,0.61 25.636,49.026 "/>
+                    </svg>
+                </p>
+
+                <p>6 m/s</p>
+
+                <p>
+                    <svg width="50" height="50">
+                        <circle cx="25" cy="25" r="20" stroke="green" stroke-width="4" fill="yellow"/>
+                    </svg>
+                </p>
+
+                <p>Today</p>
+            </div>
+            <div>
+                <p><-</p>
+
+                <p>6 m/s</p>
+
+                <p>()</p>
+
+                <p>Mon</p>
+            </div>
+            <div>
+                <p>-></p>
+
+                <p>7 m/s</p>
+
+                <p>*</p>
+
+                <p>Tue</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr/>
+        <h3>Tobias Ericsson</h3>
+        <h4>Sailor, windsurfer, kitesurfer and father</h4>
+    </footer>
+</div>
+<style scoped="">
+    html {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    header, footer {
+        text-align: center;
+        color: green;
+    }
+
+    footer {
+        font-size: 60%;
+    }
+
+    footer > h3 {
+        margin: 0;
+    }
+
+    footer > h4 {
+        margin: 5px 0 20px 0;
+        padding: 0;
+    }
+
+    section {
+        /* height: 240px; */
+        padding: 2px 0 10px 0;
+    }
+
+    section > h1, p {
+        padding: 0.5vh;
+        margin: 0 0 0 6px;
+    }
+
+    .flex-container {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+        height: 100%;
+    }
+
+    .flex-container > section, header, footer {
+        flex: 1;
+        border-bottom: 0.5vh solid #001f3f;
+    }
+
+    .wind-container {
+        display: -webkit-flex; /* Safari */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+        height: 100%;
+    }
+</style>
+<script>
+    var seawind = function () {
+        var latLongs = [
+            {name: 'lomma', lat: 55.680, long: 13.055},
+            {name: 'haboljung', lat: 55.690, long: 13.051},
+            {name: 'ribban', lat: 55.602, long: 12.956},
+            {name: 'klagshamn', lat: 55.522, long: 12.889}
+        ];
+
+        var SMHI_URL = 'http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point';
+
+        function log(message) {
+            if (typeof console == "object") {
+                console.log(arguments.callee.caller.name + " " + message);
+            }
+        }
+
+        function get(url, id, successCallback) {
+            log("ajax: " + url);
+            $.ajax({
+                type: "GET",
+                dataType: "json",
+                url: url,
+                success: function (result) {
+                    //log("ajax: " + JSON.stringify(result));
+                    successCallback(id, result);
+                },
+                error: function (xhr, status, error) {
+                    log("ajax error: " + status + " " + JSON.stringify(error));
+                }
+            });
+        }
+
+        var extractWeatherList = function (result) {
+            var times = [];
+            for (var k = 0; k < result.timeSeries.length; k = Math.floor(k * 1.4) + 2) {
+                //log(k);
+                times.push(extractUsefulInfo(result, k));
+            }
+            //log(times);
+            return times;
+        };
+
+        var extractUsefulInfo = function (result, k) {
+            function param(number) {
+                return result.timeSeries[k].parameters[number].values[0];
+            }
+
+            var weather = {};
+            weather.time = result.timeSeries[k].validTime;
+            weather.windDirection = param(3);
+            weather.windSpeed = param(4);
+            weather.windGustSpeed = param(11);
+            weather.symbol = param(18);
+            return weather;
+        };
+
+        var addWeatherSectionsToDomElement = function (domId, weatherList) {
+            log(domId);
+            var place = document.getElementById(domId);
+            var color = 'black';
+            if (place) {
+                var htmlText = '';
+                var w;
+                for (var k = 0; k < weatherList.length; k++) {
+                    w = weatherList[k];
+                    if (w.windSpeed>5 && w.windSpeed<11) {
+                        color = 'green';
+                    } else  if (w.windSpeed<4 || w.windSpeed>13) {
+                        color = 'red';
+                    } else {
+                        color = 'black';
+                    }
+
+                    htmlText = htmlText + '<div><p style="color:'+color+'">' +
+                    w.windSpeed + ' (' + w.windGustSpeed + ') m/s</p><p>' +
+                    w.windDirection + '&deg;</p><p>' +
+                        //w.symbol + '</p><p>' +
+                    formatDate(w.time) + '</p></div>';
+                }
+                place.innerHTML = htmlText;
+            }
+        };
+
+        var formatDate = function (dateString) {
+            var today = new Date();
+            var date = new Date(dateString);
+            var day = date.getDate();
+            var month = date.getMonth() + 1;
+            var time = dateString.slice(11, 16);
+
+            if (day == today.getDate()) {
+                return time;
+            } else {
+                return time + ' ' + day + '/' + month;
+            }
+        };
+
+        for (var k = 0; k < latLongs.length; k++) {
+            get(SMHI_URL + '/lon/' + latLongs[k].long + '/lat/' + latLongs[k].lat + '/data.json', latLongs[k].name,
+                    function (id, result) {
+                        var weatherList = extractWeatherList(result);
+                        addWeatherSectionsToDomElement(id, weatherList);
+                    });
+        }
+    }();
+</script>
+</body>
+</html>
