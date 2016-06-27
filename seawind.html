@@ -12,6 +12,12 @@
         <h4>Wind forecast for sailors, wind and kite surfers in the Malmö region</h4>
     </header>
 
+    <nav>
+        <a href="http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0" >Current wind in Lomma</a>
+        <a href="http://courel.se/kitesurf.html" >Wind in Lomma by Courel</a>
+        <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige" >Lomma forecast by dmi.dk</a>
+    </nav>
+
     <section>
         <h1>Lomma Beach</h1>
 
@@ -95,6 +101,34 @@
         color: green;
     }
 
+    nav {
+        text-align: center;
+        color: green;
+        padding: 10px;
+        border-bottom: 0.5vh solid #001f3f;
+    }
+
+    a {
+        color: green;
+        text-decoration: none;
+        border: 1px solid #000000;
+        padding: 4px;
+    }
+
+    a:visited {
+        color: green;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: hotpink;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    }
+
     footer {
         font-size: 60%;
     }
@@ -111,6 +145,7 @@
     section {
         /* height: 240px; */
         padding: 2px 0 10px 0;
+        border-bottom: 0.5vh solid #001f3f;
     }
 
     section > h1, p {
@@ -128,9 +163,8 @@
         height: 100%;
     }
 
-    .flex-container > section, header, footer {
+    .flex-container > section, footer {
         flex: 1;
-        border-bottom: 0.5vh solid #001f3f;
     }
 
     .wind-container {
