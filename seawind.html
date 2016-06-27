@@ -38,49 +38,7 @@
 
         <div class="wind-container" id='klagshamn'></div>
     </section>
-    <section>
-        <h1>Ribban Beach</h1>
-
-        <div class="wind-container">
-            <div>
-                <p>
-                    <svg viewBox="0 0 49.636 49.636" style="enable-background:new 0 0 49.636 49.636;" xml:space="preserve">
-                        <polygon style="fill:#1081E0;" points="23.001,27.245 0,23.39 49.636,0.61 25.636,49.026 "/>
-                    </svg>
-                </p>
-
-                <p>6 m/s</p>
-
-                <p>
-                    <svg width="50" height="50">
-                        <circle cx="25" cy="25" r="20" stroke="green" stroke-width="4" fill="yellow"/>
-                    </svg>
-                </p>
-
-                <p>Today</p>
-            </div>
-            <div>
-                <p><-</p>
-
-                <p>6 m/s</p>
-
-                <p>()</p>
-
-                <p>Mon</p>
-            </div>
-            <div>
-                <p>-></p>
-
-                <p>7 m/s</p>
-
-                <p>*</p>
-
-                <p>Tue</p>
-            </div>
-        </div>
-    </section>
     <footer>
-        <hr/>
         <h3>Tobias Ericsson</h3>
         <h4>Sailor, windsurfer, kitesurfer and father</h4>
     </footer>
@@ -93,6 +51,7 @@
     body {
         margin: 0;
         padding: 0;
+        color: #001f3f;
         height: 100%;
     }
 
@@ -121,7 +80,8 @@
 
     /* mouse over link */
     a:hover {
-        color: hotpink;
+        color: white;
+        background-color: #001f3f;
     }
 
     /* selected link */
@@ -134,11 +94,11 @@
     }
 
     footer > h3 {
-        margin: 0;
+        margin: 5px 0;
     }
 
     footer > h4 {
-        margin: 5px 0 20px 0;
+        margin: 2px 0 20px 0;
         padding: 0;
     }
 
@@ -163,7 +123,7 @@
         height: 100%;
     }
 
-    .flex-container > section, footer {
+    .flex-container > section {
         flex: 1;
     }
 
@@ -253,7 +213,7 @@
 
                     htmlText = htmlText + '<div><p style="color:'+color+'">' +
                     w.windSpeed + ' (' + w.windGustSpeed + ') m/s</p><p>' +
-                    w.windDirection + '&deg;</p><p>' +
+                    formatDirection(w.windDirection) + '&deg;</p><p>' +
                         //w.symbol + '</p><p>' +
                     formatDate(w.time) + '</p></div>';
                 }
@@ -273,6 +233,12 @@
             } else {
                 return time + ' ' + day + '/' + month;
             }
+        };
+
+        var formatDirection = function (degrees) {
+            var val=Math.floor((degrees/22.5)+.5);
+            var arr=["N","NNE","NE","ENE","E","ESE", "SE", "SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
+            return arr[(val % 16)] + ' ' + degrees;
         };
 
         for (var k = 0; k < latLongs.length; k++) {
