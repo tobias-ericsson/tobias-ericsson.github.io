@@ -53,6 +53,7 @@
         padding: 0;
         color: #001f3f;
         height: 100%;
+        font-size: 100%;
     }
 
     header, footer {
@@ -65,6 +66,10 @@
         color: green;
         padding: 10px;
         border-bottom: 0.5vh solid #001f3f;
+    }
+
+    p {
+        font-size: 0.8em;
     }
 
     a {
@@ -148,6 +153,8 @@
 
         var SMHI_URL = 'http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point';
 
+        var today = new Date();
+
         function log(message) {
             if (typeof console == "object") {
                 console.log(arguments.callee.caller.name + " " + message);
@@ -172,9 +179,12 @@
 
         var extractWeatherList = function (result) {
             var times = [];
-            for (var k = 0; k < result.timeSeries.length; k = Math.floor(k * 1.4) + 2) {
+            for (var k = 0; k < result.timeSeries.length-5; k = Math.floor(k * 1.05) + 2) {
                 //log(k);
-                times.push(extractUsefulInfo(result, k));
+                var hour = result.timeSeries[k].validTime.slice(11, 13);
+                if (hour>8 && hour<21) {
+                    times.push(extractUsefulInfo(result, k));
+                }
             }
             //log(times);
             return times;
