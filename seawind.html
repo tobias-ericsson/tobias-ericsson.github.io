@@ -15,7 +15,7 @@
     <nav>
         <a href="http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0" >Current wind in Lomma</a>
         <a href="http://courel.se/kitesurf.html" >Wind in Lomma by Courel</a>
-        <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige" >Lomma forecast by dmi.dk</a>
+        <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige" >Lomma by dmi.dk</a>
     </nav>
 
     <section>
@@ -54,6 +54,29 @@
         color: #001f3f;
         height: 100%;
         font-size: 100%;
+        min-width: 490px;
+    }
+
+    @media screen and (min-width: 700px) {
+        body {
+            background-color: lightgreen;
+        }
+        p {
+            text-align: center;
+            margin: 0 0 0 6px;
+            min-width: 65px;
+        }
+    }
+
+    @media screen and (max-width: 699px) {
+        body {
+            background-color: white;
+        }
+        p {
+            text-align: center;
+            margin: 0 0 0 6px;
+            max-width: 40px;
+        }
     }
 
     header, footer {
@@ -66,6 +89,7 @@
         color: green;
         padding: 10px;
         border-bottom: 0.5vh solid #001f3f;
+        min-width: 490px;
     }
 
     p {
@@ -113,7 +137,7 @@
         border-bottom: 0.5vh solid #001f3f;
     }
 
-    section > h1, p {
+    section > h1 {
         padding: 0.5vh;
         margin: 0 0 0 6px;
     }
@@ -136,7 +160,7 @@
         display: -webkit-flex; /* Safari */
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: stretch;
         align-content: space-between;
         height: 100%;
@@ -222,7 +246,7 @@
                     }
 
                     htmlText = htmlText + '<div><p style="color:'+color+'">' +
-                    w.windSpeed + ' (' + w.windGustSpeed + ') m/s</p><p>' +
+                    w.windSpeed.toFixed(1) + ' (' + w.windGustSpeed.toFixed(1) + ') m/s</p><p>' +
                     formatDirection(w.windDirection) + '&deg;</p><p>' +
                         //w.symbol + '</p><p>' +
                     formatDate(w.time) + '</p></div>';
@@ -247,7 +271,7 @@
 
         var formatDirection = function (degrees) {
             var val=Math.floor((degrees/22.5)+.5);
-            var arr=["N","NNE","NE","ENE","E","ESE", "SE", "SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
+            var arr=["N&nbsp;&nbsp;","NNE","NE","ENE","E&nbsp;&nbsp;","ESE", "SE", "SSE","S&nbsp;&nbsp;","SSW","SW","WSW","W&nbsp;&nbsp;","WNW","NW","NNW"];
             return arr[(val % 16)] + ' ' + degrees;
         };
 
