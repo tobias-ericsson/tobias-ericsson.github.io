@@ -6,43 +6,59 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 </head>
 <body>
+<header>
+    <h1>Malmö Seawind</h1>
+    <h4>Wind forecast for sailors, wind and kite surfers in the Malmö region</h4>
+</header>
+
+<nav>
+    <a href="http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0">Current wind in Lomma</a>
+    <a href="http://courel.se/kitesurf.html">Wind in Lomma by Courel</a>
+    <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige">Lomma by dmi.dk</a>
+</nav>
 <div class="flex-container">
-    <header>
-        <h1>Malmö Seawind</h1>
-        <h4>Wind forecast for sailors, wind and kite surfers in the Malmö region</h4>
-    </header>
-
-    <nav>
-        <a href="http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0">Current wind in Lomma</a>
-        <a href="http://courel.se/kitesurf.html">Wind in Lomma by Courel</a>
-        <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige">Lomma by dmi.dk</a>
-    </nav>
-
     <section>
-        <h1>Lomma Beach</h1>
+        <div class="section-header">
+            <h1>Lomma</h1>
+
+            <p>Beach</p>
+        </div>
 
         <div class="wind-container" id='lomma'></div>
     </section>
     <section>
-        <h1>Habo Ljung Beach</h1>
+        <div class="section-header">
+            <h1>Habo Ljung</h1>
+
+            <p>Beach</p>
+        </div>
 
         <div class="wind-container" id='haboljung'></div>
     </section>
     <section>
-        <h1>Ribban Beach</h1>
+        <div class="section-header">
+            <h1>Ribban</h1>
+
+            <p>Beach</p>
+        </div>
 
         <div class="wind-container" id='ribban'></div>
     </section>
     <section>
-        <h1>Klagshamn</h1>
+        <div class="section-header">
+            <h1>Klagshamn</h1>
+
+            <p>Beach</p>
+        </div>
 
         <div class="wind-container" id='klagshamn'></div>
     </section>
-    <footer>
-        <h3>Tobias Ericsson</h3>
-        <h4>Sailor, windsurfer, kitesurfer and father</h4>
-    </footer>
 </div>
+<!--<footer>
+    <h3>Tobias Ericsson</h3>
+    <h4>Sailor, windsurfer, kitesurfer and father</h4>
+</footer>-->
+
 <style scoped="">
     html {
         height: 100%;
@@ -52,41 +68,21 @@
         margin: 0;
         padding: 0;
         color: #001f3f;
-        height: 100%;
         font-size: 100%;
         min-width: 490px;
-        font-family: "calibri", Garamond, 'Comic Sans';
+        font-family: "calibri", Garamond, 'Comic Sans', serif;
     }
 
     @media screen and (min-width: 766px) and (max-width: 969px) {
-        p {
-            text-align: center;
-            min-width: 42px;
-            max-width: 64px;
-        }
-        .odd {
-            height: 140px;
-        }
+
     }
 
     @media screen and (min-width: 970px) {
-        p {
-            text-align: center;
-            min-width: 82px;
-        }
-        .odd {
-            height: 100px;
-        }
+
     }
 
     @media screen and (max-width: 765px) {
-        p {
-            text-align: center;
-            max-width: 40px;
-        }
-        .odd {
-            height: 160px;
-        }
+
     }
 
     header, footer {
@@ -98,12 +94,11 @@
         text-align: center;
         color: green;
         padding: 10px;
-        border-bottom: 0.5vh solid #001f3f;
         min-width: 490px;
     }
 
     p {
-        font-size: 1em;
+        font-size: 1.1em;
         margin: 6px;
     }
 
@@ -129,6 +124,14 @@
         color: blue;
     }
 
+    header > h1 {
+        margin: 6px;
+    }
+
+    header > h4 {
+        margin: 4px;
+    }
+
     footer {
         font-size: 60%;
     }
@@ -144,22 +147,34 @@
 
     section {
         /* height: 240px; */
-        padding: 2px 0 10px 0;
-        border-bottom: 0.5vh solid #001f3f;
+        /*padding: 2px 0 10px 0;*/
+        /*border-bottom: 0.5vh solid #001f3f;*/
     }
 
-    section > h1 {
-        margin: 6px;
+    section > div > h1 {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    section > div > p {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    .section-header {
+        background-color: gainsboro;
+        border-top: 0.5vh solid #001f3f;
+        border-bottom: 0.5vh solid #001f3f;
     }
 
     .flex-container {
         display: -webkit-flex; /* Safari */
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: stretch;
         align-content: space-between;
-        height: 100%;
+
     }
 
     .flex-container > section {
@@ -167,14 +182,21 @@
     }
 
     .wind-container {
-        display: -webkit-flex; /* Safari */
+        /* display: -webkit-flex; /* Safari
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: stretch;
         align-content: space-between;
-        height: 100%;
+        height: 100%;*/
     }
+
+    .even, .odd {
+        float: left;
+        width: 126px;
+        height: 110px;
+    }
+
     .odd {
         background-color: gainsboro;
     }
@@ -239,7 +261,7 @@
             return weather;
         };
 
-        var addWeatherSectionsToDomElement = function (domId, weatherList) {
+        function weatherSectionList(domId, weatherList) {
             log(domId);
             var place = document.getElementById(domId);
             var style = 'color:black';
@@ -251,19 +273,18 @@
                     w = weatherList[k];
                     var date = new Date(w.time);
                     var clazz = 'even';
-                    if (date.getDate() == today.getDate()+1) {
+                    if (date.getDate() == today.getDate() + 1) {
                         clazz = 'odd';
                     }
-
                     if (w.windSpeed > 5 && w.windSpeed < 11) {
                         style = 'color:green;font-weight:bold';
                     } else if (w.windSpeed < 4 || w.windSpeed > 13) {
-                        style = 'red';
+                        style = 'color:red';
                     } else {
-                        style = 'black';
+                        style = 'color:black';
                     }
 
-                    htmlText = htmlText + '<div class="'+clazz+'"><p style="' + style + '">' +
+                    htmlText = htmlText + '<div class="' + clazz + '"><p style="' + style + '">' +
                             w.windSpeed.toFixed(1) + ' (' + w.windGustSpeed.toFixed(1) + ') m/s</p><p>' +
                             formatDirection(w.windDirection) + '</p><p>' +
                         //w.symbol + '</p><p>' +
@@ -271,6 +292,23 @@
                 }
                 place.innerHTML = htmlText;
             }
+        }
+
+        function weatherGraph(domId, weatherList) {
+            log(domId);
+            var place = document.getElementById(domId);
+            var style = 'color:black';
+            var today = new Date();
+            if (place) {
+                //weatherSectionList(weatherList, today, style, place);
+            }
+
+
+            place.innerHTML = htmlText;
+        };
+
+        var addWeatherSectionsToDomElement = function (domId, weatherList) {
+            weatherSectionList(domId, weatherList);
         };
 
         var formatDate = function (dateString) {
@@ -307,6 +345,7 @@
                         addWeatherSectionsToDomElement(id, weatherList);
                     });
         }
+
     }();
 </script>
 </body>
