@@ -17,6 +17,12 @@
     <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige">Lomma by dmi.dk</a>
 </nav>
 <div class="flex-container">
+    <section style="flex: 0.05">
+        <div class="section-header">
+        </div>
+
+        <div></div>
+    </section>
     <section>
         <div class="section-header">
             <h1>Lomma</h1>
@@ -52,6 +58,12 @@
         </div>
 
         <div class="wind-container" id='klagshamn'></div>
+    </section>
+    <section style="flex: 0.05">
+        <div class="section-header">
+        </div>
+
+        <div></div>
     </section>
 </div>
 <!--<footer>
@@ -98,7 +110,7 @@
     }
 
     p {
-        font-size: 1.1em;
+        font-size: 1.2em;
         margin: 6px;
     }
 
@@ -149,6 +161,7 @@
         /* height: 240px; */
         /*padding: 2px 0 10px 0;*/
         /*border-bottom: 0.5vh solid #001f3f;*/
+
     }
 
     section > div > h1 {
@@ -165,6 +178,8 @@
         background-color: gainsboro;
         border-top: 0.5vh solid #001f3f;
         border-bottom: 0.5vh solid #001f3f;
+        height: 50px;
+        text-align: center;
     }
 
     .flex-container {
@@ -174,7 +189,6 @@
         justify-content: flex-start;
         align-items: stretch;
         align-content: space-between;
-
     }
 
     .flex-container > section {
@@ -193,8 +207,9 @@
 
     .even, .odd {
         float: left;
-        width: 126px;
+        width: 100%;
         height: 110px;
+        text-align: center;
     }
 
     .odd {
