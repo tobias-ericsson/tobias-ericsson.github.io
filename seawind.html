@@ -21,7 +21,7 @@
         <div class="section-header">
         </div>
 
-        <div></div>
+        <div class="wind-container" id='left'></div>
     </section>
     <section>
         <div class="section-header">
@@ -59,12 +59,12 @@
 
         <div class="wind-container" id='klagshamn'></div>
     </section>
-    <section style="flex: 0.05">
+    <!--<section style="flex: 0.05">
         <div class="section-header">
         </div>
 
         <div></div>
-    </section>
+    </section>-->
 </div>
 <!--<footer>
     <h3>Tobias Ericsson</h3>
@@ -229,6 +229,8 @@
 
         var today = new Date();
 
+        var surfingTime = '';
+
         function log(message) {
             if (typeof console == "object") {
                 console.log(arguments.callee.caller.name + " " + message);
@@ -279,10 +281,11 @@
         function weatherSectionList(domId, weatherList) {
             log(domId);
             var place = document.getElementById(domId);
+            var left = document.getElementById('left');
             var style = 'color:black';
             var today = new Date();
             if (place) {
-                var htmlText = '';
+                var htmlText = '', htmlLeft = '';
                 var w;
                 for (var k = 0; k < weatherList.length; k++) {
                     w = weatherList[k];
@@ -293,6 +296,8 @@
                     }
                     if (w.windSpeed > 5 && w.windSpeed < 11) {
                         style = 'color:green;font-weight:bold';
+
+
                     } else if (w.windSpeed < 4 || w.windSpeed > 13) {
                         style = 'color:red';
                     } else {
@@ -303,9 +308,13 @@
                             w.windSpeed.toFixed(1) + ' (' + w.windGustSpeed.toFixed(1) + ') m/s</p><p>' +
                             formatDirection(w.windDirection) + '</p><p>' +
                         //w.symbol + '</p><p>' +
-                            formatDate(w.time) + '</p></div>';
+                            '</p></div>';
+
+                    htmlLeft = htmlLeft + '<div class="' + clazz + '"><p>' + formatDate(w.time) + '</p></div>';
+
                 }
                 place.innerHTML = htmlText;
+                left.innerHTML = htmlLeft;
             }
         }
 
@@ -332,11 +341,36 @@
             var day = date.getDate();
             var month = date.getMonth() + 1;
             var time = dateString.slice(11, 16);
+            var weekDay = '';
+
+            switch (date.getDay()) {
+                case 0:
+                    weekDay = 'Sun';
+                    break;
+                case 1:
+                    weekDay = 'Mon';
+                    break;
+                case 2:
+                    weekDay = 'Tue';
+                    break;
+                case 3:
+                    weekDay = 'Wen';
+                    break;
+                case 4:
+                    weekDay = 'Thu';
+                    break;
+                case 5:
+                    weekDay = 'Fri';
+                    break;
+                case 6:
+                    weekDay = 'Sat';
+                    break;
+            }
 
             if (day == today.getDate()) {
                 return time;
             } else {
-                return time + ' ' + day + '/' + month;
+                return time + ' ' + weekDay + ' ' + day + '/' + month;
             }
         };
 
