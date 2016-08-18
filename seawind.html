@@ -8,7 +8,8 @@
 <body>
 <header>
     <h1>Malmö Seawind</h1>
-    <h4>Wind forecast for sailors, wind and kite surfers in the Malmö region</h4>
+    <h4>Wind forecast <a href="http://opendata.smhi.se/apidocs/metfcst/">from SMHI</a>
+	 for sailors, wind and kite surfers in the Malmö region</h4>
 </header>
 
 <nav>
@@ -224,7 +225,8 @@
             {name: 'ribban', lat: 55.602, long: 12.956},
             {name: 'klagshamn', lat: 55.522, long: 12.889}
         ];
-
+        
+        var LOMMA_URL = 'http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0'
         var SMHI_URL = 'http://opendata-download-metfcst.smhi.se/api/category/pmp2g/version/2/geotype/point';
 
         var today = new Date();
@@ -423,6 +425,12 @@
                         addWeatherSectionsToDomElement(id, weatherList);
                     });
         }
+        /* CORS problem, No 'Access-Control-Allow-Origin' header
+        get(LOMMA_URL,'LOMMA_NOW', 
+                function (id, result) {
+                        var windText = extractCurrentWind(result);
+                        log(windText);
+                });*/
 
     }();
 </script>
