@@ -76,5 +76,7 @@ pgrep java
 
 ps -ef |  grep 'tomcat'
 
-
+process memory and cmd
+----------------
+ps -FC java
 
