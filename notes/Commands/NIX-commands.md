@@ -27,6 +27,12 @@ Only show file name, not the result itself
 
 
 
+Directory size
+--------------
+### 10 largest files/directories
+du -a /var | sort -n -r | head -n 10
+
+
 
 About cd
 --------
