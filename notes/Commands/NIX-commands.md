@@ -86,3 +86,10 @@ process memory and cmd
 ----------------
 ps -FC java
 
+
+Zombie Defunct process
+----------------------
+
+ps aux | grep 'Z'
+ps aux --forest
+
