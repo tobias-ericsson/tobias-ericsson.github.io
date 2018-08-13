@@ -1,69 +1,82 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Tobias Ericsson - github.io</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <title>Tobias Ericsson</title>
 
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet"
+          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
     <base target="_blank">
 </head>
-<body onresize="animation.onResize()">
-    <div id="header"></div>
-    <nav>
+<body>
 
-
-            <header>
-                <a href="https://github.com/tobias-ericsson" target="_parent">
-                    <h1>Tobias Ericsson</h1>
-                </a>
-                <a href="http://manifesto.softwarecraftsmanship.org/">
-                    <h2>Software Craftsman</h2>
-                </a>
-            </header>
-
-
-
-            <section id="menu-nav"></section>
-
-    </nav>
-
-    <div id="content">
-        <section id="content-section">
-
-        </section>
-
-
-        <section>
-            <footer>
-                <a href="https://github.com/tobias-ericsson">
-                    <p>By Tobias Ericsson</p>
-                </a>
-            </footer>
-        </section>
+<div class="zone-wrapper">
+    <!-- SEARCH BEGIN -->
+    <div id="zone-search" class="zone-box">
+        <input id="searchInput" onkeyup="dom.find()" autofocus/>
     </div>
+    <!-- SEARCH END -->
 
-<script src="js/bundle.js"></script>
+    <!-- LINKS BEGIN -->
+    <div id="zone-links" class="zone-box">
+        <a href="/links/videos.md">Videos</a>
+        <a href="/links/music.md">Music</a>
+        <a href="/links/google.md">Google</a>
+        <a href="/links/knowledge.md">Knowledge</a>
+        <a href="/links/tibbe.md">Tibbe</a>
+        <a href="/links/surf&sail.md">Surf&Sail</a>
+        <a href="/links/friends.md">Friends</a>
+        <a href="/links/consult.md">Consult</a>
+        <a id="topRight" href="#" onclick="dom.toggleFullScreen(this)">+</a>
+    </div>
+    <!-- LINKS END -->
 
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9T52T"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P9T52T');</script>
-<!-- End Google Tag Manager -->
+    <!-- CONTENT BEGIN -->
+    <div id="zone-content" class="zone-box">
+    </div>
+    <!-- CONTENT END -->
+
+    <!-- NOTES BEGIN -->
+    <div id="zone-nav" class="zone-box">         
+        <div id="leftMenu">
+        </div>
+    </div>
+    <!-- NOTES END -->
+
+    <!-- FOOTER BEGIN -->
+    <div id="zone-footer" class="zone-box">
+        Tobias Ericsson
+    </div>
+    <!-- FOOTER END -->
+
+</div>
+
+<!-- SCRIPT BEGIN -->
+<script src="/js/elasticlunr.min.js"></script>
+<script src="/js/search.js"></script>
+<script src="/js/search-links.js"></script>
+<script src="/js/search-notes.js"></script>
+<script src="/js/search-scripts.js"></script>
+<script src="/js/search-code.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/js/ajax.js"></script>
+<script src="/js/dom.js"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
+
+<script>
+    //document.getElementById('content').innerHTML = marked('** **');
+    ajax.fetch('menu.html');
+
+
+</script>
+<!-- SCRIPT END -->
 
 </body>
 </html>

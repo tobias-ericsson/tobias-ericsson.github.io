@@ -1,0 +1,168 @@
+body {
+    background-color: darkslategrey;
+    padding: 0;
+    margin: 0;
+    color: lightsteelblue;
+}
+
+a {
+    text-decoration: none;
+    color: lightsteelblue;
+}
+
+p::first-letter {
+    text-transform: capitalize;
+    color: white;
+}
+
+hr {
+    color: lightsteelblue;
+}
+
+/** CODE BLOCK BEGIN **/
+pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    background: black;
+    border: 1px solid #a1b1c1;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+code {
+    white-space: pre-wrap;
+}
+
+pre > code {
+}
+/** CODE BLOCK END **/
+
+
+/** HEADER BEGIN **/
+#header {
+    background-color: darkslategrey;
+    min-width: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 42px;
+    border-bottom: 1px solid lightsteelblue;
+}
+/** HEADER END **/
+
+/** SEARCH BEGIN **/
+#search {
+    min-width: 100px;
+    width: 200px;
+    position: fixed;
+    padding: 5px;
+    height: 35px;
+}
+
+#search input {
+    width: 175px;
+    height: 25px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+/** SEARCH END **/
+
+/** LINKS BEGIN **/
+#links {
+    min-width: 100px;
+    margin-left: 205px;
+    padding: 5px;
+    position: fixed;
+    height: 29px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 11px;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/** LINKS END **/
+
+/** NOTES BEGIN **/
+#notes {
+    /**background-color: blueviolet;**/
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 51px;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    width: 10px;
+    padding: 0;
+}
+
+#notes .notesClose {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#notes #leftMenu {
+    margin: 0 6px 5px 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    background-color: saddlebrown;
+}
+
+/** NOTES END **/
+
+/** CONTENT BEGIN **/
+#content {
+    min-width: 100px;
+    min-height: 100px;
+    margin-top: 0; 
+    transition: margin-left .5s;
+    /**position: fixed;
+    height: 100%;**/
+    padding: 0 5px 5px 30px;
+}
+
+/** CONTENT END **/
+
+
+.toggleNav {
+    width: 100%;
+    background-color: saddlebrown;
+    display: block;
+    border-radius: 0 8px 8px 0;
+    height: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    #notes {
+        width: 8px;
+    }
+    #content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 501px) {
+
+    #notes {
+        width: 250px;
+    }
+    #content {
+        margin-left: 250px;
+    }
+}
