@@ -34,7 +34,7 @@ function createIndexFiles(folder) {
     fs.readdirSync(folder).forEach(function (file) {
         if (file != 'index.html') {
             let gitDate = util.gitDate('"' + folder + file + '"');
-            if (folder.indexOf('Old') != -1) gitDate = "-2016";
+            if (folder.indexOf('/Old') != -1) gitDate = "-2016";
 
             outFile.write(preLine + folder + file + "'>" +
                 util.makeFileNameNiceIfMD(file) + ' <span class="gitDate"> ' + gitDate + '</span>' +

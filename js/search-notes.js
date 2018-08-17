@@ -2,7 +2,7 @@
 search.addDoc(
 `* Homo Deus
 * Hans Rosling, Factfulness
-* Hans Rosling, Hur jag lärde mig att förstå världen`,"recommended.md","note","2018-08-13");
+* Hans Rosling, Hur jag lärde mig att förstå världen`,"notes/Books/recommended.md","note","2018-08-13");
 search.addDoc(
 `David Gemmell, Legend
 Karl Edward Wagner, Kane
@@ -13,7 +13,7 @@ P.C. Hodgell, The Kencyr novels
 Glen Cook
 Fritz Leiber, The Fafhrd and the Gray Mouser stories
 Capitalism without Capital, Haskel - Westlake
-`,"to-read.md","note","2018-08-13");
+`,"notes/Books/to-read.md","note","2018-08-13");
 search.addDoc(
 `How to quickly setup a static file server?
 ------------------------------------------
@@ -62,7 +62,7 @@ run
 golang
 go run web-server.go
 
-`,"Static-file-server.md","note","2018-08-13");
+`,"notes/Coding/Static-file-server.md","note","2018-08-13");
 search.addDoc(
 `Force pull
 
@@ -71,7 +71,7 @@ git reset --hard origin/master
 Force Push
 
 git push -f
-`,"git.md","note","2018-08-17");
+`,"notes/Coding/git.md","note","2018-08-17");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
@@ -82,7 +82,7 @@ jco images
 git clone git://github.com/joelthelion/autojump.git
 cd autojump
 ./install.py or ./uninstall.py
-`,"Autojump.md","note","2018-08-13");
+`,"notes/NIX/Autojump.md","note","2018-08-13");
 search.addDoc(
 ` Jobs
 Jobs are processes which are started by a shell.
@@ -94,7 +94,7 @@ Jobs are processes which are started by a shell.
  Monitor Processes
 * top or htop finds processes
 * ps aux | grep java finds java processes
-`,"Linux-Jobs-&-Processes.md","note","2018-08-13");
+`,"notes/NIX/Linux-Jobs-&-Processes.md","note","2018-08-13");
 search.addDoc(
 ` SSH without password
  Generate key on the client
@@ -174,7 +174,7 @@ Host *
   ForwardAgent yes
   ForwardX11 yes
 
-`,"SSH.md","note","2018-08-13");
+`,"notes/NIX/SSH.md","note","2018-08-13");
 search.addDoc(
 ` Resize images
 
@@ -182,7 +182,7 @@ convert -resize 1024X768  source.png dest.png
 
 
 convert -resize 40% source.png dest.png
-`,"images.md","note","2018-08-13");
+`,"notes/NIX/images.md","note","2018-08-13");
 search.addDoc(
 `Problem booting ubuntu
 [   3.516984] bcma: Unsupported SPROM revision: 11
@@ -199,7 +199,7 @@ ERROR: FOUND UNSUPPORTED PHY
 *** install NVIDIA drivers
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
-`,"xubuntu.md","note","2018-08-13");
+`,"notes/NIX/xubuntu.md","note","2018-08-13");
 search.addDoc(
 `Android Debug Bridge (ADB)
 -------------------------
@@ -220,13 +220,13 @@ Commands:
 * adb shell input text 1234
 * adb shell input keyevent 66 (simulate enter key)
 http://stackoverflow.com/questions/7789826/adb-shell-input-events
-http://delphi.org/2013/11/installing-and-running-android-apps-from-command-line/`,"roid/ADB.md","note","-2016");
+http://delphi.org/2013/11/installing-and-running-android-apps-from-command-line/`,"notes/Old/Android/ADB.md","note","-2016");
 search.addDoc(
 `Keyboard shortcuts
 ------------------
 CTRL+K	Open git commit changes dialog
 CTRL+D	Duplicate current line or selection
-[More](https://www.jetbrains.com/idea/help/keyboard-shortcuts-you-cannot-miss.html)`,"atSheet/Intellij-IDEA.md","note","-2016");
+[More](https://www.jetbrains.com/idea/help/keyboard-shortcuts-you-cannot-miss.html)`,"notes/Old/CheatSheet/Intellij-IDEA.md","note","-2016");
 search.addDoc(
 `http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
 Command | Info 
@@ -250,7 +250,7 @@ d,x	| remove
 CTRL+a	| add to number
 :%s/search/replace/g | substitute search with replace
 G=gg	| auto (re)ident entire document
-`,"atSheet/Vim.md","note","-2016");
+`,"notes/Old/CheatSheet/Vim.md","note","-2016");
 search.addDoc(
 `@Grab('org.ccil.cowan.tagsoup:tagsoup:1.2.1')
 import org.ccil.cowan.tagsoup.Parser
@@ -268,7 +268,7 @@ trs.each { it ->
         println index +   + td
     }
 }
-`,"e/Groovy/HtmlParser.groovy","note","-2016");
+`,"notes/Old/Code/Groovy/HtmlParser.groovy","note","-2016");
 search.addDoc(
 `*There is more than only console.log...
 *** Stacktrace
@@ -278,15 +278,15 @@ var animals = []
 console.table(animals);
 https://raygun.io/blog/2015/06/useful-javascript-debugging-tips-you-didnt-know/
 https://developer.chrome.com/devtools/docs/commandline-api
-`,"e/JavaScript/Debugging.md","note","-2016");
+`,"notes/Old/Code/JavaScript/Debugging.md","note","-2016");
 search.addDoc(
 `http://js-spells.noblackmagic.com/
 http://politejs.com/jsbox/
-http://eloquentjavascript.net/`,"e/JavaScript/Links.md","note","-2016");
+http://eloquentjavascript.net/`,"notes/Old/Code/JavaScript/Links.md","note","-2016");
 search.addDoc(
 `function endsWith(str, suffix) {
     return str.indexOf(suffix, str.length - suffix.length) !== -1;
-}`,"e/JavaScript/StringUtil.js","note","-2016");
+}`,"notes/Old/Code/JavaScript/StringUtil.js","note","-2016");
 search.addDoc(
 `http://conqueringthecommandline.com/book/frontmatter
 http://www.commandlinefu.com/commands/browse/sort-by-votes
@@ -347,7 +347,7 @@ Zombie Defunct process
 ----------------------
 ps aux | grep 'Z'
 ps aux --forest
-`,"mands/NIX-commands.md","note","-2016");
+`,"notes/Old/Commands/NIX-commands.md","note","-2016");
 search.addDoc(
 `WIN + S	or WIN + F	| Search
 WIN + M		        | Minimize all
@@ -357,7 +357,7 @@ WIN + E		        | Explorer
 WIN + BREAK	        | Dialog for System Properties
 shutdown /s /t 0	| Shutdown
 shutdown /r /t 0	| Restart
-`,"mands/WIN-commands.md","note","-2016");
+`,"notes/Old/Commands/WIN-commands.md","note","-2016");
 search.addDoc(
 `docker ps
 docker inspect 
@@ -381,7 +381,7 @@ docker rmi (docker images -q)
 -d run container in background
 -p map port inside container to port on docker host
 docker run -d -p 80:5000 training/webapp python app.py
-`,"ker/docker.md","note","-2016");
+`,"notes/Old/Docker/docker.md","note","-2016");
 search.addDoc(
 `When you don't want the whole repo you can with core.sparsecheckout checkout only part of a repo.
 mkdir <repo> && cd <repo>
@@ -392,7 +392,7 @@ echo some/dir/ >> .git/info/sparse-checkout
 git pull <remote> <branch>
 git read-tree -mu HEAD
 http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/
-`,"/Checkout-Subdirectory.md","note","-2016");
+`,"notes/Old/Git/Checkout-Subdirectory.md","note","-2016");
 search.addDoc(
 `Micro-Benchmarking with JMH: Measure, Don’t Guess!
 =================================================
@@ -402,13 +402,13 @@ search.addDoc(
  mvn clean install
  java -jar target/benchmarks.jar
 https://www.voxxed.com/blog/2015/01/micro-benchmarking-jmh-measure-dont-guess/
-http://hg.openjdk.java.net/code-tools/jmh`,"a/Micro-Benchmarking.md","note","-2016");
+http://hg.openjdk.java.net/code-tools/jmh`,"notes/Old/Java/Micro-Benchmarking.md","note","-2016");
 search.addDoc(
 `How to determine your version of Tomcat and Java
 ================================================
 <pre>
 java -cp lib/catalina.jar org.apache.catalina.util.ServerInfo
-</pre>`,"a/Tomcat.md","note","-2016");
+</pre>`,"notes/Old/Java/Tomcat.md","note","-2016");
 search.addDoc(
 ` Debug knockout.js context
 Instead of using Chrome Knockout plugin use:
@@ -418,7 +418,7 @@ Where 0 is the selected element
 http://appendto.com/2010/07/mock-your-ajax-requests-with-mockjax-for-rapid-development/
  Client-side in-memory mongodb backed by localstorage with server sync over http
 https://github.com/mWater/minimongo
-`,"aScript/Debug.md","note","-2016");
+`,"notes/Old/JavaScript/Debug.md","note","-2016");
 search.addDoc(
 `Elk is a software stack for processing and searching logs. Elk consists of Elasticsearch, Logstash and Kibana.
 Logstash
@@ -577,10 +577,10 @@ More resources
 https://ruin.io/2015/elk-in-production/
 https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-4-on-centos-7
 https://www.elastic.co/blog/using-elasticsearch-and-logstash-to-serve-billions-of-searchable-events-for-customers
-`,"s/ELK.md","note","-2016");
+`,"notes/Old/Logs/ELK.md","note","-2016");
 search.addDoc(
 `All we need is to configure package.json and use npm
-http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/`,"ejs/Gulp-not-needed.md","note","-2016");
+http://gon.to/2015/02/26/gulp-is-awesome-but-do-we-really-need-it/`,"notes/Old/Nodejs/Gulp-not-needed.md","note","-2016");
 search.addDoc(
 `<pre>
     npm install watch -g
@@ -589,7 +589,7 @@ Usage: watch <command> [directory] [--wait=<seconds>]
 Example:
 <pre>
     watch npm run build js --wait=15
-</pre>`,"ejs/How-to-watch.md","note","-2016");
+</pre>`,"notes/Old/Nodejs/How-to-watch.md","note","-2016");
 search.addDoc(
 `PM2 provides an easy way to manage and daemonize applications (run them as a service).
 sudo npm install pm2 -g
@@ -598,7 +598,7 @@ pm2 startup ubuntu
 sudo env PATH=PATH:/usr/bin pm2 startup ubuntu -u tibbe
 https://www.digitalocean.com/community/tutorials/how-to-use-pm2-to-setup-a-node-js-production-environment-on-an-ubuntu-vps
 http://www.ubtutorials.com/tutorial/1111/how-set-nodejs-application-production-ubuntu-1404
-`,"ejs/Run-as-service.md","note","-2016");
+`,"notes/Old/Nodejs/Run-as-service.md","note","-2016");
 search.addDoc(
 `How to quickly setup a static file server?
 ------------------------------------------
@@ -614,7 +614,7 @@ Or, like this:
 
 http-server D:\Folder
 
-`,"ejs/Static-file-server.md","note","-2016");
+`,"notes/Old/Nodejs/Static-file-server.md","note","-2016");
 search.addDoc(
 `Apache Benchmark (AB) 
 =====================
@@ -622,7 +622,7 @@ search.addDoc(
 ab -k -c 150 -n 2000 example.com/
 
 By issuing the command above, you will be hitting http://example.com/ with 150 simultaneous connections until 2000 requests are met. It will be done using the keep alive header.
-`,"formance/AB-apache2-utils.md","note","-2016");
+`,"notes/Old/Performance/AB-apache2-utils.md","note","-2016");
 search.addDoc(
 `Apache JMeter may be used to test performance both on static and dynamic resources.
 It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength
@@ -635,7 +635,7 @@ Running without GUI
 jmeter -n -t your_script.jmx -l your_log_file.csv
 example:
 jmeter -n -t d:\dev\jmeter-configs\PerformanceTestPlanMemoryThread.jmx -l test.csv
-`,"formance/JMeter.md","note","-2016");
+`,"notes/Old/Performance/JMeter.md","note","-2016");
 search.addDoc(
 `<?xml version=1.0 encoding=UTF-8?>
 <jmeterTestPlan version=1.2 properties=2.6 jmeter=2.11 r1554548>
@@ -861,7 +861,7 @@ search.addDoc(
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
-`,"formance/JMeterExampleTestPlan.jmx","note","-2016");
+`,"notes/Old/Performance/JMeterExampleTestPlan.jmx","note","-2016");
 search.addDoc(
 `How to benchmark system-performance
 ===================================
@@ -878,7 +878,7 @@ openssl s_time -connect remote.host:443
 openssl s_time -connect remote.host:443 -www /test.html -new
 
 https://www.madboa.com/geek/openssl/how-do-i-benchmark-my-system-s-performance
-`,"formance/OpenSSL.md","note","-2016");
+`,"notes/Old/Performance/OpenSSL.md","note","-2016");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
@@ -889,10 +889,10 @@ jco images
 git clone git://github.com/joelthelion/autojump.git
 cd autojump
 ./install.py or ./uninstall.py
-`,"ductivity/Autojump.md","note","-2016");
+`,"notes/Old/Productivity/Autojump.md","note","-2016");
 search.addDoc(
 `[Read about it here](http://productiveblog.tumblr.com/)
-`,"ductivity/How-to-be-productive.md","note","-2016");
+`,"notes/Old/Productivity/How-to-be-productive.md","note","-2016");
 search.addDoc(
 `Ranger
 http://ranger.nongnu.org/ranger.1.html
@@ -904,12 +904,12 @@ delete a file:
 <DELETE>
 If you type S (capital), ranger will start a subshell in the directory you're browsing. 
 You can then ctrl-d or type exit to close the subshell and return to browsing in ranger.
-`,"ductivity/Ranger.md","note","-2016");
+`,"notes/Old/Productivity/Ranger.md","note","-2016");
 search.addDoc(
 `Use LastPass!
 -------------
 With LastPass you have only one (master) password to remember.
-https://lastpass.com/`,"urity/LastPass.md","note","-2016");
+https://lastpass.com/`,"notes/Old/Security/LastPass.md","note","-2016");
 search.addDoc(
 `SSH - without password
 ----------------------
@@ -932,16 +932,16 @@ Port forwarding
 ---------------
 -L Specifies that the given port on the local (client) host is to be forwarded to the given host and port on the remote side.
 ssh -L 9200:localhost:9200 user@server
-`,"urity/SSH.md","note","-2016");
+`,"notes/Old/Security/SSH.md","note","-2016");
 search.addDoc(
 ` Generate box-shadow or gradients
 http://www.cssmatic.com/box-shadow
 http://www.cssmatic.com/gradient-generator
 http://www.designscripting.com/webtools/css3/generator/
-http://www.w3schools.com/tags/ref_colormixer.asp`,"le/CSS.md","note","-2016");
+http://www.w3schools.com/tags/ref_colormixer.asp`,"notes/Old/Style/CSS.md","note","-2016");
 search.addDoc(
 `http://css-tricks.com/favicon-quiz/
-http://realfavicongenerator.net/`,"le/favicon.ico.md","note","-2016");
+http://realfavicongenerator.net/`,"notes/Old/Style/favicon.ico.md","note","-2016");
 search.addDoc(
 `Disable Hibernation / Remove hiberfil.sys
 =========================================
@@ -955,9 +955,9 @@ C:\windows\system32>powercfg -h off
  To turn on hibernation again
 C:\windows\system32>powercfg -h on
 http://tekeye.biz/2014/hiberfil-sys-windows-8-1-delete
-`,"dows/Hibernate.md","note","-2016");
+`,"notes/Old/Windows/Hibernate.md","note","-2016");
 search.addDoc(
-`http://www.fosshub.com/WinDirStat.html`,"dows/Links.md","note","-2016");
+`http://www.fosshub.com/WinDirStat.html`,"notes/Old/Windows/Links.md","note","-2016");
 search.addDoc(
 `Show wireless profiles
 <pre>
@@ -967,4 +967,4 @@ Show security key
 <pre>
     netsh wlan show profile name=“ProfileName” key=clear
 </pre>
-http://windows.microsoft.com/en-us/windows-8/manage-wireless-network-profiles`,"dows/Manage-Wireless-Networks.md","note","-2016");
+http://windows.microsoft.com/en-us/windows-8/manage-wireless-network-profiles`,"notes/Old/Windows/Manage-Wireless-Networks.md","note","-2016");

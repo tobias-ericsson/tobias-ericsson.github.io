@@ -15,11 +15,11 @@ trs.each { it ->
     it.td.eachWithIndex { td, index ->
         println index +   + td
     }
-}`,"HtmlParser.groovy","code","2018-08-13");
+}`,"code/HtmlParser.groovy","code","2018-08-13");
 search.addDoc(
 `function endsWith(str, suffix) {
     return str.indexOf(suffix, str.length - suffix.length) !== -1;
-}`,"StringUtil.js","code","2018-08-13");
+}`,"code/StringUtil.js","code","2018-08-13");
 search.addDoc(
 `.grid-body {
     padding: 10px;
@@ -89,7 +89,7 @@ grid-footer {
         grid-template-rows: 40px 40px 1fr 40px;
         grid-template-columns: 120px 2fr 1fr;
     }
-}`,"gridlayout.css","code","2018-08-13");
+}`,"code/gridlayout.css","code","2018-08-13");
 search.addDoc(
 `<html>
 <link rel=stylesheet href=/code/gridlayout.css/>
@@ -104,4 +104,4 @@ search.addDoc(
     </div>
 </div>
 </html>
-`,"gridlayout.html","code","2018-08-13");
+`,"code/gridlayout.html","code","2018-08-13");

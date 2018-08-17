@@ -41,7 +41,7 @@ function generateSearchData(folder, type, outFile) {
                 content = content.replace(/\$/gm, '');
 
                 fs.writeFileSync(outFile, preLine + content + '`,"' +
-                    folder.substring(13) + file + postLine + gitDate + '");\n', {'flag': 'a'});
+                    folder + file + postLine + gitDate + '");\n', {'flag': 'a'});
 
             }
         }
