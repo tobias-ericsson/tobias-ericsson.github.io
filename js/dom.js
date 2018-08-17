@@ -62,16 +62,13 @@ var dom = function () {
                 return (typeof marked != 'undefined') ? marked(elem.doc.body) : elem.doc.body;
                 break;
             case 'note':
-                return toHtml('/notes/', file, title);
-                break;
+
             case 'script':
-                return toHtml('/bin/', file, file);
-                break;
+
             case 'code':
-                return toHtml('/code/', file, file);
-                break;
+
             default:
-                return toHtml('/notes/', file, title);
+                return toHtml('', file, title);
 
         }
     }
