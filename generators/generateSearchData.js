@@ -1,5 +1,4 @@
 const fs = require('fs');
-const readLine = require('readline');
 const util = require('./util');
 
 generateSearchData('notes/', 'note', readyOutFile('js/search-notes.js'));
