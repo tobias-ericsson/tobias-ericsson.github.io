@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+echo "pre-commit-hook"
+echo Running $BASH_SOURCE
+set | egrep GIT
+echo PWD is $PWD
+
+node generators/generateIndex.js
+node generators/generateLinks.js
+node generators/generateSearchData.js
+
