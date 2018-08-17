@@ -71,7 +71,7 @@ git reset --hard origin/master
 Force Push
 
 git push -f
-`,"git.md","note","2018-08-14");
+`,"git.md","note","2018-08-17");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
