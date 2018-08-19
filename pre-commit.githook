@@ -8,4 +8,4 @@ echo PWD is $PWD
 node generators/generateIndex.js
 node generators/generateLinks.js
 node generators/generateSearchData.js
-
+node generators/generateVersion.js

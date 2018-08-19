@@ -23,8 +23,15 @@ function gitDate(file) {
     return text.split(' ')[0];
 }
 
+function gitVersion() {
+    let stdout = execSync('git log -1 --format=%H');
+    let text = stdout.toString('utf-8');
+    return text.split(' ')[0];
+}
+
 exports.minusToSpace = minusToSpace;
 exports.gitDate = gitDate;
+exports.gitVersion = gitVersion;
 exports.stripFileEnding = stripFileEnding;
 exports.makeFileNameNiceIfMD = makeFileNameNiceIfMD;
 
