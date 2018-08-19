@@ -9,3 +9,5 @@ node generators/generateIndex.js
 node generators/generateLinks.js
 node generators/generateSearchData.js
 node generators/generateVersion.js
+
+git add version.html
