@@ -1,4 +1,5 @@
 /** Generated file, modifications will be overwritten! **/
+search.addDoc("http://www.nomachetejuggling.com","","link");
 search.addDoc("[coolcompany.com](https://coolcompany.com/se/)","","link");
 search.addDoc("[www.driva-eget.se lonekalkyl](https://www.driva-eget.se/kalkyler/lonekalkyl)","","link");
 search.addDoc("[lön som konsult](https://www.cinode.com/blogg/konsult/lon-konsult-sa-mycket-bor-du-tjana/)","","link");
@@ -15,12 +16,12 @@ search.addDoc("[WolframAlpha](http://www.wolframalpha.com/)","","link");
 search.addDoc("[Wikipedia](https://www.wikipedia.org/)","","link");
 search.addDoc("[Google Codelabs](https://codelabs.developers.google.com/)","","link");
 search.addDoc("https://ncase.me/","","link");
-search.addDoc("[spotify](https://www.spotify.com/se/)","","link");
 search.addDoc("[current weather in Lomma](http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0)","","link");
 search.addDoc("[dmi forecast Lomma](http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige)","","link");
 search.addDoc("[Lomma windsurfing](http://lommavindsurfing.se/vader/)","","link");
 search.addDoc("[kite.se](https://kite.se/v2/skane/)","","link");
 search.addDoc("[windguru Lomma](https://www.windguru.cz/47956)","","link");
+search.addDoc("[spotify](https://www.spotify.com/se/)","","link");
 search.addDoc("https://tibbes.com","","link");
 search.addDoc("https://news.tibbes.com","","link");
 search.addDoc("https://week.tibbes.com","","link");
@@ -37,6 +38,7 @@ search.addDoc("[svtplay](https://www.svtplay.se/)","","link");
 search.addDoc("[barnkanalen](https://www.svt.se/barnkanalen/)","","link");
 search.addDoc("[youtube](https://www.youtube.com/)","","link");
 search.addDoc("[cineasterna](https://www.cineasterna.com/sv/)","","link");
+search.addDoc("https://www.hanselman.com/blog/","","link");
 search.addDoc("[courel.se](http://courel.se/)","","link");
 search.addDoc("[find your phone](https://myaccount.google.com/u/1/find-your-phone)","","link");
 search.addDoc("https://scratch.mit.edu/","","link");
