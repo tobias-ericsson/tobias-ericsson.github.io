@@ -73,8 +73,30 @@ Force Push
 git push -f
 `,"notes/Coding/git.md","note","2018-08-17");
 search.addDoc(
-`version: '3.2'
+` For information
+
+docker stats
+docker inspect [OPTIONS] NAME|ID [NAME|ID...]
+docker container ls (or old way docker ps)
+docker image ls
+docker volume ls
+docker network ls
+`,"notes/Containers/docker-commands.md","note","");
+search.addDoc(
+`version: '3.7'
 services:
+  rabbitmq:
+    image: rabbitmq:alpine
+    restart: always
+    ports:
+      - 5671:5671
+      - 5672:5672
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - 6379:6379
+   Use root/example as user/password credentials
   mysql:
     image: mysql:latest
     command: --default-authentication-plugin=mysql_native_password
@@ -83,23 +105,34 @@ services:
       MYSQL_ROOT_PASSWORD: example
   cassandra:
     image: cassandra:latest
-    ports:
-        - 9042:9042
     environment:
       - MAX_HEAP_SIZE=256M
       - HEAP_NEWSIZE=128M
     restart: always
+    ports:
+      - 7199:7199
+      - 9042:9042
   adminer:
     image: adminer
     restart: always
     ports:
-      - 8080:8080`,"notes/Containers/docker-compose.yml","note","");
+      - 8082:8080
+  cadvisor:
+    image: google/cadvisor:latest
+    restart: always
+    ports:
+      - 8081:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro`,"notes/Containers/docker-compose.yml","note","");
 search.addDoc(
 `!/usr/bin/env bash
 from  https://docs.docker.com/compose/install/
 sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-(uname -s)-(uname -m) -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
-docker-compose --version`,"notes/Containers/install-docker-compose.sh","note","");
+docker-compose --version`,"notes/Containers/install-docker-compose.sh","note","2018-08-21");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
