@@ -1,0 +1,51 @@
+version: '3.7'
+
+services:
+
+  rabbitmq:
+    image: rabbitmq:alpine
+    restart: always
+    ports:
+      - 5671:5671
+      - 5672:5672
+
+  redis:
+    image: redis:alpine
+    restart: always
+    ports:
+      - 6379:6379
+
+  # Use root/example as user/password credentials
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+
+  cassandra:
+    image: cassandra:latest
+    environment:
+      - "MAX_HEAP_SIZE=256M"
+      - "HEAP_NEWSIZE=128M"
+    restart: always
+    ports:
+      - 7199:7199
+      - 9042:9042
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8082:8080
+
+  cadvisor:
+    image: google/cadvisor:latest
+    restart: always
+    ports:
+      - 8081:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro

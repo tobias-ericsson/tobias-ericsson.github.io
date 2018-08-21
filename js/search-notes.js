@@ -205,7 +205,7 @@ Host *
 `,"notes/NIX/SSH.md","note","2018-08-13");
 search.addDoc(
 `rEFInd boot manager
-https://www.rodsbooks.com/refind/installing.htmlpackagefile`,"notes/NIX/boot.md","note","");
+https://www.rodsbooks.com/refind/installing.htmlpackagefile`,"notes/NIX/boot.md","note","2018-08-21");
 search.addDoc(
 ` Resize images
 
