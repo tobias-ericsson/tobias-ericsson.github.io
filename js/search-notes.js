@@ -81,7 +81,7 @@ docker container ls (or old way docker ps)
 docker image ls
 docker volume ls
 docker network ls
-`,"notes/Containers/docker-commands.md","note","");
+`,"notes/Containers/docker-commands.md","note","2018-08-21");
 search.addDoc(
 `version: '3.7'
 services:
@@ -126,7 +126,7 @@ services:
       - /:/rootfs:ro
       - /var/run:/var/run:rw
       - /sys:/sys:ro
-      - /var/lib/docker/:/var/lib/docker:ro`,"notes/Containers/docker-compose.yml","note","");
+      - /var/lib/docker/:/var/lib/docker:ro`,"notes/Containers/docker-compose.yml","note","2018-08-21");
 search.addDoc(
 `!/usr/bin/env bash
 from  https://docs.docker.com/compose/install/
