@@ -73,6 +73,34 @@ Force Push
 git push -f
 `,"notes/Coding/git.md","note","2018-08-17");
 search.addDoc(
+`version: '3.2'
+services:
+  mysql:
+    image: mysql:latest
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+  cassandra:
+    image: cassandra:latest
+    ports:
+        - 9042:9042
+    environment:
+      - MAX_HEAP_SIZE=256M
+      - HEAP_NEWSIZE=128M
+    restart: always
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080`,"notes/Containers/docker-compose.yml","note","");
+search.addDoc(
+`!/usr/bin/env bash
+from  https://docs.docker.com/compose/install/
+sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-(uname -s)-(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version`,"notes/Containers/install-docker-compose.sh","note","");
+search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
 j foo
@@ -175,6 +203,9 @@ Host *
   ForwardX11 yes
 
 `,"notes/NIX/SSH.md","note","2018-08-13");
+search.addDoc(
+`rEFInd boot manager
+https://www.rodsbooks.com/refind/installing.htmlpackagefile`,"notes/NIX/boot.md","note","");
 search.addDoc(
 ` Resize images
 
