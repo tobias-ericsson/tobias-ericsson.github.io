@@ -78,10 +78,21 @@ search.addDoc(
 docker stats
 docker inspect [OPTIONS] NAME|ID [NAME|ID...]
 docker container ls (or old way docker ps)
+docker ps --format {{.Names}} (only names)
 docker image ls
 docker volume ls
 docker network ls
+
+ For going inside a docker container
+
+docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
+
 `,"notes/Containers/docker-commands.md","note","2018-08-21");
+search.addDoc(
+`
+docker-compose up
+docker-compose down
+`,"notes/Containers/docker-compose-commands.md","note","");
 search.addDoc(
 `version: '3.7'
 services:
