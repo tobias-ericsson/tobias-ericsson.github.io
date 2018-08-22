@@ -87,12 +87,12 @@ docker network ls
 
 docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
 
-`,"notes/Containers/docker-commands.md","note","2018-08-21");
+`,"notes/Containers/docker-commands.md","note","2018-08-22");
 search.addDoc(
 `
 docker-compose up
 docker-compose down
-`,"notes/Containers/docker-compose-commands.md","note","");
+`,"notes/Containers/docker-compose-commands.md","note","2018-08-22");
 search.addDoc(
 `version: '3.7'
 services:

@@ -16,3 +16,20 @@ docker network ls
 ```
 docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
 ```
+
+## For cleaning 
+
+```
+docker [image,container,volume,..] prune -a
+```
+
+### Delete all containers
+```
+docker rm $(docker ps -a -q)
+```
+### Delete all images
+```
+docker rmi $(docker images -q)
+```
+
+
