@@ -87,11 +87,25 @@ docker network ls
 
 docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
 
+ For cleaning 
+
+docker [image,container,volume,..] prune -a
+
+ Delete all containers
+
+docker rm (docker ps -a -q)
+
+ Delete all images
+
+docker rmi (docker images -q)
+
 `,"notes/Containers/docker-commands.md","note","2018-08-22");
 search.addDoc(
 `
 docker-compose up
 docker-compose down
+docker-compose logs -f
+docker-compose logs -f [service] (service is not same as container, look in compose file for service names)
 `,"notes/Containers/docker-compose-commands.md","note","2018-08-22");
 search.addDoc(
 `version: '3.7'
