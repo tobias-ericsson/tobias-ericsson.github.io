@@ -164,7 +164,7 @@ services:
       - /proc:/host/proc:ro
       - /boot:/host/boot:ro
       - /lib/modules:/host/lib/modules:ro
-      - /usr:/host/usr:ro`,"notes/Containers/docker-compose.yml","note","2018-08-21");
+      - /usr:/host/usr:ro`,"notes/Containers/docker-compose.yml","note","2018-08-24");
 search.addDoc(
 `!/usr/bin/env bash
 from  https://docs.docker.com/compose/install/
@@ -172,7 +172,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version`,"notes/Containers/install-docker-compose.sh","note","2018-08-21");
 search.addDoc(
-`https://github.com/draios/sysdig/wiki/Sysdig-Examples`,"notes/Containers/sysdig.md","note","");
+`https://github.com/draios/sysdig/wiki/Sysdig-Examples`,"notes/Containers/sysdig.md","note","2018-08-24");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
@@ -312,7 +312,7 @@ sudo ubuntu-drivers autoinstall
 Alt+F7 for maximizing windows (both vertically and horizontally)
 Alt+Space for the window operations menu
  grab and move key
-Alt + left mouse button`,"notes/NIX/xubuntu.md","note","2018-08-13");
+Alt + left mouse button`,"notes/NIX/xubuntu.md","note","2018-08-24");
 search.addDoc(
 `Android Debug Bridge (ADB)
 -------------------------
