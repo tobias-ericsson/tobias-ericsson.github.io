@@ -112,6 +112,7 @@ p::first-letter {
     vertical-align: middle;
     line-height: 30px;
     overflow: scroll;
+    overflow: -moz-scrollbars-none;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     font-size: 1.2em;
     white-space: nowrap;
@@ -125,6 +126,7 @@ p::first-letter {
     grid-area: nav;
     overflow: auto;
     overflow-y: scroll;
+    overflow: -moz-scrollbars-none;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     padding-left: 12px;
 }
