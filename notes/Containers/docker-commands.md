@@ -17,6 +17,12 @@ docker network ls
 docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
 ```
 
+## For looking inside a docker image
+
+```
+docker run -it --entrypoint /bin/bash <imageid> 
+```
+
 ## For cleaning 
 
 ```
