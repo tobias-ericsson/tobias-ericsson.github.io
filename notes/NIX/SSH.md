@@ -14,6 +14,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 Copy your public key to the servers .ssh/authorized_keys
 
 ```bash
+ssh-copy-id username@remote-server.org
 ssh-copy-id -i ~/.ssh/id_rsa.pub username@remote-server.org
 ```
 
