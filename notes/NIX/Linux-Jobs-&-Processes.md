@@ -13,3 +13,11 @@ Jobs are processes which are started by a shell.
 * `top` or `htop` finds processes
 * `ps aux | grep java` finds java processes
 
+## Find Out What Ports Are Listening
+
+* `sudo lsof -i` for all, `sudo lsof -i :8080` for just port 8080
+* `ss -lntu`
+* `sudo netstat -ltup`
+
+
+
