@@ -5,7 +5,7 @@ var ajax = function () {
     function get(path) {
         //fix for fetching http over https issue
 	if (!path.includes('.')) {
-            path=window.location.href+path; //+"/index.html";
+            path=window.location.href+path+"/index.html";
         }
 	console.log("fetching "+path);
 	
