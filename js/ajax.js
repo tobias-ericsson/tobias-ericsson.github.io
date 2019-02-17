@@ -3,6 +3,10 @@
 var ajax = function () {
 
     function get(path) {
+
+	if (!path.endsWith('.html')) {
+            path=path+"/index.html";
+        }
 	console.log("fetching "+path);
 	console.log("c-url "+window.location.href);
 	
