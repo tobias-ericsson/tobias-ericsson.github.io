@@ -3,6 +3,9 @@
 var ajax = function () {
 
     function get(path) {
+	console.log("fetching "+path);
+	console.log("c-url "+window.location.href);
+	
         fetch(path).then(function (response) {
             if (response.ok) {
                 return response.text();
