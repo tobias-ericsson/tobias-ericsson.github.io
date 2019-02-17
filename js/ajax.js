@@ -3,12 +3,11 @@
 var ajax = function () {
 
     function get(path) {
-
-	if (!path.endsWith('.html')) {
-            path=path+"/index.html";
+        //fix for fetching http over https issue
+	if (!path.includes('.')) {
+            path=window.location.href+path; //+"/index.html";
         }
 	console.log("fetching "+path);
-	console.log("c-url "+window.location.href);
 	
         fetch(path).then(function (response) {
             if (response.ok) {
