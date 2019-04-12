@@ -38,3 +38,17 @@ Alt+Space for the window operations menu
 ## grab and move key
 
 Alt + left mouse button
+
+
+
+
+### Gnome lockscreen
+
+change background on lockscreen, screensaver
+```
+gsettings list-keys org.gnome.login-screen
+gsettings set org.gnome.desktop.screensaver picture-options 'scaled'
+gsettings set org.gnome.desktop.screensaver picture-uri file:///xxx.png
+gsettings set org.gnome.desktop.background picture-uri file:///xxx.png
+```
+
