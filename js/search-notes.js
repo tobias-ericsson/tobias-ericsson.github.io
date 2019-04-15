@@ -71,7 +71,22 @@ git reset --hard origin/master
 Force Push
 
 git push -f
-`,"notes/Coding/git.md","note","2018-08-17");
+
+ Forced to use https because SSH is blocked?
+
+git config --global credential.helper store
+
+Stores username and password in ~/.git-credentials 
+so that you don't have to provide it every time.
+`,"notes/Coding/git.md","note","2019-04-02");
+search.addDoc(
+` Generate different types of For Loops iterations by typing it
+* iter    Iterate (for each..in) 
+* itin    Iterate (for..in) 
+* itli    Iterate over a List
+* itar    Iterate elements of array 
+* ritar   Iterate elements of array in reverse order 
+`,"notes/Coding/idea.md","note","2019-02-01");
 search.addDoc(
 ` For information
 
@@ -87,6 +102,10 @@ docker network ls
 
 docker exec -it <containerIdOrName> bash (or /bin/bash or /bin/ash)
 
+ For looking inside a docker image
+
+docker run -it --entrypoint /bin/bash <imageid> 
+
  For cleaning 
 
 docker [image,container,volume,..] prune -a
@@ -99,7 +118,7 @@ docker rm (docker ps -a -q)
 
 docker rmi (docker images -q)
 
-`,"notes/Containers/docker-commands.md","note","2018-08-22");
+`,"notes/Containers/docker-commands.md","note","2018-10-12");
 search.addDoc(
 `
 docker-compose up
@@ -172,7 +191,11 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version`,"notes/Containers/install-docker-compose.sh","note","2018-08-21");
 search.addDoc(
-`https://github.com/draios/sysdig/wiki/Sysdig-Examples`,"notes/Containers/sysdig.md","note","2018-08-24");
+`
+docker exec -it sysdig csysdig 
+
+https://github.com/draios/sysdig/wiki/Sysdig-Examples
+`,"notes/Containers/sysdig.md","note","2018-08-24");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
@@ -195,7 +218,11 @@ Jobs are processes which are started by a shell.
  Monitor Processes
 * top or htop finds processes
 * ps aux | grep java finds java processes
-`,"notes/NIX/Linux-Jobs-&-Processes.md","note","2018-08-13");
+ Find Out What Ports Are Listening
+* sudo lsof -i for all, sudo lsof -i :8080 for just port 8080
+* ss -lntu
+* sudo netstat -ltup
+`,"notes/NIX/Linux-Jobs-&-Processes.md","note","2019-02-07");
 search.addDoc(
 ` SSH without password
  Generate key on the client
@@ -206,6 +233,7 @@ ssh-keygen -t rsa -b 4096 -C your_email@example.com
  Add key to the server
 Copy your public key to the servers .ssh/authorized_keys
 bash
+ssh-copy-id username@remote-server.org
 ssh-copy-id -i ~/.ssh/id_rsa.pub username@remote-server.org
 
 Or append the content of id_rsa.pub to .ssh/authorized_keys manually
@@ -275,10 +303,20 @@ Host *
   ForwardAgent yes
   ForwardX11 yes
 
-`,"notes/NIX/SSH.md","note","2018-08-13");
+`,"notes/NIX/SSH.md","note","2018-10-29");
 search.addDoc(
-`rEFInd boot manager
-https://www.rodsbooks.com/refind/installing.htmlpackagefile`,"notes/NIX/boot.md","note","2018-08-21");
+` Bootable USB Media from ISO in Ubuntu Linux
+If you don't have Startup Disk Creator installed this is a command line alternative.
+
+sudo apt install gddrescue
+sudo fdisk -l
+ddrescue path/to/.iso /dev/sdx --force -D
+ 
+Replace the x and path/to/.iso with your specific device block name and the path for the iso file.
+
+ rEFInd boot manager
+https://www.rodsbooks.com/refind/installing.htmlpackagefile
+`,"notes/NIX/boot.md","note","2019-04-02");
 search.addDoc(
 ` Resize images
 
@@ -312,7 +350,24 @@ sudo ubuntu-drivers autoinstall
 Alt+F7 for maximizing windows (both vertically and horizontally)
 Alt+Space for the window operations menu
  grab and move key
-Alt + left mouse button`,"notes/NIX/xubuntu.md","note","2018-08-24");
+Alt + left mouse button
+ Gnome lockscreen
+change background on lockscreen, screensaver
+
+gsettings list-keys org.gnome.login-screen
+gsettings set org.gnome.desktop.screensaver picture-options 'scaled'
+gsettings set org.gnome.desktop.screensaver picture-uri file:///xxx.png
+gsettings set org.gnome.desktop.background picture-uri file:///xxx.png
+
+`,"notes/NIX/xubuntu.md","note","2019-04-12");
+search.addDoc(
+`FOR NTFS READ SUPPORT
+brew cask install Caskroom/cask/osxfuse
+brew update && brew install ntfs-3g
+diskutil unmountDisk /dev/disk4
+diskutil list
+sudo /usr/local/bin/ntfs-3g /dev/disk4s1 /Volumes/NTFS -olocal -oallow_other
+`,"notes/OSX/ntfs-read-support.md","note","2018-08-28");
 search.addDoc(
 `Android Debug Bridge (ADB)
 -------------------------
