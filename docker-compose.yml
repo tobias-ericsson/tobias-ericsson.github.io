@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  node:
+    image: node
+    command: > 
+        bash -c "cd tmp && 
+        node generators/generateIndex.js && 
+        node generators/generateLinks.js && 
+        node generators/generateSearchData.js &&
+        node generators/generateVersion.js"
+    volumes:
+        - .:/tmp:rw
