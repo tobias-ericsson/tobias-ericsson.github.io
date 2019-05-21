@@ -52,3 +52,12 @@ gsettings set org.gnome.desktop.screensaver picture-uri file:///xxx.png
 gsettings set org.gnome.desktop.background picture-uri file:///xxx.png
 ```
 
+### Configure displays
+
+if display is stuck in 'disabled' it might help to change 'Active' to true in
+
+.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+
+
+
+
