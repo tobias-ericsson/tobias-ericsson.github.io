@@ -10,3 +10,26 @@ https://nordic.businessinsider.com/malmos-tech-scene-is-boiling-hot---here-are-7
 
 www.eworkgroup.com/se/konsult
 
+https://www.konsulter.net/bli-konsult/
+
+https://konsult.coop/members
+
+https://www.enmanskonsulterna.se/bli-egen-konsult
+
+http://peopleintech.se/konsult/
+
+http://www.zelago.se/konsultnatverk.html
+
+https://www.kvadrat.se/bli-kvadratare/
+
+http://www.kompetensgruppen.se/natverk/konsultnatverket/
+
+https://www.asociety.se/konsult/varfor
+
+https://brainping.com/
+
+https://www.trovisio.com/sv/consultants
+
+
+
+
