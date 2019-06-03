@@ -1,5 +1,5 @@
 
-[current weather in Lomma](http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0)
+[current sea weather around Malmö](seawind.html)
 
 [dmi forecast Lomma](http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige)
 
