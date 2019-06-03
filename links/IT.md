@@ -3,9 +3,6 @@ http://www.nomachetejuggling.com
 
 https://www.hanselman.com/blog/
 
-
-#Start to use ... it's free
-
 https://www.cloudflare.com/plans/
 
 https://www.heroku.com/pricing
