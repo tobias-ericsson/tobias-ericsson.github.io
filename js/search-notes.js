@@ -305,6 +305,22 @@ Host *
 
 `,"notes/NIX/SSH.md","note","2018-10-29");
 search.addDoc(
+` In VIM how to map save to Ctrl+s
+Great to avoid freezing the terminal by mistake
+in .vimrc
+
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
+
+in .bashrc or .zshrc
+
+stty -ixon
+
+ Help VIM frozen, don't accept input, can't close
+Probably you did Ctrl+S by mistake - it freezes your terminal, type Ctrl+Q to get it going again.
+`,"notes/NIX/VIM.md","note","2019-05-23");
+search.addDoc(
 ` Bootable USB Media from ISO in Ubuntu Linux
 If you don't have Startup Disk Creator installed this is a command line alternative.
 
@@ -359,7 +375,10 @@ gsettings set org.gnome.desktop.screensaver picture-options 'scaled'
 gsettings set org.gnome.desktop.screensaver picture-uri file:///xxx.png
 gsettings set org.gnome.desktop.background picture-uri file:///xxx.png
 
-`,"notes/NIX/xubuntu.md","note","2019-04-12");
+ Configure displays
+if display is stuck in 'disabled' it might help to change 'Active' to true in
+.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+`,"notes/NIX/xubuntu.md","note","2019-05-21");
 search.addDoc(
 `FOR NTFS READ SUPPORT
 brew cask install Caskroom/cask/osxfuse
