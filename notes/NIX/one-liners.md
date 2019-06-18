@@ -20,3 +20,9 @@ grep -rnl . -e "regexp pattern"
 du -a . | sort -nr | head -n 10
 ```
 -a is all files, not just directories, -n is numeric, -r is descending, -n is number of lines
+
+Or 
+```bash
+du -s * | sort -rn | head -n 10
+```
+-s is summarize

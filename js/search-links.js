@@ -6,6 +6,8 @@ search.addDoc("https://www.heroku.com/pricing","","link");
 search.addDoc("https://www.openshift.com/products/online/","","link");
 search.addDoc("https://cloud.google.com/functions/pricing","","link");
 search.addDoc("https://aws.amazon.com/lambda/pricing/","","link");
+search.addDoc("[sebastiandahlgren.se](http://sebastiandahlgren.se)","","link");
+search.addDoc("[fredrik.rambris.com](https://fredrik.rambris.com/)","","link");
 search.addDoc("[coolcompany.com](https://coolcompany.com/se/)","","link");
 search.addDoc("[www.driva-eget.se lonekalkyl](https://www.driva-eget.se/kalkyler/lonekalkyl)","","link");
 search.addDoc("[lön som konsult](https://www.cinode.com/blogg/konsult/lon-konsult-sa-mycket-bor-du-tjana/)","","link");
@@ -22,8 +24,6 @@ search.addDoc("http://www.kompetensgruppen.se/natverk/konsultnatverket/","","lin
 search.addDoc("https://www.asociety.se/konsult/varfor","","link");
 search.addDoc("https://brainping.com/","","link");
 search.addDoc("https://www.trovisio.com/sv/consultants","","link");
-search.addDoc("[sebastiandahlgren.se](http://sebastiandahlgren.se)","","link");
-search.addDoc("[fredrik.rambris.com](https://fredrik.rambris.com/)","","link");
 search.addDoc("[gmail](https://mail.google.com/)","","link");
 search.addDoc("[messages](https://messages.android.com/)","","link");
 search.addDoc("[maps](https://www.google.com/maps)","","link");

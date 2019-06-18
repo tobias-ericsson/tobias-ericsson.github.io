@@ -12,6 +12,7 @@ Jobs are processes which are started by a shell.
 
 * `top` or `htop` finds processes
 * `ps aux | grep java` finds java processes
+* `ps aux | grep 'Z'` finds zombie/defunct processes
 
 ## Find Out What Ports Are Listening
 
