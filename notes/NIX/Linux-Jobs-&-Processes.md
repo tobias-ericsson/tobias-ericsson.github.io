@@ -20,5 +20,13 @@ Jobs are processes which are started by a shell.
 * `ss -lntu`
 * `sudo netstat -ltup`
 
+## Can't write to disc, disc don't appear to be full but is 
+
+You might be out of inodes due to large number of (tiny) files
+* `df --inodes` check inodes
+
+You might have (large) deleted yet open files
+* `sudo lsof +L1` finds deleted yet open files
+
 
 
