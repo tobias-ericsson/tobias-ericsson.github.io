@@ -105,3 +105,109 @@ search.addDoc(
 </div>
 </html>
 `,"code/gridlayout.html","code","2018-08-13");
+search.addDoc(
+`      1 100%;
+      1 1000px)
+      1 110%;
+      1 1px
+      1 2fr
+     13 {
+     13 }
+      1 30px;
+      1 444;
+      1 500px)
+      1 500px;
+      1 5px
+      1 black;
+      1 border:
+      1 border-radius:
+      1 center;
+      1 color:
+      1 content
+      1 content;
+      1 display:
+      1 font-size:
+      1 footer content .;
+      1 footer content;
+      1 grid;
+      1 .grid-body
+      1 .grid-box
+      1 grid-content
+      1 grid-footer
+      1 grid-gap:
+      1 grid-header
+      1 grid-links
+      1 grid-nav
+      1 grid-search
+      1 header
+      1 header;
+      1 header header
+      1 header header header
+      1 line-height:
+      1 links
+      1 links;
+      1 middle;
+      1 nav
+      1 nav;
+      1 nav content
+      1 nav content .
+      1 search
+      1 search;
+      1 search links
+      1 search links links
+      1 solid
+      1 text-align:
+      1 vertical-align:
+      2 10px;
+      2 120px
+      2 1fr;
+      2 5px;
+      2 background-color:
+      2 fff;
+      2 footer;
+      2 grid-template-columns:
+      2 height:
+      2 margin:
+      2 @media
+      2 (min-width:
+      3 0;
+      3 40px;
+      3 grid-template-areas:
+      3 grid-template-rows:
+      3 .grid-wrapper
+      3 padding:
+      4 1fr
+      6 grid-area:
+      7 40px
+`,"code/newfilename","code","");
+search.addDoc(
+`!/usr/bin/python
+f= open(gridlayout.css,r)
+text = f.read()
+ Cleaning text and lower-casing all words
+for char in '-.,\n':
+    text=text.replace(char,' ')
+text = text.lower()
+ split returns a list of words delimited by sequences of whitespace (including tabs, newlines, etc, like re's \s) 
+word_list = text.split()
+ Initializing Dictionary
+d = {}
+ Count number of times each word comes up in list of words (in dictionary)
+for word in word_list:
+    if word not in d:
+        d[word] = 0
+    d[word] += 1
+word_freq = []
+for key, value in d.items():
+    word_freq.append((value, key))
+word_freq.sort(reverse=True) 
+for x in word_freq:
+  print(x)`,"code/word-counter.py","code","");
+search.addDoc(
+` cat will read from file
+ xargs -n1 will put one word on each line, that's a number 1
+ sort will sort the output
+ uniq -c will count occurances
+ sort -g will numeric reverse 
+cat gridlayout.css | xargs -n1 | sort | uniq -c | sort -gr
+`,"code/word-counter.sh","code","");
