@@ -1,6 +1,6 @@
 #How to
 
-### Run the last command as root
+### run the last command as root
 ```bash
 sudo !!
 ```
