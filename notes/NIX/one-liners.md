@@ -1,4 +1,4 @@
-#How to
+# How to
 
 ### run the last command as root
 ```bash
