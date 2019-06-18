@@ -1,5 +1,11 @@
 #How to
 
+### Run the last command as root
+```bash
+sudo !!
+```
+!! gets last command, you can prepend anything - sudo is just a useful example
+
 ### recursively find all folders named X and remove them and their subdirectories
 ```bash
 find ./ -type d -name X -exec rm -r {} \;
