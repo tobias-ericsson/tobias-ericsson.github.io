@@ -17,7 +17,7 @@ grep -rni . -e "regexp pattern"
 ```
 -r is recursive, -n is line number. 
 
-Only show file name, not the result itself
+only show file name, not the result itself
 ```bash
 grep -rnl . -e "regexp pattern"
 ```
@@ -27,7 +27,7 @@ du -a . | sort -nr | head -n 10
 ```
 -a is all files, not just directories, -n is numeric, -r is descending, -n is number of lines
 
-Or 
+or 
 ```bash
 du -s * | sort -rn | head -n 10
 ```
