@@ -13,7 +13,7 @@ find ./ -type d -name X -exec rm -r {} \;
 
 ### recursively find all files containing a specific string of text
 ```bash
-grep -rni . -e "regexp pattern"
+grep -rn . -e "regexp pattern"
 ```
 -r is recursive, -n is line number. 
 
