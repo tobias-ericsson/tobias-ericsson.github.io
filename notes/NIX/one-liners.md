@@ -32,3 +32,8 @@ or
 du -s * | sort -rn | head -n 10
 ```
 -s is summarize
+
+### recursively find all maven pom.xml files and update versions
+```bash
+find . -name "pom.xml" -exec sed -i 's/2.0.4.2-SNAPSHOT/2.1.6.0-SNAPSHOT/g' {} \;
+```
