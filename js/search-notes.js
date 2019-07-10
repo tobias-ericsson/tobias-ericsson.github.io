@@ -88,6 +88,17 @@ search.addDoc(
 * ritar   Iterate elements of array in reverse order 
 `,"notes/Coding/idea.md","note","2019-02-01");
 search.addDoc(
+` Make single file executable (without dependencies)
+
+pyinstaller --onefile <python-file>.py  
+
+or
+
+nuitka --follow-imports <python-file>.py
+
+Nuitka is a Python to C compiler. It transforms your Python code into C code then compiles it into a binary.
+Executables from pyinstaller seems to be bigger and slower so use nuitka if possible.`,"notes/Coding/python.md","note","2019-07-09");
+search.addDoc(
 ` For information
 
 docker stats
@@ -218,11 +229,17 @@ Jobs are processes which are started by a shell.
  Monitor Processes
 * top or htop finds processes
 * ps aux | grep java finds java processes
+* ps aux | grep 'Z' finds zombie/defunct processes
  Find Out What Ports Are Listening
 * sudo lsof -i for all, sudo lsof -i :8080 for just port 8080
 * ss -lntu
 * sudo netstat -ltup
-`,"notes/NIX/Linux-Jobs-&-Processes.md","note","2019-02-07");
+ Can't write to disc, disc don't appear to be full but is 
+You might be out of inodes due to large number of (tiny) files
+* df --inodes check inodes
+You might have (large) deleted yet open files
+* sudo lsof +L1 finds deleted yet open files
+`,"notes/NIX/Linux-Jobs-&-Processes.md","note","2019-06-18");
 search.addDoc(
 ` SSH without password
  Generate key on the client
@@ -341,6 +358,41 @@ convert -resize 1024X768  source.png dest.png
 
 convert -resize 40% source.png dest.png
 `,"notes/NIX/images.md","note","2018-08-13");
+search.addDoc(
+` How to
+ run the last command as root
+bash
+sudo !!
+
+!! gets last command, you can prepend anything - sudo is just a useful example
+ recursively find all folders named X and remove them and their subdirectories
+bash
+find ./ -type d -name X -exec rm -r {} \;
+
+ recursively find all files containing a specific string of text
+bash
+grep -rn . -e regexp pattern
+
+-r is recursive, -n is line number. 
+only show file name, not the result itself
+bash
+grep -rnl . -e regexp pattern
+
+ find the 10 largest files/directories
+bash
+du -a . | sort -nr | head -n 10
+
+-a is all files, not just directories, -n is numeric, -r is descending, -n is number of lines
+or 
+bash
+du -s * | sort -rn | head -n 10
+
+-s is summarize
+ recursively find all maven pom.xml files and update versions
+bash
+find . -name pom.xml -exec sed -i 's/2.0.4.2-SNAPSHOT/2.1.6.0-SNAPSHOT/g' {} \;
+
+`,"notes/NIX/one-liners.md","note","2019-07-09");
 search.addDoc(
 `installing
 Problem booting ubuntu
