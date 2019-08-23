@@ -84,7 +84,7 @@ https://jonas.github.io/tig/
 sudo apt-get install tig
 add custom bindigs to .tigrc
 https://github.com/jonas/tig/wiki/Bindings
-`,"notes/Coding/git.md","note","2019-04-02");
+`,"notes/Coding/git.md","note","2019-08-23");
 search.addDoc(
 ` Generate different types of For Loops iterations by typing it
 * iter    Iterate (for each..in) 
