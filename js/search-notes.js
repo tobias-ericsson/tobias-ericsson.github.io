@@ -437,7 +437,19 @@ gsettings set org.gnome.desktop.background picture-uri file:///xxx.png
  Configure displays
 if display is stuck in 'disabled' it might help to change 'Active' to true in
 .config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
-`,"notes/NIX/xubuntu.md","note","2019-05-21");
+ Get notification on long running processes
+ sound notification with spd-say
+spd-say is the default Ubuntu text-to-speech utility.
+Example:
+
+sudo apt update; spd-say done
+
+ text notification with notify-send
+Example:
+
+sudo apt update; notify-send done
+
+`,"notes/NIX/xubuntu.md","note","2019-08-23");
 search.addDoc(
 `FOR NTFS READ SUPPORT
 brew cask install Caskroom/cask/osxfuse
