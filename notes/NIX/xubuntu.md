@@ -59,5 +59,24 @@ if display is stuck in 'disabled' it might help to change 'Active' to true in
 .config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
 
 
+### Get notification on long running processes
+
+##### sound notification with spd-say
+
+spd-say is the default Ubuntu text-to-speech utility.
+
+Example:
+
+```
+sudo apt update; spd-say done
+```
+
+##### text notification with notify-send
+
+Example:
+
+```
+sudo apt update; notify-send done
+```
 
 
