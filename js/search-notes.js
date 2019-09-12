@@ -213,11 +213,11 @@ search.addDoc(
 * itli    Iterate over a List
 * itar    Iterate elements of array 
 * ritar   Iterate elements of array in reverse order 
-`,"notes/IDE/idea.md","note","");
+`,"notes/IDE/idea.md","note","2019-09-12");
 search.addDoc(
-``,"notes/IDE/in-browser.md","note","");
+``,"notes/IDE/in-browser.md","note","2019-09-12");
 search.addDoc(
-``,"notes/IDE/vcode.md","note","");
+``,"notes/IDE/vcode.md","note","2019-09-12");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
