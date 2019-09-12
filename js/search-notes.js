@@ -207,17 +207,23 @@ docker exec -it sysdig csysdig
 https://github.com/draios/sysdig/wiki/Sysdig-Examples
 `,"notes/Containers/sysdig.md","note","2018-08-24");
 search.addDoc(
-` Generate different types of For Loops iterations by typing it
-* iter    Iterate (for each..in) 
-* itin    Iterate (for..in) 
+` Intellij Idea
+ Generate different types of For Loops iterations by typing it
+* iter    Iterate (for each..in)
+* itin    Iterate (for..in)
 * itli    Iterate over a List
-* itar    Iterate elements of array 
-* ritar   Iterate elements of array in reverse order 
+* itar    Iterate elements of array
+* ritar   Iterate elements of array in reverse order
 `,"notes/IDE/idea.md","note","2019-09-12");
 search.addDoc(
-``,"notes/IDE/in-browser.md","note","2019-09-12");
+`IDE in the browser/cloud
+https://codepen.io/
+https://codesandbox.io
+https://gitpod.io/
+https://gitpod.io/https://github.com/tobias-ericsson/tobias-ericsson.github.io
+`,"notes/IDE/in-browser.md","note","2019-09-12");
 search.addDoc(
-``,"notes/IDE/vcode.md","note","2019-09-12");
+` Visual studio Code`,"notes/IDE/vcode.md","note","2019-09-12");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
