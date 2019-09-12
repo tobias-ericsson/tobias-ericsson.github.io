@@ -223,7 +223,7 @@ https://gitpod.io/
 https://gitpod.io/https://github.com/tobias-ericsson/tobias-ericsson.github.io
 `,"notes/IDE/in-browser.md","note","2019-09-12");
 search.addDoc(
-` Visual studio Code`,"notes/IDE/vcode.md","note","2019-09-12");
+` Visual studio Code`,"notes/IDE/vscode.md","note","");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
