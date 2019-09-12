@@ -55,6 +55,6 @@ search.addDoc("[svtplay](https://www.svtplay.se/)","","link");
 search.addDoc("[barnkanalen](https://www.svt.se/barnkanalen/)","","link");
 search.addDoc("[youtube](https://www.youtube.com/)","","link");
 search.addDoc("[cineasterna](https://www.cineasterna.com/sv/)","","link");
-search.addDoc("[marcopeg.com] (https://marcopeg.com)","","link");
+search.addDoc("[marcopeg.com](https://marcopeg.com)","","link");
 search.addDoc("[find your phone](https://myaccount.google.com/u/1/find-your-phone)","","link");
 search.addDoc("https://scratch.mit.edu/","","link");
