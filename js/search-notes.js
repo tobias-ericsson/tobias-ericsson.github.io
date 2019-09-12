@@ -87,14 +87,6 @@ add custom bindigs to .tigrc
 https://github.com/jonas/tig/wiki/Bindings
 `,"notes/Coding/git.md","note","2019-08-23");
 search.addDoc(
-` Generate different types of For Loops iterations by typing it
-* iter    Iterate (for each..in) 
-* itin    Iterate (for..in) 
-* itli    Iterate over a List
-* itar    Iterate elements of array 
-* ritar   Iterate elements of array in reverse order 
-`,"notes/Coding/idea.md","note","2019-02-01");
-search.addDoc(
 ` Make single file executable (without dependencies)
 
 pyinstaller --onefile <python-file>.py  
@@ -214,6 +206,18 @@ docker exec -it sysdig csysdig
 
 https://github.com/draios/sysdig/wiki/Sysdig-Examples
 `,"notes/Containers/sysdig.md","note","2018-08-24");
+search.addDoc(
+` Generate different types of For Loops iterations by typing it
+* iter    Iterate (for each..in) 
+* itin    Iterate (for..in) 
+* itli    Iterate over a List
+* itar    Iterate elements of array 
+* ritar   Iterate elements of array in reverse order 
+`,"notes/IDE/idea.md","note","");
+search.addDoc(
+``,"notes/IDE/in-browser.md","note","");
+search.addDoc(
+``,"notes/IDE/vcode.md","note","");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
