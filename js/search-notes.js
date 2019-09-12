@@ -223,7 +223,19 @@ https://gitpod.io/
 https://gitpod.io/https://github.com/tobias-ericsson/tobias-ericsson.github.io
 `,"notes/IDE/in-browser.md","note","2019-09-12");
 search.addDoc(
-` Visual studio Code`,"notes/IDE/vscode.md","note","2019-09-12");
+` Visual studio Code
+ Keyboard Shortcuts
+<pre>
+Keyboard Shortcuts      Ctrl K Ctrl S
+Go to Definition        F12
+Go to Implementation    Ctrl F12
+Go Forward              Ctrl Shift -
+Go Back                 Ctrl Alt -
+Format Document         Ctrl Shift I
+Open files              Ctrl P
+Move a line up/down     Ctrl X to remove-copy Ctrl V to paste
+</pre>
+`,"notes/IDE/vscode.md","note","2019-09-12");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
