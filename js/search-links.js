@@ -11,7 +11,7 @@ search.addDoc("[www.driva-eget.se lonekalkyl](https://www.driva-eget.se/kalkyler
 search.addDoc("[lön som konsult](https://www.cinode.com/blogg/konsult/lon-konsult-sa-mycket-bor-du-tjana/)","","link");
 search.addDoc("https://civilekonomerna.se/rad-stod/hur-mycket-ska-jag-ta-betalt-en-guide-till-dig-med-eget-foretag","","link");
 search.addDoc("https://nordic.businessinsider.com/malmos-tech-scene-is-boiling-hot---here-are-7-startups-shaking-up-old-school-industries-out-of-minc-incubator-2017-7","","link");
-search.addDoc("www.eworkgroup.com/se/konsult","","link");
+search.addDoc("https://www.eworkgroup.com/se/konsult","","link");
 search.addDoc("https://www.konsulter.net/bli-konsult/","","link");
 search.addDoc("https://konsult.coop/members","","link");
 search.addDoc("https://www.enmanskonsulterna.se/bli-egen-konsult","","link");
@@ -22,6 +22,8 @@ search.addDoc("http://www.kompetensgruppen.se/natverk/konsultnatverket/","","lin
 search.addDoc("https://www.asociety.se/konsult/varfor","","link");
 search.addDoc("https://brainping.com/","","link");
 search.addDoc("https://www.trovisio.com/sv/consultants","","link");
+search.addDoc("https://riktiga.com/","","link");
+search.addDoc("https://keep.consulting/","","link");
 search.addDoc("[sebastiandahlgren.se](http://sebastiandahlgren.se)","","link");
 search.addDoc("[fredrik.rambris.com](https://fredrik.rambris.com/)","","link");
 search.addDoc("[courel.se](http://courel.se/)","","link");
