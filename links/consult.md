@@ -8,7 +8,7 @@ https://civilekonomerna.se/rad-stod/hur-mycket-ska-jag-ta-betalt-en-guide-till-d
 
 https://nordic.businessinsider.com/malmos-tech-scene-is-boiling-hot---here-are-7-startups-shaking-up-old-school-industries-out-of-minc-incubator-2017-7
 
-www.eworkgroup.com/se/konsult
+https://www.eworkgroup.com/se/konsult
 
 https://www.konsulter.net/bli-konsult/
 
@@ -29,6 +29,11 @@ https://www.asociety.se/konsult/varfor
 https://brainping.com/
 
 https://www.trovisio.com/sv/consultants
+
+https://riktiga.com/
+
+https://keep.consulting/
+
 
 
 
