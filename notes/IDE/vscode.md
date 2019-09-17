@@ -1,4 +1,4 @@
-# Visual studio Code
+# IDE - Visual studio Code (vscode)
 
 ### Keyboard Shortcuts
 
