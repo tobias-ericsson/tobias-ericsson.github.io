@@ -216,14 +216,14 @@ search.addDoc(
 * ritar   Iterate elements of array in reverse order
 `,"notes/IDE/idea.md","note","2019-09-12");
 search.addDoc(
-`IDE in the browser/cloud
+` IDE - in the browser/cloud
 https://codepen.io/
 https://codesandbox.io
 https://gitpod.io/
 https://gitpod.io/https://github.com/tobias-ericsson/tobias-ericsson.github.io
 `,"notes/IDE/in-browser.md","note","2019-09-12");
 search.addDoc(
-` Visual studio Code
+` IDE - Visual studio Code (vscode)
  Keyboard Shortcuts
 <pre>
 Keyboard Shortcuts      Ctrl K Ctrl S
