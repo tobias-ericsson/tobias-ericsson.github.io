@@ -221,7 +221,7 @@ https://codepen.io/
 https://codesandbox.io
 https://gitpod.io/
 https://gitpod.io/https://github.com/tobias-ericsson/tobias-ericsson.github.io
-`,"notes/IDE/in-browser.md","note","2019-09-12");
+`,"notes/IDE/in-browser.md","note","2019-09-17");
 search.addDoc(
 ` IDE - Visual studio Code (vscode)
  Keyboard Shortcuts
@@ -235,7 +235,7 @@ Format Document         Ctrl Shift I
 Open files              Ctrl P
 Move a line up/down     Ctrl X to remove-copy Ctrl V to paste
 </pre>
-`,"notes/IDE/vscode.md","note","2019-09-12");
+`,"notes/IDE/vscode.md","note","2019-09-17");
 search.addDoc(
 `autojump - a faster way to navigate your filesystem
 https://github.com/joelthelion/autojump
