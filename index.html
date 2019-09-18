@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet"
-          href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/androidstudio.min.css">
     <base target="_blank">
 </head>
 <body>
@@ -67,15 +67,21 @@
 <script src="/js/search-scripts.js"></script>
 <script src="/js/search-code.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/js/url-updater.js"></script>
 <script src="/js/ajax.js"></script>
 <script src="/js/dom.js"></script>
 <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
 
 <script>
-    //document.getElementById('content').innerHTML = marked('** **');
+    //to remove /index.html if needed
+    if (window.location.href.endsWith("index.html")) {
+        window.history.replaceState('', '', './');
+    }
     ajax.fetch('menu.html');
-
-
+    var hashPart=window.location.hash;
+    if (hashPart.length>1) {
+        ajax.fetch(hashPart.substring(1));
+    }   
 </script>
 <!-- SCRIPT END -->
 

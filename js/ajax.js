@@ -1,12 +1,12 @@
-//requires marked
+//requires marked, urlUpdater
 
 var ajax = function () {
 
     function get(path) {
         //fix for fetching http over https issue
-	if (!path.includes('.')) {
-            path=window.location.href+path+"/index.html";
-        }
+	//if (!path.includes('.')) {
+     //       path=window.location.href+path+"/index.html";
+       // }
 	console.log("fetching "+path);
 	
         fetch(path).then(function (response) {
@@ -19,6 +19,7 @@ var ajax = function () {
         }).then(function (data) {
             console.log('data is', data);
             dom.fillContent(getContentType(path),data);
+            urlUpdater.update(path);
         }).catch(function (error) {
                 /*console.log('error is', error);*/
                 alert(error);
@@ -28,6 +29,7 @@ var ajax = function () {
     }
 
     function getContentType(path) {
+        console.log("p "+path);
         if (path.endsWith('index.html')) {
             return 'index.html';
         }
