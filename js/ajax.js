@@ -29,7 +29,6 @@ var ajax = function () {
     }
 
     function getContentType(path) {
-        console.log("p "+path);
         if (path.endsWith('index.html')) {
             return 'index.html';
         }

@@ -8,3 +8,7 @@
 https://ncase.me/
 
 https://scratch.mit.edu/
+
+https://exercism.io/
+
+https://adventofcode.com/
