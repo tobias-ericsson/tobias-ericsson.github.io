@@ -18,6 +18,8 @@ function readyOutFile(fileOutPath) {
 }
 
 function writeOutFile(fileOutPath) {
+    const preLine = 'search.addDoc(\n`';
+    const postLine = '","' + type + '","';
     const generatedFileText = "/** Generated file, modifications will be overwritten! **/\n";
     fs.writeFileSync(fileOutPath, generatedFileText, {'flag': 'w'});
     outLines.sort();
@@ -28,8 +30,7 @@ function writeOutFile(fileOutPath) {
 
 function generateSearchData(folder, type, outFile) {
 
-    const preLine = 'search.addDoc(\n`';
-    const postLine = '","' + type + '","';
+    
 
     console.log("Generating search data for " + folder);
 
