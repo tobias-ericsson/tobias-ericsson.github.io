@@ -1,14 +1,29 @@
 const fs = require('fs');
 const util = require('./util');
 
-generateSearchData('notes/', 'note', readyOutFile('js/search-notes.js'));
-generateSearchData('bin/', 'script', readyOutFile('js/search-scripts.js'));
-generateSearchData('code/', 'code', readyOutFile('js/search-code.js'));
+let outLines = [];
+generateSearchData('notes/', 'note');
+writeOutFile('js/search-notes.js');
+outLines = [];
+generateSearchData('bin/', 'script');
+writeOutFile('js/search-scripts.js');
+outLines = [];
+generateSearchData('code/', 'code');
+writeOutFile('js/search-code.js');
 
 function readyOutFile(fileOutPath) {
     const generatedFileText = "/** Generated file, modifications will be overwritten! **/\n";
     fs.writeFileSync(fileOutPath, generatedFileText, {'flag': 'w'});
     return fileOutPath;
+}
+
+function writeOutFile(fileOutPath) {
+    const generatedFileText = "/** Generated file, modifications will be overwritten! **/\n";
+    fs.writeFileSync(fileOutPath, generatedFileText, {'flag': 'w'});
+    outLines.sort();
+    outLines.forEach(
+        fs.writeFileSync(outFile, preLine + content + '`,"' +
+                    folder + file + postLine + gitDate + '");\n', {'flag': 'a'}));
 }
 
 function generateSearchData(folder, type, outFile) {
@@ -39,9 +54,7 @@ function generateSearchData(folder, type, outFile) {
                 content = content.replace(/#/gm, '');
                 content = content.replace(/\$/gm, '');
 
-                fs.writeFileSync(outFile, preLine + content + '`,"' +
-                    folder + file + postLine + gitDate + '");\n', {'flag': 'a'});
-
+                outLines.push(content);
             }
         }
     });
