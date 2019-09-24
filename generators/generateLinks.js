@@ -32,10 +32,6 @@ fs.readdirSync(linksFolder).forEach(function (file) {
             }
         });
 
-        lineReader.on('end', function () {
-            console.log("end");
-        });
-
         lineReader.on('close', function () {
             console.log("close");
             lineReaders--;

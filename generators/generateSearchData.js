@@ -1,15 +1,9 @@
 const fs = require('fs');
 const util = require('./util');
 
-let outLines = [];
-generateSearchData('notes/', 'note');
-writeOutFile('js/search-notes.js');
-outLines = [];
-generateSearchData('bin/', 'script');
-writeOutFile('js/search-scripts.js');
-outLines = [];
-generateSearchData('code/', 'code');
-writeOutFile('js/search-code.js');
+generateSearchData('notes/', 'note', readyOutFile('js/search-notes.js'));
+generateSearchData('bin/', 'script', readyOutFile('js/search-scripts.js'));
+generateSearchData('code/', 'code', readyOutFile('js/search-code.js'));
 
 function readyOutFile(fileOutPath) {
     const generatedFileText = "/** Generated file, modifications will be overwritten! **/\n";
@@ -17,20 +11,10 @@ function readyOutFile(fileOutPath) {
     return fileOutPath;
 }
 
-function writeOutFile(fileOutPath) {
-    const preLine = 'search.addDoc(\n`';
-    const postLine = '","' + type + '","';
-    const generatedFileText = "/** Generated file, modifications will be overwritten! **/\n";
-    fs.writeFileSync(fileOutPath, generatedFileText, {'flag': 'w'});
-    outLines.sort();
-    outLines.forEach(
-        fs.writeFileSync(outFile, preLine + content + '`,"' +
-                    folder + file + postLine + gitDate + '");\n', {'flag': 'a'}));
-}
-
 function generateSearchData(folder, type, outFile) {
 
-    
+    const preLine = 'search.addDoc(\n`';
+    const postLine = '","' + type + '","';
 
     console.log("Generating search data for " + folder);
 
@@ -55,7 +39,9 @@ function generateSearchData(folder, type, outFile) {
                 content = content.replace(/#/gm, '');
                 content = content.replace(/\$/gm, '');
 
-                outLines.push(content);
+                fs.writeFileSync(outFile, preLine + content + '`,"' +
+                    folder + file + postLine + gitDate + '");\n', {'flag': 'a'});
+
             }
         }
     });
