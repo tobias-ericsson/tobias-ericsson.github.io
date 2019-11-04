@@ -1,5 +1,12 @@
 # How to
 
+### How to rename multiple files 
+finds files with XYZ in the name and then removes XYZ from all file names
+using shell parameter expansion
+```bash
+find . -type f -name "XYZ" -exec sh -c 'file="{}"; mv $file ${file/XYZ/}' \;
+```
+
 ### run the last command as root
 ```bash
 sudo !!
