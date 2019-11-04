@@ -1,6 +1,6 @@
 # How to
 
-### How to rename multiple files 
+### rename multiple files 
 finds files with XYZ in the name and then removes XYZ from all file names
 using shell parameter expansion
 ```bash
