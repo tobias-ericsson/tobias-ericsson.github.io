@@ -59,7 +59,7 @@ var dom = function () {
 
         switch (elem.doc.type) {
             case 'link':
-                return (typeof marked != 'undefined') ? marked(elem.doc.body) : elem.doc.body;
+                return (typeof marked != 'undefined') ? marked.parse(elem.doc.body) : elem.doc.body;
                 break;
             case 'note':
 
@@ -91,7 +91,7 @@ var dom = function () {
         console.log("displaying", contentType);
         switch (contentType) {
             case 'md':
-                html = (typeof marked != 'undefined') ? marked(html) : html;
+                html = (typeof marked != 'undefined') ? marked.parse(html) : html;
                 html = hideURLProtocol(html);
                 document.getElementById('zone-content').innerHTML = html;
                 break;
