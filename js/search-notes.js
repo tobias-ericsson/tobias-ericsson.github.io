@@ -389,6 +389,12 @@ convert -resize 40% source.png dest.png
 `,"notes/NIX/images.md","note","2018-08-13");
 search.addDoc(
 ` How to
+ rename multiple files 
+finds files with XYZ in the name and then removes XYZ from all file names
+using shell parameter expansion
+bash
+find . -type f -name XYZ -exec sh -c 'file={}; mv file {file/XYZ/}' \;
+
  run the last command as root
 bash
 sudo !!
@@ -421,7 +427,7 @@ du -s * | sort -rn | head -n 10
 bash
 find . -name pom.xml -exec sed -i 's/2.0.4.2-SNAPSHOT/2.1.6.0-SNAPSHOT/g' {} \;
 
-`,"notes/NIX/one-liners.md","note","2019-07-09");
+`,"notes/NIX/one-liners.md","note","2019-11-04");
 search.addDoc(
 `installing
 Problem booting ubuntu
