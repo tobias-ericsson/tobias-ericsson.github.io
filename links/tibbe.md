@@ -1,9 +1,4 @@
 
-https://tibbes.com
-
-https://news.tibbes.com
-
-https://week.tibbes.com
 
 http://tericsson.appspot.com
 
@@ -20,8 +15,9 @@ http://tibbe.gitlab.io
 http://t.ericsson.gitlab.io
 
 https://tobias-ericsson.github.io
+https://tobias.ericsson.gitlab.io
 
-https://powdrsoft.com/
-https://housing.powdrsoft.com/
+https://powdrsoft.com
+https://housing.powdrsoft.com
 
-https://dagens.site/
+https://dagens.site
