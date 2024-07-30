@@ -12,3 +12,7 @@ https://scratch.mit.edu/
 https://exercism.io/
 
 https://adventofcode.com/
+
+https://www.hackerrank.com/dashboard
+
+https://leetcode.com/
