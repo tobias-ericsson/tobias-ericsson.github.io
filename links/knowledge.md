@@ -1,18 +1,24 @@
 
+### Math
+
 [WolframAlpha](http://www.wolframalpha.com/)
 
-[Wikipedia](https://www.wikipedia.org/)
+### Coding
 
 [Google Codelabs](https://codelabs.developers.google.com/)
 
-https://ncase.me/
+https://scratch.mit.edu
 
-https://scratch.mit.edu/
+https://exercism.io
 
-https://exercism.io/
-
-https://adventofcode.com/
+https://adventofcode.com
 
 https://www.hackerrank.com/dashboard
 
-https://leetcode.com/
+https://leetcode.com/problemset
+
+### Other
+
+[Wikipedia](https://www.wikipedia.org/)
+
+https://ncase.me

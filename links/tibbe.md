@@ -1,4 +1,5 @@
 
+### Personal
 
 http://tericsson.appspot.com
 
@@ -15,9 +16,15 @@ http://tibbe.gitlab.io
 http://t.ericsson.gitlab.io
 
 https://tobias-ericsson.github.io
+
 https://tobias.ericsson.gitlab.io
 
+### Powdrsoft
+
 https://powdrsoft.com
+
 https://housing.powdrsoft.com
+
+### Other
 
 https://dagens.site
