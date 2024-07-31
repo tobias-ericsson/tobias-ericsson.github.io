@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
+
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <title>Tobias Ericsson</title>
@@ -10,80 +11,85 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
 
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/androidstudio.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/androidstudio.min.css">
     <base target="_blank">
 </head>
+
 <body>
 
-<div class="zone-wrapper">
-    <!-- SEARCH BEGIN -->
-    <div id="zone-search" class="zone-box">
-        <input id="searchInput" onkeyup="dom.find()" autofocus/>
-    </div>
-    <!-- SEARCH END -->
-
-    <!-- LINKS BEGIN -->
-    <div id="zone-links" class="zone-box">
-        <a href="/links/videos.md">Videos</a>
-        <a href="/links/music.md">Music</a>
-        <a href="/links/google.md">Google</a>
-        <a href="/links/knowledge.md">Knowledge</a>
-        <a href="/links/IT.md">IT</a>
-        <a href="/links/tibbe.md">Tibbe</a>
-        <a href="/links/surf&sail.md">Surf&Sail</a>
-        <a href="/links/friends.md">Friends</a>
-        <a href="/links/consult.md">Consult</a>
-        <a id="topRight" href="#" onclick="dom.toggleFullScreen(this)">+</a>
-    </div>
-    <!-- LINKS END -->
-
-    <!-- CONTENT BEGIN -->
-    <div id="zone-content" class="zone-box">
-    </div>
-    <!-- CONTENT END -->
-
-    <!-- NOTES BEGIN -->
-    <div id="zone-nav" class="zone-box">         
-        <div id="leftMenu">
+    <div class="zone-wrapper">
+        <!-- SEARCH BEGIN -->
+        <div id="zone-search" class="zone-box">
+            <input id="searchInput" onkeyup="dom.find()" autofocus />
         </div>
+        <!-- SEARCH END -->
+
+        <!-- LINKS BEGIN -->
+        <div id="zone-links" class="zone-box">
+            <a href="/content.html">Start</a>
+            <a href="/links/videos.md">Videos</a>
+            <a href="/links/music.md">Music</a>
+            <a href="/links/google.md">Google</a>
+            <a href="/links/knowledge.md">Knowledge</a>
+            <a href="/links/IT.md">IT</a>
+            <a href="/links/tibbe.md">Tibbe</a>
+            <a href="/links/surf&sail.md">Surf&Sail</a>
+            <a href="/links/friends.md">Friends</a>
+            <a href="/links/consult.md">Consult</a>
+            <a id="topRight" href="#" onclick="dom.toggleFullScreen(this)">+</a>
+        </div>
+        <!-- LINKS END -->
+
+        <!-- CONTENT BEGIN -->
+        <div id="zone-content" class="zone-box">
+        </div>
+        <!-- CONTENT END -->
+
+        <!-- NOTES BEGIN -->
+        <div id="zone-nav" class="zone-box">
+            <div id="leftMenu">
+            </div>
+        </div>
+        <!-- NOTES END -->
+
+        <!-- FOOTER BEGIN -->
+        <div id="zone-footer" class="zone-box">
+            Tobias Ericsson
+        </div>
+        <!-- FOOTER END -->
+
     </div>
-    <!-- NOTES END -->
 
-    <!-- FOOTER BEGIN -->
-    <div id="zone-footer" class="zone-box">
-        Tobias Ericsson
-    </div>
-    <!-- FOOTER END -->
+    <!-- SCRIPT BEGIN -->
+    <script src="/js/elasticlunr.min.js"></script>
+    <script src="/js/search.js"></script>
+    <script src="/js/search-links.js"></script>
+    <script src="/js/search-notes.js"></script>
+    <script src="/js/search-scripts.js"></script>
+    <script src="/js/search-code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/js/url-updater.js"></script>
+    <script src="/js/ajax.js"></script>
+    <script src="/js/dom.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
 
-</div>
-
-<!-- SCRIPT BEGIN -->
-<script src="/js/elasticlunr.min.js"></script>
-<script src="/js/search.js"></script>
-<script src="/js/search-links.js"></script>
-<script src="/js/search-notes.js"></script>
-<script src="/js/search-scripts.js"></script>
-<script src="/js/search-code.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="/js/url-updater.js"></script>
-<script src="/js/ajax.js"></script>
-<script src="/js/dom.js"></script>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
-
-<script>
-    //to remove /index.html if needed
-    if (window.location.href.endsWith("index.html")) {
-        window.history.replaceState('', '', './');
-    }
-    ajax.fetch('menu.html');
-    var hashPart=window.location.hash;
-    if (hashPart.length>1) {
-        ajax.fetch(hashPart.substring(1));
-    }   
-</script>
-<!-- SCRIPT END -->
+    <script>
+        //to remove /index.html if needed
+        if (window.location.href.endsWith("index.html")) {
+            window.history.replaceState('', '', './');
+        }
+        ajax.fetch('menu.html');
+        var hashPart = window.location.hash;
+        if (hashPart.length > 1) {
+            ajax.fetch(hashPart.substring(1));
+        } else {
+            ajax.fetch('content.html');
+        }  
+    </script>
+    <!-- SCRIPT END -->
 
 </body>
+
 </html>
