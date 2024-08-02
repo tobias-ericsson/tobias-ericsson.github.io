@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Malmö Seawind</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Malmö Seawind</h1>
+        <h4>Wind forecast <a href="https://opendata.smhi.se/apidocs/metfcst/">from SMHI</a>
+            for sailors, wind and kite surfers in the Malmö region</h4>
+    </header>
+
+    <nav>
+        <a href="http://www.weatherlink.com/user/lommahamn/index.php?view=summary&headers=0">Current wind in Lomma</a>
+        <a href="http://courel.se/kitesurf.html">Wind in Lomma by Courel</a>
+        <a href="http://www.dmi.dk/vejr/til-lands/byvejr/by/vis/SE/2694264/Lomma,Sverige">Lomma by dmi.dk</a>
+    </nav>
+
+    <div id="weatherContainer"></div>
+
+
+    <!-- SCRIPT BEGIN -->
+    <script src="/js/url-updater.js"></script>
+    <script src="/js/ajax.js"></script>
+    <script src="/js/dom.js"></script>
+    <script src="/js/yrwind.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
+
+    <script>
+        seawind.run();
+    </script>
+
+</body>
