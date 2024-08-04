@@ -6,3 +6,142 @@
             Limhamn</a></p>
 
 </div>
+
+<header>
+    <h1>Malmö Seawind</h1>
+    <h4>Wind forecast <a href="https://opendata.smhi.se/apidocs/metfcst/">from SMHI</a>
+        for sailors, wind and kite surfers in the Malmö region</h4>
+</header>
+
+<nav>
+    <a href="https://www.weatherlink.com/embeddablePage/show/57ea9ac7cfe540c3a21e2aa23a2f1e53/summary">Småbåtshamnen
+        Limhamn</a>
+    <a href="https://www.kustvader.se/malm%C3%B6-limhamn">Kustväder Limhamn</a>
+</nav>
+<div class="flex-container">
+    <section style="flex: 0.05">
+        <div class="section-header">
+        </div>
+
+        <div class="wind-container" id='left'></div>
+    </section>
+    <section>
+        <div class="section-header">
+            <h1>Lomma</h1>
+
+            <p>Beach</p>
+        </div>
+
+        <div class="wind-container" id='lomma'></div>
+    </section>
+    <section>
+        <div class="section-header">
+            <h1>Habo Ljung</h1>
+
+            <p>Beach</p>
+        </div>
+
+        <div class="wind-container" id='haboljung'></div>
+    </section>
+    <section>
+        <div class="section-header">
+            <h1>Ribban</h1>
+
+            <p>Beach</p>
+        </div>
+
+        <div class="wind-container" id='ribban'></div>
+    </section>
+    <section>
+        <div class="section-header">
+            <h1>Klagshamn</h1>
+
+            <p>Beach</p>
+        </div>
+
+        <div class="wind-container" id='klagshamn'></div>
+    </section>
+</div>
+
+<style scoped="">
+    header,
+    footer {
+        text-align: center;
+        color: green;
+    }
+
+    nav {
+        text-align: center;
+        color: green;
+        padding: 10px;
+        min-width: 490px;
+    }
+
+    header>h1 {
+        margin: 6px;
+    }
+
+    header>h4 {
+        margin: 4px;
+    }
+
+    footer {
+        font-size: 60%;
+    }
+
+    footer>h3 {
+        margin: 5px 0;
+    }
+
+    footer>h4 {
+        margin: 2px 0 20px 0;
+        padding: 0;
+    }
+
+    section>div>h1 {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    section>div>p {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    .section-header {
+        background-color: gainsboro;
+        border-top: 0.5vh solid #001f3f;
+        border-bottom: 0.5vh solid #001f3f;
+        height: 50px;
+        text-align: center;
+    }
+
+    .flex-container {
+        display: -webkit-flex;
+        /* Safari */
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: space-between;
+        background-color: white;
+    }
+
+    .flex-container>section {
+        flex: 1;
+    }
+
+    .even,
+    .odd {
+        float: left;
+        width: 100%;
+        height: 110px;
+        text-align: center;
+    }
+
+    .odd {
+        background-color: gainsboro;
+    }
+</style>
+
+<style onload='seawind.run()' ;" />

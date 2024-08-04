@@ -55,10 +55,11 @@ body {
   visibility: hidden;
 }
 
+/*
 p::first-letter {
     text-transform: capitalize;
     color: white;
-}
+}*/
 
 /** SEARCH BEGIN **/
 #zone-search input {
