@@ -57,7 +57,10 @@ var seawind = (function () {
       switch (getOrDefault(symbolName, 'tornado')) {
         case 1:
         case 2: //Sunny
-        case 'fair_day':
+        case 'clearsky_day': //sunny
+        case 'fair_day': //some tiny clouds
+        case 'clearsky_night': //sunny
+        case 'fair_night': //some tiny clouds
           weather = '&#127774;'
           break
         case 3:
@@ -128,6 +131,13 @@ var seawind = (function () {
       )
     }
 
+    var formatWind = function (windSpeed, windGustSpeed) {
+      if (windGustSpeed) {
+        return `${windSpeed} (${windGustSpeed}) m/s`
+      }
+      return windSpeed + ' m/s'
+    }
+
     let html = ''
     let htmlLeft = ''
     for (let wind of windList) {
@@ -148,7 +158,7 @@ var seawind = (function () {
       html += `
         <div class="${clazz}">
             <!--<p>${formatDate(wind.time)}</p>  -->
-            <p style="${style}">${wind.speed} (${wind.gustSpeed}) m/s</p>
+            <p style="${style}">${formatWind(wind.speed, wind.gustSpeed)}</p>
             <p>${formatDirection(wind.direction)}</p>
             <p>${formatWeatherSymbol(wind.symbol)}</p>
         </div>
