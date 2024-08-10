@@ -54,7 +54,7 @@ var seawind = (function () {
 
     var formatWeatherSymbol = function (symbolName) {
       var weather = ''
-      switch (getOrDefault(symbolName, 'tornado')) {
+      switch (getOrDefault(symbolName, 'unknown')) {
         case 1:
         case 2: //Sunny
         case 'clearsky_day': //sunny
@@ -92,6 +92,9 @@ var seawind = (function () {
           break
         case 'tornado':
           weather = '&#127786'
+          break
+        case 'unknown':
+          weather = ''
           break
         default:
           weather = '&#127786' + ' (' + symbolName + ')'
