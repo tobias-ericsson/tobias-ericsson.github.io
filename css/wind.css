@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #001f3f;
+    font-size: 100%;
+    min-width: 490px;
+    font-family: "calibri", Garamond, 'Comic Sans', serif;
+}
+
+@media screen and (min-width: 766px) and (max-width: 969px) {}
+
+@media screen and (min-width: 970px) {}
+
+@media screen and (max-width: 765px) {}
+
+header,
+footer {
+    text-align: center;
+    color: green;
+}
+
+nav {
+    text-align: center;
+    color: green;
+    padding: 10px;
+    min-width: 490px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 6px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 4px;
+}
+
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    background-color: #001f3f;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+header>h1 {
+    margin: 6px;
+}
+
+header>h4 {
+    margin: 4px;
+}
+
+footer {
+    font-size: 60%;
+}
+
+footer>h3 {
+    margin: 5px 0;
+}
+
+footer>h4 {
+    margin: 2px 0 20px 0;
+    padding: 0;
+}
+
+section {
+    /* height: 240px; */
+    /*padding: 2px 0 10px 0;*/
+    /*border-bottom: 0.5vh solid #001f3f;*/
+
+}
+
+section>div>h1 {
+    margin: 0;
+    padding: 0 6px;
+}
+
+section>div>p {
+    margin: 0;
+    padding: 0 6px;
+}
+
+.section-header {
+    background-color: gainsboro;
+    border-top: 0.5vh solid #001f3f;
+    border-bottom: 0.5vh solid #001f3f;
+    height: 50px;
+    text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    /* Safari */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.flex-container>section {
+    flex: 1;
+}
+
+.wind-container {
+
+    margin: 0;
+    padding: 0;
+}
+
+.even,
+.odd {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.odd {
+    background-color: gainsboro;
+}
