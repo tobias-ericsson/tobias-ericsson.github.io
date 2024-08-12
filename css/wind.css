@@ -35,14 +35,14 @@ p {
     margin: 6px;
 }
 
-a {
+nav>a {
     color: green;
     text-decoration: none;
     border: 1px solid #000000;
     padding: 4px;
 }
 
-a:visited {
+nav>a:visited {
     color: green;
 }
 
@@ -82,7 +82,7 @@ section {
     /* height: 240px; */
     /*padding: 2px 0 10px 0;*/
     /*border-bottom: 0.5vh solid #001f3f;*/
-
+    background-color: white;
 }
 
 section>div>h1 {
