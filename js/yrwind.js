@@ -1,9 +1,9 @@
 var yrwind = (function () {
     var latLongs = [
         {name: 'sibbarp', lat: 55.58, long: 12.91},
-        /* {name: 'ribban', lat: 55.605, long: 12.96},
-         {name: 'lomma', lat: 55.674, long: 13.055},
-         {name: 'klagshamn', lat: 55.522, long: 12.889}*/
+        {name: 'ribban', lat: 55.605, long: 12.96},
+        {name: 'lomma', lat: 55.674, long: 13.055},
+        {name: 'klagshamn', lat: 55.522, long: 12.889}
     ]
 
     var YR_NO_URL = 'https://api.met.no/weatherapi/locationforecast/2.0/?'
@@ -305,7 +305,7 @@ var yrwind = (function () {
             wind.time = timeSeries.validTime
             //which param is what is not entierly fixed it turns out,
             //so looking for the same value in two places
-            wind.direction = param("wd",3, 13)
+            wind.direction = param("wd", 3, 13)
             wind.speed = param("ws", 4, 14)
             wind.gustSpeed = param("gust", 11, 17)
             wind.symbol = param("Wsymb2", 18, 18)
