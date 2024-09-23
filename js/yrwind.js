@@ -1,12 +1,15 @@
 var yrwind = (function () {
     var latLongs = [
         {name: 'sibbarp', lat: 55.58, long: 12.91},
-        {name: 'ribban', lat: 55.605, long: 12.96},
-        {name: 'lomma', lat: 55.674, long: 13.055},
-        {name: 'klagshamn', lat: 55.522, long: 12.889}
+        /* {name: 'ribban', lat: 55.605, long: 12.96},
+         {name: 'lomma', lat: 55.674, long: 13.055},
+         {name: 'klagshamn', lat: 55.522, long: 12.889}*/
     ]
 
     var YR_NO_URL = 'https://api.met.no/weatherapi/locationforecast/2.0/?'
+
+    var SMHI_URL =
+        'https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point'
 
     // Function to convert wind data into an HTML string
     var windToHtml = function (windList) {
@@ -136,9 +139,9 @@ var yrwind = (function () {
 
         var formatWind = function (windSpeed, windGustSpeed) {
             if (windGustSpeed) {
-                return `${windSpeed} (${windGustSpeed}) m/s`
+                return `${windSpeed} (${windGustSpeed})<span class="speedunit">m/s</span>`
             }
-            return windSpeed + ' m/s'
+            return windSpeed + '<span class="speedunit">m/s</span>'
         }
 
         let html = ''
@@ -162,14 +165,31 @@ var yrwind = (function () {
                     clazz = 'odd'
                 }
 
-                html += `
+                if (wind.smhi.speed) {
+                    html += `
             <div class="${clazz}">
                 <!--<p>${formatDate(wind.time)}</p>  -->
-                <p style="${style}">${formatWind(wind.speed, wind.gustSpeed)}</p>
-                <p>${formatDirection(wind.direction)}</p>
-                <p>${formatWeatherSymbol(wind.symbol)}</p>
+                <p style="${style}">${formatWind(wind.yr.speed, wind.yr.gustSpeed)}</p>
+              
+                <p style="${style}">${formatWind(wind.smhi.speed, wind.smhi.gustSpeed)}</p>
+             
+                <p>${formatDirection(wind.yr.direction)}</p>
+              
+                <p>${formatDirection(wind.smhi.direction)}</p>
+                
+                <p>${formatWeatherSymbol(wind.yr.symbol)} ${formatWeatherSymbol(wind.smhi.symbol)}</p>
             </div>
             `
+                } else {
+                    html += `
+            <div class="${clazz}">
+                <!--<p>${formatDate(wind.time)}</p>  -->
+                <p style="${style}">${formatWind(wind.yr.speed, wind.yr.gustSpeed)}</p> 
+                <p>${formatDirection(wind.yr.direction)}</p>
+                <p>${formatWeatherSymbol(wind.yr.symbol)}</p>
+            </div>
+             `
+                }
 
                 htmlLeft +=
                     '<div class="' + clazz + '"><p>' + formatDate(wind.time) + '</p></div>'
@@ -190,7 +210,7 @@ var yrwind = (function () {
         }
     }
 
-    var fetchWeatherForecast = async function (locationName, lat, long) {
+    var fetchYRWeatherForecast = async function (locationName, lat, long) {
         var extractWindInfo = function (timeseries) {
             var wind = {}
 
@@ -251,6 +271,81 @@ var yrwind = (function () {
             ) {
                 for (let timeseries of weatherForecastResponse.properties.timeseries) {
                     var wind = extractWindInfo(timeseries)
+                    //console.log(`Wind data for ${locationName}:`, wind)
+                    windList.push(wind)
+                }
+            }
+
+            return {locationName: locationName, windList: windList}
+        } catch (error) {
+            console.error(
+                `Failed to fetch weather forecast for ${locationName}:`,
+                error
+            )
+            throw error
+        }
+    }
+
+    var fetchSMHIWeatherForecast = async function (locationName, lat, long) {
+        var extractWindInfo = function (timeSeries) {
+            var wind = {}
+
+            function param(name, number1, number2) {
+                let tmp = timeSeries.parameters[number1]
+                if (tmp.name === name) {
+                    return tmp.values[0]
+                }
+                tmp = timeSeries.parameters[number2]
+                if (tmp.name === name) {
+                    return tmp.values[0]
+                }
+                return 0
+            }
+
+            wind.time = timeSeries.validTime
+            //which param is what is not entierly fixed it turns out,
+            //so looking for the same value in two places
+            wind.direction = param("wd",3, 13)
+            wind.speed = param("ws", 4, 14)
+            wind.gustSpeed = param("gust", 11, 17)
+            wind.symbol = param("Wsymb2", 18, 18)
+
+            return wind
+        }
+
+        try {
+            // Construct the full URL with latitude and longitude
+            let url = `${SMHI_URL}/lon/${long}/lat/${lat}/data.json`
+
+            // Fetch the weather data from the API
+            let response = await fetch(url, {
+                headers: {
+                    'User-Agent': 'MalmoSeawind/1.0 (info@powdrsoft.com)'
+                }
+            })
+
+            // Check if the response is successful
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`)
+            }
+
+            // Parse the JSON response
+            let weatherForecastResponse = await response.json()
+
+            // Log or process the data
+            console.log(
+                `SMHI Weather forecast for ${locationName}:`,
+                weatherForecastResponse
+            )
+
+            var windList = []
+
+            if (
+                weatherForecastResponse &&
+                weatherForecastResponse.timeSeries
+            ) {
+                for (let timeSeries of weatherForecastResponse.timeSeries) {
+                    var wind = extractWindInfo(timeSeries)
                     console.log(`Wind data for ${locationName}:`, wind)
                     windList.push(wind)
                 }
@@ -266,16 +361,58 @@ var yrwind = (function () {
         }
     }
 
+    function mergeWindLists(windListYR, windListSMHI) {
+        const mergedWindList = [];
+
+        // Create a map from SMHI list based on `time`
+        const smhiMap = new Map(windListSMHI.map(item => [item.time, item]));
+
+        // Iterate through YR list and match items by `time`
+        windListYR.forEach(yrItem => {
+            const smhiItem = smhiMap.get(yrItem.time);
+            if (smhiItem) {
+                mergedWindList.push({
+                    time: yrItem.time,
+                    smhi: {
+                        direction: smhiItem.direction,
+                        speed: smhiItem.speed,
+                        gustSpeed: smhiItem.gustSpeed,
+                        symbol: smhiItem.symbol
+                    },
+                    yr: {
+                        direction: yrItem.direction,
+                        speed: yrItem.speed,
+                        gustSpeed: yrItem.gustSpeed,
+                        symbol: yrItem.symbol
+                    }
+                });
+            }
+        });
+
+        // Sort the merged list based on the `time` field (ISO 8601 format)
+        // mergedWindList.sort((a, b) => new Date(a.time) - new Date(b.time));
+
+        return mergedWindList
+    }
+
     function run() {
         for (var k = 0; k < latLongs.length; k++) {
-            fetchWeatherForecast(latLongs[k].name, latLongs[k].lat, latLongs[k].long)
-                .then(weatherForecastResponse => {
-                    var html = windToHtml(weatherForecastResponse.windList)
-                    htmlToDom(weatherForecastResponse.locationName, html)
+            // Combine the two fetch requests for each location using Promise.all
+            Promise.all([
+                fetchYRWeatherForecast(latLongs[k].name, latLongs[k].lat, latLongs[k].long),
+                fetchSMHIWeatherForecast(latLongs[k].name, latLongs[k].lat, latLongs[k].long)
+            ])
+                .then(([yrResponse, smhiResponse]) => {
+                    // Merge the wind lists from both responses
+                    var mergedWindList = mergeWindLists(yrResponse.windList, smhiResponse.windList);
+
+                    // Convert merged wind list to HTML and update the DOM
+                    var html = windToHtml(mergedWindList);
+                    htmlToDom(yrResponse.locationName, html);
                 })
                 .catch(error => {
-                    console.error(error)
-                })
+                    console.error(error);
+                });
         }
     }
 
