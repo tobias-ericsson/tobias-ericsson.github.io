@@ -1,4 +1,4 @@
-var yrwind = (function () {
+var wind = (function () {
     var latLongs = [
         {name: 'sibbarp', lat: 55.58, long: 12.91},
         {name: 'ribban', lat: 55.605, long: 12.96},
