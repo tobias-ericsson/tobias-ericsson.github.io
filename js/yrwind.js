@@ -151,9 +151,9 @@ var wind = (function () {
             var date = new Date(wind.time)
             if (date.getHours() > 7 && date.getHours() <= 21) {
 
-                if (wind.speed > 5 && wind.speed < 11) {
+                if (wind.yr.speed > 5.1 && wind.smhi.speed > 5.1 && wind.yr.speed < 11) {
                     style = 'color:green;font-weight:bold'
-                } else if (wind.speed < 4 || wind.speed > 13) {
+                } else if (wind.yr.speed < 4.1 || wind.smhi.speed < 4.1 || wind.yr.speed > 13) {
                     style = 'color:red'
                 } else {
                     style = 'color:black'
