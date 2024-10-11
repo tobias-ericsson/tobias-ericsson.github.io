@@ -123,11 +123,16 @@ section>div>p {
     padding: 0;
 }
 
+.wind-cell {
+    width: 100%;
+    min-width: 120px;
+    height: 160px;
+    text-align: center;
+}
+
 .even,
 .odd {
     border-top: 1px solid black;
-    width: 100%;
-    min-width: 120px;
     height: 160px;
     text-align: center;
 }
@@ -141,4 +146,9 @@ section>div>p {
     font-weight: bold;        /* Make it bold */
     color: #555;              /* Give it a subtle grey color */
     margin-left: 2px;         /* Add a bit of spacing from the number */
+}
+
+#left {
+    border-right: 1px solid black;
+    max-width: 75px;
 }

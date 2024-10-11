@@ -51,7 +51,7 @@ var wind = (function () {
             if (day == today.getDate()) {
                 return time
             } else {
-                return time + ' ' + weekDay + ' ' + day + '/' + month
+                return time + '<br />' + weekDay + '<br />' + day + '/' + month
             }
         }
 
@@ -167,7 +167,7 @@ var wind = (function () {
 
                 if (wind.smhi.speed) {
                     html += `
-            <div class="${clazz}">
+            <div class="${clazz} wind-cell">
                 <!--<p>${formatDate(wind.time)}</p>  -->
                 <p style="${style}">${formatWind(wind.yr.speed, wind.yr.gustSpeed)}</p>
               
@@ -182,7 +182,7 @@ var wind = (function () {
             `
                 } else {
                     html += `
-            <div class="${clazz}">
+            <div class="${clazz} wind-cell">
                 <!--<p>${formatDate(wind.time)}</p>  -->
                 <p style="${style}">${formatWind(wind.yr.speed, wind.yr.gustSpeed)}</p> 
                 <p>${formatDirection(wind.yr.direction)}</p>

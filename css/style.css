@@ -1,12 +1,11 @@
 /* BEGIN COLORS */
 body {
-    color: lightsteelblue;
+    /* color: lightsteelblue; */
+    color: #001f3f;
+    margin: 0;
+    padding: 0;
     background-color: #444;
     font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, Baskerville, Arial, sans-serif;
-}
-
-.zone-box {
-
 }
 
 #zone-content {
@@ -63,7 +62,7 @@ p::first-letter {
 
 /** SEARCH BEGIN **/
 #zone-search input {
-    width: 95%;
+    width: 90%;
     height: 24px;
     border-radius: 12px;
     padding-left: 5px;
@@ -182,6 +181,7 @@ p::first-letter {
 
     #zone-search input {
         width: 85%;
+        max-width: 220px;
     }
 
     #zone-content {
@@ -264,8 +264,6 @@ p::first-letter {
     }
 }
 
-
-
 /** CODE BLOCK BEGIN **/
 pre {
     white-space: pre-wrap;
@@ -280,8 +278,6 @@ code {
     white-space: pre-wrap;
 }
 
-pre > code {
-}
 /** CODE BLOCK END **/
 
 .gitDate {
