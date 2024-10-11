@@ -69,7 +69,7 @@ var wind = (function () {
                 case 3:
                     weather = '&#9925;'
                     break
-                case '4':
+                case 4:
                 case 'cloudy':
                 case 'partlycloudy_day':
                 case 'partlycloudy_night': //Cloudy
@@ -82,13 +82,21 @@ var wind = (function () {
                 case 6:
                     weather = '&#9729;&#9729;&#9729;'
                     break
-                case 8:
-                case 'rain':
+                case 7:
+                case 'fog':
+                case 8: //light rain
                 case 'lightrain':
-                case 'heavyrain': //Rain
+                case 9: //rain
+                case 'rain':
+                    //Cloud with rain
+                    weather = '&#127783;'
+                    break
+                case 10: //heavy rain
+                case 'heavyrain':
                     //Umbrella; Cloud with rain
                     weather = '&#9748;&#127783'
                     break
+                case 11: //thunder
                 case 'rainandthunder':
                 case 'lightrainandthunder':
                     weather = '&#9748;&#127783;&#9889'
