@@ -58,6 +58,8 @@ var wind = (function () {
         var formatWeatherSymbol = function (symbolName) {
             var weather = ''
             switch (getOrDefault(symbolName, 'unknown')) {
+
+                //symbol codes from https://opendata.smhi.se/apidocs/metfcst/parameters.html
                 case 1:
                 case 2: //Sunny
                 case 'clearsky_day': //sunny
@@ -85,18 +87,22 @@ var wind = (function () {
                 case 7:
                 case 'fog':
                 case 8: //light rain
+                case 18:
                 case 'lightrain':
                 case 9: //rain
+                case 19: 
                 case 'rain':
                     //Cloud with rain
                     weather = '&#127783;'
                     break
                 case 10: //heavy rain
+                case 20:
                 case 'heavyrain':
                     //Umbrella; Cloud with rain
                     weather = '&#9748;&#127783'
                     break
                 case 11: //thunder
+                case 21:
                 case 'rainandthunder':
                 case 'lightrainandthunder':
                     weather = '&#9748;&#127783;&#9889'
