@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:40:41+02:00",
+  "generatedAt": "2026-05-15T16:44:26+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "f450245f8770",
+          "section": "nyheter",
+          "title": "Gillian Anderson om skräckdebuten: ”Jag är så stolt över den”",
+          "summary": "CANNES. Gillian Anderson gör sin Cannesdebut med Jane Schoenbruns sjövilda, psykosexuella slasherfilm ”Teenage sex and death at Camp Miasma”. Den tidigare ”X-files”-stjärnan spelar en kultförklarad skräckaktris som lockas tillbaka till rampljuset av en ung...",
+          "link": "https://www.dn.se/kultur/gillian-anderson-om-skrackdebuten-jag-ar-sa-stolt-over-den/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T16:43:45+02:00"
+        },
+        {
           "id": "03760035d6b1",
           "section": "nyheter",
           "title": "Mängden nybyggen minskar – lägsta på 26 år",
@@ -298,15 +307,6 @@
           "link": "https://www.svt.se/kultur/journalisten-dawit-isaak-har-hallits-fangslad-i-9000-dagar",
           "source": "SVT",
           "publishedAt": "2026-05-15T14:43:53+02:00"
-        },
-        {
-          "id": "fc76ca408d42",
-          "section": "nyheter",
-          "title": "Möbelformgivaren Åke Axelsson är död",
-          "summary": "Inredningsarkitekten och möbelformgivaren Åke Axelsson har avlidit, 94 år gammal. Under sin långa karriär skapade han över 200 stolar för offentliga miljöer som Handelshögskolan, Riksdagens bibliotek och Konstakademin.",
-          "link": "https://www.dn.se/kultur/mobelformgivaren-ake-axelsson-ar-dod/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T14:11:31+02:00"
         },
         {
           "id": "2bfaf72a416b",
