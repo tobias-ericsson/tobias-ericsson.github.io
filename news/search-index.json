@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:18:51+02:00",
+  "generatedAt": "2026-05-15T17:22:40+02:00",
   "entries": [
     {
       "id": "35a71f4c2cdf",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "4e40ecfa5d0d",
+      "section": "nyheter",
+      "title": "Motorcyklist körde omkull på Mariedalsvägen",
+      "summary": "",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=5230723c-2a13-4001-9b94-262802fbd122",
+      "publishedAt": "2026-05-15T17:19:00+02:00",
+      "text": "Motorcyklist körde omkull på Mariedalsvägen Sydsvenskan"
     },
     {
       "id": "9f5c6b2ad0e9",
@@ -460,16 +470,6 @@
       "link": "https://www.nyteknik.se/energi/milstolpe-foer-kanadas-foersta-smr-som-aeven-kan-hamna-vid-ringhals/4463676",
       "publishedAt": "2026-05-15T10:23:53+02:00",
       "text": "Milstolpe för Kanadas första SMR – som även kan hamna vid Ringhals NyTeknik Det enorma fundamentet är på plats i Darlington, ett stort steg för Kanadas första SMR-bygge. Samma småskaliga modulära reaktor övervägs även i Sverige."
-    },
-    {
-      "id": "506f7b1f9651",
-      "section": "nyheter",
-      "title": "INSÄNDARE: Stoppa nedläggningen av Teatermuseet i Malmö",
-      "summary": "﻿Beslutet att lägga ner eller flytta Teatermuseet i Malmö…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/stoppa-nedlaggningen-av-teatermuseet-i-malmo/",
-      "publishedAt": "2026-05-15T09:30:00+02:00",
-      "text": "INSÄNDARE: Stoppa nedläggningen av Teatermuseet i Malmö Sydsvenskan ﻿Beslutet att lägga ner eller flytta Teatermuseet i Malmö…"
     },
     {
       "id": "34d7c91eb8be",
