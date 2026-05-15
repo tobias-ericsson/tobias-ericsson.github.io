@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Malmö Seawind</title>
+        <link rel="icon" href="../favicon.ico" sizes="any" />
+        <!-- <link rel="icon" href="data:," /> -->
+        <link rel="stylesheet" href="../common/common.css" />
+        <link rel="stylesheet" href="wind.css" />
+    </head>
+    <body data-site-section="wind" data-brand-emoji="🌬️" data-brand-label="Malmö Seawind">
+        <div id="site-header"></div>
+        <div class="wind-scroll">
+            <div class="flex-container">
+                <div class="table-top-cell" aria-hidden="true"></div>
+                <a
+                    class="table-link table-link-harbor"
+                    href="https://www.weatherlink.com/embeddablePage/show/57ea9ac7cfe540c3a21e2aa23a2f1e53/summary"
+                    >Småbåtshamnen Limhamn</a
+                >
+                <a
+                    class="table-link table-link-coast"
+                    href="https://www.kustvader.se/malm%C3%B6-limhamn"
+                    >Kustväder Limhamn</a
+                >
+                <section style="flex: 0.05">
+                    <div class="section-header"></div>
+
+                    <div class="wind-container" id="left"></div>
+                </section>
+                <section>
+                    <div class="section-header">
+                        <h1>
+                            <a href="https://www.google.com/maps?q=55.58,12.91">Sibbarp</a>
+                        </h1>
+
+                        <p>Kallbadhuset</p>
+                    </div>
+
+                    <div class="wind-container" id="sibbarp"></div>
+                </section>
+                <section>
+                    <div class="section-header">
+                        <h1>
+                            <a href="https://www.google.com/maps?q=55.605,12.96">Ribban</a>
+                        </h1>
+
+                        <p>Ribersborg</p>
+                    </div>
+
+                    <div class="wind-container" id="ribban"></div>
+                </section>
+                <section>
+                    <div class="section-header">
+                        <h1>
+                            <a href="https://www.google.com/maps?q=55.674,13.055">Lomma</a>
+                        </h1>
+
+                        <p>Lomma Beach</p>
+                    </div>
+
+                    <div class="wind-container" id="lomma"></div>
+                </section>
+                <section>
+                    <div class="section-header">
+                        <h1>
+                            <a href="https://www.google.com/maps?q=55.522,12.889">Klagshamn</a>
+                        </h1>
+
+                        <p>Klagshamnsstranden</p>
+                    </div>
+
+                    <div class="wind-container" id="klagshamn"></div>
+                </section>
+                <!--<section style="flex: 0.05">
+                <div class="section-header">
+                </div>
+
+                <div></div>
+            </section>-->
+            </div>
+        </div>
+
+        <div id="weatherContainer"></div>
+        </main>
+
+        <!-- SCRIPT BEGIN -->
+        <script src="wind.js"></script>
+        <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst"></script>
+
+        <script>
+          wind.run();
+        </script>
+        <!--<style onload="wind.run()"></style>-->
+        <div id="site-footer"></div>
+        <script type="module" src="../common/common.js"></script>
+    </body>
+</html>

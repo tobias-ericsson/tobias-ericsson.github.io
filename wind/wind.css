@@ -1,0 +1,393 @@
+:root {
+    --wind-page-bg:
+        radial-gradient(circle at top, rgba(255, 255, 255, 0.3), transparent 26%),
+        radial-gradient(circle at 20% 15%, rgba(121, 198, 255, 0.2), transparent 22%),
+        linear-gradient(180deg, #78aeea 0%, #d8efff 38%, #f5fbff 100%);
+    --wind-surface: rgba(255, 255, 255, 0.82);
+    --wind-surface-strong: rgba(255, 255, 255, 0.96);
+    --wind-border: rgba(10, 43, 85, 0.1);
+    --wind-shadow: 0 20px 44px rgba(14, 41, 75, 0.12);
+    --wind-shadow-strong: 0 18px 34px rgba(11, 51, 90, 0.2);
+    --wind-text: #12304f;
+    --wind-muted: #56738f;
+    --wind-accent: #0a7aa8;
+    --wind-accent-2: #1f9ddd;
+    --wind-accent-deep: #083b67;
+    --wind-good: #127c55;
+    --wind-ok: #c27611;
+    --wind-bad: #c03d34;
+    --wind-radius: 24px;
+    --wind-row-height: 140px;
+    --wind-header-height: 68px;
+    --wind-time-col-width: 88px;
+    --wind-location-col-width: 210px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body[data-site-section="wind"] {
+    min-width: 0;
+    background: var(--wind-page-bg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: center top;
+    color: var(--wind-text);
+}
+
+.wind-main {
+    padding-top: 18px;
+}
+
+.wind-hero {
+    margin-bottom: 18px;
+    background:
+        linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(236, 247, 255, 0.84)),
+        linear-gradient(135deg, rgba(31, 157, 221, 0.08), rgba(255, 255, 255, 0));
+}
+
+.table-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 0;
+    background: linear-gradient(180deg, rgba(236, 246, 255, 0.98), rgba(214, 233, 248, 0.96));
+    color: var(--wind-text);
+    font-size: 0.92rem;
+    font-weight: 700;
+    line-height: 1.25;
+    text-decoration: none;
+    box-shadow: none;
+    transition: filter 120ms ease;
+}
+
+.table-top-cell {
+    min-height: 42px;
+    background: linear-gradient(180deg, rgba(236, 246, 255, 0.98), rgba(214, 233, 248, 0.96));
+}
+
+.table-link-harbor {
+    grid-column: 2 / span 2;
+}
+
+.table-link-coast {
+    grid-column: 4 / span 2;
+}
+
+.table-link:visited {
+    color: var(--wind-text);
+}
+
+.table-link:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.45);
+    outline-offset: -2px;
+}
+
+.wind-scroll {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    width: min(100%, calc(100% - 16px));
+    margin: 16px auto 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: start;
+}
+
+.flex-container > section {
+    overflow: hidden;
+    border: 0;
+    border-radius: 0;
+    background: var(--wind-surface);
+    box-shadow: none;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.flex-container > section:first-child {
+    background:
+        linear-gradient(180deg, rgba(11, 55, 97, 0.9), rgba(27, 95, 158, 0.82));
+    color: #eff8ff;
+}
+
+.section-header {
+    min-height: var(--wind-header-height);
+    padding: 10px 10px 8px;
+    text-align: center;
+    background:
+        linear-gradient(180deg, rgba(10, 122, 168, 0.96), rgba(69, 170, 235, 0.9));
+}
+
+.flex-container > section:first-child .section-header {
+    background: linear-gradient(180deg, rgba(11, 55, 97, 0.9), rgba(27, 95, 158, 0.82));
+    min-height: var(--wind-header-height);
+    padding-bottom: 8px;
+    pointer-events: none;
+}
+
+.section-header h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 1.05rem;
+    line-height: 1.1;
+}
+
+.section-header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.section-header p {
+    margin: 3px 0 0;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 0.78rem;
+    line-height: 1.15;
+}
+
+.wind-container {
+    margin: 0;
+}
+
+.wind-cell,
+#left > div {
+    min-height: var(--wind-row-height);
+    height: var(--wind-row-height);
+    padding: 16px 14px;
+    border-top: 0;
+}
+
+.wind-cell {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap: 7px;
+    text-align: center;
+}
+
+.wind-cell p {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.wind-cell p:first-child {
+    font-size: 1.28rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+}
+
+.wind-cell p:nth-child(2) {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+
+.wind-cell p:nth-child(3) {
+    color: var(--wind-muted);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.wind-cell p:last-child {
+    font-size: 1.25rem;
+}
+
+.even {
+    background: rgba(255, 255, 255, 0.66);
+}
+
+.odd {
+    background: rgba(240, 248, 255, 0.9);
+}
+
+#left {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#left > div {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 0.86rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#left > div.odd {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.time-display {
+    color: inherit;
+    font-weight: 800;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+}
+
+.speedunit {
+    margin-left: 4px;
+    color: var(--wind-muted);
+    font-size: 0.72em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.wind-good {
+    color: var(--wind-good);
+}
+
+.wind-ok {
+    color: var(--wind-ok);
+}
+
+.wind-bad {
+    color: var(--wind-bad);
+}
+
+#weatherContainer {
+    width: min(100%, calc(100% - 16px));
+    margin: 0 auto 28px;
+}
+
+@media (min-width: 761px) {
+    .quick-links {
+        margin-top: 6px;
+        padding: 2px 0 0;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .quick-links > a {
+        min-width: 0;
+    }
+
+    .flex-container,
+    .wind-scroll,
+    #weatherContainer {
+        width: min(100%, calc(100% - 24px));
+    }
+}
+
+@media (min-width: 1121px) {
+    .flex-container {
+        width: min(1180px, calc(100% - 24px));
+        grid-template-columns: minmax(76px, 0.42fr) repeat(4, minmax(210px, 1fr));
+        gap: 0;
+    }
+
+    #weatherContainer {
+        width: min(1120px, calc(100% - 24px));
+    }
+}
+
+@media (max-width: 1120px) {
+    .wind-scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+    }
+
+    .flex-container {
+        width: max-content;
+        min-width: calc(var(--wind-time-col-width) + (4 * var(--wind-location-col-width)));
+        margin: 16px 0 24px;
+        grid-template-columns:
+            var(--wind-time-col-width)
+            repeat(4, var(--wind-location-col-width));
+        gap: 0;
+    }
+
+    .flex-container > section {
+        min-width: 0;
+    }
+}
+
+@media (max-width: 760px) {
+    :root {
+        --wind-row-height: 108px;
+        --wind-header-height: 56px;
+        --wind-time-col-width: 64px;
+        --wind-location-col-width: 136px;
+    }
+
+    body[data-site-section="wind"] {
+        padding-bottom: 10px;
+    }
+
+    .wind-scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 4px;
+    }
+
+    .flex-container {
+        width: max-content;
+        min-width: calc(var(--wind-time-col-width) + (4 * var(--wind-location-col-width)));
+        margin: 16px 0 24px;
+        grid-template-columns:
+            var(--wind-time-col-width)
+            repeat(4, var(--wind-location-col-width));
+        gap: 0;
+    }
+
+    #left {
+        gap: 0;
+    }
+
+    .table-link,
+    .table-top-cell {
+        min-height: 32px;
+        font-size: 0.8rem;
+    }
+
+    .section-header {
+        padding: 8px 6px 6px;
+    }
+
+    .section-header h1 {
+        font-size: 0.9rem;
+    }
+
+    .section-header p {
+        font-size: 0.7rem;
+    }
+
+    .flex-container > section {
+        min-width: 0;
+    }
+
+    #left > div {
+        border-top: 0;
+        border-right: 0;
+    }
+
+    .wind-cell,
+    #left > div {
+        padding: 10px 6px;
+    }
+
+    .wind-cell {
+        gap: 4px;
+    }
+
+    .wind-cell p:first-child {
+        font-size: 1.1rem;
+    }
+
+    #left > div {
+        font-size: 0.78rem;
+    }
+}

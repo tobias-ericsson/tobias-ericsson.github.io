@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>dagens.site</title>
+        <meta name="description" content="Landing page for dagens.site" />
+        <meta name="color-scheme" content="light dark" />
+        <link rel="icon" href="favicon.ico" sizes="any" />
+        <link rel="stylesheet" href="common/common.css" />
+        <!-- <link rel="icon" href="data:," /> -->
+        <style>
+            .grid {
+                display: grid;
+                gap: 14px;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
+            @media (min-width: 640px) {
+                .grid {
+                    grid-template-columns: repeat(2, minmax(0, 1fr));
+                }
+            }
+            @media (min-width: 960px) {
+                .grid {
+                    grid-template-columns: repeat(4, minmax(0, 1fr));
+                }
+            }
+
+            .card {
+                display: block;
+                color: var(--cardtext);
+                background: var(--card);
+                border: 1px solid var(--line);
+                border-radius: var(--radius);
+                box-shadow: var(--shadow);
+                padding: 16px;
+                transition:
+                    transform 0.08s ease,
+                    box-shadow 0.08s ease,
+                    border-color 0.08s ease;
+            }
+            .card:hover {
+                transform: translateY(-1px);
+                border-color: #c7d2fe;
+            }
+            .card:focus-visible {
+                outline: 3px solid #a5b4fc;
+                outline-offset: 3px;
+            }
+
+            .card .icon {
+                width: 36px;
+                height: 36px;
+                border-radius: 10px;
+                display: grid;
+                place-items: center;
+                background: #eef2ff;
+                color: var(--accent);
+                font-size: 20px;
+                font-weight: 700;
+                margin-bottom: 8px;
+            }
+            .card h2 {
+                font-size: 18px;
+                margin: 4px 0 2px;
+            }
+            .card p {
+                margin: 0;
+                color: var(--muted);
+                font-size: 14px;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                .card:hover {
+                    border-color: #31446c;
+                }
+                .card:focus-visible {
+                    outline-color: #4062cc;
+                }
+                .card .icon {
+                    background: var(--cardtext);
+                }
+            }
+        </style>
+    </head>
+    <body data-site-section="home">
+        <div id="site-header"></div>
+
+        <main>
+            <section class="page-shell" style="margin-top: 18px">
+                <div class="grid" role="list">
+                    <a
+                        class="card"
+                        role="listitem"
+                        href="/news"
+                        aria-label="Go to News"
+                    >
+                        <div class="icon">📰</div>
+                        <h2>News</h2>
+                        <p>Latest sources and feeds curated in one place.</p>
+                    </a>
+                    <a
+                        class="card"
+                        role="listitem"
+                        href="/links"
+                        aria-label="Go to Links"
+                    >
+                        <div class="icon">🔗</div>
+                        <h2>Links</h2>
+                        <p>Bookmark collection with tags and search.</p>
+                    </a>
+                    <a
+                        class="card"
+                        role="listitem"
+                        href="/wind"
+                        aria-label="Go to Wind"
+                    >
+                        <div class="icon">🌬️</div>
+                        <h2>Wind</h2>
+                        <p>Live wind & forecast widget for your spots.</p>
+                    </a>
+                    <a
+                        class="card"
+                        role="listitem"
+                        href="/ai"
+                        aria-label="Go to AI"
+                    >
+                        <div class="icon">🤖</div>
+                        <h2>AI</h2>
+                        <p>Handy AI tools and model pickers.</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <div id="site-footer"></div>
+        <script type="module" src="common/common.js"></script>
+    </body>
+</html>

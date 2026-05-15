@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/css/grattis.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grattis Tina</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        #map {
+            height: 420px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Grattis på födelsedagen Tina</h1>
+    <p style="font-size: 0.85em;">önskar Tibbe</p>
+    <p>Låtom oss äta middag i Västra hamnen på <span id="dagValue"></span> kväll nästa vecka!
+    </p>
+    <p></p>
+    <p>Välj en av de föreslagna restaurangerna så ordnar jag med barnvakt och bokar bord snarast.</p>
+
+
+    <div class="restaurant-list">
+        <ul>
+            <li><a href="https://grekiska.se/wp-content/uploads/Citadellen-serveringsmeny.pdf" target="_blank">Grekiska
+                    - Vid kanalen</a>
+            </li>
+            <li><a href="https://www.kontrastrestaurang.se/meny-vastra-hamnen/" target="_blank">Kontrast - Indiskt vid
+                    havet</a>
+            </li>
+            <li><a href="https://portogastrobar.se/middag/" target="_blank">Porto - Gastrobar</a></li>
+            <li><a href="https://www.elsamalmo.com/menu" target="_blank">Elsa - Vin & matbar</a></li>
+        </ul>
+    </div>
+
+    <div id="map"></div>
+
+    <p></p>
+    <img src="img/tina.png" alt="Tina" style="width: 200px;" />
+    <p></p>
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">Gå upp</button>&nbsp;&nbsp;&nbsp;
+    <button onclick="window.location.href = '/grattis'">Gå tillbaka</button>
+    <p></p>
+    <p></p>
+
+
+    <script>
+        // Function to initialize the map
+        function initMap() {
+            // Create the map and set its initial view
+            var map = L.map('map').setView([55.610794, 12.981100], 15); // Centered on New York City
+
+            // Set up the OpenStreetMap layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            // Disable scroll wheel zoom
+            map.scrollWheelZoom.disable();
+
+            // Array of marker locations (example coordinates for four restaurants)
+            var markers = [
+                { coords: [55.612759, 12.976189], content: '<h3>Porto - Gastrobar</h3>' },
+                { coords: [55.6100900, 12.973574], content: '<h3>Kontrast - Indiskt</h3>' },
+                { coords: [55.606930, 12.987915], content: '<h3>Elsa - Vin & matbar</h3>' },
+                { coords: [55.606666, 12.986515], content: '<h3>Grekiska - Grekiskt</h3>' }
+            ];
+
+            // Loop through markers and place each one on the map
+            markers.forEach(function (marker) {
+                var mark = L.marker(marker.coords).addTo(map);
+                mark.bindPopup(marker.content);
+            });
+        }
+
+        function getDagValue() {
+            // Get the full URL
+            const urlParams = new URLSearchParams(window.location.search);
+
+            // Get the value of the "dag" parameter
+            var dagValue = urlParams.get('dag');
+
+            if (dagValue == '' || dagValue == null) {
+                dagValue = '<a href="?dag=tisdag">tisdag</a>, <a href="?dag=onsdag">onsdag</a> eller <a href="?dag=torsdag">torsdag</a>';
+            }
+
+            // Display the value on the webpage
+            document.getElementById('dagValue').innerHTML = dagValue;
+        }
+
+        function init() {
+            getDagValue();
+            initMap();
+        }
+
+        // Call the function when the window loads
+        window.onload = init;
+
+    </script>
+</body>
+
+</html>

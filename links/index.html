@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Links</title>
+        <link rel="icon" href="../favicon.ico" sizes="any" />
+        <!-- <link rel="icon" href="data:," /> -->
+        <link rel="stylesheet" href="../common/common.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body
+        data-site-section="links"
+        data-brand-emoji="🔗"
+        data-brand-label="Links"
+    >
+        <div id="site-header"></div>
+
+        <main>
+            <section class="page-shell page-hero">
+                <p class="page-kicker">Links</p>
+                <div class="page-toolbar">
+                    <div class="links-controls">
+                        <select id="sectionFilter">
+                            <option value="">All sections</option>
+                        </select>
+                    </div>
+                    <nav class="tabs" id="tabs" data-tabs-host></nav>
+                </div>
+            </section>
+
+            <section class="page-shell" style="margin-top: 18px">
+                <div id="content"></div>
+            </section>
+
+            <!-- Card Template -->
+            <template id="cardTmpl">
+                <a class="card fade" target="_blank" rel="noopener noreferrer">
+                    <div class="top">
+                        <div class="icon"></div>
+                        <div class="min">
+                            <div class="title-row">
+                                <span class="title"></span
+                                ><span class="host"></span>
+                            </div>
+                            <p class="desc"></p>
+                        </div>
+                    </div>
+                </a>
+            </template>
+
+            <!-- Section Template -->
+            <template id="sectionTmpl">
+                <section class="fade">
+                    <button
+                        class="section-head"
+                        type="button"
+                        aria-expanded="true"
+                    >
+                        <span class="section-title"></span>
+                        <span class="arrow" aria-hidden="true">▼</span>
+                    </button>
+                    <div class="grid"></div>
+                </section>
+            </template>
+        </main>
+
+        <div id="site-footer"></div>
+        <script type="module" src="../common/common.js"></script>
+
+        <script src="javascript.js" defer></script>
+    </body>
+</html>

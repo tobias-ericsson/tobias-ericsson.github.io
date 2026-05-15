@@ -1,0 +1,252 @@
+#header {
+    font-size: 22px;
+}
+
+.hotContainer {
+    margin: 40px auto;
+    /*width: max(50vw, 400px);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+#file-upload {
+    display: none;
+}
+
+.upload-icon {
+    width: 30px;
+}
+
+#image-container {
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+#image-container > img {
+    width: 100%;
+}
+
+.bounding-box {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bounding-box-label {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    margin-top: -16px;
+    margin-left: -2px;
+    padding: 1px;
+}
+
+#status {
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
+
+#html-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #fcd779;
+    border-top: 4px solid white;
+    border-radius: 50%;
+}
+
+#html-spinner,
+#svg-spinner {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1.2s;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ================================================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    min-height: 100vh;
+    font-size: 18px;
+}
+
+.banner {
+    max-width: 680px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* border-radius: 5px; */
+}
+
+.banner a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.banner a:visited {
+    color: white;
+    background-color: #444;
+}
+
+.container {
+    max-width: 680px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #444;
+    text-align: center;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.post {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred;
+    background-color: #555;
+}
+
+.rightCorner {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    font: 0.7em sans-serif;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 1.125rem;
+        /* 18px */
+    }
+}
+
+@media (min-width: 900px) {
+    body {
+        font-size: 1.25rem;
+        /* 20px */
+    }
+}
+
+/* sets the maximum width of the image to 100% of its container’s width, ensuring it scales down if the container is smaller than the image */
+img,
+iframe,
+pre {
+    max-width: 86%;
+    height: auto;
+    /* Maintains the aspect ratio */
+}
+
+figure {
+    max-width: 60%;
+    height: auto;
+}
+
+code {
+    display: block;
+    /* Ensures it takes the full width available */
+    max-width: 86%;
+    /* Restrict to max 100% of the container */
+    word-wrap: break-word;
+    /* Break long words to prevent overflow */
+    white-space: pre-wrap;
+    /* Wraps the text inside the code block */
+    padding: 10px;
+    background-color: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
