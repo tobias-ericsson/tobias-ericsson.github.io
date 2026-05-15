@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:58:36+02:00",
+  "generatedAt": "2026-05-15T19:02:24+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "f4f483ac8124",
+          "section": "nyheter",
+          "title": "Bonusprinsen vill slippa häktet – har överklagat till högsta domstol",
+          "summary": "Norges så kallade bonusprins Marius Borg Høiby vill slippa häktet och har överklagat till landets högsta domstol, rapporterar TT.Tiden som återstår fram till det att domen faller vill han tillbringa med fotboja på kronprinsessparets residens.Borg Høiby har...",
+          "link": "https://www.sverigesradio.se/artikel/9218782",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T19:00:00+02:00"
+        },
         {
           "id": "16c1ad688bd6",
           "section": "nyheter",
@@ -334,15 +343,6 @@
           "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/forbjudet-att-flyga-dronare-over-helsingborg/",
           "source": "Polisen",
           "publishedAt": "2026-05-15T15:59:10+02:00"
-        },
-        {
-          "id": "c8ea6f62a004",
-          "section": "nyheter",
-          "title": "Palestinsk tonåring ihjälskjuten",
-          "summary": "En palestinsk tonåring har skjutits ihjäl av israelisk militär på Västbanken, uppger palestinska hälsomyndigheter. Israelisk militär säger enligt Haaretz att tonåringen kastade sten mot israeliska fordon. Händelsen skedde efter Jerusalemdagen under gårdagen...",
-          "link": "https://www.sverigesradio.se/artikel/9218709",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T15:35:00+02:00"
         },
         {
           "id": "96e463e8af74",
