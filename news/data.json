@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:03:39+02:00",
+  "generatedAt": "2026-05-15T17:07:29+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,33 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "4650ab79705a",
+          "section": "nyheter",
+          "title": "Stal fordon för 5 miljoner – så avslöjade Erik ligan",
+          "summary": "Under en hel dag följde Erik Asp tjuvarnas rörelser – från Gdansk mot den ukrainska gränsen. I samarbete med polsk polis lyckades han hitta den internationella stöldligan. – Det var lite som taget ur en film, berättar Erik Asp.",
+          "link": "https://www.dn.se/sverige/stal-fordon-for-5-miljoner-sa-avslojade-erik-ligan/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T17:04:18+02:00"
+        },
+        {
+          "id": "2f952cc250cb",
+          "section": "nyheter",
+          "title": "Kuratorn om chattmobbningen i Hedemora: ”Skjut på barnens smartphonedebut”",
+          "summary": "Vänta med att introducera smartphones till barn. Den uppmaningen riktar nu kuratorn Matthias Rowe till föräldrar till barn i låg- och mellanstadieåldrar. Bakgrunden är händelsen i Hedemora där chattgrupper med allt från kränkningar till mordhot barn emellan...",
+          "link": "https://www.svt.se/nyheter/lokalt/dalarna/kuratorn-om-chattmobbningen-i-hedemora-skjut-pa-barnens-smartphonedebut",
+          "source": "SVT",
+          "publishedAt": "2026-05-15T17:02:53+02:00"
+        },
+        {
+          "id": "d78cd0c0adf3",
+          "section": "nyheter",
+          "title": "Linköping fylls med spelentusiaster: ”Gemenskapen är underbar”",
+          "summary": "I helgen fylls Campus Valla vid Linköpings universitet av tärningsslag, skratt och rollspel. Spelkonventet LinCon, ett av Sveriges största, lockar spelentusiaster från hela landet till Linköping.",
+          "link": "https://www.svt.se/nyheter/lokalt/ost/linkoping-fylls-med-spelentusiaster-gemenskapen-ar-underbar",
+          "source": "SVT",
+          "publishedAt": "2026-05-15T17:00:50+02:00"
+        },
+        {
           "id": "1e06a30eeabb",
           "section": "nyheter",
           "title": "Här sker flest bilinbrott i Malmö",
@@ -291,15 +318,6 @@
           "publishedAt": "2026-05-15T15:13:00+02:00"
         },
         {
-          "id": "e27876f7b372",
-          "section": "nyheter",
-          "title": "Boklistan vecka 20: missionsbefallningar, strandlägen, krukor och papperslösa sädesärlor",
-          "summary": "Veckans kritikerlista publiceras i trefaldighetstiden och behandlar missionsbefallningar, strandlägen, krukor och papperslösa sädesärlor.",
-          "link": "https://www.dn.se/kultur/boklistan-vecka-20-missionsbefallningar-strandlagen-krukor-och-papperslosa-sadesarlor/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T15:00:00+02:00"
-        },
-        {
           "id": "e8d5b1f2bdd2",
           "section": "nyheter",
           "title": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet”",
@@ -336,15 +354,6 @@
           "publishedAt": "2026-05-15T14:01:40+02:00"
         },
         {
-          "id": "8757f18feeab",
-          "section": "nyheter",
-          "title": "Man frikänns för sexköp – efter besök på massagesalong i Umeå",
-          "summary": "Flera män har utretts för sexköp efter att besökt en massagesalong i Umeå. En av männen frias nu av Umeå tingsrätt – bevisen anses inte räcka.",
-          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-frikanns-for-sexkop-efter-besok-pa-massagesalong-i-umea",
-          "source": "SVT",
-          "publishedAt": "2026-05-15T13:56:29+02:00"
-        },
-        {
           "id": "44c1fdc406a1",
           "section": "nyheter",
           "title": "”Sverige bygger ny kärnkraft utan en samhällsekonomisk analys”",
@@ -361,15 +370,6 @@
           "link": "https://webbjobb.io/jobb/340142/fullstack-utvecklare-inom-net?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
           "source": "WebbJobbLund",
           "publishedAt": "2026-05-15T13:40:21+02:00"
-        },
-        {
-          "id": "7bdc3767143c",
-          "section": "nyheter",
-          "title": "Kraftig jordbävning i Japan",
-          "summary": "En jordbävning har inträffat utanför norra Japan, rapporterar flera medier. Skalvet uppges vara kraftigt men ingen tsunamivarning har utfärdats.",
-          "link": "https://www.svt.se/nyheter/utrikes/kraftig-jordbavning-i-japan-qptqjk",
-          "source": "SVT",
-          "publishedAt": "2026-05-15T13:31:38+02:00"
         },
         {
           "id": "f84098acb041",
