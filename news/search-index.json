@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:44:17+02:00",
+  "generatedAt": "2026-05-15T19:48:07+02:00",
   "entries": [
     {
       "id": "e7c23f7633ff",
@@ -55,11 +55,11 @@
       "id": "9510ba378037",
       "section": "news",
       "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
-      "summary": "AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
+      "summary": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
       "source": "Techcrunch",
       "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
       "publishedAt": "2026-05-15T16:00:00+02:00",
-      "text": "Runway started by helping filmmakers — now it wants to beat Google at AI Techcrunch AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability."
+      "text": "Runway started by helping filmmakers — now it wants to beat Google at AI Techcrunch AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability."
     },
     {
       "id": "586c76cd86f5",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "5063c42eeb0c",
+      "section": "nyheter",
+      "title": "”De slutade inte förrän vi tog fram brandsläckaren”",
+      "summary": "JERUSALEM. Israelisk polis stoppade inte vandaliseringen av de muslimska kvarteren i Gamla stan på torsdagen – men uppgav för DN att allt skulle städas bort nästa morgon. Så blev det inte.",
+      "source": "DN",
+      "link": "https://www.dn.se/varlden/de-slutade-inte-forran-vi-tog-fram-brandslackaren/",
+      "publishedAt": "2026-05-15T19:47:40+02:00",
+      "text": "”De slutade inte förrän vi tog fram brandsläckaren” DN JERUSALEM. Israelisk polis stoppade inte vandaliseringen av de muslimska kvarteren i Gamla stan på torsdagen – men uppgav för DN att allt skulle städas bort nästa morgon. Så blev det inte."
+    },
+    {
       "id": "23b7eb9a12bd",
       "section": "nyheter",
       "title": "Försvunnen kvinna eftersöks – polisen ber om allmänhetens hjälp",
@@ -240,16 +250,6 @@
       "link": "https://www.nyteknik.se/tech/doomguys-favoritlat-gar-till-historien-i-ett-av-vaerldens-stoersta-bibliotek/4464064",
       "publishedAt": "2026-05-15T18:00:00+02:00",
       "text": "”Doomguys” favoritlåt går till historien – i ett av världens största bibliotek NyTeknik Det blev ledmotivet till ett av 90-talets mest betydande och älskade dataspel. Nu ska musiken till Doom sparas till eftervärlden i USA:s kongressbibliotek."
-    },
-    {
-      "id": "50c6a0333a49",
-      "section": "nyheter",
-      "title": "22 steg i ansatsen tar Duplantis till högre höjder",
-      "summary": "Med 22 steg i ansatsen gör Armand Duplantis säsongsdebut utomhus och ställer in siktet på högre höjder. – Det känns fortfarande väldigt nytt, säger han inför Diamond League-premiären i Shanghai.",
-      "source": "DN",
-      "link": "https://www.dn.se/sport/22-steg-i-ansatsen-tar-duplantis-till-hogre-hojder/",
-      "publishedAt": "2026-05-15T17:54:08+02:00",
-      "text": "22 steg i ansatsen tar Duplantis till högre höjder DN Med 22 steg i ansatsen gör Armand Duplantis säsongsdebut utomhus och ställer in siktet på högre höjder. – Det känns fortfarande väldigt nytt, säger han inför Diamond League-premiären i Shanghai."
     },
     {
       "id": "fb0e515899c2",
@@ -352,6 +352,16 @@
       "text": "Mängden nybyggen minskar – lägsta på 26 år Ekot Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s..."
     },
     {
+      "id": "d86a9c174dcf",
+      "section": "nyheter",
+      "title": "Viggo Björck historisk – och hyllad av Sidney Crosby",
+      "summary": "Viggo Björck fick chansen av förbundskapten Sam Hallam mot Kanada. 18-åringen blev därmed historisk som den yngste svenske VM-spelaren någonsin – och efteråt hyllades han av självaste Sidney Crosby. – Han gjorde en jättebra match, säger superstjärnan till S...",
+      "source": "SVT",
+      "link": "https://www.svt.se/sport/ishockey/viggo-bjorck-historisk-yngst-nagonsin-i-vm",
+      "publishedAt": "2026-05-15T16:23:05+02:00",
+      "text": "Viggo Björck historisk – och hyllad av Sidney Crosby SVT Viggo Björck fick chansen av förbundskapten Sam Hallam mot Kanada. 18-åringen blev därmed historisk som den yngste svenske VM-spelaren någonsin – och efteråt hyllades han av självaste Sidney Crosby. – Han gjorde en jättebra match, säger superstjärnan till S..."
+    },
+    {
       "id": "1cefcb7f9e5d",
       "section": "nyheter",
       "title": "Avspärrningar i Åby hävda – orsaken fortfarande oklar",
@@ -410,16 +420,6 @@
       "link": "https://www.di.se/digital/taljer-guld-pa-lifehacks-gick-fran-konkurs-till-100-miljoner/",
       "publishedAt": "2026-05-15T14:55:27+02:00",
       "text": "Täljer guld på ”lifehacks” – gick från konkurs till 100 miljoner DI Flowlife var nära konkurs under pandemin, men ställde om till att bli ett ledande varumärke inom livsstil och återhämtning. Omsättningen har nu fördubblats till 100 miljoner kronor och bolaget siktar på en tillväxt på 50 procent. ”Återhämtning är den nya tr..."
-    },
-    {
-      "id": "a4695f642b9e",
-      "section": "nyheter",
-      "title": "Journalisten Dawit Isaak har hållits fängslad i 9 000 dagar",
-      "summary": "I dag har journalisten Dawit Isaak suttit fängslad i Eritrea i 9 000 dagar. Det uppmärksammas i svensk press och genom en manifestation i Stockholm. ”Trots allt har jag och min familj aldrig slutat hoppas”, skriver hans dotter Danait Isaak i Expressen .",
-      "source": "SVT",
-      "link": "https://www.svt.se/kultur/journalisten-dawit-isaak-har-hallits-fangslad-i-9000-dagar",
-      "publishedAt": "2026-05-15T14:43:53+02:00",
-      "text": "Journalisten Dawit Isaak har hållits fängslad i 9 000 dagar SVT I dag har journalisten Dawit Isaak suttit fängslad i Eritrea i 9 000 dagar. Det uppmärksammas i svensk press och genom en manifestation i Stockholm. ”Trots allt har jag och min familj aldrig slutat hoppas”, skriver hans dotter Danait Isaak i Expressen ."
     },
     {
       "id": "2bfaf72a416b",
