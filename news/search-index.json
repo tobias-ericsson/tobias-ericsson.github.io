@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:15:25+02:00",
+  "generatedAt": "2026-05-15T18:19:29+02:00",
   "entries": [
     {
       "id": "fbf69aeb012a",
@@ -30,6 +30,16 @@
       "link": "https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/",
       "publishedAt": "2026-05-15T17:42:11+02:00",
       "text": "US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip Techcrunch People who travelled to Beijing for a summit between the United States and China had to throw away items they received during the trip before boarding Air Force One, presumably for security reasons."
+    },
+    {
+      "id": "6e0176865f62",
+      "section": "news",
+      "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
+      "summary": "submitted by /u/SterlingVII [link] [comments]",
+      "source": "Reddit",
+      "link": "https://www.reddit.com/r/technology/comments/1tdzxp5/cisco_announces_record_revenue_and_4000_layoffs/",
+      "publishedAt": "2026-05-15T17:36:46+02:00",
+      "text": "Cisco announces record revenue and 4,000 layoffs in the same day Reddit submitted by /u/SterlingVII [link] [comments]"
     },
     {
       "id": "35a71f4c2cdf",
@@ -112,16 +122,6 @@
       "text": "BYD in talks with automakers over European factory takeovers Technode BYD, which has expanded its new energy vehicle exports over the past two years, is considering acquiring factories in Europe from other automakers and has been in talks with several companies, according to sources. An executive in charge of overseas market..."
     },
     {
-      "id": "65afbd637b5c",
-      "section": "news",
-      "title": "Turns out, nobody wants a data center in their backyard",
-      "summary": "submitted by /u/waozen [link] [comments]",
-      "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1tdibox/turns_out_nobody_wants_a_data_center_in_their/",
-      "publishedAt": "2026-05-15T03:56:48+02:00",
-      "text": "Turns out, nobody wants a data center in their backyard Reddit submitted by /u/waozen [link] [comments]"
-    },
-    {
       "id": "25b8e624e8e9",
       "section": "news",
       "title": "TikTok launches TikTok GO lifestyle services brand in Indonesia, US and Japan",
@@ -202,14 +202,14 @@
       "text": "22 steg i ansatsen tar Duplantis till högre höjder DN Med 22 steg i ansatsen gör Armand Duplantis säsongsdebut utomhus och ställer in siktet på högre höjder. – Det känns fortfarande väldigt nytt, säger han inför Diamond League-premiären i Shanghai."
     },
     {
-      "id": "8d7537560f0a",
+      "id": "2c78f956797b",
       "section": "nyheter",
-      "title": "USA:s Kinabesök avslutat: ”Sett en väldigt disciplinerad Trump”",
-      "summary": "USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats.Det var en konstruktiv dialog mellan stormakterna och de behandlade varandra med respekt, och det betyder nog mycket för världen att det inte eskalerades med hårda ord, sä...",
+      "title": "Trump varnar Taiwan att inte söka självständighet",
+      "summary": "USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats.Det finns en uppenbar spänningspunkt vilket är Taiwan och Xi Jinping sa att det kan bli ett problem om USA inte respekterar Kinas hållning, säger Daniel Alling, Sveriges R...",
       "source": "Ekot",
       "link": "https://www.sverigesradio.se/artikel/9218726",
       "publishedAt": "2026-05-15T17:39:00+02:00",
-      "text": "USA:s Kinabesök avslutat: ”Sett en väldigt disciplinerad Trump” Ekot USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats.Det var en konstruktiv dialog mellan stormakterna och de behandlade varandra med respekt, och det betyder nog mycket för världen att det inte eskalerades med hårda ord, sä..."
+      "text": "Trump varnar Taiwan att inte söka självständighet Ekot USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats.Det finns en uppenbar spänningspunkt vilket är Taiwan och Xi Jinping sa att det kan bli ett problem om USA inte respekterar Kinas hållning, säger Daniel Alling, Sveriges R..."
     },
     {
       "id": "fc99bbb2607a",
