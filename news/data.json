@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:04:03+02:00",
+  "generatedAt": "2026-05-15T18:07:50+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "028148a8fc59",
+          "section": "nyheter",
+          "title": "13 män som dödats i amerikansk militär båtattack har identifierats",
+          "summary": "USA har dödat nästan 200 personer i båtar som de misstänkt varit inblandade i narkotikasmuggling. Nu har 13 personer identifierats av latinamerikanska grävande journalister. Majoriteten av offren har ingen koppling till narkotikahandel, konstaterar de.",
+          "link": "https://www.dn.se/varlden/13-man-som-dodats-i-amerikansk-militar-batattack-har-identifierats/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T18:07:26+02:00"
+        },
+        {
           "id": "ae8a6a1bfb66",
           "section": "nyheter",
           "title": "Lina Wolffs succébok blir spelfilm med Tarantinovibbar",
@@ -307,15 +316,6 @@
           "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/forstarkt-kamerabevakning-i-helsingborg-under-natomote/",
           "source": "Polisen",
           "publishedAt": "2026-05-15T16:12:50+02:00"
-        },
-        {
-          "id": "b2c4ed5d475d",
-          "section": "nyheter",
-          "title": "Expert: Kina har ett överläge mot USA efter mötet",
-          "summary": "Toppmötet i Kina resulterade inte i några omfattande handelsavtal eller nya bud i Taiwanfrågan, men världen fick se två helt olika ledarstilar. – Kina har kortsiktigt stärkt sin position och har ett visst överläge, säger Utrikespolitiska institutets Björn J...",
-          "link": "https://www.dn.se/varlden/expert-kina-har-ett-overlage-mot-usa-efter-motet/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T16:01:48+02:00"
         },
         {
           "id": "f067d4c07c8e",
