@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:26:21+02:00",
+  "generatedAt": "2026-05-15T17:30:37+02:00",
   "entries": [
     {
       "id": "35a71f4c2cdf",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "59755b1c0e81",
+      "section": "nyheter",
+      "title": "Kvällsmarknad, foodtrucks och ölkafé när Smörtaxen satsar i Hyllie",
+      "summary": "Hyllie får ett nytt dragplåster när Night Market ska hållas…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/dygnet-runt/kvallsmarknad-foodtrucks-och-olkafe-ska-ge-liv-i-hyllie/",
+      "publishedAt": "2026-05-15T17:30:00+02:00",
+      "text": "Kvällsmarknad, foodtrucks och ölkafé när Smörtaxen satsar i Hyllie Sydsvenskan Hyllie får ett nytt dragplåster när Night Market ska hållas…"
     },
     {
       "id": "4e40ecfa5d0d",
@@ -440,16 +450,6 @@
       "link": "https://www.sydsvenskan.se/malmo/badforbudet-forlangs-trots-att-bakterienivaerna-sjunker/",
       "publishedAt": "2026-05-15T11:53:31+02:00",
       "text": "Badförbudet förlängs – trots att bakterienivåerna sjunker Sydsvenskan Malmö stads ansvariga: ”Värdena kan fortfarande ändras med…"
-    },
-    {
-      "id": "c5ba1ae66861",
-      "section": "nyheter",
-      "title": "Därför dröjer tävlingen för nytt konstmuseum i Malmö",
-      "summary": "Malmöprofil blir den första miljondonatorn till museet.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/dygnet-runt/darfor-drojer-arkitekttavlingen-for-nytt-konstmuseum-i-malmo/",
-      "publishedAt": "2026-05-15T11:00:00+02:00",
-      "text": "Därför dröjer tävlingen för nytt konstmuseum i Malmö Sydsvenskan Malmöprofil blir den första miljondonatorn till museet."
     },
     {
       "id": "7e7ac31ff124",
