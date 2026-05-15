@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T15:31:44+02:00",
+  "generatedAt": "2026-05-15T15:35:30+02:00",
   "entries": [
     {
       "id": "7d516b2a7e92",
@@ -160,6 +160,26 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "c8ea6f62a004",
+      "section": "nyheter",
+      "title": "Palestinsk tonåring ihjälskjuten",
+      "summary": "En palestinsk tonåring har skjutits ihjäl av israelisk militär på Västbanken, uppger palestinska hälsomyndigheter. Israelisk militär säger enligt Haaretz att tonåringen kastade sten mot israeliska fordon. Händelsen skedde efter Jerusalemdagen under gårdagen...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9218709",
+      "publishedAt": "2026-05-15T15:35:00+02:00",
+      "text": "Palestinsk tonåring ihjälskjuten Ekot En palestinsk tonåring har skjutits ihjäl av israelisk militär på Västbanken, uppger palestinska hälsomyndigheter. Israelisk militär säger enligt Haaretz att tonåringen kastade sten mot israeliska fordon. Händelsen skedde efter Jerusalemdagen under gårdagen..."
+    },
+    {
+      "id": "bb05ec74bd2f",
+      "section": "nyheter",
+      "title": "Därför stormar det runt Keir Starmer",
+      "summary": "Kritiken mot Storbritanniens premiärminister Keir Starmer växer, och över 90 Labourparlamentariker uppges vilja se honom lämna posten.Samtidigt är det svårt att avsätta en sittande Labourledare, och Starmer säger att han tänker sitta kvar så länge han inte...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9218699",
+      "publishedAt": "2026-05-15T15:31:00+02:00",
+      "text": "Därför stormar det runt Keir Starmer Ekot Kritiken mot Storbritanniens premiärminister Keir Starmer växer, och över 90 Labourparlamentariker uppges vilja se honom lämna posten.Samtidigt är det svårt att avsätta en sittande Labourledare, och Starmer säger att han tänker sitta kvar så länge han inte..."
     },
     {
       "id": "96e463e8af74",
@@ -350,26 +370,6 @@
       "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-05-15-Matkravet-vid-alkoholservering-slopas---sa-paverkas-Malmo.html",
       "publishedAt": "2026-05-15T13:23:59+02:00",
       "text": "Matkravet vid alkoholservering slopas – så påverkas Malmö Malmö Den 1 juni ändras alkohollagen i Sverige. Fler företag väntas ansöka om serveringstillstånd när matkravet tas bort för den som vill servera alkohol."
-    },
-    {
-      "id": "8c2c22b1c45b",
-      "section": "nyheter",
-      "title": "”Kungen i norr” på väg att utmana Starmer om makten",
-      "summary": "I Storbritannien har den populäre labourpolitikern Andy Burnham kommit ett steg närmare att kunna utmana premiärminister Keir Starmer om makten i vad som ser ut att bli en utdragen maktkamp med oviss utgång.Andy Burnham är idag borgmästare i Manchester i no...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9218569",
-      "publishedAt": "2026-05-15T12:56:00+02:00",
-      "text": "”Kungen i norr” på väg att utmana Starmer om makten Ekot I Storbritannien har den populäre labourpolitikern Andy Burnham kommit ett steg närmare att kunna utmana premiärminister Keir Starmer om makten i vad som ser ut att bli en utdragen maktkamp med oviss utgång.Andy Burnham är idag borgmästare i Manchester i no..."
-    },
-    {
-      "id": "7ec178bb683c",
-      "section": "nyheter",
-      "title": "”Kina ser sig som stormaktsjämlike till USA”",
-      "summary": "USA:s president Donald Trumps besök i Kina, där han träffade landets ledare Xi Jinping, är över och han är nu på väg hem. Enligt Sveriges Radios Kinakorrespondent Moa Kärnstrand var det viktigaste som kom fram under mötet framförallt två saker. ”Dels hur Ki...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9218618",
-      "publishedAt": "2026-05-15T12:42:00+02:00",
-      "text": "”Kina ser sig som stormaktsjämlike till USA” Ekot USA:s president Donald Trumps besök i Kina, där han träffade landets ledare Xi Jinping, är över och han är nu på väg hem. Enligt Sveriges Radios Kinakorrespondent Moa Kärnstrand var det viktigaste som kom fram under mötet framförallt två saker. ”Dels hur Ki..."
     },
     {
       "id": "9e0c37a0bee5",
