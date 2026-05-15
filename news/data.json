@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:36:51+02:00",
+  "generatedAt": "2026-05-15T16:40:41+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "03760035d6b1",
+          "section": "nyheter",
+          "title": "Mängden nybyggen minskar – lägsta på 26 år",
+          "summary": "Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s...",
+          "link": "https://www.sverigesradio.se/artikel/9215038",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T16:34:00+02:00"
+        },
+        {
           "id": "311c681e9ee3",
           "section": "nyheter",
           "title": "Avspärrningar i Åby utanför Norrköping",
@@ -298,15 +307,6 @@
           "link": "https://www.dn.se/kultur/mobelformgivaren-ake-axelsson-ar-dod/",
           "source": "DN",
           "publishedAt": "2026-05-15T14:11:31+02:00"
-        },
-        {
-          "id": "52519337e7cc",
-          "section": "nyheter",
-          "title": "Ryssland och Ukraina har utväxlat fångar",
-          "summary": "Ryssland och Ukraina har utväxlat drygt 200 krigsfångar var, uppger både Moskva och Kiev, rapporterar AFP. Ukrainas president Volodymyr Zelenskyj säger att många av de frigivna ukrainarna hållits fångna sedan 2022 och beskriver det som en första fas i en st...",
-          "link": "https://www.sverigesradio.se/artikel/9218667",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T14:02:00+02:00"
         },
         {
           "id": "2bfaf72a416b",

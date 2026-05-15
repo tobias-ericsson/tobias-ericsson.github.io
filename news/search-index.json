@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:36:51+02:00",
+  "generatedAt": "2026-05-15T16:40:41+02:00",
   "entries": [
     {
       "id": "35a71f4c2cdf",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "03760035d6b1",
+      "section": "nyheter",
+      "title": "Mängden nybyggen minskar – lägsta på 26 år",
+      "summary": "Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9215038",
+      "publishedAt": "2026-05-15T16:34:00+02:00",
+      "text": "Mängden nybyggen minskar – lägsta på 26 år Ekot Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s..."
+    },
+    {
       "id": "311c681e9ee3",
       "section": "nyheter",
       "title": "Avspärrningar i Åby utanför Norrköping",
@@ -320,16 +330,6 @@
       "link": "https://www.dn.se/kultur/mobelformgivaren-ake-axelsson-ar-dod/",
       "publishedAt": "2026-05-15T14:11:31+02:00",
       "text": "Möbelformgivaren Åke Axelsson är död DN Inredningsarkitekten och möbelformgivaren Åke Axelsson har avlidit, 94 år gammal. Under sin långa karriär skapade han över 200 stolar för offentliga miljöer som Handelshögskolan, Riksdagens bibliotek och Konstakademin."
-    },
-    {
-      "id": "52519337e7cc",
-      "section": "nyheter",
-      "title": "Ryssland och Ukraina har utväxlat fångar",
-      "summary": "Ryssland och Ukraina har utväxlat drygt 200 krigsfångar var, uppger både Moskva och Kiev, rapporterar AFP. Ukrainas president Volodymyr Zelenskyj säger att många av de frigivna ukrainarna hållits fångna sedan 2022 och beskriver det som en första fas i en st...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9218667",
-      "publishedAt": "2026-05-15T14:02:00+02:00",
-      "text": "Ryssland och Ukraina har utväxlat fångar Ekot Ryssland och Ukraina har utväxlat drygt 200 krigsfångar var, uppger både Moskva och Kiev, rapporterar AFP. Ukrainas president Volodymyr Zelenskyj säger att många av de frigivna ukrainarna hållits fångna sedan 2022 och beskriver det som en första fas i en st..."
     },
     {
       "id": "2bfaf72a416b",
