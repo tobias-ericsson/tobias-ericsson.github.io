@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-05-15T20:14:43+02:00",
+  "generatedAt": "2026-05-15T20:18:30+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "e4e85b985faa",
+          "section": "news",
+          "title": "Silicon Valley’s vacationland needs a new energy provider just as AI is driving prices up",
+          "summary": "Lake Tahoe, Silicon Valley's favorite ski spot, is about to get hit with higher energy prices as AI drives demand for electricity.",
+          "link": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-05-15T20:14:44+02:00"
+        },
         {
           "id": "e7c23f7633ff",
           "section": "news",
@@ -49,15 +58,6 @@
           "link": "https://www.reddit.com/r/technology/comments/1tdzxp5/cisco_announces_record_revenue_and_4000_layoffs/",
           "source": "Reddit",
           "publishedAt": "2026-05-15T17:36:46+02:00"
-        },
-        {
-          "id": "9510ba378037",
-          "section": "news",
-          "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
-          "summary": "AI video-generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
-          "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-05-15T16:00:00+02:00"
         },
         {
           "id": "586c76cd86f5",
