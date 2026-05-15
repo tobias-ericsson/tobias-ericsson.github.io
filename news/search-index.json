@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:51:00+02:00",
+  "generatedAt": "2026-05-15T18:54:48+02:00",
   "entries": [
     {
       "id": "fbf69aeb012a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "16c1ad688bd6",
+      "section": "nyheter",
+      "title": "Unga Tre Kronor stod upp – men Kanadas stjärnlag vann VM-premiären",
+      "summary": "Hockey-VM är igång. Och det blev en rivstart för Tre Kronor i schweiziska Fribourg, Tungt favorittippade Kanada med en rad storstjärnor stod för motståndet. Efter en tung start kom Sverige tillbaka – men till slut vann Kanada med 5-3.",
+      "source": "DN",
+      "link": "https://www.dn.se/sport/unga-tre-kronor-stod-upp-men-kanadas-stjarnlag-vann-vm-premiaren/",
+      "publishedAt": "2026-05-15T18:49:51+02:00",
+      "text": "Unga Tre Kronor stod upp – men Kanadas stjärnlag vann VM-premiären DN Hockey-VM är igång. Och det blev en rivstart för Tre Kronor i schweiziska Fribourg, Tungt favorittippade Kanada med en rad storstjärnor stod för motståndet. Efter en tung start kom Sverige tillbaka – men till slut vann Kanada med 5-3."
+    },
+    {
       "id": "ff4c74adb292",
       "section": "nyheter",
       "title": "Liberalerna vill se en dubblering av miljardärer i Sverige",
@@ -260,16 +270,6 @@
       "link": "https://www.sydsvenskan.se/malmo/corbyn-i-malmo-nar-internationella-vanstern-samlas/",
       "publishedAt": "2026-05-15T17:15:00+02:00",
       "text": "Corbyn i Malmö när internationella vänstern samlas Sydsvenskan ”Jag måste säga att jag är väldigt imponerad över hur rent…"
-    },
-    {
-      "id": "4650ab79705a",
-      "section": "nyheter",
-      "title": "Stal fordon för 5 miljoner – så avslöjade Erik ligan",
-      "summary": "Under en hel dag följde Erik Asp tjuvarnas rörelser – från Gdansk mot den ukrainska gränsen. I samarbete med polsk polis lyckades han hitta den internationella stöldligan. – Det var lite som taget ur en film, berättar Erik Asp.",
-      "source": "DN",
-      "link": "https://www.dn.se/sverige/stal-fordon-for-5-miljoner-sa-avslojade-erik-ligan/",
-      "publishedAt": "2026-05-15T17:04:18+02:00",
-      "text": "Stal fordon för 5 miljoner – så avslöjade Erik ligan DN Under en hel dag följde Erik Asp tjuvarnas rörelser – från Gdansk mot den ukrainska gränsen. I samarbete med polsk polis lyckades han hitta den internationella stöldligan. – Det var lite som taget ur en film, berättar Erik Asp."
     },
     {
       "id": "2f952cc250cb",
