@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T20:18:30+02:00",
+  "generatedAt": "2026-05-15T20:22:18+02:00",
   "entries": [
     {
       "id": "e4e85b985faa",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "fca7e2c28ac9",
+      "section": "nyheter",
+      "title": "Trumps renovering av ikonisk vattenspegel väcker kritik",
+      "summary": "WASHINGTON. Donald Trump vill ge den ikoniska vattenspegeln vid Lincolnmonumentet i Washington ett simbassängsliknande utseende. Kritiker försöker stoppa projektet eftersom de hävdar att det bryter mot lagen – men alla är inte missnöjda. – Han får åtminston...",
+      "source": "DN",
+      "link": "https://www.dn.se/varlden/trumps-renovering-av-ikonisk-vattenspegel-vacker-kritik/",
+      "publishedAt": "2026-05-15T20:18:44+02:00",
+      "text": "Trumps renovering av ikonisk vattenspegel väcker kritik DN WASHINGTON. Donald Trump vill ge den ikoniska vattenspegeln vid Lincolnmonumentet i Washington ett simbassängsliknande utseende. Kritiker försöker stoppa projektet eftersom de hävdar att det bryter mot lagen – men alla är inte missnöjda. – Han får åtminston..."
+    },
+    {
       "id": "f5cf34dae51b",
       "section": "nyheter",
       "title": "Miriam Toews struntar i det traditionella berättandet – och det är bra",
@@ -222,14 +232,14 @@
       "text": "”De slutade inte förrän vi tog fram brandsläckaren” DN JERUSALEM. Israelisk polis stoppade inte vandaliseringen av de muslimska kvarteren i Gamla stan på torsdagen – men uppgav för DN att allt skulle städas bort nästa morgon. Så blev det inte."
     },
     {
-      "id": "23b7eb9a12bd",
+      "id": "75255542bb82",
       "section": "nyheter",
-      "title": "Försvunnen kvinna eftersöks – polisen ber om allmänhetens hjälp",
-      "summary": "En kvinna har försvunnit från ett boende på Söderkulla. Hon…",
+      "title": "Försvunnen kvinna hittad",
+      "summary": "Den kvinna som försvann från ett boende på Söderkulla på…",
       "source": "Sydsvenskan",
       "link": "https://www.sydsvenskan.se/malmo/forsvunnen-kvinna-eftersoks-polisen-ber-om-allmanhetens-hjalp/",
       "publishedAt": "2026-05-15T19:39:56+02:00",
-      "text": "Försvunnen kvinna eftersöks – polisen ber om allmänhetens hjälp Sydsvenskan En kvinna har försvunnit från ett boende på Söderkulla. Hon…"
+      "text": "Försvunnen kvinna hittad Sydsvenskan Den kvinna som försvann från ett boende på Söderkulla på…"
     },
     {
       "id": "0d6ac5a7186a",
@@ -270,16 +280,6 @@
       "link": "https://www.sverigesradio.se/artikel/9218773",
       "publishedAt": "2026-05-15T18:41:00+02:00",
       "text": "Liberalerna vill se en dubblering av miljardärer i Sverige Ekot Liberalerna vill fördubbla antalet svenska miljardärer på tio år genom bland annat skattesänkningar som ska underlätta för entreprenörer.”Sverige borde vara ett skatteparadis för människor som arbetar och bygger upp företag i vårt land”, säger partiledare S..."
-    },
-    {
-      "id": "7ef3e399ae2c",
-      "section": "nyheter",
-      "title": "Få väljare redo att hjälpa Mohamsson över spärren",
-      "summary": "Liberalernas chanser att klara sig kvar i riksdagen genom stödröster är mycket små. Det visar en mätning från DN/Ipsos. De väljare som i dag är redo att hjälpa Simona Mohamsson räcker inte för att lyfta partiet över spärren.",
-      "source": "DN",
-      "link": "https://www.dn.se/sverige/fa-valjare-redo-att-hjalpa-mohamsson-over-sparren/",
-      "publishedAt": "2026-05-15T18:30:28+02:00",
-      "text": "Få väljare redo att hjälpa Mohamsson över spärren DN Liberalernas chanser att klara sig kvar i riksdagen genom stödröster är mycket små. Det visar en mätning från DN/Ipsos. De väljare som i dag är redo att hjälpa Simona Mohamsson räcker inte för att lyfta partiet över spärren."
     },
     {
       "id": "6b0af36d7198",
