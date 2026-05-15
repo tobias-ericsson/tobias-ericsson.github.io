@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-05-15T17:59:42+02:00",
+  "generatedAt": "2026-05-15T18:04:03+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "fbf69aeb012a",
+          "section": "news",
+          "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts",
+          "summary": "OpenAI is launching personal finance tools for ChatGPT Pro subscribers in the U.S. first",
+          "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-05-15T18:00:00+02:00"
+        },
         {
           "id": "ae92ad957811",
           "section": "news",
@@ -49,15 +58,6 @@
           "link": "https://techcrunch.com/2026/05/15/even-gopro-is-pivoting-to-defense/",
           "source": "Techcrunch",
           "publishedAt": "2026-05-15T15:14:13+02:00"
-        },
-        {
-          "id": "65a20f59af93",
-          "section": "news",
-          "title": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
-          "summary": "Meridian Ventures, the venture firm founded by Devon Gethers and Karlton Haney, announced on Friday the raise of a $35 million second fund to back pre-seed and seed-stage companies founded by those who have deferred MBAs.",
-          "link": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-05-15T15:00:00+02:00"
         },
         {
           "id": "8930fd4c4e79",
@@ -155,6 +155,24 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "ae8a6a1bfb66",
+          "section": "nyheter",
+          "title": "Lina Wolffs succébok blir spelfilm med Tarantinovibbar",
+          "summary": "CANNES. Lina Wolffs hämndlystna Augustprisvinnare ”Liken vi begravde” ska förvandlas till spelfilm, kan DN berätta. – Vi vill göra en rå och poetisk ”Kill Bill”-historia i djupaste Skåne, förklarar producenterna Teresa Alldén och Anette Brantin som gästar f...",
+          "link": "https://www.dn.se/kultur/lina-wolffs-succebok-blir-spelfilm-med-tarantinovibbar/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T18:00:33+02:00"
+        },
+        {
+          "id": "6b0af36d7198",
+          "section": "nyheter",
+          "title": "”Doomguys” favoritlåt går till historien – i ett av världens största bibliotek",
+          "summary": "Det blev ledmotivet till ett av 90-talets mest betydande och älskade dataspel. Nu ska musiken till Doom sparas till eftervärlden i USA:s kongressbibliotek.",
+          "link": "https://www.nyteknik.se/tech/doomguys-favoritlat-gar-till-historien-i-ett-av-vaerldens-stoersta-bibliotek/4464064",
+          "source": "NyTeknik",
+          "publishedAt": "2026-05-15T18:00:00+02:00"
+        },
         {
           "id": "50c6a0333a49",
           "section": "nyheter",
@@ -336,15 +354,6 @@
           "publishedAt": "2026-05-15T15:26:59+02:00"
         },
         {
-          "id": "bca4d4ee8804",
-          "section": "nyheter",
-          "title": "Slink in-vänliga krogar med avslappnad atmosfär",
-          "summary": "Krogkommissionen tipsar om tre ställen där avslappnad stämningen är det viktigaste.",
-          "link": "https://www.dn.se/kultur/slink-in-vanliga-krogar-med-avslappnad-atmosfar/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T15:16:12+02:00"
-        },
-        {
           "id": "e8d5b1f2bdd2",
           "section": "nyheter",
           "title": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet”",
@@ -469,15 +478,6 @@
           "link": "https://www.di.se/digital/efter-prognossagen-klarna-overtraffar-forvantningar/",
           "source": "DI",
           "publishedAt": "2026-05-14T15:41:28+02:00"
-        },
-        {
-          "id": "5e75d6c81ccf",
-          "section": "nyheter",
-          "title": "Hur allvarlig är risken att människor förlorar kontrollen över AI?",
-          "summary": "Ny Teknik går igenom: De mörkaste scenarierna, de svagaste argumenten – och de säkerhetsåtgärder som föreslås av forskare och ai-bolag. Ta del av Ny Tekniks nedladdningsbara kompendium.",
-          "link": "https://www.nyteknik.se/tech/hur-allvarlig-aer-risken-att-maenniskor-foerlorar-kontrollen-oever-framtidens-ai/4463702",
-          "source": "NyTeknik",
-          "publishedAt": "2026-05-13T16:18:13+02:00"
         },
         {
           "id": "03e9afcc3f33",
