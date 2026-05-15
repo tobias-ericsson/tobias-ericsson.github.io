@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:13:52+02:00",
+  "generatedAt": "2026-05-15T19:17:38+02:00",
   "sections": [
     {
       "key": "news",
@@ -51,9 +51,9 @@
           "publishedAt": "2026-05-15T17:36:46+02:00"
         },
         {
-          "id": "35a71f4c2cdf",
+          "id": "9510ba378037",
           "section": "news",
-          "title": "Runway started by helping filmmakers. Now it wants to beat Google at AI.",
+          "title": "Runway started by helping filmmakers — now it wants to beat Google at AI",
           "summary": "AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
           "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
           "source": "Techcrunch",
