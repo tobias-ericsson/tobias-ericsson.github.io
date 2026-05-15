@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:36:39+02:00",
+  "generatedAt": "2026-05-15T19:40:24+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "23b7eb9a12bd",
+          "section": "nyheter",
+          "title": "Försvunnen kvinna eftersöks – polisen ber om allmänhetens hjälp",
+          "summary": "En kvinna har försvunnit från ett boende på Söderkulla. Hon…",
+          "link": "https://www.sydsvenskan.se/malmo/forsvunnen-kvinna-eftersoks-polisen-ber-om-allmanhetens-hjalp/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-05-15T19:39:56+02:00"
+        },
         {
           "id": "0d6ac5a7186a",
           "section": "nyheter",
@@ -415,15 +424,6 @@
           "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-05-15-Matkravet-vid-alkoholservering-slopas---sa-paverkas-Malmo.html",
           "source": "Malmö",
           "publishedAt": "2026-05-15T13:23:59+02:00"
-        },
-        {
-          "id": "9e0c37a0bee5",
-          "section": "nyheter",
-          "title": "Badförbudet förlängs – trots att bakterienivåerna sjunker",
-          "summary": "Malmö stads ansvariga: ”Värdena kan fortfarande ändras med…",
-          "link": "https://www.sydsvenskan.se/malmo/badforbudet-forlangs-trots-att-bakterienivaerna-sjunker/",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-05-15T11:53:31+02:00"
         },
         {
           "id": "7e7ac31ff124",
