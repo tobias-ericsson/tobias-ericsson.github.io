@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:59:34+02:00",
+  "generatedAt": "2026-05-15T20:03:19+02:00",
   "entries": [
     {
       "id": "e7c23f7633ff",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "fcb64e0c9ed3",
+      "section": "nyheter",
+      "title": "DN Debatt. ”Inte konstigt att mindre privata pengar når kulturen i Sverige”",
+      "summary": "DN DEBATT. Med krig i vårt närområde är säkerhet och försvar i fokus. Samtidigt är livet större än så: Konst och kultur tillhör fundamentet för ett öppet samhälle. Regeringen vill nu att privat sektor ska kliva in. Vi vill, men då krävs ändring i både synsä...",
+      "source": "DN",
+      "link": "https://www.dn.se/debatt/inte-konstigt-att-mindre-privata-pengar-nar-kulturen-i-sverige/",
+      "publishedAt": "2026-05-15T20:00:00+02:00",
+      "text": "DN Debatt. ”Inte konstigt att mindre privata pengar når kulturen i Sverige” DN DN DEBATT. Med krig i vårt närområde är säkerhet och försvar i fokus. Samtidigt är livet större än så: Konst och kultur tillhör fundamentet för ett öppet samhälle. Regeringen vill nu att privat sektor ska kliva in. Vi vill, men då krävs ändring i både synsä..."
+    },
+    {
       "id": "f3a35767c8c3",
       "section": "nyheter",
       "title": "Trumps uttal om Taiwan: Annorlunda agerade av en amerikansk president",
@@ -260,16 +270,6 @@
       "link": "https://www.dn.se/varlden/13-man-som-dodats-i-amerikansk-militar-batattack-har-identifierats/",
       "publishedAt": "2026-05-15T18:07:26+02:00",
       "text": "13 män som dödats i amerikansk militär båtattack har identifierats DN USA har dödat nästan 200 personer i båtar som de misstänkt varit inblandade i narkotikasmuggling. Nu har 13 personer identifierats av latinamerikanska grävande journalister. Majoriteten av offren har ingen koppling till narkotikahandel, konstaterar de."
-    },
-    {
-      "id": "ae8a6a1bfb66",
-      "section": "nyheter",
-      "title": "Lina Wolffs succébok blir spelfilm med Tarantinovibbar",
-      "summary": "CANNES. Lina Wolffs hämndlystna Augustprisvinnare ”Liken vi begravde” ska förvandlas till spelfilm, kan DN berätta. – Vi vill göra en rå och poetisk ”Kill Bill”-historia i djupaste Skåne, förklarar producenterna Teresa Alldén och Anette Brantin som gästar f...",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/lina-wolffs-succebok-blir-spelfilm-med-tarantinovibbar/",
-      "publishedAt": "2026-05-15T18:00:33+02:00",
-      "text": "Lina Wolffs succébok blir spelfilm med Tarantinovibbar DN CANNES. Lina Wolffs hämndlystna Augustprisvinnare ”Liken vi begravde” ska förvandlas till spelfilm, kan DN berätta. – Vi vill göra en rå och poetisk ”Kill Bill”-historia i djupaste Skåne, förklarar producenterna Teresa Alldén och Anette Brantin som gästar f..."
     },
     {
       "id": "6b0af36d7198",
