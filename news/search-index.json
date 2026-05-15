@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:55:47+02:00",
+  "generatedAt": "2026-05-15T19:59:34+02:00",
   "entries": [
     {
       "id": "e7c23f7633ff",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "f3a35767c8c3",
+      "section": "nyheter",
+      "title": "Trumps uttal om Taiwan: Annorlunda agerade av en amerikansk president",
+      "summary": "Efter att USA:s Kinabesök avslutades på fredagen har nu Donald Trump sagt i en intervju med Fox News att han inte är ute efter att Taiwan ska utropa självständighet.Uttalandet sticker ut, eftersom USA länge haft en strategi gällande Taiwan där man inte tagi...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9218786",
+      "publishedAt": "2026-05-15T19:54:00+02:00",
+      "text": "Trumps uttal om Taiwan: Annorlunda agerade av en amerikansk president Ekot Efter att USA:s Kinabesök avslutades på fredagen har nu Donald Trump sagt i en intervju med Fox News att han inte är ute efter att Taiwan ska utropa självständighet.Uttalandet sticker ut, eftersom USA länge haft en strategi gällande Taiwan där man inte tagi..."
     },
     {
       "id": "eff69873dbb5",
@@ -350,16 +360,6 @@
       "link": "https://www.sverigesradio.se/artikel/9218647",
       "publishedAt": "2026-05-15T16:49:00+02:00",
       "text": "Nya kravet: 34 invasiva arter ska bekämpas Ekot Naturvårdsverket har kommit med en ny lista där man anger 34 invasiva arter som ska bekämpas.Reglerna är tvingande, men privata fastighetsägare är undantagna. Har du lupiner på din tomt, får de stå kvar, så länge du förhindrar att den sprider sig till en gr..."
-    },
-    {
-      "id": "03760035d6b1",
-      "section": "nyheter",
-      "title": "Mängden nybyggen minskar – lägsta på 26 år",
-      "summary": "Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9215038",
-      "publishedAt": "2026-05-15T16:34:00+02:00",
-      "text": "Mängden nybyggen minskar – lägsta på 26 år Ekot Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s..."
     },
     {
       "id": "d86a9c174dcf",

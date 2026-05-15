@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:55:47+02:00",
+  "generatedAt": "2026-05-15T19:59:34+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "f3a35767c8c3",
+          "section": "nyheter",
+          "title": "Trumps uttal om Taiwan: Annorlunda agerade av en amerikansk president",
+          "summary": "Efter att USA:s Kinabesök avslutades på fredagen har nu Donald Trump sagt i en intervju med Fox News att han inte är ute efter att Taiwan ska utropa självständighet.Uttalandet sticker ut, eftersom USA länge haft en strategi gällande Taiwan där man inte tagi...",
+          "link": "https://www.sverigesradio.se/artikel/9218786",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T19:54:00+02:00"
+        },
         {
           "id": "eff69873dbb5",
           "section": "nyheter",
@@ -325,15 +334,6 @@
           "link": "https://www.sverigesradio.se/artikel/9218647",
           "source": "Ekot",
           "publishedAt": "2026-05-15T16:49:00+02:00"
-        },
-        {
-          "id": "03760035d6b1",
-          "section": "nyheter",
-          "title": "Mängden nybyggen minskar – lägsta på 26 år",
-          "summary": "Under 2025 färdigställdes omkring 33 000 bostäder i Sverige, enligt nya siffror från SCB. Det är nästan en tredjedel färre än året innan. För småhus är byggandet nu nere på den lägsta nivån på 26 år.Byggföretagens chefsekonom Fredrik Isaksson säger att de s...",
-          "link": "https://www.sverigesradio.se/artikel/9215038",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T16:34:00+02:00"
         },
         {
           "id": "d86a9c174dcf",
