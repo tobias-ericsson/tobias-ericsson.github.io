@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:11:17+02:00",
+  "generatedAt": "2026-05-15T17:15:08+02:00",
   "entries": [
     {
       "id": "35a71f4c2cdf",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "9f5c6b2ad0e9",
+      "section": "nyheter",
+      "title": "Corbyn i Malmö när internationella vänstern samlas",
+      "summary": "”Jag måste säga att jag är väldigt imponerad över hur rent…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/malmo/corbyn-i-malmo-nar-internationella-vanstern-samlas/",
+      "publishedAt": "2026-05-15T17:15:00+02:00",
+      "text": "Corbyn i Malmö när internationella vänstern samlas Sydsvenskan ”Jag måste säga att jag är väldigt imponerad över hur rent…"
     },
     {
       "id": "4650ab79705a",
@@ -470,16 +480,6 @@
       "link": "https://www.di.se/digital/foretagen-spar-jobbslakt-till-foljd-av-ai/",
       "publishedAt": "2026-05-15T08:54:51+02:00",
       "text": "Företagen spår jobbslakt – till följd av AI DI Synen på AI och dess påverkan på arbetsmarknaden förändras snabbt i näringslivet. En Novus-undersökning visar att 91 procent av svenska företag tror att AI minskar antalet anställda inom fem år."
-    },
-    {
-      "id": "27e7ed6343fc",
-      "section": "nyheter",
-      "title": "Ettåring påverkad av narkotika – föräldrar anhållna",
-      "summary": "Vårdpersonal slog larm.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/spadbarn-paverkat-av-narkotika-foraldrar-gripna/",
-      "publishedAt": "2026-05-15T07:05:28+02:00",
-      "text": "Ettåring påverkad av narkotika – föräldrar anhållna Sydsvenskan Vårdpersonal slog larm."
     },
     {
       "id": "1437603cbd94",
