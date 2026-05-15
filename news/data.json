@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-05-15T17:42:31+02:00",
+  "generatedAt": "2026-05-15T17:46:46+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "ae92ad957811",
+          "section": "news",
+          "title": "Power prices are up 76% on America’s biggest grid, and a watchdog is pointing fingers",
+          "summary": "Prices have nearly doubled in the largest U.S. grid thanks to surging demand from data centers.",
+          "link": "https://techcrunch.com/2026/05/15/power-prices-are-up-76-on-americas-biggest-grid-and-a-watchdog-is-pointing-fingers/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-05-15T17:45:53+02:00"
+        },
         {
           "id": "5eec05543799",
           "section": "news",
@@ -58,15 +67,6 @@
           "link": "https://www.reddit.com/r/technology/comments/1tdv27d/nearly_50000_lake_tahoe_residents_have_one_year/",
           "source": "Reddit",
           "publishedAt": "2026-05-15T14:35:38+02:00"
-        },
-        {
-          "id": "dc4e689c834d",
-          "section": "news",
-          "title": "Osaurus brings both local and cloud AI models to your Mac",
-          "summary": "Osaurus￼ combines local and cloud AI models in a Mac app that keeps users’ memory, files, and tools on their own hardware.",
-          "link": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-05-15T14:19:48+02:00"
         },
         {
           "id": "216ed59ae00d",
