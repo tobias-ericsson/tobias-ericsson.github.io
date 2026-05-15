@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-15T15:58:26+02:00",
+  "generatedAt": "2026-05-15T16:02:14+02:00",
   "entries": [
+    {
+      "id": "35a71f4c2cdf",
+      "section": "news",
+      "title": "Runway started by helping filmmakers. Now it wants to beat Google at AI.",
+      "summary": "AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
+      "publishedAt": "2026-05-15T16:00:00+02:00",
+      "text": "Runway started by helping filmmakers. Now it wants to beat Google at AI. Techcrunch AI video generation startup Runway is betting that video generation is the path to world models. And that being an AI outsider is an advantage, not a liability."
+    },
     {
       "id": "7d516b2a7e92",
       "section": "news",
@@ -112,16 +122,6 @@
       "text": "Turns out, nobody wants a data center in their backyard Reddit submitted by /u/waozen [link] [comments]"
     },
     {
-      "id": "34a0fce7638f",
-      "section": "news",
-      "title": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
-      "summary": "Here's what the biggest tech court case of the year is all about.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
-      "publishedAt": "2026-05-15T00:47:51+02:00",
-      "text": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman Techcrunch Here's what the biggest tech court case of the year is all about."
-    },
-    {
       "id": "25b8e624e8e9",
       "section": "news",
       "title": "TikTok launches TikTok GO lifestyle services brand in Indonesia, US and Japan",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/05/14/a-bootiful-podcast-daniel-adib-saikali",
       "publishedAt": "2026-05-14T02:00:00+02:00",
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
+    },
+    {
+      "id": "f067d4c07c8e",
+      "section": "nyheter",
+      "title": "Förbjudet att flyga drönare över Helsingborg",
+      "summary": "Polisen har ansökt om ett tillfälligt restriktionsområde i luftrummet över delar av Helsingborg från måndag de",
+      "source": "Polisen",
+      "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/forbjudet-att-flyga-dronare-over-helsingborg/",
+      "publishedAt": "2026-05-15T15:59:10+02:00",
+      "text": "Förbjudet att flyga drönare över Helsingborg Polisen Polisen har ansökt om ett tillfälligt restriktionsområde i luftrummet över delar av Helsingborg från måndag de"
     },
     {
       "id": "c8ea6f62a004",
