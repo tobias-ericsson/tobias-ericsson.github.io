@@ -1,10 +1,37 @@
 {
-  "generatedAt": "2026-05-15T14:45:43+02:00",
+  "generatedAt": "2026-05-15T15:27:59+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "7d516b2a7e92",
+          "section": "news",
+          "title": "Even GoPro is pivoting to defense",
+          "summary": "The action camera maker, like so many other companies these days, is looking to defense applications as it evaluates a possible sale.",
+          "link": "https://techcrunch.com/2026/05/15/even-gopro-is-pivoting-to-defense/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-05-15T15:14:13+02:00"
+        },
+        {
+          "id": "65a20f59af93",
+          "section": "news",
+          "title": "Meridian Ventures launched $35M fund to back MBA-deferred founders",
+          "summary": "Meridian Ventures, the venture firm founded by Devon Gethers and Karlton Haney, announced on Friday the raise of a $35 million second fund to back pre-seed and seed-stage companies founded by those who have deferred MBAs.",
+          "link": "https://techcrunch.com/2026/05/15/meridian-ventures-launched-35m-fund-to-back-mba-deferred-founders/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-05-15T15:00:00+02:00"
+        },
+        {
+          "id": "8930fd4c4e79",
+          "section": "news",
+          "title": "Nearly 50,000 Lake Tahoe residents have one year to find new power as their utility pivots to data centers",
+          "summary": "submitted by /u/AdSpecialist6598 [link] [comments]",
+          "link": "https://www.reddit.com/r/technology/comments/1tdv27d/nearly_50000_lake_tahoe_residents_have_one_year/",
+          "source": "Reddit",
+          "publishedAt": "2026-05-15T14:35:38+02:00"
+        },
         {
           "id": "dc4e689c834d",
           "section": "news",
@@ -69,15 +96,6 @@
           "publishedAt": "2026-05-15T05:26:47+02:00"
         },
         {
-          "id": "981dc5293e34",
-          "section": "news",
-          "title": "University of Tokyo develops device that increases computer processing speed by 1000 times, operating without generating heat.",
-          "summary": "submitted by /u/Imaginary-Group1414 [link] [comments]",
-          "link": "https://www.reddit.com/r/technology/comments/1tdjt7o/university_of_tokyo_develops_device_that/",
-          "source": "Reddit",
-          "publishedAt": "2026-05-15T05:03:27+02:00"
-        },
-        {
           "id": "65afbd637b5c",
           "section": "news",
           "title": "Turns out, nobody wants a data center in their backyard",
@@ -94,24 +112,6 @@
           "link": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
           "source": "Techcrunch",
           "publishedAt": "2026-05-15T00:47:51+02:00"
-        },
-        {
-          "id": "a72800be7312",
-          "section": "news",
-          "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
-          "summary": "More than 50 employees have reportedly left Elon Musk’s newly merged SpaceXAI since February, raising questions about burnout, leadership changes, talent poaching, and whether liquidity events weakened retention incentives.",
-          "link": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-05-14T23:30:44+02:00"
-        },
-        {
-          "id": "6c7140a44583",
-          "section": "news",
-          "title": "OpenAI says Codex is coming to your phone",
-          "summary": "The update gives users enhanced flexibility over how they can manage their workflows.",
-          "link": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-05-14T22:58:55+02:00"
         },
         {
           "id": "25b8e624e8e9",
@@ -155,6 +155,78 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "96e463e8af74",
+          "section": "nyheter",
+          "title": "Efter konkursen: ”Fantastisk resa – men pengarna tog slut”",
+          "summary": "Redan nästa vecka kan e-metanoltillverkaren Liquid Wind läggas ut för försäljning i sin helhet • Nu uttalar sig vd och grundare Claes Fredriksson.",
+          "link": "https://www.nyteknik.se/energi/liquid-winds-konkursfoervaltare-malet-aer-att-saelja-roerelsen-som-en-helhet/4464107",
+          "source": "NyTeknik",
+          "publishedAt": "2026-05-15T15:26:59+02:00"
+        },
+        {
+          "id": "bca4d4ee8804",
+          "section": "nyheter",
+          "title": "Slink in-vänliga krogar med avslappnad atmosfär",
+          "summary": "Krogkommissionen tipsar om tre ställen där avslappnad stämningen är det viktigaste.",
+          "link": "https://www.dn.se/kultur/slink-in-vanliga-krogar-med-avslappnad-atmosfar/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T15:16:12+02:00"
+        },
+        {
+          "id": "2b7debe66e4c",
+          "section": "nyheter",
+          "title": "Nuvara: Gastronomisk underhållning på hög nivå",
+          "summary": "Krogkommissionen. Nuvara har inte gjort mycket väsen av sig på Stockholms krogscen. Med tanke på matglädjen och lekfullheten i köket borde det bara vara en tidsfråga innan det blir ändring på det.",
+          "link": "https://www.dn.se/kultur/nuvara-gastronomisk-underhallning-pa-hog-niva/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T15:16:08+02:00"
+        },
+        {
+          "id": "6172b4e159d7",
+          "section": "nyheter",
+          "title": "Finlands försvarsmakt: Ingen drönare har observerats",
+          "summary": "Enligt finska försvarsmaktens insatschef Kari Nisula fick flygvapnet tidigt på fredagsmorgonen information om att bestyckade drönare kunde vara på väg mot finskt territorium.Ingen drönare har dock observerats i finskt luftrum. Det säger nu Finlands försvars...",
+          "link": "https://www.sverigesradio.se/artikel/9218686",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T15:13:00+02:00"
+        },
+        {
+          "id": "e3bcafbb1b6a",
+          "section": "nyheter",
+          "title": "Modi i Göteborg för unikt möte med Europas näringsliv",
+          "summary": "Indiens premiärminister Narendra Modi är i Göteborg under söndagen för ett möte med högt uppsatta europeiska företagsledare, EU-kommissionens ordförande Ursula von der Leyen och statsminister Ulf Kristersson.Besöket sker kort efter att EU och Indien enats o...",
+          "link": "https://www.sverigesradio.se/artikel/9218688",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T15:08:00+02:00"
+        },
+        {
+          "id": "e27876f7b372",
+          "section": "nyheter",
+          "title": "Boklistan vecka 20: missionsbefallningar, strandlägen, krukor och papperslösa sädesärlor",
+          "summary": "Veckans kritikerlista publiceras i trefaldighetstiden och behandlar missionsbefallningar, strandlägen, krukor och papperslösa sädesärlor.",
+          "link": "https://www.dn.se/kultur/boklistan-vecka-20-missionsbefallningar-strandlagen-krukor-och-papperslosa-sadesarlor/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T15:00:00+02:00"
+        },
+        {
+          "id": "e8d5b1f2bdd2",
+          "section": "nyheter",
+          "title": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet”",
+          "summary": "”Du har varit i Pisa utan att orka se det lutande tornet”, ”din kille får ibland köra dig i rullstol på flygplatser” och ”en slacker fångad i en karriärists högintensiva tillvaro”. Det är några av fördomarna Nooshi Dadgostar (V) möter i SVT:s Fördomsshowen....",
+          "link": "https://www.svt.se/nyheter/inrikes/har-far-nooshi-dadgostar-nog-du-ar-sjuk-i-huvudet",
+          "source": "SVT",
+          "publishedAt": "2026-05-15T14:56:02+02:00"
+        },
+        {
+          "id": "b35cc9383d01",
+          "section": "nyheter",
+          "title": "Täljer guld på ”lifehacks” – gick från konkurs till 100 miljoner",
+          "summary": "Flowlife var nära konkurs under pandemin, men ställde om till att bli ett ledande varumärke inom livsstil och återhämtning. Omsättningen har nu fördubblats till 100 miljoner kronor och bolaget siktar på en tillväxt på 50 procent. ”Återhämtning är den nya tr...",
+          "link": "https://www.di.se/digital/taljer-guld-pa-lifehacks-gick-fran-konkurs-till-100-miljoner/",
+          "source": "DI",
+          "publishedAt": "2026-05-15T14:55:27+02:00"
+        },
         {
           "id": "59d09cd53731",
           "section": "nyheter",
@@ -246,24 +318,6 @@
           "publishedAt": "2026-05-15T13:30:05+02:00"
         },
         {
-          "id": "8c9a038acae5",
-          "section": "nyheter",
-          "title": "Expert om tågbeskedet: Finns mer att göra",
-          "summary": "Med mottot ”en resa, en biljett, fullständiga rättigheter” har EU-kommissionen enats om ett lagpaket som ska göra tågresandet på hela kontinenten smidigare. Tågbolagen må knota över nyordningen, men resenärer och politiker är lättade. – Det är ett steg i rä...",
-          "link": "https://www.dn.se/sverige/expert-om-tagbeskedet-finns-mer-att-gora/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T13:28:04+02:00"
-        },
-        {
-          "id": "b6a867230ad1",
-          "section": "nyheter",
-          "title": "Chatta om tågresor med Susanna Elfors",
-          "summary": "EU har tagit ett stort steg mot att det ska bli smidigare att resa med tåg. Vilka är de bästa packningstipsen, vackraste sträckorna, smartaste bokningsknepen? Ställ dina frågor till experten Susanna Elfors som svarar i dag från klockan 15.00.",
-          "link": "https://www.dn.se/sverige/chatta-om-tagresor-med-susanna-elfors/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T13:28:01+02:00"
-        },
-        {
           "id": "f84098acb041",
           "section": "nyheter",
           "title": "Matkravet vid alkoholservering slopas – så påverkas Malmö",
@@ -271,15 +325,6 @@
           "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-05-15-Matkravet-vid-alkoholservering-slopas---sa-paverkas-Malmo.html",
           "source": "Malmö",
           "publishedAt": "2026-05-15T13:23:59+02:00"
-        },
-        {
-          "id": "b978b88ede16",
-          "section": "nyheter",
-          "title": "Expert: Uppenbar rysk brist på komponenter",
-          "summary": "Med ett massivt ihållande bombardemang mot Kiev har Ryssland försökt få Ukraina på knä de senaste dygnen. Samtidigt har ukrainska styrkor nått territoriella framgångar i öster. – Det ser inte ut som att kriget tar slut i år, säger Försvarshögskolans Johan H...",
-          "link": "https://www.dn.se/varlden/expert-uppenbar-rysk-brist-pa-komponenter/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T13:17:53+02:00"
         },
         {
           "id": "8c2c22b1c45b",
@@ -298,33 +343,6 @@
           "link": "https://www.sverigesradio.se/artikel/9218618",
           "source": "Ekot",
           "publishedAt": "2026-05-15T12:42:00+02:00"
-        },
-        {
-          "id": "094a0bd6e2b6",
-          "section": "nyheter",
-          "title": "Ekonomen: Sanktioner mot Ryssland värda kostnaden",
-          "summary": "Efter Rysslands fullskaliga invasion av Ukraina införde EU och väst sanktioner mot Ryssland och ryska oligarker. Statliga och privata tillgångar, som lustjakter, har frysts. Att verkställa de här sanktionerna är kostsamt, men det är i slutändan välinvestera...",
-          "link": "https://www.sverigesradio.se/artikel/9218614",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T12:40:00+02:00"
-        },
-        {
-          "id": "2ac9162384c8",
-          "section": "nyheter",
-          "title": "Här slår polisen rekord – i att bötfälla för nedskräpning",
-          "summary": "Att slänga glasspappret på marken kan kosta dig 800 kronor och du som bor i Malmö löper extra stor risk för att åka på en bot.Där slår polisen nämligen rekord i att bötfälla folk för nedskräpning.Sedan 2011 är det olagligt att skräpa ner i Sverige. 2022 skä...",
-          "link": "https://www.sverigesradio.se/artikel/9218552",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T12:09:00+02:00"
-        },
-        {
-          "id": "0d8e2586b499",
-          "section": "nyheter",
-          "title": "Filmade när han sprängde port i Värnamo – får sex års fängelse",
-          "summary": "Den man som i tingsrätten dömdes till sex års fängelse för att ha kastat in en handgranat får straffet fastställt av Göta hovrätt. Åklagaren hade överklagat domen och yrkat på att han skulle få ett längre fängelsestraff.",
-          "link": "https://www.svt.se/nyheter/lokalt/jonkoping/filmade-nar-han-sprangde-port-i-varnamo-far-sex-ars-fangelse",
-          "source": "SVT",
-          "publishedAt": "2026-05-15T12:00:03+02:00"
         },
         {
           "id": "9e0c37a0bee5",
@@ -426,15 +444,6 @@
           "publishedAt": "2026-05-14T15:41:28+02:00"
         },
         {
-          "id": "99f4d5453736",
-          "section": "nyheter",
-          "title": "Kom igång med AI-agenter: tre saker du kan göra redan i dag",
-          "summary": "Från filkaos sedan 2023 till sorterade mappar på några minuter – så funkar ai-agenter i praktiken. Ta del av vår guide, steg-för-steg.",
-          "link": "https://www.nyteknik.se/tech/sa-kommer-du-igang-med-ai-agenter-tre-saker-du-kan-goera-redan-i-dag/4463373",
-          "source": "NyTeknik",
-          "publishedAt": "2026-05-14T06:00:00+02:00"
-        },
-        {
           "id": "5e75d6c81ccf",
           "section": "nyheter",
           "title": "Hur allvarlig är risken att människor förlorar kontrollen över AI?",
@@ -523,15 +532,6 @@
           "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/kamerabevakning-med-dronare-i-helsingborg/",
           "source": "Polisen",
           "publishedAt": "2026-05-13T11:17:46+02:00"
-        },
-        {
-          "id": "7d08dea6d312",
-          "section": "nyheter",
-          "title": "Kraftig resultatvändning i Na-kd efter rekonstruktionen",
-          "summary": "Efter flera turbulenta år med rekonstruktion och ägarskifte ser modebolaget Na-kd nu ut att ha vänt den negativa trenden – med sin miljardomsättning intakt.",
-          "link": "https://www.di.se/digital/kraftig-resultatvandning-i-na-kd-efter-rekonstruktionen/",
-          "source": "DI",
-          "publishedAt": "2026-05-13T10:38:03+02:00"
         },
         {
           "id": "3b827a3e2cb2",
