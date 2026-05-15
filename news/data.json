@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:52:05+02:00",
+  "generatedAt": "2026-05-15T16:55:57+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "0916fde4a120",
+          "section": "nyheter",
+          "title": "Closures in Helsingborg during NATO meeting",
+          "summary": "On 21 and 22 May, Helsingborg is hosting a NATO meeting. The 32 Ministers of Foreign Affairs of the member sta",
+          "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/closures-in-helsingborg-during-nato-meeting/",
+          "source": "Polisen",
+          "publishedAt": "2026-05-15T16:53:50+02:00"
+        },
+        {
+          "id": "82b14ef485a8",
+          "section": "nyheter",
+          "title": "Nya kravet: 34 invasiva arter ska bekämpas",
+          "summary": "Naturvårdsverket har kommit med en ny lista där man anger 34 invasiva arter som ska bekämpas.Reglerna är tvingande, men privata fastighetsägare är undantagna. Har du lupiner på din tomt, får de stå kvar, så länge du förhindrar att den sprider sig till en gr...",
+          "link": "https://www.sverigesradio.se/artikel/9218647",
+          "source": "Ekot",
+          "publishedAt": "2026-05-15T16:49:00+02:00"
+        },
+        {
           "id": "f450245f8770",
           "section": "nyheter",
           "title": "Gillian Anderson om skräckdebuten: ”Jag är så stolt över den”",
@@ -262,15 +280,6 @@
           "link": "https://www.sverigesradio.se/artikel/9218686",
           "source": "Ekot",
           "publishedAt": "2026-05-15T15:13:00+02:00"
-        },
-        {
-          "id": "e3bcafbb1b6a",
-          "section": "nyheter",
-          "title": "Modi i Göteborg för unikt möte med Europas näringsliv",
-          "summary": "Indiens premiärminister Narendra Modi är i Göteborg under söndagen för ett möte med högt uppsatta europeiska företagsledare, EU-kommissionens ordförande Ursula von der Leyen och statsminister Ulf Kristersson.Besöket sker kort efter att EU och Indien enats o...",
-          "link": "https://www.sverigesradio.se/artikel/9218688",
-          "source": "Ekot",
-          "publishedAt": "2026-05-15T15:08:00+02:00"
         },
         {
           "id": "e27876f7b372",
@@ -496,15 +505,6 @@
           "link": "https://webbjobb.io/jobb/340067/fullstackutecklare-bidra-och-vax-i-en-affarsnara-roll-pa-mindre-bolag?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
           "source": "WebbJobbLund",
           "publishedAt": "2026-05-13T15:11:09+02:00"
-        },
-        {
-          "id": "d972bf00d191",
-          "section": "nyheter",
-          "title": "Svensk polis är väl förberedda för Natos utrikesministermöte i Helsingborg",
-          "summary": "Den 21 och 22 maj står Helsingborg värd för Natos utrikesministermöte. Polisens uppdrag är att se till att mö",
-          "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/svensk-polis-ar-val-forberedda-for-det-kommande-natos-utrikesministermote-i-helsingborg/",
-          "source": "Polisen",
-          "publishedAt": "2026-05-13T15:04:17+02:00"
         },
         {
           "id": "438a21e041eb",

@@ -1,4 +1,4 @@
-const CACHE_NAME = "dagens-news-202605151652050200";
+const CACHE_NAME = "dagens-news-202605151655570200";
 const ASSETS = [
   "./",
   "./index.html",
