@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-05-15T17:38:40+02:00",
+  "generatedAt": "2026-05-15T17:42:31+02:00",
   "entries": [
+    {
+      "id": "5eec05543799",
+      "section": "news",
+      "title": "US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip",
+      "summary": "People who travelled to Beijing for a summit between the United States and China had to throw away items they received during the trip before boarding Air Force One, presumably for security reasons.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/05/15/us-orders-travelers-on-air-force-one-to-throw-away-gifts-pins-and-burner-phones-after-china-trip/",
+      "publishedAt": "2026-05-15T17:42:11+02:00",
+      "text": "US orders travelers on Air Force One to throw away gifts, pins, and burner phones after China trip Techcrunch People who travelled to Beijing for a summit between the United States and China had to throw away items they received during the trip before boarding Air Force One, presumably for security reasons."
+    },
     {
       "id": "35a71f4c2cdf",
       "section": "news",
@@ -60,16 +70,6 @@
       "link": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
       "publishedAt": "2026-05-15T14:19:48+02:00",
       "text": "Osaurus brings both local and cloud AI models to your Mac Techcrunch Osaurus￼ combines local and cloud AI models in a Mac app that keeps users’ memory, files, and tools on their own hardware."
-    },
-    {
-      "id": "a4510b74314f",
-      "section": "news",
-      "title": "Indian Uber rival Rapido raises $240M at $3B valuation",
-      "summary": "Rapido has driven its growth by enabling ride-hailing for lower-cost and more flexible modes of transport such as motorbikes and autorickshaws.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/05/15/indian-uber-rival-rapido-raises-240m-at-3b-valuation/",
-      "publishedAt": "2026-05-15T13:24:12+02:00",
-      "text": "Indian Uber rival Rapido raises $240M at $3B valuation Techcrunch Rapido has driven its growth by enabling ride-hailing for lower-cost and more flexible modes of transport such as motorbikes and autorickshaws."
     },
     {
       "id": "216ed59ae00d",
@@ -162,14 +162,24 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
-      "id": "59755b1c0e81",
+      "id": "8d7537560f0a",
       "section": "nyheter",
-      "title": "Kvällsmarknad, foodtrucks och ölkafé när Smörtaxen satsar i Hyllie",
-      "summary": "Hyllie får ett nytt dragplåster när Night Market ska hållas…",
+      "title": "USA:s Kinabesök avslutat: ”Sett en väldigt disciplinerad Trump”",
+      "summary": "USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats. Det var en konstruktiv dialog mellan stormakterna och de behandlade varandra med respekt, och det betyder nog mycket för världen att det inte eskalerades med hårda ord, s...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9218726",
+      "publishedAt": "2026-05-15T17:39:00+02:00",
+      "text": "USA:s Kinabesök avslutat: ”Sett en väldigt disciplinerad Trump” Ekot USA:s president Donald Trumps besök i Kina, som pågått under veckan, har nu avslutats. Det var en konstruktiv dialog mellan stormakterna och de behandlade varandra med respekt, och det betyder nog mycket för världen att det inte eskalerades med hårda ord, s..."
+    },
+    {
+      "id": "fc99bbb2607a",
+      "section": "nyheter",
+      "title": "Kvällsmarknad, foodtrucks och ölkafé när Hyllie får nytt dragplåster",
+      "summary": "Smörtaxens ägare bakom den nya festivalen.",
       "source": "Sydsvenskan",
       "link": "https://www.sydsvenskan.se/dygnet-runt/kvallsmarknad-foodtrucks-och-olkafe-ska-ge-liv-i-hyllie/",
       "publishedAt": "2026-05-15T17:30:00+02:00",
-      "text": "Kvällsmarknad, foodtrucks och ölkafé när Smörtaxen satsar i Hyllie Sydsvenskan Hyllie får ett nytt dragplåster när Night Market ska hållas…"
+      "text": "Kvällsmarknad, foodtrucks och ölkafé när Hyllie får nytt dragplåster Sydsvenskan Smörtaxens ägare bakom den nya festivalen."
     },
     {
       "id": "4e40ecfa5d0d",
@@ -360,16 +370,6 @@
       "link": "https://www.dn.se/kultur/nuvara-gastronomisk-underhallning-pa-hog-niva/",
       "publishedAt": "2026-05-15T15:16:08+02:00",
       "text": "Nuvara: Gastronomisk underhållning på hög nivå DN Krogkommissionen. Nuvara har inte gjort mycket väsen av sig på Stockholms krogscen. Med tanke på matglädjen och lekfullheten i köket borde det bara vara en tidsfråga innan det blir ändring på det."
-    },
-    {
-      "id": "6172b4e159d7",
-      "section": "nyheter",
-      "title": "Finlands försvarsmakt: Ingen drönare har observerats",
-      "summary": "Enligt finska försvarsmaktens insatschef Kari Nisula fick flygvapnet tidigt på fredagsmorgonen information om att bestyckade drönare kunde vara på väg mot finskt territorium.Ingen drönare har dock observerats i finskt luftrum. Det säger nu Finlands försvars...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9218686",
-      "publishedAt": "2026-05-15T15:13:00+02:00",
-      "text": "Finlands försvarsmakt: Ingen drönare har observerats Ekot Enligt finska försvarsmaktens insatschef Kari Nisula fick flygvapnet tidigt på fredagsmorgonen information om att bestyckade drönare kunde vara på väg mot finskt territorium.Ingen drönare har dock observerats i finskt luftrum. Det säger nu Finlands försvars..."
     },
     {
       "id": "e8d5b1f2bdd2",
