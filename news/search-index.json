@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:30:38+02:00",
+  "generatedAt": "2026-05-15T18:34:59+02:00",
   "entries": [
     {
       "id": "fbf69aeb012a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "7ef3e399ae2c",
+      "section": "nyheter",
+      "title": "Få väljare redo att hjälpa Mohamsson över spärren",
+      "summary": "Liberalernas chanser att klara sig kvar i riksdagen genom stödröster är mycket små. Det visar en mätning från DN/Ipsos. De väljare som i dag är redo att hjälpa Simona Mohamsson räcker inte för att lyfta partiet över spärren.",
+      "source": "DN",
+      "link": "https://www.dn.se/sverige/fa-valjare-redo-att-hjalpa-mohamsson-over-sparren/",
+      "publishedAt": "2026-05-15T18:30:28+02:00",
+      "text": "Få väljare redo att hjälpa Mohamsson över spärren DN Liberalernas chanser att klara sig kvar i riksdagen genom stödröster är mycket små. Det visar en mätning från DN/Ipsos. De väljare som i dag är redo att hjälpa Simona Mohamsson räcker inte för att lyfta partiet över spärren."
+    },
+    {
       "id": "028148a8fc59",
       "section": "nyheter",
       "title": "13 män som dödats i amerikansk militär båtattack har identifierats",
@@ -202,14 +212,14 @@
       "text": "22 steg i ansatsen tar Duplantis till högre höjder DN Med 22 steg i ansatsen gör Armand Duplantis säsongsdebut utomhus och ställer in siktet på högre höjder. – Det känns fortfarande väldigt nytt, säger han inför Diamond League-premiären i Shanghai."
     },
     {
-      "id": "2c78f956797b",
+      "id": "fb0e515899c2",
       "section": "nyheter",
-      "title": "Trump varnar Taiwan att inte söka självständighet",
-      "summary": "Efter USA:s besök i Kina säger Trump i en intervju att han inte har bestämt sig om han ska skicka det vapenpaket som han har utlovat till Taiwan.Trump varnar även Taiwan att inte söka självständighet. ”Det är för tidigt att säga om det är en förändring i de...",
+      "title": "Trumps uttalande om Taiwan: ”Kan tolkas som en varning”",
+      "summary": "Efter USA:s besök i Kina säger Trump i en intervju att han inte har bestämt sig om han ska skicka det vapenpaket som han har utlovat till Taiwan.Han varnar även Taiwan att inte söka självständighet, men om det innebär en förändring i den amerikanska hållnin...",
       "source": "Ekot",
       "link": "https://www.sverigesradio.se/artikel/9218726",
       "publishedAt": "2026-05-15T17:39:00+02:00",
-      "text": "Trump varnar Taiwan att inte söka självständighet Ekot Efter USA:s besök i Kina säger Trump i en intervju att han inte har bestämt sig om han ska skicka det vapenpaket som han har utlovat till Taiwan.Trump varnar även Taiwan att inte söka självständighet. ”Det är för tidigt att säga om det är en förändring i de..."
+      "text": "Trumps uttalande om Taiwan: ”Kan tolkas som en varning” Ekot Efter USA:s besök i Kina säger Trump i en intervju att han inte har bestämt sig om han ska skicka det vapenpaket som han har utlovat till Taiwan.Han varnar även Taiwan att inte söka självständighet, men om det innebär en förändring i den amerikanska hållnin..."
     },
     {
       "id": "fc99bbb2607a",
@@ -300,16 +310,6 @@
       "link": "https://www.sverigesradio.se/artikel/9218647",
       "publishedAt": "2026-05-15T16:49:00+02:00",
       "text": "Nya kravet: 34 invasiva arter ska bekämpas Ekot Naturvårdsverket har kommit med en ny lista där man anger 34 invasiva arter som ska bekämpas.Reglerna är tvingande, men privata fastighetsägare är undantagna. Har du lupiner på din tomt, får de stå kvar, så länge du förhindrar att den sprider sig till en gr..."
-    },
-    {
-      "id": "f450245f8770",
-      "section": "nyheter",
-      "title": "Gillian Anderson om skräckdebuten: ”Jag är så stolt över den”",
-      "summary": "CANNES. Gillian Anderson gör sin Cannesdebut med Jane Schoenbruns sjövilda, psykosexuella slasherfilm ”Teenage sex and death at Camp Miasma”. Den tidigare ”X-files”-stjärnan spelar en kultförklarad skräckaktris som lockas tillbaka till rampljuset av en ung...",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/gillian-anderson-om-skrackdebuten-jag-ar-sa-stolt-over-den/",
-      "publishedAt": "2026-05-15T16:43:45+02:00",
-      "text": "Gillian Anderson om skräckdebuten: ”Jag är så stolt över den” DN CANNES. Gillian Anderson gör sin Cannesdebut med Jane Schoenbruns sjövilda, psykosexuella slasherfilm ”Teenage sex and death at Camp Miasma”. Den tidigare ”X-files”-stjärnan spelar en kultförklarad skräckaktris som lockas tillbaka till rampljuset av en ung..."
     },
     {
       "id": "03760035d6b1",
