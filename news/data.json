@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T18:54:48+02:00",
+  "generatedAt": "2026-05-15T18:58:36+02:00",
   "sections": [
     {
       "key": "news",
@@ -18,7 +18,7 @@
           "id": "ae92ad957811",
           "section": "news",
           "title": "Power prices are up 76% on America’s biggest grid, and a watchdog is pointing fingers",
-          "summary": "Prices have nearly doubled in the largest U.S. grid thanks to surging demand from data centers.",
+          "summary": "The price spike is a reminder of a deeper problem: The U.S. power grid was not designed for the electricity demands of an AI-driven economy, and the gap between what the grid can deliver and what the industry needs is widening.",
           "link": "https://techcrunch.com/2026/05/15/power-prices-are-up-76-on-americas-biggest-grid-and-a-watchdog-is-pointing-fingers/",
           "source": "Techcrunch",
           "publishedAt": "2026-05-15T17:45:53+02:00"
