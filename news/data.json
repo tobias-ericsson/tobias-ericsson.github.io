@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:21:32+02:00",
+  "generatedAt": "2026-05-15T16:25:24+02:00",
   "sections": [
     {
       "key": "news",
@@ -13,6 +13,15 @@
           "link": "https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/",
           "source": "Techcrunch",
           "publishedAt": "2026-05-15T16:00:00+02:00"
+        },
+        {
+          "id": "586c76cd86f5",
+          "section": "news",
+          "title": "OpenAI CEO Sam Altman holds more than $2 billion in companies that have done business with the company, a court document showed as Altman faces claims of self-dealing from state attorneys general.",
+          "summary": "submitted by /u/Just-Grocery-2229 [link] [comments]",
+          "link": "https://www.reddit.com/r/technology/comments/1tdwfuj/openai_ceo_sam_altman_holds_more_than_2_billion/",
+          "source": "Reddit",
+          "publishedAt": "2026-05-15T15:30:09+02:00"
         },
         {
           "id": "7d516b2a7e92",
@@ -76,15 +85,6 @@
           "link": "https://www.reddit.com/r/technology/comments/1tdnxxm/the_era_of_15gb_free_gmail_storage_is_ending/",
           "source": "Reddit",
           "publishedAt": "2026-05-15T08:29:04+02:00"
-        },
-        {
-          "id": "487daa959a1e",
-          "section": "news",
-          "title": "Meta's $10 billion Louisiana data center is getting $3.3 billion in tax breaks—more than seven years of the state's entire police budget",
-          "summary": "submitted by /u/Plastic_Ninja_9014 [link] [comments]",
-          "link": "https://www.reddit.com/r/technology/comments/1tdnehx/metas_10_billion_louisiana_data_center_is_getting/",
-          "source": "Reddit",
-          "publishedAt": "2026-05-15T08:00:20+02:00"
         },
         {
           "id": "88c9f5c37290",
