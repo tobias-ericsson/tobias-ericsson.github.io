@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T16:09:54+02:00",
+  "generatedAt": "2026-05-15T16:13:47+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "a0144571ec9f",
+          "section": "nyheter",
+          "title": "Förstärkt kamerabevakning i Helsingborg under Natomöte",
+          "summary": "Polismyndigheten har beslutat om tillfällig kamerabevakning i centrala Helsingborg och vid Sofiero slott.",
+          "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/forstarkt-kamerabevakning-i-helsingborg-under-natomote/",
+          "source": "Polisen",
+          "publishedAt": "2026-05-15T16:12:50+02:00"
+        },
         {
           "id": "b2c4ed5d475d",
           "section": "nyheter",
@@ -532,15 +541,6 @@
           "link": "https://webbjobb.io/jobb/340039/senior-software-engineer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
           "source": "WebbJobbLund",
           "publishedAt": "2026-05-13T11:52:50+02:00"
-        },
-        {
-          "id": "7d4cd6200902",
-          "section": "nyheter",
-          "title": "Kamerabevakning med drönare i Helsingborg",
-          "summary": "Polisen har fattat beslut om kamerabevakning med hjälp av drönare över centrala Helsingborg lördagen den 16 ma",
-          "link": "https://polisen.se/aktuellt/nyheter/syd/2026/maj/kamerabevakning-med-dronare-i-helsingborg/",
-          "source": "Polisen",
-          "publishedAt": "2026-05-13T11:17:46+02:00"
         },
         {
           "id": "3b827a3e2cb2",
