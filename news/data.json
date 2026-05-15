@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:48:07+02:00",
+  "generatedAt": "2026-05-15T19:51:58+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "eff69873dbb5",
+          "section": "nyheter",
+          "title": "Här presenteras singlar inför publik: ”Dejtingklimatet har förändrats”",
+          "summary": "Vem är bättre på att sälja in dig än någon som känner dig…",
+          "link": "https://www.sydsvenskan.se/malmo/har-presenteras-singlar-infor-publik-dejtingklimatet-har-forandrats/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-05-15T19:51:53+02:00"
+        },
+        {
           "id": "5063c42eeb0c",
           "section": "nyheter",
           "title": "”De slutade inte förrän vi tog fram brandsläckaren”",
@@ -190,6 +199,15 @@
           "link": "https://www.dn.se/sport/unga-tre-kronor-stod-upp-men-kanadas-stjarnlag-vann-vm-premiaren/",
           "source": "DN",
           "publishedAt": "2026-05-15T18:49:51+02:00"
+        },
+        {
+          "id": "f64536e0e257",
+          "section": "nyheter",
+          "title": "Tre Kronor föll i tajt VM-premiär mot Kanada – avslagen klubba avgjorde",
+          "summary": "Ett nederlagstippat Tre Kronor bjöd Kanada på en rejäl match i VM-premiären i Fribourg. Men en avslagen klubba stjälpte svenskarna till slut. – Så är det ibland, det är surt för vår del, säger Jakob Silfverberg till SVT Sport.",
+          "link": "https://www.svt.se/sport/ishockey/tre-kronor-foll-i-tajt-vm-premiar-mot-kanada-avslagen-klubba-avgjorde",
+          "source": "SVT",
+          "publishedAt": "2026-05-15T18:49:36+02:00"
         },
         {
           "id": "ff4c74adb292",
@@ -291,15 +309,6 @@
           "publishedAt": "2026-05-15T17:00:50+02:00"
         },
         {
-          "id": "1e06a30eeabb",
-          "section": "nyheter",
-          "title": "Här sker flest bilinbrott i Malmö",
-          "summary": "Polisens egna tips: ”Då kan man vara övervakad”.",
-          "link": "https://www.sydsvenskan.se/malmo/har-sker-flest-bilinbrott-i-malmo/",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-05-15T17:00:00+02:00"
-        },
-        {
           "id": "0916fde4a120",
           "section": "nyheter",
           "title": "Closures in Helsingborg during NATO meeting",
@@ -370,15 +379,6 @@
           "link": "https://www.nyteknik.se/energi/liquid-winds-konkursfoervaltare-malet-aer-att-saelja-roerelsen-som-en-helhet/4464107",
           "source": "NyTeknik",
           "publishedAt": "2026-05-15T15:26:59+02:00"
-        },
-        {
-          "id": "e8d5b1f2bdd2",
-          "section": "nyheter",
-          "title": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet”",
-          "summary": "”Du har varit i Pisa utan att orka se det lutande tornet”, ”din kille får ibland köra dig i rullstol på flygplatser” och ”en slacker fångad i en karriärists högintensiva tillvaro”. Det är några av fördomarna Nooshi Dadgostar (V) möter i SVT:s Fördomsshowen....",
-          "link": "https://www.svt.se/nyheter/inrikes/har-far-nooshi-dadgostar-nog-du-ar-sjuk-i-huvudet",
-          "source": "SVT",
-          "publishedAt": "2026-05-15T14:56:02+02:00"
         },
         {
           "id": "b35cc9383d01",

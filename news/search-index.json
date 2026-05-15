@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T19:48:07+02:00",
+  "generatedAt": "2026-05-15T19:51:58+02:00",
   "entries": [
     {
       "id": "e7c23f7633ff",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: the legendary Adib Saikali Spring Hi, Spring fans! I'm so thrilled to have been able to sit down and talk to my friend Adib Saikali!"
     },
     {
+      "id": "eff69873dbb5",
+      "section": "nyheter",
+      "title": "Här presenteras singlar inför publik: ”Dejtingklimatet har förändrats”",
+      "summary": "Vem är bättre på att sälja in dig än någon som känner dig…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/malmo/har-presenteras-singlar-infor-publik-dejtingklimatet-har-forandrats/",
+      "publishedAt": "2026-05-15T19:51:53+02:00",
+      "text": "Här presenteras singlar inför publik: ”Dejtingklimatet har förändrats” Sydsvenskan Vem är bättre på att sälja in dig än någon som känner dig…"
+    },
+    {
       "id": "5063c42eeb0c",
       "section": "nyheter",
       "title": "”De slutade inte förrän vi tog fram brandsläckaren”",
@@ -200,6 +210,16 @@
       "link": "https://www.dn.se/sport/unga-tre-kronor-stod-upp-men-kanadas-stjarnlag-vann-vm-premiaren/",
       "publishedAt": "2026-05-15T18:49:51+02:00",
       "text": "Unga Tre Kronor stod upp – men Kanadas stjärnlag vann VM-premiären DN Hockey-VM är igång. Och det blev en rivstart för Tre Kronor i schweiziska Fribourg, Tungt favorittippade Kanada med en rad storstjärnor stod för motståndet. Efter en tung start kom Sverige tillbaka – men till slut vann Kanada med 5-3."
+    },
+    {
+      "id": "f64536e0e257",
+      "section": "nyheter",
+      "title": "Tre Kronor föll i tajt VM-premiär mot Kanada – avslagen klubba avgjorde",
+      "summary": "Ett nederlagstippat Tre Kronor bjöd Kanada på en rejäl match i VM-premiären i Fribourg. Men en avslagen klubba stjälpte svenskarna till slut. – Så är det ibland, det är surt för vår del, säger Jakob Silfverberg till SVT Sport.",
+      "source": "SVT",
+      "link": "https://www.svt.se/sport/ishockey/tre-kronor-foll-i-tajt-vm-premiar-mot-kanada-avslagen-klubba-avgjorde",
+      "publishedAt": "2026-05-15T18:49:36+02:00",
+      "text": "Tre Kronor föll i tajt VM-premiär mot Kanada – avslagen klubba avgjorde SVT Ett nederlagstippat Tre Kronor bjöd Kanada på en rejäl match i VM-premiären i Fribourg. Men en avslagen klubba stjälpte svenskarna till slut. – Så är det ibland, det är surt för vår del, säger Jakob Silfverberg till SVT Sport."
     },
     {
       "id": "ff4c74adb292",
@@ -312,16 +332,6 @@
       "text": "Linköping fylls med spelentusiaster: ”Gemenskapen är underbar” SVT I helgen fylls Campus Valla vid Linköpings universitet av tärningsslag, skratt och rollspel. Spelkonventet LinCon, ett av Sveriges största, lockar spelentusiaster från hela landet till Linköping."
     },
     {
-      "id": "1e06a30eeabb",
-      "section": "nyheter",
-      "title": "Här sker flest bilinbrott i Malmö",
-      "summary": "Polisens egna tips: ”Då kan man vara övervakad”.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/har-sker-flest-bilinbrott-i-malmo/",
-      "publishedAt": "2026-05-15T17:00:00+02:00",
-      "text": "Här sker flest bilinbrott i Malmö Sydsvenskan Polisens egna tips: ”Då kan man vara övervakad”."
-    },
-    {
       "id": "0916fde4a120",
       "section": "nyheter",
       "title": "Closures in Helsingborg during NATO meeting",
@@ -400,16 +410,6 @@
       "link": "https://www.nyteknik.se/energi/liquid-winds-konkursfoervaltare-malet-aer-att-saelja-roerelsen-som-en-helhet/4464107",
       "publishedAt": "2026-05-15T15:26:59+02:00",
       "text": "Efter konkursen: ”Fantastisk resa – men pengarna tog slut” NyTeknik Redan nästa vecka kan e-metanoltillverkaren Liquid Wind läggas ut till försäljning i sin helhet • Nu uttalar sig vd och grundare Claes Fredriksson."
-    },
-    {
-      "id": "e8d5b1f2bdd2",
-      "section": "nyheter",
-      "title": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet”",
-      "summary": "”Du har varit i Pisa utan att orka se det lutande tornet”, ”din kille får ibland köra dig i rullstol på flygplatser” och ”en slacker fångad i en karriärists högintensiva tillvaro”. Det är några av fördomarna Nooshi Dadgostar (V) möter i SVT:s Fördomsshowen....",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/inrikes/har-far-nooshi-dadgostar-nog-du-ar-sjuk-i-huvudet",
-      "publishedAt": "2026-05-15T14:56:02+02:00",
-      "text": "Här får Nooshi Dadgostar nog: ”Du är sjuk i huvudet” SVT ”Du har varit i Pisa utan att orka se det lutande tornet”, ”din kille får ibland köra dig i rullstol på flygplatser” och ”en slacker fångad i en karriärists högintensiva tillvaro”. Det är några av fördomarna Nooshi Dadgostar (V) möter i SVT:s Fördomsshowen...."
     },
     {
       "id": "b35cc9383d01",
