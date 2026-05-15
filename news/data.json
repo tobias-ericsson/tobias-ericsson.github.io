@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:54:58+02:00",
+  "generatedAt": "2026-05-15T17:59:42+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "50c6a0333a49",
+          "section": "nyheter",
+          "title": "22 steg i ansatsen tar Duplantis till högre höjder",
+          "summary": "Med 22 steg i ansatsen gör Armand Duplantis säsongsdebut utomhus och ställer in siktet på högre höjder. – Det känns fortfarande väldigt nytt, säger han inför Diamond League-premiären i Shanghai.",
+          "link": "https://www.dn.se/sport/22-steg-i-ansatsen-tar-duplantis-till-hogre-hojder/",
+          "source": "DN",
+          "publishedAt": "2026-05-15T17:54:08+02:00"
+        },
         {
           "id": "8d7537560f0a",
           "section": "nyheter",
@@ -334,15 +343,6 @@
           "link": "https://www.dn.se/kultur/slink-in-vanliga-krogar-med-avslappnad-atmosfar/",
           "source": "DN",
           "publishedAt": "2026-05-15T15:16:12+02:00"
-        },
-        {
-          "id": "2b7debe66e4c",
-          "section": "nyheter",
-          "title": "Nuvara: Gastronomisk underhållning på hög nivå",
-          "summary": "Krogkommissionen. Nuvara har inte gjort mycket väsen av sig på Stockholms krogscen. Med tanke på matglädjen och lekfullheten i köket borde det bara vara en tidsfråga innan det blir ändring på det.",
-          "link": "https://www.dn.se/kultur/nuvara-gastronomisk-underhallning-pa-hog-niva/",
-          "source": "DN",
-          "publishedAt": "2026-05-15T15:16:08+02:00"
         },
         {
           "id": "e8d5b1f2bdd2",
