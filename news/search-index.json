@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:02:24+02:00",
+  "generatedAt": "2026-08-27T15:04:38+02:00",
   "entries": [
     {
       "id": "cfcea8cf7f34",
@@ -172,6 +172,16 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "4df0d164afaf",
+      "section": "nyheter",
+      "title": "Insändare. Välj ansvar före egoism",
+      "summary": "INSÄNDARE. Vi ser redan konsekvenserna av klimatförändringarna runt om i världen genom värmeböljor, skogsbränder, översvämningar och extremväder. Låt oss som vuxna medborgare välja omtanke framför rädsla, ansvar framför egoism och medmänsklighet framför lik...",
+      "source": "DN",
+      "link": "https://www.dn.se/insandare/valj-ansvar-fore-egoism/",
+      "publishedAt": "2026-08-27T15:03:28+02:00",
+      "text": "Insändare. Välj ansvar före egoism DN INSÄNDARE. Vi ser redan konsekvenserna av klimatförändringarna runt om i världen genom värmeböljor, skogsbränder, översvämningar och extremväder. Låt oss som vuxna medborgare välja omtanke framför rädsla, ansvar framför egoism och medmänsklighet framför lik..."
+    },
+    {
       "id": "38ee8548bc93",
       "section": "nyheter",
       "title": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över",
@@ -340,16 +350,6 @@
       "link": "https://www.dn.se/kultur/malin-ullgren-forlat-men-hur-fan-kan-det-har-vara-underhallning-i-svt/",
       "publishedAt": "2026-08-27T13:29:53+02:00",
       "text": "Malin Ullgren: Förlåt, men hur fan kan det här vara underhållning i SVT? DN I den nya säsongen av ”Gift vid första ögonkastet” gör public service den så kallade manosfären till skoj innehåll. Kvinnoföraktet är ett skrämmande bevis på nykonservatismens makt, skriver Malin Ullgren."
-    },
-    {
-      "id": "3915a62bef4a",
-      "section": "nyheter",
-      "title": "Rädda Barnen: ”Aldrig sett något liknande”",
-      "summary": "Hundratals hjälparbetare sökte på torsdagen efter överlevande i den dalgång i norra Nepal där ett enormt skred av vatten, lera, is och sten forsat ned från bergen och orsakat katastrofala översvämningar. – Våra hjälparbetare har aldrig sett något liknande,...",
-      "source": "DN",
-      "link": "https://www.dn.se/varlden/radda-barnen-aldrig-sett-nagot-liknande/",
-      "publishedAt": "2026-08-27T13:24:56+02:00",
-      "text": "Rädda Barnen: ”Aldrig sett något liknande” DN Hundratals hjälparbetare sökte på torsdagen efter överlevande i den dalgång i norra Nepal där ett enormt skred av vatten, lera, is och sten forsat ned från bergen och orsakat katastrofala översvämningar. – Våra hjälparbetare har aldrig sett något liknande,..."
     },
     {
       "id": "bc0d126df5f9",
