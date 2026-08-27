@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:11:29+02:00",
+  "generatedAt": "2026-08-27T15:13:45+02:00",
   "sections": [
     {
       "key": "news",
@@ -435,6 +435,24 @@
           "publishedAt": "2026-08-26T15:45:59+02:00"
         },
         {
+          "id": "6ea7928e8a1c",
+          "section": "nyheter",
+          "title": "Senior DIP Developer",
+          "summary": "About the CompanyAt Avaron, you get the security of permanent employment combined with the variety of working at different customers. We place specialists across everything from tech, IT and industry to project management and business support – and whatever...",
+          "link": "https://webbjobb.io/jobb/345338/senior-dip-developer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+          "source": "WebbJobbLund",
+          "publishedAt": "2026-08-26T15:13:43+02:00"
+        },
+        {
+          "id": "d8afb6902ad6",
+          "section": "nyheter",
+          "title": "Verification Engineer",
+          "summary": "Are you passionate about digital hardware verification? This is a fantastic opportunity to move into a team developing hardware to support Machine Learning and Artificial Intelligence, key technologies for the future of computing.Working on the cutting edge...",
+          "link": "https://webbjobb.io/jobb/345341/verification-engineer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+          "source": "WebbJobbLund",
+          "publishedAt": "2026-08-26T14:55:15+02:00"
+        },
+        {
           "id": "05e25a55a073",
           "section": "nyheter",
           "title": "Einride-grundarna på väg att ta in 400 miljoner",
@@ -487,6 +505,24 @@
           "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-25-Direktsandning-fran-kommunfullmaktige.html",
           "source": "Malmö",
           "publishedAt": "2026-08-25T15:25:56+02:00"
+        },
+        {
+          "id": "55bfe7e93f90",
+          "section": "nyheter",
+          "title": "QA Automation Engineer to Oplane",
+          "summary": "The StoryWith AI tools accelerating how software is built, code is being shipped faster than ever before. This acceleration comes with a major catch, being architectural and security risks are accumulating just as fast.That’s where Oplane, a Malmö based tec...",
+          "link": "https://webbjobb.io/jobb/345252/qa-automation-engineer-to-oplane?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
+          "source": "WebbJobbMalmö",
+          "publishedAt": "2026-08-25T14:50:27+02:00"
+        },
+        {
+          "id": "2fabe2a03b62",
+          "section": "nyheter",
+          "title": "Experienced Backend System Developer, Lund",
+          "summary": "Do you want to build backend services that make a real difference for users around the world? We are looking for an Experienced Backend System Developer to join our User Services team in Lund, Sweden - a role where you will develop, maintain and evolve the...",
+          "link": "https://webbjobb.io/jobb/345223/experienced-backend-system-developer-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+          "source": "WebbJobbLund",
+          "publishedAt": "2026-08-25T10:45:23+02:00"
         },
         {
           "id": "5126cf25d37b",
