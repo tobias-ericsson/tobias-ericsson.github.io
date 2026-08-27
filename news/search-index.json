@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:23:51+02:00",
+  "generatedAt": "2026-08-27T14:26:01+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -172,6 +172,16 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "74214b1b0b2f",
+      "section": "nyheter",
+      "title": "Hovexperten: Harald är otrolig duktig att träffa människor",
+      "summary": "Norges Kung Haralds tillstånd har försämrats och människor samlas vid slottet i Oslo och har redan nu börjat lämna blommor. Hovexperten Ebba Kleberg von Sydow förklarar vilken betydelse Harald har för det norska samhället.",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9285372",
+      "publishedAt": "2026-08-27T14:23:00+02:00",
+      "text": "Hovexperten: Harald är otrolig duktig att träffa människor Ekot Norges Kung Haralds tillstånd har försämrats och människor samlas vid slottet i Oslo och har redan nu börjat lämna blommor. Hovexperten Ebba Kleberg von Sydow förklarar vilken betydelse Harald har för det norska samhället."
+    },
+    {
       "id": "efdec9a72fdf",
       "section": "nyheter",
       "title": "Försvunne Johans föräldrar begär fem miljoner i skadestånd",
@@ -250,16 +260,6 @@
       "link": "https://www.sverigesradio.se/artikel/9281110",
       "publishedAt": "2026-08-27T13:47:00+02:00",
       "text": "Socialdemokraterna på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
-    },
-    {
-      "id": "40737d045b58",
-      "section": "nyheter",
-      "title": "Sverigedemokraterna på en minut",
-      "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9281059",
-      "publishedAt": "2026-08-27T13:47:00+02:00",
-      "text": "Sverigedemokraterna på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
     },
     {
       "id": "7638d2b63f52",
