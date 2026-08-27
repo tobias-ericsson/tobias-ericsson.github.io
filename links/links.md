@@ -27,6 +27,8 @@
 * https://sonauto.ai/
 
 ### Other
+* https://www.canirun.ai/, Can I run AI locally?, "Detect your GPU or Mac and rank the open models that actually fit."
+* https://openbridge.health/, Speech to text, "Turn speech into text for free, Mac only, Local-first AI"
 * https://github.com/mudler/LocalAI, LocalAI, "LocalAI is the free, Open Source OpenAI alternative"
 * https://openrouter.ai/rankings?view=trending, OpenRouter, "Trending AI models"
 * https://wisprflow.ai/, Wispr Flow, "Voice to text"
