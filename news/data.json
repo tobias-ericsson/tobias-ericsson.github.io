@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:48:44+02:00",
+  "generatedAt": "2026-08-27T14:51:01+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "703d39ee5472",
+          "section": "nyheter",
+          "title": "Finska studenter tipsar: Så kan du hitta bostad utan svenskt personnummer",
+          "summary": "Att hitta bostad som student är svårt i många studierorter runt om i landet. En grupp som ofta är extrautsatt i bostadssökandet är studenter från andra länder utan svenskt personnummer. Men finns det något som man kan göra för att förbättra sina chanser? St...",
+          "link": "https://www.svt.se/nyheter/uutiset/svenska/finska-studenter-tipsar-sa-kan-du-hitta-bostad-utan-svenskt-personnummer",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:48:12+02:00"
+        },
+        {
           "id": "4a4b8ff02f6d",
           "section": "nyheter",
           "title": "Ellen började studera i Linköping utan bostad",
@@ -183,10 +192,10 @@
           "publishedAt": "2026-08-27T14:39:00+02:00"
         },
         {
-          "id": "4133a52ad638",
+          "id": "f23e7df1847a",
           "section": "nyheter",
-          "title": "Krigsförbrytaren Ratko Mladic är död",
-          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, rapporterar statliga serbiska medier.",
+          "title": "Krigsförbrytaren Ratko Mladić är död",
+          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladić är död, rapporterar statliga serbiska medier.",
           "link": "https://www.svt.se/nyheter/utrikes/krigsforbrytaren-mladic-ar-dod",
           "source": "SVT",
           "publishedAt": "2026-08-27T14:37:27+02:00"
@@ -235,15 +244,6 @@
           "link": "https://www.di.se/digital/borsnykomlingen-rusar-oppnar-for-notering-av-voi/",
           "source": "DI",
           "publishedAt": "2026-08-27T14:03:53+02:00"
-        },
-        {
-          "id": "eb2986e5696e",
-          "section": "nyheter",
-          "title": "Kvinna som varit anhållen för mord i Mariannelund har släppts på fri fot",
-          "summary": "Den kvinna som greps i söndags misstänkt för mord på en man i Mariannelund i söndags kväll har släppts på fri fot. – Förundersökningen fortgår och hon är fortsatt misstänkt, säger åklagare Linda Agerlöv till SVT.",
-          "link": "https://www.svt.se/nyheter/lokalt/jonkoping/kvinna-som-varit-anhallen-for-mord-i-mariannelund-har-slappts-pa-fri-fot",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T14:03:45+02:00"
         },
         {
           "id": "e61135d7fdb1",
