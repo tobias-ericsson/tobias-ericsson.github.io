@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-08-27T15:00:06+02:00",
+  "generatedAt": "2026-08-27T15:02:24+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "cfcea8cf7f34",
+          "section": "news",
+          "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+          "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+          "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-08-27T15:00:00+02:00"
+        },
         {
           "id": "9e61eb664686",
           "section": "news",
@@ -132,15 +141,6 @@
           "publishedAt": "2026-08-27T01:17:18+02:00"
         },
         {
-          "id": "873508032037",
-          "section": "news",
-          "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
-          "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
-          "link": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-08-27T00:47:58+02:00"
-        },
-        {
           "id": "523f6f448816",
           "section": "news",
           "title": "New Twitter launches, says Musk’s X gave up the name",
@@ -164,6 +164,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "38ee8548bc93",
+          "section": "nyheter",
+          "title": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över",
+          "summary": "Blir konsthall och krog • Bryts ut ur annan storaffär •…",
+          "link": "https://www.sydsvenskan.se/dygnet-runt/klassiska-saturnus-huset-i-malmo-salt-ganget-bakom-plx-tar-over/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-08-27T15:00:00+02:00"
+        },
         {
           "id": "703d39ee5472",
           "section": "nyheter",
@@ -397,15 +406,6 @@
           "link": "https://polisen.se/aktuellt/nyheter/syd/2026/augusti/kamerabevakning-med-dronare-kristianstad/",
           "source": "Polisen",
           "publishedAt": "2026-08-27T09:52:59+02:00"
-        },
-        {
-          "id": "22928bc830d1",
-          "section": "nyheter",
-          "title": "Valet Direkt • Politiske vilden Malcolm Momodou Jallow ansluter till Framtidens vänster",
-          "summary": "Kandiderar bland annat i Malmö.",
-          "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=7282429b-909d-4b25-9c0a-6b1b7c4b31b0",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-08-27T09:10:10+02:00"
         },
         {
           "id": "aca2121d3fc8",

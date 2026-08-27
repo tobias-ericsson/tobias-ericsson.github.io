@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-08-27T15:00:06+02:00",
+  "generatedAt": "2026-08-27T15:02:24+02:00",
   "entries": [
+    {
+      "id": "cfcea8cf7f34",
+      "section": "news",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "publishedAt": "2026-08-27T15:00:00+02:00",
+      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Techcrunch Plaud's new 'agentic' earbuds are priced at $249."
+    },
     {
       "id": "9e61eb664686",
       "section": "news",
@@ -142,16 +152,6 @@
       "text": "Flock Camera CEO Asks Americans To “Compromise” on Privacy Amidst Major Backlash: Report Reddit submitted by /u/Limp_Fig6236 [link] [comments]"
     },
     {
-      "id": "873508032037",
-      "section": "news",
-      "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
-      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
-      "publishedAt": "2026-08-27T00:47:58+02:00",
-      "text": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well Techcrunch The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk."
-    },
-    {
       "id": "523f6f448816",
       "section": "news",
       "title": "New Twitter launches, says Musk’s X gave up the name",
@@ -170,6 +170,16 @@
       "link": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
       "publishedAt": "2026-08-25T02:00:00+02:00",
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
+    },
+    {
+      "id": "38ee8548bc93",
+      "section": "nyheter",
+      "title": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över",
+      "summary": "Blir konsthall och krog • Bryts ut ur annan storaffär •…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/dygnet-runt/klassiska-saturnus-huset-i-malmo-salt-ganget-bakom-plx-tar-over/",
+      "publishedAt": "2026-08-27T15:00:00+02:00",
+      "text": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över Sydsvenskan Blir konsthall och krog • Bryts ut ur annan storaffär •…"
     },
     {
       "id": "703d39ee5472",
@@ -430,16 +440,6 @@
       "link": "https://polisen.se/aktuellt/nyheter/syd/2026/augusti/kamerabevakning-med-dronare-kristianstad/",
       "publishedAt": "2026-08-27T09:52:59+02:00",
       "text": "Kamerabevakning med drönare i Kristianstad Polisen Polisen kommer att kamerabevaka med hjälp av drönare i Kristianstad under Trädgården festival från och med den"
-    },
-    {
-      "id": "22928bc830d1",
-      "section": "nyheter",
-      "title": "Valet Direkt • Politiske vilden Malcolm Momodou Jallow ansluter till Framtidens vänster",
-      "summary": "Kandiderar bland annat i Malmö.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=7282429b-909d-4b25-9c0a-6b1b7c4b31b0",
-      "publishedAt": "2026-08-27T09:10:10+02:00",
-      "text": "Valet Direkt • Politiske vilden Malcolm Momodou Jallow ansluter till Framtidens vänster Sydsvenskan Kandiderar bland annat i Malmö."
     },
     {
       "id": "aca2121d3fc8",
