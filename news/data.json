@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:46:24+02:00",
+  "generatedAt": "2026-08-27T14:48:44+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,10 +165,19 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "4a4b8ff02f6d",
+          "section": "nyheter",
+          "title": "Ellen började studera i Linköping utan bostad",
+          "summary": "Det nya läsåret drog i gång vid Linköpings universitet förra veckan. Trots att Linköping hör till de kommuner som i år ska ha god tillgång till studentbostäder stod finlandssvenska Ellen Karlsson utan bostad när studierna började. Enligt henne har den störs...",
+          "link": "https://www.svt.se/nyheter/uutiset/svenska/ellen-borjade-studera-i-linkoping-utan-bostad",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:45:47+02:00"
+        },
+        {
           "id": "ef7e2bb22e0f",
           "section": "nyheter",
           "title": "Krigsförbrytaren Ratko Mladic är död",
-          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras.",
+          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Mladic dömdes 2017 till livstids fängelse för krigsförbrytelser begångna av bosnienserbiska styrkor under Bosnienkriget på 1990-talet.Han blev 84 år gammal.",
           "link": "https://www.sverigesradio.se/artikel/9285421",
           "source": "Ekot",
           "publishedAt": "2026-08-27T14:39:00+02:00"
@@ -307,15 +316,6 @@
           "link": "https://www.dn.se/varlden/radda-barnen-aldrig-sett-nagot-liknande/",
           "source": "DN",
           "publishedAt": "2026-08-27T13:24:56+02:00"
-        },
-        {
-          "id": "b3c62848351f",
-          "section": "nyheter",
-          "title": "Saab satsar på ny fabrik i Jönköping – blir 80 000 kvadratmeter",
-          "summary": "Försvarskoncernen Saab satsar på att bygga en ny produktionsanläggning på 80 000 kvadratmeter i Jönköping, det presenterades på en presskonferens i Jönköping under torsdagen.",
-          "link": "https://www.svt.se/nyheter/lokalt/jonkoping/saab-satsar-pa-ny-fabrik-i-jonkoping-blir-80-000-kvadratmeter",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T13:21:48+02:00"
         },
         {
           "id": "bc0d126df5f9",

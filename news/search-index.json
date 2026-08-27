@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:46:24+02:00",
+  "generatedAt": "2026-08-27T14:48:44+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -172,14 +172,24 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "4a4b8ff02f6d",
+      "section": "nyheter",
+      "title": "Ellen började studera i Linköping utan bostad",
+      "summary": "Det nya läsåret drog i gång vid Linköpings universitet förra veckan. Trots att Linköping hör till de kommuner som i år ska ha god tillgång till studentbostäder stod finlandssvenska Ellen Karlsson utan bostad när studierna började. Enligt henne har den störs...",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/uutiset/svenska/ellen-borjade-studera-i-linkoping-utan-bostad",
+      "publishedAt": "2026-08-27T14:45:47+02:00",
+      "text": "Ellen började studera i Linköping utan bostad SVT Det nya läsåret drog i gång vid Linköpings universitet förra veckan. Trots att Linköping hör till de kommuner som i år ska ha god tillgång till studentbostäder stod finlandssvenska Ellen Karlsson utan bostad när studierna började. Enligt henne har den störs..."
+    },
+    {
       "id": "ef7e2bb22e0f",
       "section": "nyheter",
       "title": "Krigsförbrytaren Ratko Mladic är död",
-      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras.",
+      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Mladic dömdes 2017 till livstids fängelse för krigsförbrytelser begångna av bosnienserbiska styrkor under Bosnienkriget på 1990-talet.Han blev 84 år gammal.",
       "source": "Ekot",
       "link": "https://www.sverigesradio.se/artikel/9285421",
       "publishedAt": "2026-08-27T14:39:00+02:00",
-      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras."
+      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Mladic dömdes 2017 till livstids fängelse för krigsförbrytelser begångna av bosnienserbiska styrkor under Bosnienkriget på 1990-talet.Han blev 84 år gammal."
     },
     {
       "id": "4133a52ad638",
@@ -330,16 +340,6 @@
       "link": "https://www.dn.se/varlden/radda-barnen-aldrig-sett-nagot-liknande/",
       "publishedAt": "2026-08-27T13:24:56+02:00",
       "text": "Rädda Barnen: ”Aldrig sett något liknande” DN Hundratals hjälparbetare sökte på torsdagen efter överlevande i den dalgång i norra Nepal där ett enormt skred av vatten, lera, is och sten forsat ned från bergen och orsakat katastrofala översvämningar. – Våra hjälparbetare har aldrig sett något liknande,..."
-    },
-    {
-      "id": "b3c62848351f",
-      "section": "nyheter",
-      "title": "Saab satsar på ny fabrik i Jönköping – blir 80 000 kvadratmeter",
-      "summary": "Försvarskoncernen Saab satsar på att bygga en ny produktionsanläggning på 80 000 kvadratmeter i Jönköping, det presenterades på en presskonferens i Jönköping under torsdagen.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/jonkoping/saab-satsar-pa-ny-fabrik-i-jonkoping-blir-80-000-kvadratmeter",
-      "publishedAt": "2026-08-27T13:21:48+02:00",
-      "text": "Saab satsar på ny fabrik i Jönköping – blir 80 000 kvadratmeter SVT Försvarskoncernen Saab satsar på att bygga en ny produktionsanläggning på 80 000 kvadratmeter i Jönköping, det presenterades på en presskonferens i Jönköping under torsdagen."
     },
     {
       "id": "bc0d126df5f9",
