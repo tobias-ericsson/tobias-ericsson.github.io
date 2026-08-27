@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:39:39+02:00",
+  "generatedAt": "2026-08-27T14:41:54+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "ef7e2bb22e0f",
+          "section": "nyheter",
+          "title": "Krigsförbrytaren Ratko Mladic är död",
+          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.",
+          "link": "https://www.sverigesradio.se/artikel/9285421",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T14:39:00+02:00"
+        },
+        {
           "id": "020a4e5620e0",
           "section": "nyheter",
           "title": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik",
@@ -235,15 +244,6 @@
           "link": "https://www.sydsvenskan.se/malmo/namninsamling-och-skolstrejk-mot-utvisningen-av-vaktmastaren-pa-latinskolan/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-08-27T14:00:00+02:00"
-        },
-        {
-          "id": "ba697cb97742",
-          "section": "nyheter",
-          "title": "Liberalerna på en minut",
-          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
-          "link": "https://www.sverigesradio.se/artikel/9281077",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T13:47:00+02:00"
         },
         {
           "id": "beb344f89df0",

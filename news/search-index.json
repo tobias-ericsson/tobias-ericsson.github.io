@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:39:39+02:00",
+  "generatedAt": "2026-08-27T14:41:54+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -172,6 +172,16 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "ef7e2bb22e0f",
+      "section": "nyheter",
+      "title": "Krigsförbrytaren Ratko Mladic är död",
+      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9285421",
+      "publishedAt": "2026-08-27T14:39:00+02:00",
+      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier."
+    },
+    {
       "id": "020a4e5620e0",
       "section": "nyheter",
       "title": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik",
@@ -250,16 +260,6 @@
       "link": "https://www.sydsvenskan.se/malmo/namninsamling-och-skolstrejk-mot-utvisningen-av-vaktmastaren-pa-latinskolan/",
       "publishedAt": "2026-08-27T14:00:00+02:00",
       "text": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan Sydsvenskan Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…"
-    },
-    {
-      "id": "ba697cb97742",
-      "section": "nyheter",
-      "title": "Liberalerna på en minut",
-      "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9281077",
-      "publishedAt": "2026-08-27T13:47:00+02:00",
-      "text": "Liberalerna på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
     },
     {
       "id": "beb344f89df0",
