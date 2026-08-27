@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:05:47+02:00",
+  "generatedAt": "2026-08-27T14:08:07+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "efdec9a72fdf",
+          "section": "nyheter",
+          "title": "Försvunne Johans föräldrar begär fem miljoner i skadestånd",
+          "summary": "”Seriemördaren” Thomas Quick tog på sig 11-årige Johan Asplunds försvinnande och dömdes på sitt eget erkännande. Några år senare tog han tillbaka alltihop – och frikändes. Nu begär Johan Asplunds föräldrar fem miljoner kronor i skadestånd för sitt lidande p...",
+          "link": "https://www.svt.se/nyheter/lokalt/vasternorrland/forsvunne-johans-foraldrar-begar-fem-miljoner-i-skadestand",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:07:30+02:00"
+        },
+        {
+          "id": "e0e0b2c6d198",
+          "section": "nyheter",
+          "title": "Börsnykomlingen rusar: ”Öppnar för notering av Voi”",
+          "summary": "Elsparkcykelbolaget Lime har rusat från 25 till drygt 43 dollar på Nasdaq sedan noteringen i början av juli. Det är goda nyheter för börsnoterade VNV Global, som har svenska branschkollegan Voi som näst största innehav, enligt analytikern Georg Attling på P...",
+          "link": "https://www.di.se/digital/borsnykomlingen-rusar-oppnar-for-notering-av-voi/",
+          "source": "DI",
+          "publishedAt": "2026-08-27T14:03:53+02:00"
+        },
+        {
           "id": "e61135d7fdb1",
           "section": "nyheter",
           "title": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige",
@@ -318,15 +336,6 @@
           "publishedAt": "2026-08-27T11:53:00+02:00"
         },
         {
-          "id": "d3e15f9fb983",
-          "section": "nyheter",
-          "title": "Anrika Hammars bryggeri säger upp personal – flyttar produktionen",
-          "summary": "I Hammar har det bryggts drycker i över 100 år. Men vid årsskiftet lämnar företagets produktionsdel det anrika bryggeriet söder om Askersund.",
-          "link": "https://www.svt.se/nyheter/lokalt/orebro/anrika-hammars-bryggeri-lagger-ner",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T11:47:11+02:00"
-        },
-        {
           "id": "2f7a0339900c",
           "section": "nyheter",
           "title": "Då visar Apple upp nya telefoner – och vikbara ”Iphone Ultra”?",
@@ -478,15 +487,6 @@
           "link": "https://www.di.se/digital/meta-redo-gora-upp-i-jattemal-rekordboter-hotar/",
           "source": "DI",
           "publishedAt": "2026-08-26T11:20:19+02:00"
-        },
-        {
-          "id": "928269a3a5bb",
-          "section": "nyheter",
-          "title": "Finsk AI-miljardär tar försvarssatsning till Sverige",
-          "summary": "Finska AI-miljardären Peter Sarlin tar sitt nya försvarsbolag Nest AI till Sverige. Bolaget, som enligt uppgift till Di redan värderas till 5 miljarder kronor, säger sig vilja rekrytera 50 ingenjörer och forskare i Stockholm under 2027.",
-          "link": "https://www.di.se/digital/finsk-ai-miljardar-tar-forsvarssatsning-till-sverige/",
-          "source": "DI",
-          "publishedAt": "2026-08-26T09:30:28+02:00"
         },
         {
           "id": "68c5e10e8e00",
