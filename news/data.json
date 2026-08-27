@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T13:46:39+02:00",
+  "generatedAt": "2026-08-27T13:49:07+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,51 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "ba697cb97742",
+          "section": "nyheter",
+          "title": "Liberalerna på en minut",
+          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+          "link": "https://www.sverigesradio.se/artikel/9281077",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T13:47:00+02:00"
+        },
+        {
+          "id": "20d9069e8b76",
+          "section": "nyheter",
+          "title": "Miljöpartiet på en minut",
+          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+          "link": "https://www.sverigesradio.se/artikel/9281071",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T13:47:00+02:00"
+        },
+        {
+          "id": "beb344f89df0",
+          "section": "nyheter",
+          "title": "Socialdemokraterna på en minut",
+          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+          "link": "https://www.sverigesradio.se/artikel/9281110",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T13:47:00+02:00"
+        },
+        {
+          "id": "40737d045b58",
+          "section": "nyheter",
+          "title": "Sverigedemokraterna på en minut",
+          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+          "link": "https://www.sverigesradio.se/artikel/9281059",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T13:47:00+02:00"
+        },
+        {
+          "id": "7638d2b63f52",
+          "section": "nyheter",
+          "title": "Vänsterpartiet på en minut",
+          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+          "link": "https://www.sverigesradio.se/artikel/9281080",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T13:47:00+02:00"
+        },
+        {
           "id": "dfcc076d377e",
           "section": "nyheter",
           "title": "Underhållande exposé om kontorets svenska historia",
@@ -210,24 +255,6 @@
           "publishedAt": "2026-08-27T13:21:48+02:00"
         },
         {
-          "id": "0eebc353b67a",
-          "section": "nyheter",
-          "title": "CIA-besök i Moskva lämnar frågetecken",
-          "summary": "Många detaljerna kring CIA:s chefens resa till Moskva är fortfarande oklara.Men enligt medieuppgifter i USA så manade han Ryssland att inte attackera ett Nato-land. Resan var ovanlig, men president Donald Trump tonar ner betydelsen av den.Allt fler underrät...",
-          "link": "https://www.sverigesradio.se/artikel/9285324",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T13:21:00+02:00"
-        },
-        {
-          "id": "9339dd1985b2",
-          "section": "nyheter",
-          "title": "Trots kritiken: Boliden expanderar i Sydamerika",
-          "summary": "Boliden köper en kontrollpost på 64,7 procent i den sydamerikanska zinkproducenten Nexa Resources för 12,5 miljarder kronor.Boliden betalar med nyemitterade aktier, vilket ger säljaren av aktierna, det brasilianska investmentbolaget Votorantim, en post på 7...",
-          "link": "https://www.sverigesradio.se/artikel/9285279",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T13:09:00+02:00"
-        },
-        {
           "id": "64d53d71f1e6",
           "section": "nyheter",
           "title": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur",
@@ -253,15 +280,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/helsingborg/misstankt-12-aring-utreddes-av-socialtjansten-innan-knivdad-inga-insatser",
           "source": "SVT",
           "publishedAt": "2026-08-27T12:26:39+02:00"
-        },
-        {
-          "id": "1a0621c06152",
-          "section": "nyheter",
-          "title": "”Norge förbereder sig på ett negativt besked”",
-          "summary": "Under torsdagsmorgonen kom drottning Sonja och kronprins Haakon till Rikshospitalet i Oslo där kung Harald vårdas. Även kronprinsessan Mette-Marit och kronprinsparets barn, prins Sverre Magnus och prinsessan Ingrid Alexandra, rapporteras vara på sjukhuset,...",
-          "link": "https://www.sverigesradio.se/artikel/9285265",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T12:23:00+02:00"
         },
         {
           "id": "605e026cabc7",
@@ -300,15 +318,6 @@
           "publishedAt": "2026-08-27T11:47:11+02:00"
         },
         {
-          "id": "9fc0f0b9b604",
-          "section": "nyheter",
-          "title": "Norske statsministern ställer in sina resor",
-          "summary": "Norske statsministern Jonas Gahr Støre planerade att resa till Tyskland idag - men nu ställs resan in, uppger statsministerns kontor. Tanken var att den norske statsministern skulle möta Tysklands förbundskansler Friedrich Merz. Jonas Gahr Støre säger till...",
-          "link": "https://www.sverigesradio.se/artikel/9285237",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T11:47:00+02:00"
-        },
-        {
           "id": "2f7a0339900c",
           "section": "nyheter",
           "title": "Då visar Apple upp nya telefoner – och vikbara ”Iphone Ultra”?",
@@ -316,15 +325,6 @@
           "link": "https://www.nyteknik.se/tech/da-visar-apple-upp-nya-telefoner-och-vikbara-iphone-ultra/4489235",
           "source": "NyTeknik",
           "publishedAt": "2026-08-27T11:24:57+02:00"
-        },
-        {
-          "id": "3dee38825599",
-          "section": "nyheter",
-          "title": "Pojke begärs häktad efter skoldådet i Fagersta",
-          "summary": "En pojke under 18 år har begärts häktad misstänkt för medhjälp till mord och medhjälp till försök till mord efter skoldådet i Fagersta.Tingsrätten har valt att hålla personens personuppgifter skyddade, vilket man ibland gör när det handlar om unga förövare,...",
-          "link": "https://www.sverigesradio.se/artikel/9285193",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T11:15:00+02:00"
         },
         {
           "id": "ee0bb761c245",
