@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T15:13:45+02:00",
+  "generatedAt": "2026-08-27T15:16:05+02:00",
   "entries": [
     {
       "id": "cfcea8cf7f34",
@@ -172,6 +172,26 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "d4b4d4e5f7a8",
+      "section": "nyheter",
+      "title": "Gal är moderat: ”Lägre skatter är vägen till fler jobb”",
+      "summary": "",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=c9bbe7d2-5bcc-4d51-8221-63ab275bf9c1",
+      "publishedAt": "2026-08-27T15:14:11+02:00",
+      "text": "Gal är moderat: ”Lägre skatter är vägen till fler jobb” Sydsvenskan"
+    },
+    {
+      "id": "531cc45b76e0",
+      "section": "nyheter",
+      "title": "Totalt sex nya smittade med mässling",
+      "summary": "Totalt sex personer som inte besökt festivalen Urkult har blivit sjuka i mässling.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/inrikes/totalt-sex-nya-smittade-med-massling",
+      "publishedAt": "2026-08-27T15:11:39+02:00",
+      "text": "Totalt sex nya smittade med mässling SVT Totalt sex personer som inte besökt festivalen Urkult har blivit sjuka i mässling."
+    },
+    {
       "id": "4a0e53364da7",
       "section": "nyheter",
       "title": "DN Debatt Repliker. ”Ställ inte patientnytta mot donationsetik”",
@@ -270,16 +290,6 @@
       "link": "https://www.svt.se/nyheter/lokalt/ost/tva-nya-masslingsfall-pa-gotland",
       "publishedAt": "2026-08-27T14:19:18+02:00",
       "text": "Två nya mässlingsfall på Gotland SVT Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland."
-    },
-    {
-      "id": "efdec9a72fdf",
-      "section": "nyheter",
-      "title": "Försvunne Johans föräldrar begär fem miljoner i skadestånd",
-      "summary": "”Seriemördaren” Thomas Quick tog på sig 11-årige Johan Asplunds försvinnande och dömdes på sitt eget erkännande. Några år senare tog han tillbaka alltihop – och frikändes. Nu begär Johan Asplunds föräldrar fem miljoner kronor i ersättning av staten för sitt...",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/vasternorrland/forsvunne-johans-foraldrar-begar-fem-miljoner-i-skadestand",
-      "publishedAt": "2026-08-27T14:07:30+02:00",
-      "text": "Försvunne Johans föräldrar begär fem miljoner i skadestånd SVT ”Seriemördaren” Thomas Quick tog på sig 11-årige Johan Asplunds försvinnande och dömdes på sitt eget erkännande. Några år senare tog han tillbaka alltihop – och frikändes. Nu begär Johan Asplunds föräldrar fem miljoner kronor i ersättning av staten för sitt..."
     },
     {
       "id": "e0e0b2c6d198",
@@ -420,16 +430,6 @@
       "link": "https://www.nyteknik.se/energi/brittiskt-kraftverk-staengdes-efter-moejligt-iranskt-cyberangrepp/4488227",
       "publishedAt": "2026-08-27T10:20:00+02:00",
       "text": "Kraftverk stängdes efter möjligt iranskt cyberangrepp NyTeknik Hackare med kopplingar till Iran anklagas för att ha genomfört ett cyberangrepp som stängde ett brittiskt kraftverk i flera dagar."
-    },
-    {
-      "id": "b34918a869c2",
-      "section": "nyheter",
-      "title": "Mordförsöket på Södervärn: Polisen utreder hatbrottsmotiv",
-      "summary": "Igår greps en man i 40-årsåldern.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=0626ed17-855e-4136-8288-fc958ee072dd",
-      "publishedAt": "2026-08-27T10:00:51+02:00",
-      "text": "Mordförsöket på Södervärn: Polisen utreder hatbrottsmotiv Sydsvenskan Igår greps en man i 40-årsåldern."
     },
     {
       "id": "11ec2a1e0aa2",
