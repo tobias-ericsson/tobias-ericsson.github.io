@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:41:54+02:00",
+  "generatedAt": "2026-08-27T14:44:08+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -175,11 +175,21 @@
       "id": "ef7e2bb22e0f",
       "section": "nyheter",
       "title": "Krigsförbrytaren Ratko Mladic är död",
-      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.",
+      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras.",
       "source": "Ekot",
       "link": "https://www.sverigesradio.se/artikel/9285421",
       "publishedAt": "2026-08-27T14:39:00+02:00",
-      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier."
+      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras."
+    },
+    {
+      "id": "4133a52ad638",
+      "section": "nyheter",
+      "title": "Krigsförbrytaren Ratko Mladic är död",
+      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, rapporterar statliga serbiska medier.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/utrikes/krigsforbrytaren-mladic-ar-dod",
+      "publishedAt": "2026-08-27T14:37:27+02:00",
+      "text": "Krigsförbrytaren Ratko Mladic är död SVT Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, rapporterar statliga serbiska medier."
     },
     {
       "id": "020a4e5620e0",
@@ -330,16 +340,6 @@
       "link": "https://www.svt.se/nyheter/lokalt/jonkoping/saab-satsar-pa-ny-fabrik-i-jonkoping-blir-80-000-kvadratmeter",
       "publishedAt": "2026-08-27T13:21:48+02:00",
       "text": "Saab satsar på ny fabrik i Jönköping – blir 80 000 kvadratmeter SVT Försvarskoncernen Saab satsar på att bygga en ny produktionsanläggning på 80 000 kvadratmeter i Jönköping, det presenterades på en presskonferens i Jönköping under torsdagen."
-    },
-    {
-      "id": "64d53d71f1e6",
-      "section": "nyheter",
-      "title": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur",
-      "summary": "Senast Socialdemokraterna styrde landet hade de stora problem med att få ihop ett stabilt regeringsunderlag. Nu vill Magdalena Andersson bli Sveriges statsminister igen – men vägrar berätta med hjälp av vem. SVT har tagit rygg på S-ledaren, som är osäker på...",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
-      "publishedAt": "2026-08-27T12:54:59+02:00",
-      "text": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur SVT Senast Socialdemokraterna styrde landet hade de stora problem med att få ihop ett stabilt regeringsunderlag. Nu vill Magdalena Andersson bli Sveriges statsminister igen – men vägrar berätta med hjälp av vem. SVT har tagit rygg på S-ledaren, som är osäker på..."
     },
     {
       "id": "bc0d126df5f9",

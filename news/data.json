@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:41:54+02:00",
+  "generatedAt": "2026-08-27T14:44:08+02:00",
   "sections": [
     {
       "key": "news",
@@ -168,10 +168,19 @@
           "id": "ef7e2bb22e0f",
           "section": "nyheter",
           "title": "Krigsförbrytaren Ratko Mladic är död",
-          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.",
+          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Artikeln uppdateras.",
           "link": "https://www.sverigesradio.se/artikel/9285421",
           "source": "Ekot",
           "publishedAt": "2026-08-27T14:39:00+02:00"
+        },
+        {
+          "id": "4133a52ad638",
+          "section": "nyheter",
+          "title": "Krigsförbrytaren Ratko Mladic är död",
+          "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, rapporterar statliga serbiska medier.",
+          "link": "https://www.svt.se/nyheter/utrikes/krigsforbrytaren-mladic-ar-dod",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:37:27+02:00"
         },
         {
           "id": "020a4e5620e0",
@@ -307,15 +316,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/jonkoping/saab-satsar-pa-ny-fabrik-i-jonkoping-blir-80-000-kvadratmeter",
           "source": "SVT",
           "publishedAt": "2026-08-27T13:21:48+02:00"
-        },
-        {
-          "id": "64d53d71f1e6",
-          "section": "nyheter",
-          "title": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur",
-          "summary": "Senast Socialdemokraterna styrde landet hade de stora problem med att få ihop ett stabilt regeringsunderlag. Nu vill Magdalena Andersson bli Sveriges statsminister igen – men vägrar berätta med hjälp av vem. SVT har tagit rygg på S-ledaren, som är osäker på...",
-          "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T12:54:59+02:00"
         },
         {
           "id": "bc0d126df5f9",
