@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:17:15+02:00",
+  "generatedAt": "2026-08-27T14:19:28+02:00",
   "sections": [
     {
       "key": "news",
@@ -183,6 +183,15 @@
           "publishedAt": "2026-08-27T14:03:53+02:00"
         },
         {
+          "id": "eb2986e5696e",
+          "section": "nyheter",
+          "title": "Kvinna som varit anhållen för mord i Mariannelund har släppts på fri fot",
+          "summary": "Den kvinna som greps i söndags misstänkt för mord på en man i Mariannelund i söndags kväll har släpps på fri fot. – Förundersökningen fortgår och hon är fortsatt misstänkt, säger åklagare Linda Agerlöv till SVT.",
+          "link": "https://www.svt.se/nyheter/lokalt/jonkoping/kvinna-som-varit-anhallen-for-mord-i-mariannelund-har-slappts-pa-fri-fot",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:03:45+02:00"
+        },
+        {
           "id": "e61135d7fdb1",
           "section": "nyheter",
           "title": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige",
@@ -307,15 +316,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/helsingborg/misstankt-12-aring-utreddes-av-socialtjansten-innan-knivdad-inga-insatser",
           "source": "SVT",
           "publishedAt": "2026-08-27T12:26:39+02:00"
-        },
-        {
-          "id": "605e026cabc7",
-          "section": "nyheter",
-          "title": "Dijan Vukojevic bekräftar intresse från IFK Göteborg: ”Smickrande”",
-          "summary": "Dijan Vukojevic, 30, har uppgetts finnas på IFK Göteborgs radar. Anfallaren bekräftar att ett intresse från klubben är riktigt. – Vi får se hur det utvecklas, säger Degerforsstjärnan för SVT Sport.",
-          "link": "https://www.svt.se/sport/fotboll/dijan-vukojevic-bekraftar-intresse-fran-ifk-goteborg-smickrande",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T12:02:48+02:00"
         },
         {
           "id": "bc0d126df5f9",
