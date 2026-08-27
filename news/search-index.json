@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:30:25+02:00",
+  "generatedAt": "2026-08-27T14:32:40+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -172,6 +172,16 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "020a4e5620e0",
+      "section": "nyheter",
+      "title": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik",
+      "summary": "Miljöpartiet vill lägga 1,5 miljarder kronor om året under nästa mandatperiod för att göra det enklare att gå, cykla och åka med kollektivtrafik.Partiet vill återinföra det stadsmiljöavtal som togs bort av den nuvarande regeringen, som innebar att kommuner...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9285393",
+      "publishedAt": "2026-08-27T14:30:00+02:00",
+      "text": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik Ekot Miljöpartiet vill lägga 1,5 miljarder kronor om året under nästa mandatperiod för att göra det enklare att gå, cykla och åka med kollektivtrafik.Partiet vill återinföra det stadsmiljöavtal som togs bort av den nuvarande regeringen, som innebar att kommuner..."
+    },
+    {
       "id": "c25c2d05556a",
       "section": "nyheter",
       "title": "Hovexperten: Harald är otroligt duktig på att träffa människor",
@@ -180,6 +190,16 @@
       "link": "https://www.sverigesradio.se/artikel/9285372",
       "publishedAt": "2026-08-27T14:23:00+02:00",
       "text": "Hovexperten: Harald är otroligt duktig på att träffa människor Ekot Norges Kung Haralds tillstånd har försämrats och människor samlas vid slottet i Oslo och har redan nu börjat lämna blommor. Hovexperten Ebba Kleberg von Sydow förklarar vilken betydelse Harald har för det norska samhället."
+    },
+    {
+      "id": "b1c09ede7f69",
+      "section": "nyheter",
+      "title": "Två nya mässlingsfall på Gotland",
+      "summary": "Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/ost/tva-nya-masslingsfall-pa-gotland",
+      "publishedAt": "2026-08-27T14:19:18+02:00",
+      "text": "Två nya mässlingsfall på Gotland SVT Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland."
     },
     {
       "id": "efdec9a72fdf",
@@ -240,16 +260,6 @@
       "link": "https://www.sverigesradio.se/artikel/9281077",
       "publishedAt": "2026-08-27T13:47:00+02:00",
       "text": "Liberalerna på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
-    },
-    {
-      "id": "20d9069e8b76",
-      "section": "nyheter",
-      "title": "Miljöpartiet på en minut",
-      "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9281071",
-      "publishedAt": "2026-08-27T13:47:00+02:00",
-      "text": "Miljöpartiet på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
     },
     {
       "id": "beb344f89df0",
@@ -330,16 +340,6 @@
       "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
       "publishedAt": "2026-08-27T12:54:59+02:00",
       "text": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur SVT Senast Socialdemokraterna styrde landet hade de stora problem med att få ihop ett stabilt regeringsunderlag. Nu vill Magdalena Andersson bli Sveriges statsminister igen – men vägrar berätta med hjälp av vem. SVT har tagit rygg på S-ledaren, som är osäker på..."
-    },
-    {
-      "id": "d0f5fa1b306b",
-      "section": "nyheter",
-      "title": "Misstänkt 12-åring utreddes av socialtjänsten innan knivdåd – inga insatser",
-      "summary": "Efter flera orosanmälningar startades två utredningar gällande den 12-årige pojke som misstänks för att ha knivhuggit en femårig flicka i Helsingborg i juli. Båda avslutades utan insatser. Nu är pojken omhändertagen enligt LVU.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/helsingborg/misstankt-12-aring-utreddes-av-socialtjansten-innan-knivdad-inga-insatser",
-      "publishedAt": "2026-08-27T12:26:39+02:00",
-      "text": "Misstänkt 12-åring utreddes av socialtjänsten innan knivdåd – inga insatser SVT Efter flera orosanmälningar startades två utredningar gällande den 12-årige pojke som misstänks för att ha knivhuggit en femårig flicka i Helsingborg i juli. Båda avslutades utan insatser. Nu är pojken omhändertagen enligt LVU."
     },
     {
       "id": "bc0d126df5f9",

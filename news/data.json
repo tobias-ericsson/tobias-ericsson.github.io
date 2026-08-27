@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T14:30:25+02:00",
+  "generatedAt": "2026-08-27T14:32:40+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "020a4e5620e0",
+          "section": "nyheter",
+          "title": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik",
+          "summary": "Miljöpartiet vill lägga 1,5 miljarder kronor om året under nästa mandatperiod för att göra det enklare att gå, cykla och åka med kollektivtrafik.Partiet vill återinföra det stadsmiljöavtal som togs bort av den nuvarande regeringen, som innebar att kommuner...",
+          "link": "https://www.sverigesradio.se/artikel/9285393",
+          "source": "Ekot",
+          "publishedAt": "2026-08-27T14:30:00+02:00"
+        },
+        {
           "id": "c25c2d05556a",
           "section": "nyheter",
           "title": "Hovexperten: Harald är otroligt duktig på att träffa människor",
@@ -172,6 +181,15 @@
           "link": "https://www.sverigesradio.se/artikel/9285372",
           "source": "Ekot",
           "publishedAt": "2026-08-27T14:23:00+02:00"
+        },
+        {
+          "id": "b1c09ede7f69",
+          "section": "nyheter",
+          "title": "Två nya mässlingsfall på Gotland",
+          "summary": "Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland.",
+          "link": "https://www.svt.se/nyheter/lokalt/ost/tva-nya-masslingsfall-pa-gotland",
+          "source": "SVT",
+          "publishedAt": "2026-08-27T14:19:18+02:00"
         },
         {
           "id": "efdec9a72fdf",
@@ -224,15 +242,6 @@
           "title": "Liberalerna på en minut",
           "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
           "link": "https://www.sverigesradio.se/artikel/9281077",
-          "source": "Ekot",
-          "publishedAt": "2026-08-27T13:47:00+02:00"
-        },
-        {
-          "id": "20d9069e8b76",
-          "section": "nyheter",
-          "title": "Miljöpartiet på en minut",
-          "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
-          "link": "https://www.sverigesradio.se/artikel/9281071",
           "source": "Ekot",
           "publishedAt": "2026-08-27T13:47:00+02:00"
         },
@@ -307,15 +316,6 @@
           "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
           "source": "SVT",
           "publishedAt": "2026-08-27T12:54:59+02:00"
-        },
-        {
-          "id": "d0f5fa1b306b",
-          "section": "nyheter",
-          "title": "Misstänkt 12-åring utreddes av socialtjänsten innan knivdåd – inga insatser",
-          "summary": "Efter flera orosanmälningar startades två utredningar gällande den 12-årige pojke som misstänks för att ha knivhuggit en femårig flicka i Helsingborg i juli. Båda avslutades utan insatser. Nu är pojken omhändertagen enligt LVU.",
-          "link": "https://www.svt.se/nyheter/lokalt/helsingborg/misstankt-12-aring-utreddes-av-socialtjansten-innan-knivdad-inga-insatser",
-          "source": "SVT",
-          "publishedAt": "2026-08-27T12:26:39+02:00"
         },
         {
           "id": "bc0d126df5f9",
