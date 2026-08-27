@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T13:58:34+02:00",
+  "generatedAt": "2026-08-27T14:00:57+02:00",
   "entries": [
     {
       "id": "9e61eb664686",
@@ -172,6 +172,26 @@
       "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
     },
     {
+      "id": "e61135d7fdb1",
+      "section": "nyheter",
+      "title": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige",
+      "summary": "I Hanna Nordenhöks roman har en förödande pandemi kommit och gått. En kvinna färdas för att bränna sin pappa på stranden.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/atmosfariskt-och-morkt-om-en-resa-genom-ett-tomt-och-odsligt-sverige/",
+      "publishedAt": "2026-08-27T14:00:00+02:00",
+      "text": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige DN I Hanna Nordenhöks roman har en förödande pandemi kommit och gått. En kvinna färdas för att bränna sin pappa på stranden."
+    },
+    {
+      "id": "8083851a600f",
+      "section": "nyheter",
+      "title": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan",
+      "summary": "Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/malmo/namninsamling-och-skolstrejk-mot-utvisningen-av-vaktmastaren-pa-latinskolan/",
+      "publishedAt": "2026-08-27T14:00:00+02:00",
+      "text": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan Sydsvenskan Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…"
+    },
+    {
       "id": "ba697cb97742",
       "section": "nyheter",
       "title": "Liberalerna på en minut",
@@ -280,16 +300,6 @@
       "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
       "publishedAt": "2026-08-27T12:54:59+02:00",
       "text": "Magdalena Andersson (S) vill bli statsminister igen – men vägrar säga hur SVT Senast Socialdemokraterna styrde landet hade de stora problem med att få ihop ett stabilt regeringsunderlag. Nu vill Magdalena Andersson bli Sveriges statsminister igen – men vägrar berätta med hjälp av vem. SVT har tagit rygg på S-ledaren, som är osäker på..."
-    },
-    {
-      "id": "58cf12c0794a",
-      "section": "nyheter",
-      "title": "Regeringen vill lagstifta om maxtak för klasstorlekar",
-      "summary": "I dag fyller kommuner och friskolor klasser till bristningsgränsen för att spara pengar, menar Liberalerna. Därför tillsätter regeringen nu en utredning för att kunna lagstifta om hur stora skolklasser får vara.",
-      "source": "DN",
-      "link": "https://www.dn.se/sverige/regeringen-vill-lagstifta-om-maxtak-for-klasstorlekar/",
-      "publishedAt": "2026-08-27T12:30:37+02:00",
-      "text": "Regeringen vill lagstifta om maxtak för klasstorlekar DN I dag fyller kommuner och friskolor klasser till bristningsgränsen för att spara pengar, menar Liberalerna. Därför tillsätter regeringen nu en utredning för att kunna lagstifta om hur stora skolklasser får vara."
     },
     {
       "id": "d0f5fa1b306b",
@@ -420,16 +430,6 @@
       "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=7282429b-909d-4b25-9c0a-6b1b7c4b31b0",
       "publishedAt": "2026-08-27T09:10:10+02:00",
       "text": "Valet Direkt • Politiske vilden Malcolm Momodou Jallow ansluter till Framtidens vänster Sydsvenskan Kandiderar bland annat i Malmö."
-    },
-    {
-      "id": "b7b0125d50d5",
-      "section": "nyheter",
-      "title": "INSÄNDARE: Vi är inte valboskap – lev upp till gamla löften innan ni kommer med nya",
-      "summary": "Valet närmar sig och plötsligt verkar nästan varje parti i…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/vi-ar-inte-valboskap-lev-upp-till-gamla-loften-innan-ni-kommer-med-nya/",
-      "publishedAt": "2026-08-27T09:00:00+02:00",
-      "text": "INSÄNDARE: Vi är inte valboskap – lev upp till gamla löften innan ni kommer med nya Sydsvenskan Valet närmar sig och plötsligt verkar nästan varje parti i…"
     },
     {
       "id": "aca2121d3fc8",

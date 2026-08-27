@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T13:58:34+02:00",
+  "generatedAt": "2026-08-27T14:00:57+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "e61135d7fdb1",
+          "section": "nyheter",
+          "title": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige",
+          "summary": "I Hanna Nordenhöks roman har en förödande pandemi kommit och gått. En kvinna färdas för att bränna sin pappa på stranden.",
+          "link": "https://www.dn.se/kultur/atmosfariskt-och-morkt-om-en-resa-genom-ett-tomt-och-odsligt-sverige/",
+          "source": "DN",
+          "publishedAt": "2026-08-27T14:00:00+02:00"
+        },
+        {
+          "id": "8083851a600f",
+          "section": "nyheter",
+          "title": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan",
+          "summary": "Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…",
+          "link": "https://www.sydsvenskan.se/malmo/namninsamling-och-skolstrejk-mot-utvisningen-av-vaktmastaren-pa-latinskolan/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-08-27T14:00:00+02:00"
+        },
+        {
           "id": "ba697cb97742",
           "section": "nyheter",
           "title": "Liberalerna på en minut",
@@ -262,15 +280,6 @@
           "link": "https://www.svt.se/nyheter/inrikes/magdalena-andersson-vill-bli-statsminister-igen-men-vagrar-saga-hur",
           "source": "SVT",
           "publishedAt": "2026-08-27T12:54:59+02:00"
-        },
-        {
-          "id": "58cf12c0794a",
-          "section": "nyheter",
-          "title": "Regeringen vill lagstifta om maxtak för klasstorlekar",
-          "summary": "I dag fyller kommuner och friskolor klasser till bristningsgränsen för att spara pengar, menar Liberalerna. Därför tillsätter regeringen nu en utredning för att kunna lagstifta om hur stora skolklasser får vara.",
-          "link": "https://www.dn.se/sverige/regeringen-vill-lagstifta-om-maxtak-for-klasstorlekar/",
-          "source": "DN",
-          "publishedAt": "2026-08-27T12:30:37+02:00"
         },
         {
           "id": "d0f5fa1b306b",
@@ -388,15 +397,6 @@
           "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=7282429b-909d-4b25-9c0a-6b1b7c4b31b0",
           "source": "Sydsvenskan",
           "publishedAt": "2026-08-27T09:10:10+02:00"
-        },
-        {
-          "id": "b7b0125d50d5",
-          "section": "nyheter",
-          "title": "INSÄNDARE: Vi är inte valboskap – lev upp till gamla löften innan ni kommer med nya",
-          "summary": "Valet närmar sig och plötsligt verkar nästan varje parti i…",
-          "link": "https://www.sydsvenskan.se/malmo/vi-ar-inte-valboskap-lev-upp-till-gamla-loften-innan-ni-kommer-med-nya/",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-08-27T09:00:00+02:00"
         },
         {
           "id": "aca2121d3fc8",
