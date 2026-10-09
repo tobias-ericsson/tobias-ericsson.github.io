@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:59:28+02:00",
+  "generatedAt": "2026-10-09T12:01:54+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,26 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "7ce72d7621f6",
+      "section": "nyheter",
+      "title": "Maxad orkesterprakt och symfoniska fantasier på Konserthuset",
+      "summary": "Havet öppnar sig när Zemlinskys ”Sjöjungfrun” förvaltas med klanglig fantasi på Konserthuset i Stockholm. Solisten Seong-Jin Chos insats blir dock mer av en parentes i uppvisningen, skriver DN:s Johanna Paulsson",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/maxad-orkesterprakt-och-symfoniska-fantasier-pa-konserthuset/",
+      "publishedAt": "2026-10-09T12:00:00+02:00",
+      "text": "Maxad orkesterprakt och symfoniska fantasier på Konserthuset DN Havet öppnar sig när Zemlinskys ”Sjöjungfrun” förvaltas med klanglig fantasi på Konserthuset i Stockholm. Solisten Seong-Jin Chos insats blir dock mer av en parentes i uppvisningen, skriver DN:s Johanna Paulsson"
+    },
+    {
+      "id": "40543a8fcab3",
+      "section": "nyheter",
+      "title": "Victor Wembanyama stöttar studentprotesterna i Frankrike",
+      "summary": "NBA-stjärnan Victor Wembanyama tar nu ton gällande studentprotesterna hemma i Frankrike. – Jag hör dem, jag stöttar dem och hoppas alla människor där borta gör likadant, säger fransmannen på en presskonferens.",
+      "source": "SVT",
+      "link": "https://www.svt.se/sport/basket/victor-wembanyama-stottar-studentprotesterna-i-frankrike",
+      "publishedAt": "2026-10-09T11:59:39+02:00",
+      "text": "Victor Wembanyama stöttar studentprotesterna i Frankrike SVT NBA-stjärnan Victor Wembanyama tar nu ton gällande studentprotesterna hemma i Frankrike. – Jag hör dem, jag stöttar dem och hoppas alla människor där borta gör likadant, säger fransmannen på en presskonferens."
+    },
+    {
       "id": "885dc5246a33",
       "section": "nyheter",
       "title": "Insändare. Tre nycklar kan dyrka upp låsningen mellan C och V",
@@ -200,16 +220,6 @@
       "link": "https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det/",
       "publishedAt": "2026-10-09T11:36:36+02:00",
       "text": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det” DN På fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet. – Jag tror inte på någon trollspösituation där det..."
-    },
-    {
-      "id": "1add43d65922",
-      "section": "nyheter",
-      "title": "Man begärs häktad efter mordet på Bellevuegården",
-      "summary": "MALMÖ. Den 52-årige man som greps efter den dödliga…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
-      "publishedAt": "2026-10-09T11:35:04+02:00",
-      "text": "Man begärs häktad efter mordet på Bellevuegården Sydsvenskan MALMÖ. Den 52-årige man som greps efter den dödliga…"
     },
     {
       "id": "13328f9a1027",
@@ -252,16 +262,6 @@
       "text": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio DN Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg."
     },
     {
-      "id": "5ff092bea5e3",
-      "section": "nyheter",
-      "title": "Man slog kvinna med laddkabel – döms för misshandel",
-      "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
-      "publishedAt": "2026-10-09T11:08:18+02:00",
-      "text": "Man slog kvinna med laddkabel – döms för misshandel Sydsvenskan En 28-årig man döms för att ha misshandlat sin dåvarande…"
-    },
-    {
       "id": "ac8656883a6c",
       "section": "nyheter",
       "title": "Insändare. Slå vakt om den svenska tilliten",
@@ -272,16 +272,6 @@
       "text": "Insändare. Slå vakt om den svenska tilliten DN INSÄNDARE. Vi behöver försvara gemensamma lagar och regler, men samtidigt bygga fler mötesplatser där människor faktiskt lär känna varandra. Om vi vill att Sverige även i framtiden ska vara ett samhälle där människor kan lita på varandra måste vi våga se pr..."
     },
     {
-      "id": "9f1d491da6bc",
-      "section": "nyheter",
-      "title": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten",
-      "summary": "Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
-      "publishedAt": "2026-10-09T11:00:00+02:00",
-      "text": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten Sydsvenskan Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”."
-    },
-    {
       "id": "3b894b8302f3",
       "section": "nyheter",
       "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
@@ -290,16 +280,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316336",
       "publishedAt": "2026-10-09T10:55:00+02:00",
       "text": "Gabrielsson bjöd in Ådahl (C) till bastumöte Ekot Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä..."
-    },
-    {
-      "id": "154a1e65d5ea",
-      "section": "nyheter",
-      "title": "Polisinsats vid internatskola – tre elever anhållna",
-      "summary": "Tre gymnasieelever har anhållits efter en planerad polisinsats vid internatskolan i Sigtuna i går kväll. Enligt åklagaren gäller misstanken allvarlig brottslighet. – Det pågår nu ett intensivt utredningsarbete, bland annat kommer ett flertal förhör att håll...",
-      "source": "DN",
-      "link": "https://www.dn.se/sverige/polisinsats-vid-internatskola-tre-elever-anhallna/",
-      "publishedAt": "2026-10-09T10:45:20+02:00",
-      "text": "Polisinsats vid internatskola – tre elever anhållna DN Tre gymnasieelever har anhållits efter en planerad polisinsats vid internatskolan i Sigtuna i går kväll. Enligt åklagaren gäller misstanken allvarlig brottslighet. – Det pågår nu ett intensivt utredningsarbete, bland annat kommer ett flertal förhör att håll..."
     },
     {
       "id": "5077edca5eb9",
@@ -320,36 +300,6 @@
       "link": "https://www.svt.se/kultur/forfattarforbundet-varnar-for-skandalforlaget-lava-igen",
       "publishedAt": "2026-10-09T10:40:23+02:00",
       "text": "Författarförbundet varnar för skandalförlaget Lava – igen SVT Bookea Group, där Lava förlag ingår, befinner sig i företagsrekonstruktion. Därför varnar Författarförbundet nu än en gång författare från att ingå avtal med dem. Det skriver de i ett utskick till sina medlemmar som skickades ut under fredagen."
-    },
-    {
-      "id": "518f847c580f",
-      "section": "nyheter",
-      "title": "Superlöftet Siri Benjegård inför EM-debuten: ”Då brukar jag spela bäst”",
-      "summary": "Hon är 15 år ung men har redan tagit pingisvärlden med storm. Nu väntar debut i senior-EM och matcher mot Europas elit. Något som Siri Benjegård inte räds. Tvärtom. – Då brukar jag spela som bäst, säger hon till SVT Sport.",
-      "source": "SVT",
-      "link": "https://www.svt.se/sport/bordtennis/superloftet-siri-benjegard-infor-em-debuten-da-brukar-jag-spela-bast",
-      "publishedAt": "2026-10-09T10:34:33+02:00",
-      "text": "Superlöftet Siri Benjegård inför EM-debuten: ”Då brukar jag spela bäst” SVT Hon är 15 år ung men har redan tagit pingisvärlden med storm. Nu väntar debut i senior-EM och matcher mot Europas elit. Något som Siri Benjegård inte räds. Tvärtom. – Då brukar jag spela som bäst, säger hon till SVT Sport."
-    },
-    {
-      "id": "321164eee194",
-      "section": "nyheter",
-      "title": "Barn misstänkt för skott mot villa i Malmö",
-      "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
-      "publishedAt": "2026-10-09T10:30:14+02:00",
-      "text": "Barn misstänkt för skott mot villa i Malmö Sydsvenskan En tonåring under femton sköt mot villan på Videdal – det…"
-    },
-    {
-      "id": "5dbd172a445c",
-      "section": "nyheter",
-      "title": "Varsel på HSB Malmö – så många kan få sluta",
-      "summary": "MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=c18aacf0-76ff-499e-8c64-07df43c454fb",
-      "publishedAt": "2026-10-09T10:23:06+02:00",
-      "text": "Varsel på HSB Malmö – så många kan få sluta Sydsvenskan MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg."
     },
     {
       "id": "8c7ac64cf763",

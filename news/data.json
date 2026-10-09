@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:59:28+02:00",
+  "generatedAt": "2026-10-09T12:01:54+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "7ce72d7621f6",
+          "section": "nyheter",
+          "title": "Maxad orkesterprakt och symfoniska fantasier på Konserthuset",
+          "summary": "Havet öppnar sig när Zemlinskys ”Sjöjungfrun” förvaltas med klanglig fantasi på Konserthuset i Stockholm. Solisten Seong-Jin Chos insats blir dock mer av en parentes i uppvisningen, skriver DN:s Johanna Paulsson",
+          "link": "https://www.dn.se/kultur/maxad-orkesterprakt-och-symfoniska-fantasier-pa-konserthuset/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T12:00:00+02:00"
+        },
+        {
+          "id": "40543a8fcab3",
+          "section": "nyheter",
+          "title": "Victor Wembanyama stöttar studentprotesterna i Frankrike",
+          "summary": "NBA-stjärnan Victor Wembanyama tar nu ton gällande studentprotesterna hemma i Frankrike. – Jag hör dem, jag stöttar dem och hoppas alla människor där borta gör likadant, säger fransmannen på en presskonferens.",
+          "link": "https://www.svt.se/sport/basket/victor-wembanyama-stottar-studentprotesterna-i-frankrike",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T11:59:39+02:00"
+        },
+        {
           "id": "885dc5246a33",
           "section": "nyheter",
           "title": "Insändare. Tre nycklar kan dyrka upp låsningen mellan C och V",
@@ -190,15 +208,6 @@
           "link": "https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det/",
           "source": "DN",
           "publishedAt": "2026-10-09T11:36:36+02:00"
-        },
-        {
-          "id": "1add43d65922",
-          "section": "nyheter",
-          "title": "Man begärs häktad efter mordet på Bellevuegården",
-          "summary": "MALMÖ. Den 52-årige man som greps efter den dödliga…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T11:35:04+02:00"
         },
         {
           "id": "13328f9a1027",
@@ -237,15 +246,6 @@
           "publishedAt": "2026-10-09T11:14:35+02:00"
         },
         {
-          "id": "5ff092bea5e3",
-          "section": "nyheter",
-          "title": "Man slog kvinna med laddkabel – döms för misshandel",
-          "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T11:08:18+02:00"
-        },
-        {
           "id": "ac8656883a6c",
           "section": "nyheter",
           "title": "Insändare. Slå vakt om den svenska tilliten",
@@ -255,15 +255,6 @@
           "publishedAt": "2026-10-09T11:03:33+02:00"
         },
         {
-          "id": "9f1d491da6bc",
-          "section": "nyheter",
-          "title": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten",
-          "summary": "Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”.",
-          "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T11:00:00+02:00"
-        },
-        {
           "id": "3b894b8302f3",
           "section": "nyheter",
           "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
@@ -271,15 +262,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316336",
           "source": "Ekot",
           "publishedAt": "2026-10-09T10:55:00+02:00"
-        },
-        {
-          "id": "154a1e65d5ea",
-          "section": "nyheter",
-          "title": "Polisinsats vid internatskola – tre elever anhållna",
-          "summary": "Tre gymnasieelever har anhållits efter en planerad polisinsats vid internatskolan i Sigtuna i går kväll. Enligt åklagaren gäller misstanken allvarlig brottslighet. – Det pågår nu ett intensivt utredningsarbete, bland annat kommer ett flertal förhör att håll...",
-          "link": "https://www.dn.se/sverige/polisinsats-vid-internatskola-tre-elever-anhallna/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T10:45:20+02:00"
         },
         {
           "id": "5077edca5eb9",
@@ -298,33 +280,6 @@
           "link": "https://www.svt.se/kultur/forfattarforbundet-varnar-for-skandalforlaget-lava-igen",
           "source": "SVT",
           "publishedAt": "2026-10-09T10:40:23+02:00"
-        },
-        {
-          "id": "518f847c580f",
-          "section": "nyheter",
-          "title": "Superlöftet Siri Benjegård inför EM-debuten: ”Då brukar jag spela bäst”",
-          "summary": "Hon är 15 år ung men har redan tagit pingisvärlden med storm. Nu väntar debut i senior-EM och matcher mot Europas elit. Något som Siri Benjegård inte räds. Tvärtom. – Då brukar jag spela som bäst, säger hon till SVT Sport.",
-          "link": "https://www.svt.se/sport/bordtennis/superloftet-siri-benjegard-infor-em-debuten-da-brukar-jag-spela-bast",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T10:34:33+02:00"
-        },
-        {
-          "id": "321164eee194",
-          "section": "nyheter",
-          "title": "Barn misstänkt för skott mot villa i Malmö",
-          "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T10:30:14+02:00"
-        },
-        {
-          "id": "5dbd172a445c",
-          "section": "nyheter",
-          "title": "Varsel på HSB Malmö – så många kan få sluta",
-          "summary": "MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg.",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=c18aacf0-76ff-499e-8c64-07df43c454fb",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T10:23:06+02:00"
         },
         {
           "id": "8c7ac64cf763",
