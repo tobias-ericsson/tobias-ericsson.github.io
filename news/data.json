@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:36:32+02:00",
+  "generatedAt": "2026-10-09T13:38:34+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "65af9be16ba0",
+          "section": "nyheter",
+          "title": "Schröder tror på islossning i landslaget",
+          "summary": "Noll mål i landslaget. Det vill supertalangen Felicia Schröder ändra på i VM-playoffet borta mot Litauen. – Det hade såklart varit kul om det hade lossnat, säger Real Madrid-stjärnan på en pressträff i Kaunas.",
+          "link": "https://www.dn.se/sport/schroder-tror-pa-islossning-i-landslaget/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T13:36:58+02:00"
+        },
+        {
           "id": "9e8d8075118f",
           "section": "nyheter",
           "title": "Robyn får en radiostation i nya GTA",
@@ -244,15 +253,6 @@
           "link": "https://www.dn.se/sport/nu-borjar-gardells-miljonregn-over-svensk-tennis/",
           "source": "DN",
           "publishedAt": "2026-10-09T12:26:37+02:00"
-        },
-        {
-          "id": "9e62459edca9",
-          "section": "nyheter",
-          "title": "Erik Esbjörnsson: Priset en markering till stöd för internationell rättvisa",
-          "summary": "JOHANNESBURG. Navi Pillay, 85, blir den femte sydafrikanen att tilldelas Nobels fredspris. Pristagaren är en tungviktare inom internationell rättvisa och har varit ordförande för den panel som pekat ut Israel som ansvarigt för folkmord.",
-          "link": "https://www.dn.se/varlden/erik-esbjornsson-priset-en-markering-till-stod-for-internationell-rattvisan/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:08:40+02:00"
         },
         {
           "id": "5a5b8d7682f9",

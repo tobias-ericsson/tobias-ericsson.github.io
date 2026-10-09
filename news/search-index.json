@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:36:32+02:00",
+  "generatedAt": "2026-10-09T13:38:34+02:00",
   "entries": [
     {
       "id": "a807bc0aa58a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "65af9be16ba0",
+      "section": "nyheter",
+      "title": "Schröder tror på islossning i landslaget",
+      "summary": "Noll mål i landslaget. Det vill supertalangen Felicia Schröder ändra på i VM-playoffet borta mot Litauen. – Det hade såklart varit kul om det hade lossnat, säger Real Madrid-stjärnan på en pressträff i Kaunas.",
+      "source": "DN",
+      "link": "https://www.dn.se/sport/schroder-tror-pa-islossning-i-landslaget/",
+      "publishedAt": "2026-10-09T13:36:58+02:00",
+      "text": "Schröder tror på islossning i landslaget DN Noll mål i landslaget. Det vill supertalangen Felicia Schröder ändra på i VM-playoffet borta mot Litauen. – Det hade såklart varit kul om det hade lossnat, säger Real Madrid-stjärnan på en pressträff i Kaunas."
+    },
+    {
       "id": "9e8d8075118f",
       "section": "nyheter",
       "title": "Robyn får en radiostation i nya GTA",
@@ -260,16 +270,6 @@
       "link": "https://www.dn.se/sport/nu-borjar-gardells-miljonregn-over-svensk-tennis/",
       "publishedAt": "2026-10-09T12:26:37+02:00",
       "text": "Nu börjar Gardells miljonregn över svensk tennis DN Affärsmannen Christer Gardells omtalade bidrag på 100 miljoner kronor till svensk tennis blir verklighet. En första utbetalning på 20 miljoner sker i oktober. – Jag har väntat länge på att vi ska kunna titta framåt, säger Ulf Rosberg, ordförande i Svenska T..."
-    },
-    {
-      "id": "9e62459edca9",
-      "section": "nyheter",
-      "title": "Erik Esbjörnsson: Priset en markering till stöd för internationell rättvisa",
-      "summary": "JOHANNESBURG. Navi Pillay, 85, blir den femte sydafrikanen att tilldelas Nobels fredspris. Pristagaren är en tungviktare inom internationell rättvisa och har varit ordförande för den panel som pekat ut Israel som ansvarigt för folkmord.",
-      "source": "DN",
-      "link": "https://www.dn.se/varlden/erik-esbjornsson-priset-en-markering-till-stod-for-internationell-rattvisan/",
-      "publishedAt": "2026-10-09T12:08:40+02:00",
-      "text": "Erik Esbjörnsson: Priset en markering till stöd för internationell rättvisa DN JOHANNESBURG. Navi Pillay, 85, blir den femte sydafrikanen att tilldelas Nobels fredspris. Pristagaren är en tungviktare inom internationell rättvisa och har varit ordförande för den panel som pekat ut Israel som ansvarigt för folkmord."
     },
     {
       "id": "5a5b8d7682f9",
