@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:41:53+02:00",
+  "generatedAt": "2026-10-09T15:43:46+02:00",
   "sections": [
     {
       "key": "news",
@@ -9,7 +9,7 @@
           "id": "9f6dff3a1186",
           "section": "news",
           "title": "Surveillance company Flock cuts staff as privacy backlash grows",
-          "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the staff cuts.",
+          "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the reduction in workforce.",
           "link": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
           "source": "Techcrunch",
           "publishedAt": "2026-10-09T15:40:36+02:00"
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "426b2e308e22",
+          "section": "nyheter",
+          "title": "Man sköt med gevär mot fastighet i Burträsk – döms till fängelse",
+          "summary": "En man i 45-årsåldern sköt med ett gevär mot en fastighet i Burträsk. Nu döms mannen till fängelse i ett år för vapenbrott och skadegörelse.",
+          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-skot-med-gevar-mot-fastighet-i-burtrask-doms-till-fangelse",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T15:43:19+02:00"
+        },
+        {
           "id": "157a67826a01",
           "section": "nyheter",
           "title": "Surrogatkliniken i Colombia slutar rekrytera nya kvinnor",
@@ -163,6 +172,15 @@
           "link": "https://www.dn.se/sverige/surrogatkliniken-i-colombia-slutar-rekrytera-nya-kvinnor/",
           "source": "DN",
           "publishedAt": "2026-10-09T15:41:43+02:00"
+        },
+        {
+          "id": "cd5462930ca7",
+          "section": "nyheter",
+          "title": "Körde in i lyktstolpe i Falköping – bilen började brinna",
+          "summary": "En bilförare har kört av vägen och in i en lyktstolpe i Falköping. Bilen började brinna – och en person har förts till sjukhus.",
+          "link": "https://www.svt.se/nyheter/lokalt/vast/korde-in-i-lyktstolpe-i-falkoping-bilen-borjade-brinna",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T15:21:04+02:00"
         },
         {
           "id": "36739e836ff0",
@@ -289,24 +307,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316520",
           "source": "Ekot",
           "publishedAt": "2026-10-09T13:38:00+02:00"
-        },
-        {
-          "id": "9e8d8075118f",
-          "section": "nyheter",
-          "title": "Robyn får en radiostation i nya GTA",
-          "summary": "Musiken har alltid varit en stor del av ”Grand Theft Auto”. Nu står det klart att bland annat Bad Bunny, Burna Boy, Lana Del Rey – och Robyn får var sin radiostation i hett emotsedda nya ”GTA VI”, skriver Pitchfork.",
-          "link": "https://www.svt.se/kultur/robyn-far-en-radiostation-i-nya-gta",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T13:29:17+02:00"
-        },
-        {
-          "id": "70add48e5f94",
-          "section": "nyheter",
-          "title": "Machado vill ha presidentval i Venezuela nästa år",
-          "summary": "Venezuelas oppositionsledare María Corina Machado vill ha presidentval i sommar. Det säger hon i en intervju med Financial Times. – Vi är redo att gå vidare, säger hon till tidningen.",
-          "link": "https://www.svt.se/nyheter/inrikes/machado-vill-ha-presidentval-i-venezuela-nasta-ar",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T13:16:15+02:00"
         },
         {
           "id": "f44a8759e135",
