@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:34:16+02:00",
+  "generatedAt": "2026-10-09T14:36:21+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "40cda7a7e90b",
+          "section": "nyheter",
+          "title": "Misstänkt kannibalism bland instängda katter – man åtalas",
+          "summary": "Ett tiotal katter ska ha levt i misär i Skellefteåtrakten. Inne i huset ska bajs ha täckt golven och rester av döda katter legat utspridda. En man åtalas nu för grovt djurplågeri. Han nekar till brott och hävdar att han inte upplevde katternas situation som...",
+          "link": "https://www.dn.se/sverige/misstankt-kannibalism-bland-instangda-katter-man-atalas/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T14:34:41+02:00"
+        },
+        {
           "id": "7683de175616",
           "section": "nyheter",
           "title": "Miljonförluster knäckte Nöjesteatern – därför har skånska nöjesjätten gått i konkurs",
@@ -253,15 +262,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-med-till-luleas-kreativa-verkstad-for-manniskor-i-utanforskap",
           "source": "SVT",
           "publishedAt": "2026-10-09T13:50:39+02:00"
-        },
-        {
-          "id": "b684da3af643",
-          "section": "nyheter",
-          "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
-          "summary": "I spöregn och kuling samlas de rödgröna partiernas ledare för första gången sedan valet. På vägen in till fredagens möte välkomnar de Centerpartiets initiativ. – Alla partier måste vara beredda att ge och ta, säger Magdalena Andersson (S).",
-          "link": "https://www.dn.se/sverige/rodgrona-partiledare-i-odesmote-alla-maste-ge-och-ta/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T13:46:38+02:00"
         },
         {
           "id": "ad76d551319c",
