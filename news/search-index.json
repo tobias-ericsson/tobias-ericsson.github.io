@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:18:01+02:00",
+  "generatedAt": "2026-10-09T16:20:14+02:00",
   "entries": [
     {
       "id": "c06c103f7301",
@@ -162,6 +162,46 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "13471046b2f1",
+      "section": "nyheter",
+      "title": "Johanna Frändén: Ungdomsprotesterna vänder upp och ned på Frankrike",
+      "summary": "Franska studentprotester brukar börja på de prestigefulla lärosätena och sprida sig utåt. Gymnasieblockaderna har vänt på ordningen och satt periferin i centrum. Det som händer i Frankrike just nu utmanar bilden av en generation som ingen riktigt räknat med.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/johanna-franden-ungdomsprotesterna-vander-upp-och-ned-pa-frankrike/",
+      "publishedAt": "2026-10-09T16:19:59+02:00",
+      "text": "Johanna Frändén: Ungdomsprotesterna vänder upp och ned på Frankrike DN Franska studentprotester brukar börja på de prestigefulla lärosätena och sprida sig utåt. Gymnasieblockaderna har vänt på ordningen och satt periferin i centrum. Det som händer i Frankrike just nu utmanar bilden av en generation som ingen riktigt räknat med."
+    },
+    {
+      "id": "e6a2228844dd",
+      "section": "nyheter",
+      "title": "Färjetrafiken i Strömsund dröjer – viktiga tillstånd saknas",
+      "summary": "I slutet av förra veckan meddelade Trafikverket att man tänkte sätta in färjor över Ströms Vattudal nu när bron är stängd för biltrafik. Men när färjetrafiken kan komma igång är fortfarande oklart.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/jamtland/farjetrafiken-i-stromsund-drojer-viktiga-tillstand-saknas",
+      "publishedAt": "2026-10-09T16:18:33+02:00",
+      "text": "Färjetrafiken i Strömsund dröjer – viktiga tillstånd saknas SVT I slutet av förra veckan meddelade Trafikverket att man tänkte sätta in färjor över Ströms Vattudal nu när bron är stängd för biltrafik. Men när färjetrafiken kan komma igång är fortfarande oklart."
+    },
+    {
+      "id": "cf93cefdbdd2",
+      "section": "nyheter",
+      "title": "Makten kvar hos sossarna – tvingas ta med MP i styret",
+      "summary": "Miljöpartiet blir en del av det nya styret i Piteå. Det står klart efter att man kommit överens med Socialdemokraterna och Centerpartiet. – Det känns jätteroligt att få komma in i värmen, säger Miljöpartisten Malin Ullberg.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/norrbotten/makten-kvar-hos-sossarna-tvingas-ta-med-mp-i-styret",
+      "publishedAt": "2026-10-09T16:17:38+02:00",
+      "text": "Makten kvar hos sossarna – tvingas ta med MP i styret SVT Miljöpartiet blir en del av det nya styret i Piteå. Det står klart efter att man kommit överens med Socialdemokraterna och Centerpartiet. – Det känns jätteroligt att få komma in i värmen, säger Miljöpartisten Malin Ullberg."
+    },
+    {
+      "id": "ae3efc6029d7",
+      "section": "nyheter",
+      "title": "Busschauffören Lennart såg olyckan: ”Rullar som en film i huvudet”",
+      "summary": "Klockan 13.00 på fredag tystnade bussarna i Kronoberg. Länstrafiken Kronoberg och Connect Bus beordrade en tyst minut för de som drabbades av bussolyckan på riksväg 25 tidigare i veckan. Busschauffören Lennart Falk såg olyckan från andra sidan vägen.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/smaland/busschaufforen-lennart-sag-olyckan-rullar-som-en-film-i-huvudet",
+      "publishedAt": "2026-10-09T16:16:38+02:00",
+      "text": "Busschauffören Lennart såg olyckan: ”Rullar som en film i huvudet” SVT Klockan 13.00 på fredag tystnade bussarna i Kronoberg. Länstrafiken Kronoberg och Connect Bus beordrade en tyst minut för de som drabbades av bussolyckan på riksväg 25 tidigare i veckan. Busschauffören Lennart Falk såg olyckan från andra sidan vägen."
+    },
+    {
       "id": "c9cd330c049a",
       "section": "nyheter",
       "title": "Nobelpristagaren Anne Carson rusar på boktjänsterna",
@@ -262,16 +302,6 @@
       "text": "Insändare. Svar: Snälla, ge mig ”Ring så spelar vi ” utan avbrott DN SVAR PÅ INSÄNDARE. Jag efterlyser en undersökning som visar att trafikupplysningen i P4 ger någon effekt. Vänligen låt mig lyssna på ”Ring så spelar vi” i morgon lördag klockan 07.00 utan avbrott, skriver Nikals Silfverberg."
     },
     {
-      "id": "fee4fbb9f960",
-      "section": "nyheter",
-      "title": "Tre krogar med Medelhavskänsla",
-      "summary": "Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips.",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/tre-krogar-med-medelhavskansla/",
-      "publishedAt": "2026-10-09T15:03:51+02:00",
-      "text": "Tre krogar med Medelhavskänsla DN Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips."
-    },
-    {
       "id": "01c12f032303",
       "section": "nyheter",
       "title": "Bianca och Carola bär hennes smycken – nu öppnar hon butik i hemstaden Malmö",
@@ -312,16 +342,6 @@
       "text": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år NyTeknik Tekniken väntas överträffa atomuret i noggrannhet och hjälpa till att lösa universums svåraste mysterier."
     },
     {
-      "id": "be90126a0005",
-      "section": "nyheter",
-      "title": "Sladjan Osmanagic död – blev 55 år gammal",
-      "summary": "Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen.",
-      "source": "SVT",
-      "link": "https://www.svt.se/sport/fotboll/sladjan-osmanagic-dod-blev-55-ar-gammal",
-      "publishedAt": "2026-10-09T14:22:19+02:00",
-      "text": "Sladjan Osmanagic död – blev 55 år gammal SVT Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen."
-    },
-    {
       "id": "9dcd7a182e32",
       "section": "nyheter",
       "title": "Ismail Jama: En pionjär i internationell rätt",
@@ -330,26 +350,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316578",
       "publishedAt": "2026-10-09T14:13:00+02:00",
       "text": "Ismail Jama: En pionjär i internationell rätt Ekot Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth..."
-    },
-    {
-      "id": "839b14824799",
-      "section": "nyheter",
-      "title": "Negativa trenden som Mjällby måste bryta: ”Varit väldigt jobbigt”",
-      "summary": "I fjol var Strandvallen hemmaborgen där Mjällby aldrig förlorade. I år ser verkligheten helt annorlunda ut. En dyster trend som Mjällby måste bryta i jakten på nytt allsvenskt kontrakt. – Det har varit väldigt jobbigt att spela hemma på slutet, säger Andrea...",
-      "source": "SVT",
-      "link": "https://www.svt.se/sport/fotboll/negativa-trenden-som-mjallby-maste-bryta-varit-valdigt-jobbigt",
-      "publishedAt": "2026-10-09T14:04:40+02:00",
-      "text": "Negativa trenden som Mjällby måste bryta: ”Varit väldigt jobbigt” SVT I fjol var Strandvallen hemmaborgen där Mjällby aldrig förlorade. I år ser verkligheten helt annorlunda ut. En dyster trend som Mjällby måste bryta i jakten på nytt allsvenskt kontrakt. – Det har varit väldigt jobbigt att spela hemma på slutet, säger Andrea..."
-    },
-    {
-      "id": "d634801a8234",
-      "section": "nyheter",
-      "title": "Följ med till Luleås kreativa verkstad för människor i utanförskap",
-      "summary": "Nu startar Luleå kommun Krebo – en ny verksamhet med kreativa aktiviteter för människor med psykisk ohälsa och missbruksproblematik.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-med-till-luleas-kreativa-verkstad-for-manniskor-i-utanforskap",
-      "publishedAt": "2026-10-09T13:50:39+02:00",
-      "text": "Följ med till Luleås kreativa verkstad för människor i utanförskap SVT Nu startar Luleå kommun Krebo – en ny verksamhet med kreativa aktiviteter för människor med psykisk ohälsa och missbruksproblematik."
     },
     {
       "id": "b6eb5d925629",

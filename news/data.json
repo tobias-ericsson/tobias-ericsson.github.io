@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:18:01+02:00",
+  "generatedAt": "2026-10-09T16:20:14+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,42 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "13471046b2f1",
+          "section": "nyheter",
+          "title": "Johanna Frändén: Ungdomsprotesterna vänder upp och ned på Frankrike",
+          "summary": "Franska studentprotester brukar börja på de prestigefulla lärosätena och sprida sig utåt. Gymnasieblockaderna har vänt på ordningen och satt periferin i centrum. Det som händer i Frankrike just nu utmanar bilden av en generation som ingen riktigt räknat med.",
+          "link": "https://www.dn.se/kultur/johanna-franden-ungdomsprotesterna-vander-upp-och-ned-pa-frankrike/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T16:19:59+02:00"
+        },
+        {
+          "id": "e6a2228844dd",
+          "section": "nyheter",
+          "title": "Färjetrafiken i Strömsund dröjer – viktiga tillstånd saknas",
+          "summary": "I slutet av förra veckan meddelade Trafikverket att man tänkte sätta in färjor över Ströms Vattudal nu när bron är stängd för biltrafik. Men när färjetrafiken kan komma igång är fortfarande oklart.",
+          "link": "https://www.svt.se/nyheter/lokalt/jamtland/farjetrafiken-i-stromsund-drojer-viktiga-tillstand-saknas",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T16:18:33+02:00"
+        },
+        {
+          "id": "cf93cefdbdd2",
+          "section": "nyheter",
+          "title": "Makten kvar hos sossarna – tvingas ta med MP i styret",
+          "summary": "Miljöpartiet blir en del av det nya styret i Piteå. Det står klart efter att man kommit överens med Socialdemokraterna och Centerpartiet. – Det känns jätteroligt att få komma in i värmen, säger Miljöpartisten Malin Ullberg.",
+          "link": "https://www.svt.se/nyheter/lokalt/norrbotten/makten-kvar-hos-sossarna-tvingas-ta-med-mp-i-styret",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T16:17:38+02:00"
+        },
+        {
+          "id": "ae3efc6029d7",
+          "section": "nyheter",
+          "title": "Busschauffören Lennart såg olyckan: ”Rullar som en film i huvudet”",
+          "summary": "Klockan 13.00 på fredag tystnade bussarna i Kronoberg. Länstrafiken Kronoberg och Connect Bus beordrade en tyst minut för de som drabbades av bussolyckan på riksväg 25 tidigare i veckan. Busschauffören Lennart Falk såg olyckan från andra sidan vägen.",
+          "link": "https://www.svt.se/nyheter/lokalt/smaland/busschaufforen-lennart-sag-olyckan-rullar-som-en-film-i-huvudet",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T16:16:38+02:00"
+        },
+        {
           "id": "c9cd330c049a",
           "section": "nyheter",
           "title": "Nobelpristagaren Anne Carson rusar på boktjänsterna",
@@ -246,15 +282,6 @@
           "publishedAt": "2026-10-09T15:09:47+02:00"
         },
         {
-          "id": "fee4fbb9f960",
-          "section": "nyheter",
-          "title": "Tre krogar med Medelhavskänsla",
-          "summary": "Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips.",
-          "link": "https://www.dn.se/kultur/tre-krogar-med-medelhavskansla/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T15:03:51+02:00"
-        },
-        {
           "id": "01c12f032303",
           "section": "nyheter",
           "title": "Bianca och Carola bär hennes smycken – nu öppnar hon butik i hemstaden Malmö",
@@ -291,15 +318,6 @@
           "publishedAt": "2026-10-09T14:26:46+02:00"
         },
         {
-          "id": "be90126a0005",
-          "section": "nyheter",
-          "title": "Sladjan Osmanagic död – blev 55 år gammal",
-          "summary": "Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen.",
-          "link": "https://www.svt.se/sport/fotboll/sladjan-osmanagic-dod-blev-55-ar-gammal",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T14:22:19+02:00"
-        },
-        {
           "id": "9dcd7a182e32",
           "section": "nyheter",
           "title": "Ismail Jama: En pionjär i internationell rätt",
@@ -307,24 +325,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316578",
           "source": "Ekot",
           "publishedAt": "2026-10-09T14:13:00+02:00"
-        },
-        {
-          "id": "839b14824799",
-          "section": "nyheter",
-          "title": "Negativa trenden som Mjällby måste bryta: ”Varit väldigt jobbigt”",
-          "summary": "I fjol var Strandvallen hemmaborgen där Mjällby aldrig förlorade. I år ser verkligheten helt annorlunda ut. En dyster trend som Mjällby måste bryta i jakten på nytt allsvenskt kontrakt. – Det har varit väldigt jobbigt att spela hemma på slutet, säger Andrea...",
-          "link": "https://www.svt.se/sport/fotboll/negativa-trenden-som-mjallby-maste-bryta-varit-valdigt-jobbigt",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T14:04:40+02:00"
-        },
-        {
-          "id": "d634801a8234",
-          "section": "nyheter",
-          "title": "Följ med till Luleås kreativa verkstad för människor i utanförskap",
-          "summary": "Nu startar Luleå kommun Krebo – en ny verksamhet med kreativa aktiviteter för människor med psykisk ohälsa och missbruksproblematik.",
-          "link": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-med-till-luleas-kreativa-verkstad-for-manniskor-i-utanforskap",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T13:50:39+02:00"
         },
         {
           "id": "b6eb5d925629",
