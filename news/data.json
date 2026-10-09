@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:51:13+02:00",
+  "generatedAt": "2026-10-09T12:53:15+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "07a7cb73362a",
+          "section": "nyheter",
+          "title": "Författarförbundet varnar för hybridförlaget Lava",
+          "summary": "Författarförbundet går ut och varnar för att ingå avtal med Bookea Group, där Lava förlag ingår. Anledningen är att företaget befinner sig i rekonstruktion.",
+          "link": "https://www.dn.se/kultur/forfattarforbundet-varnar-for-hybridforlaget-lava/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T12:53:03+02:00"
+        },
+        {
           "id": "5fa2f1e0da80",
           "section": "nyheter",
           "title": "Insändare. Stoppa privata kliniker från att misshandla barn",
@@ -168,7 +177,7 @@
           "id": "df5a35dfc356",
           "section": "nyheter",
           "title": "Man anställd på Boliden hittades död i vattnet – kollegor erbjuds krisstöd",
-          "summary": "En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävade flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s...",
+          "summary": "En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävare flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s...",
           "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-anstalld-pa-boliden-hittades-dod-i-vattnet-kollegor-erbjuds-krisstod",
           "source": "SVT",
           "publishedAt": "2026-10-09T12:30:06+02:00"
@@ -199,15 +208,6 @@
           "link": "https://www.dn.se/varlden/navi-pillay-arets-nobels-fredspristagare/",
           "source": "DN",
           "publishedAt": "2026-10-09T12:04:47+02:00"
-        },
-        {
-          "id": "9d10e0d163e6",
-          "section": "nyheter",
-          "title": "Helgens drink: Cosmopolitan",
-          "summary": "DN:s Elin Peters tipsar om en drink i tiden. Denna helg en omskriven signaturdrink.",
-          "link": "https://www.dn.se/mat-dryck/helgens-drink-cosmopolitan/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:03:12+02:00"
         },
         {
           "id": "5a5b8d7682f9",

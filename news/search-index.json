@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:51:13+02:00",
+  "generatedAt": "2026-10-09T12:53:15+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "07a7cb73362a",
+      "section": "nyheter",
+      "title": "Författarförbundet varnar för hybridförlaget Lava",
+      "summary": "Författarförbundet går ut och varnar för att ingå avtal med Bookea Group, där Lava förlag ingår. Anledningen är att företaget befinner sig i rekonstruktion.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/forfattarforbundet-varnar-for-hybridforlaget-lava/",
+      "publishedAt": "2026-10-09T12:53:03+02:00",
+      "text": "Författarförbundet varnar för hybridförlaget Lava DN Författarförbundet går ut och varnar för att ingå avtal med Bookea Group, där Lava förlag ingår. Anledningen är att företaget befinner sig i rekonstruktion."
+    },
+    {
       "id": "5fa2f1e0da80",
       "section": "nyheter",
       "title": "Insändare. Stoppa privata kliniker från att misshandla barn",
@@ -175,11 +185,11 @@
       "id": "df5a35dfc356",
       "section": "nyheter",
       "title": "Man anställd på Boliden hittades död i vattnet – kollegor erbjuds krisstöd",
-      "summary": "En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävade flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s...",
+      "summary": "En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävare flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s...",
       "source": "SVT",
       "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-anstalld-pa-boliden-hittades-dod-i-vattnet-kollegor-erbjuds-krisstod",
       "publishedAt": "2026-10-09T12:30:06+02:00",
-      "text": "Man anställd på Boliden hittades död i vattnet – kollegor erbjuds krisstöd SVT En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävade flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s..."
+      "text": "Man anställd på Boliden hittades död i vattnet – kollegor erbjuds krisstöd SVT En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävare flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s..."
     },
     {
       "id": "d7f993461a20",
@@ -210,16 +220,6 @@
       "link": "https://www.dn.se/varlden/navi-pillay-arets-nobels-fredspristagare/",
       "publishedAt": "2026-10-09T12:04:47+02:00",
       "text": "Navi Pillay årets Nobels fredspristagare DN Sydafrikanska juristen Navanethem ”Navi” Pillay, 85, tilldelas årets fredspris, meddelar norska Nobelkommittén. ”För hennes insatser för att främja fred och internationell rätt”, lyder motiveringen."
-    },
-    {
-      "id": "9d10e0d163e6",
-      "section": "nyheter",
-      "title": "Helgens drink: Cosmopolitan",
-      "summary": "DN:s Elin Peters tipsar om en drink i tiden. Denna helg en omskriven signaturdrink.",
-      "source": "DN",
-      "link": "https://www.dn.se/mat-dryck/helgens-drink-cosmopolitan/",
-      "publishedAt": "2026-10-09T12:03:12+02:00",
-      "text": "Helgens drink: Cosmopolitan DN DN:s Elin Peters tipsar om en drink i tiden. Denna helg en omskriven signaturdrink."
     },
     {
       "id": "5a5b8d7682f9",
