@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:01:54+02:00",
+  "generatedAt": "2026-10-09T12:04:00+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,26 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "9d10e0d163e6",
+      "section": "nyheter",
+      "title": "Helgens drink: Cosmopolitan",
+      "summary": "DN:s Elin Peters tipsar om en drink i tiden. Denna helg en omskriven signaturdrink.",
+      "source": "DN",
+      "link": "https://www.dn.se/mat-dryck/helgens-drink-cosmopolitan/",
+      "publishedAt": "2026-10-09T12:03:12+02:00",
+      "text": "Helgens drink: Cosmopolitan DN DN:s Elin Peters tipsar om en drink i tiden. Denna helg en omskriven signaturdrink."
+    },
+    {
+      "id": "5a5b8d7682f9",
+      "section": "nyheter",
+      "title": "Nasa släpper stora mängder data från månen – se vad astronauterna såg",
+      "summary": "Nasa har släppt data från Artemis II. Bilder från astronauternas egna kameror ska hjälpa forskare säkra framtida månresor.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/rymden/nasa-slaepper-800-gb-data-fran-manen-se-vad-astronauterna-sag/4502957",
+      "publishedAt": "2026-10-09T12:02:35+02:00",
+      "text": "Nasa släpper stora mängder data från månen – se vad astronauterna såg NyTeknik Nasa har släppt data från Artemis II. Bilder från astronauternas egna kameror ska hjälpa forskare säkra framtida månresor."
+    },
+    {
       "id": "7ce72d7621f6",
       "section": "nyheter",
       "title": "Maxad orkesterprakt och symfoniska fantasier på Konserthuset",
@@ -222,6 +242,16 @@
       "text": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det” DN På fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet. – Jag tror inte på någon trollspösituation där det..."
     },
     {
+      "id": "1add43d65922",
+      "section": "nyheter",
+      "title": "Man begärs häktad efter mordet på Bellevuegården",
+      "summary": "MALMÖ. Den 52-årige man som greps efter den dödliga…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
+      "publishedAt": "2026-10-09T11:35:04+02:00",
+      "text": "Man begärs häktad efter mordet på Bellevuegården Sydsvenskan MALMÖ. Den 52-årige man som greps efter den dödliga…"
+    },
+    {
       "id": "13328f9a1027",
       "section": "nyheter",
       "title": "En till sjukhus – fastnade under nedfallet träd i Västerås",
@@ -262,14 +292,24 @@
       "text": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio DN Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg."
     },
     {
-      "id": "ac8656883a6c",
+      "id": "5ff092bea5e3",
       "section": "nyheter",
-      "title": "Insändare. Slå vakt om den svenska tilliten",
-      "summary": "INSÄNDARE. Vi behöver försvara gemensamma lagar och regler, men samtidigt bygga fler mötesplatser där människor faktiskt lär känna varandra. Om vi vill att Sverige även i framtiden ska vara ett samhälle där människor kan lita på varandra måste vi våga se pr...",
-      "source": "DN",
-      "link": "https://www.dn.se/insandare/sla-vakt-om-den-svenska-tilliten/",
-      "publishedAt": "2026-10-09T11:03:33+02:00",
-      "text": "Insändare. Slå vakt om den svenska tilliten DN INSÄNDARE. Vi behöver försvara gemensamma lagar och regler, men samtidigt bygga fler mötesplatser där människor faktiskt lär känna varandra. Om vi vill att Sverige även i framtiden ska vara ett samhälle där människor kan lita på varandra måste vi våga se pr..."
+      "title": "Man slog kvinna med laddkabel – döms för misshandel",
+      "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
+      "publishedAt": "2026-10-09T11:08:18+02:00",
+      "text": "Man slog kvinna med laddkabel – döms för misshandel Sydsvenskan En 28-årig man döms för att ha misshandlat sin dåvarande…"
+    },
+    {
+      "id": "9f1d491da6bc",
+      "section": "nyheter",
+      "title": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten",
+      "summary": "Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”.",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
+      "publishedAt": "2026-10-09T11:00:00+02:00",
+      "text": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten Sydsvenskan Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”."
     },
     {
       "id": "3b894b8302f3",
@@ -300,6 +340,26 @@
       "link": "https://www.svt.se/kultur/forfattarforbundet-varnar-for-skandalforlaget-lava-igen",
       "publishedAt": "2026-10-09T10:40:23+02:00",
       "text": "Författarförbundet varnar för skandalförlaget Lava – igen SVT Bookea Group, där Lava förlag ingår, befinner sig i företagsrekonstruktion. Därför varnar Författarförbundet nu än en gång författare från att ingå avtal med dem. Det skriver de i ett utskick till sina medlemmar som skickades ut under fredagen."
+    },
+    {
+      "id": "321164eee194",
+      "section": "nyheter",
+      "title": "Barn misstänkt för skott mot villa i Malmö",
+      "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
+      "publishedAt": "2026-10-09T10:30:14+02:00",
+      "text": "Barn misstänkt för skott mot villa i Malmö Sydsvenskan En tonåring under femton sköt mot villan på Videdal – det…"
+    },
+    {
+      "id": "5dbd172a445c",
+      "section": "nyheter",
+      "title": "Varsel på HSB Malmö – så många kan få sluta",
+      "summary": "MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg.",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=c18aacf0-76ff-499e-8c64-07df43c454fb",
+      "publishedAt": "2026-10-09T10:23:06+02:00",
+      "text": "Varsel på HSB Malmö – så många kan få sluta Sydsvenskan MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg."
     },
     {
       "id": "8c7ac64cf763",
@@ -420,16 +480,6 @@
       "link": "https://www.nyteknik.se/tech/polisen-utreder-googles-ai-datacenter-i-finland-allvarligt/4502415",
       "publishedAt": "2026-10-08T11:17:16+02:00",
       "text": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt” NyTeknik Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området."
-    },
-    {
-      "id": "b0cf54d98324",
-      "section": "nyheter",
-      "title": "Honda satsar på elväg – Sverige har lagt ned sitt projekt",
-      "summary": "Upp till 150 kW i farten. Honda testar elvägen som ska klara tung trafik.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/elbilar/honda-testar-ny-elvaeg-sa-skiljer-sig-tekniken-fran-svenska-satsningen/4501901",
-      "publishedAt": "2026-10-08T09:48:41+02:00",
-      "text": "Honda satsar på elväg – Sverige har lagt ned sitt projekt NyTeknik Upp till 150 kW i farten. Honda testar elvägen som ska klara tung trafik."
     },
     {
       "id": "2ff0954ff0a2",
