@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:32:35+02:00",
+  "generatedAt": "2026-10-09T12:34:23+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "5fa2f1e0da80",
+          "section": "nyheter",
+          "title": "Insändare. Stoppa privata kliniker från att misshandla barn",
+          "summary": "INSÄNDARE. Svalgoperationer av små barn måste ske på barnoperationsavdelningar. Stoppa privata vårdgivare från att misshandla fler barn i Stockholmsregionen, skriver läkaren Gun-Britt Karlsson och sjuksköterskan Maria Brännström.",
+          "link": "https://www.dn.se/insandare/stoppa-privata-kliniker-fran-att-misshandla-barn/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T12:33:05+02:00"
+        },
+        {
+          "id": "df5a35dfc356",
+          "section": "nyheter",
+          "title": "Man anställd på Boliden hittades död i vattnet – kollegor erbjuds krisstöd",
+          "summary": "En man i 60-årsåldern, som jobbade åt Boliden, hittades död i vattnet. En liten amfibiegrävade flöt upp och ner när kollegorna kom till platsen. Nu erbjuds personalen krisstöd. – Det är otroligt tråkigt, våra tankar går till familj, anhöriga och kollegor, s...",
+          "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-anstalld-pa-boliden-hittades-dod-i-vattnet-kollegor-erbjuds-krisstod",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T12:30:06+02:00"
+        },
+        {
           "id": "d7f993461a20",
           "section": "nyheter",
           "title": "Nu börjar Gardells miljonregn över svensk tennis",
@@ -208,15 +226,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316431",
           "source": "Ekot",
           "publishedAt": "2026-10-09T12:02:00+02:00"
-        },
-        {
-          "id": "7ce72d7621f6",
-          "section": "nyheter",
-          "title": "Maxad orkesterprakt och symfoniska fantasier på Konserthuset",
-          "summary": "Havet öppnar sig när Zemlinskys ”Sjöjungfrun” förvaltas med klanglig fantasi på Konserthuset i Stockholm. Solisten Seong-Jin Chos insats blir dock mer av en parentes i uppvisningen, skriver DN:s Johanna Paulsson",
-          "link": "https://www.dn.se/kultur/maxad-orkesterprakt-och-symfoniska-fantasier-pa-konserthuset/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:00:00+02:00"
         },
         {
           "id": "40543a8fcab3",
@@ -316,15 +325,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/stockholm/uppgifter-grovt-sexuellt-overgrepp-utreds-pa-sigtuna",
           "source": "SVT",
           "publishedAt": "2026-10-09T10:44:41+02:00"
-        },
-        {
-          "id": "e1f808a06d3f",
-          "section": "nyheter",
-          "title": "Författarförbundet varnar för skandalförlaget Lava – igen",
-          "summary": "Bookea Group, där Lava förlag ingår, befinner sig i företagsrekonstruktion. Därför varnar Författarförbundet nu än en gång författare från att ingå avtal med dem. Det skriver de i ett utskick till sina medlemmar som skickades ut under fredagen.",
-          "link": "https://www.svt.se/kultur/forfattarforbundet-varnar-for-skandalforlaget-lava-igen",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T10:40:23+02:00"
         },
         {
           "id": "321164eee194",
