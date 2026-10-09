@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-09T14:57:07+02:00",
+  "generatedAt": "2026-10-09T14:59:12+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "21f65d7b2423",
+          "section": "news",
+          "title": "School district makes dramatic U-turn on AI, banning it across all grades weeks after Google Gemini rollout",
+          "summary": "submitted by /u/Miserable_Phase_2519 [link] [comments]",
+          "link": "https://www.reddit.com/r/technology/comments/1x1jt0p/school_district_makes_dramatic_uturn_on_ai/",
+          "source": "Reddit",
+          "publishedAt": "2026-10-09T14:15:42+02:00"
+        },
         {
           "id": "071e81162e4a",
           "section": "news",
@@ -67,15 +76,6 @@
           "link": "https://technode.com/2026/10/09/risc-v-chipmaker-eswin-computing-lists-in-hong-kong/",
           "source": "Technode",
           "publishedAt": "2026-10-09T10:47:39+02:00"
-        },
-        {
-          "id": "9aaea4ffe8b8",
-          "section": "news",
-          "title": "OpenAI projected to bring in $20bn less in revenue than expected | OpenAI",
-          "summary": "submitted by /u/JohnHammond94 [link] [comments]",
-          "link": "https://www.reddit.com/r/technology/comments/1x1frei/openai_projected_to_bring_in_20bn_less_in_revenue/",
-          "source": "Reddit",
-          "publishedAt": "2026-10-09T10:18:56+02:00"
         },
         {
           "id": "6f9835d750d3",
