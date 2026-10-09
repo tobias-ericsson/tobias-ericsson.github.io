@@ -97,6 +97,9 @@ function setActiveTab(name) {
   SECTION_BASE = ALL_ROWS.filter((r) => r.section === name);
   document.querySelectorAll("#tabs .tab")
     .forEach((b) => b.classList.toggle("active", b.textContent === name));
+  // Tabs live in the sidebar, so name the active one above the content
+  const kicker = document.querySelector(".page-kicker");
+  if (kicker) kicker.textContent = `Links · ${name}`;
   applyFilters();
 }
 

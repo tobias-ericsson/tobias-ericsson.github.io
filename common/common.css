@@ -20,6 +20,7 @@
     --shadow: 0 14px 34px rgba(26, 37, 53, 0.08);
     --shadow-soft: 0 8px 24px rgba(26, 37, 53, 0.06);
     --content-max: 1100px;
+    --sidebar-width: 220px;
 
     /* header / footer chrome — blue with yellow text */
     --frame-bg: #001f3f;
@@ -36,8 +37,6 @@ body {
 body {
     margin: 0;
     min-height: 100dvh;
-    display: flex;
-    flex-direction: column;
     background: var(--site-bg);
     color: var(--ink);
     font:
@@ -62,7 +61,6 @@ svg {
 }
 
 main {
-    flex: 1 0 auto;
     padding: 28px 0 40px;
 }
 
@@ -80,16 +78,28 @@ main {
     justify-content: space-between;
 }
 
-.site-header {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid var(--frame-line);
-    background: var(--frame-bg);
+/* Site chrome: a sidebar on the left (brand, search, nav, footer), like the
+   old t.ericsson.gitlab.io. On narrow screens it becomes a sticky top bar. */
+body {
+    padding-left: var(--sidebar-width);
 }
 
-.site-header-inner {
-    padding-block: 14px;
+#site-header {
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 1000;
+    width: var(--sidebar-width);
+}
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 100%;
+    padding: 18px 14px;
+    overflow-y: auto;
+    border-right: 1px solid var(--frame-line);
+    background: var(--frame-bg);
 }
 
 .site-brand {
@@ -102,6 +112,7 @@ main {
 .site-brand-mark {
     display: grid;
     place-items: center;
+    flex-shrink: 0;
     width: 48px;
     height: 48px;
     border-radius: 16px;
@@ -113,6 +124,7 @@ main {
 .site-brand-copy {
     display: grid;
     gap: 2px;
+    min-width: 0;
     line-height: 1.1;
 }
 
@@ -122,32 +134,25 @@ main {
     color: var(--frame-ink);
 }
 
-.site-brand-copy span {
-    color: var(--frame-ink-soft);
-    font-size: 0.82rem;
-}
-
 .site-nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .site-nav-link {
     padding: 10px 14px;
-    border-radius: 999px;
+    border-radius: 12px;
     color: var(--frame-ink-soft);
     transition:
         background-color 140ms ease,
-        color 140ms ease,
-        transform 140ms ease;
+        color 140ms ease;
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus-visible {
     background: rgba(255, 255, 255, 0.12);
     color: var(--frame-ink);
-    transform: translateY(-1px);
 }
 
 .site-nav-link.is-active {
@@ -155,15 +160,52 @@ main {
     color: #fffaf5;
 }
 
+/* Page sub-navigation moved in below the active nav link (see common.js) */
+.site-header .site-subnav {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 2px 0 6px 14px;
+    padding-left: 8px;
+    border-left: 1px solid var(--frame-line);
+}
+
+.site-header .site-subnav > * {
+    width: 100%;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--frame-ink-soft);
+    font: inherit;
+    font-size: 0.9rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.site-header .site-subnav > :hover,
+.site-header .site-subnav > :focus-visible {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--frame-ink);
+}
+
+.site-header .site-subnav > .active {
+    background: rgba(246, 184, 71, 0.2);
+    color: var(--frame-ink);
+    font-weight: 600;
+}
+
+/* Fixed width, so it never resizes with the rest of the header */
 .site-search {
     display: none;
-    flex: 0 1 220px;
+    width: 100%;
     padding: 8px 14px;
     border-radius: 999px;
     border: 1px solid var(--frame-line);
     background: rgba(255, 255, 255, 0.1);
     color: var(--frame-ink);
-    font: 0.9rem/1 inherit;
+    font-family: inherit;
+    font-size: 0.9rem;
     outline: none;
     transition: background 140ms ease, border-color 140ms ease;
 }
@@ -250,24 +292,14 @@ body[data-site-section="links"] .site-search {
 
 .site-footer {
     margin-top: auto;
+    padding-top: 14px;
     border-top: 1px solid var(--frame-line);
-    background: var(--frame-bg);
+    color: var(--frame-ink-soft);
+    font-size: 0.85rem;
 }
 
-.site-footer-inner {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: end;
-    padding-block: 22px;
-}
-
-.site-footer-copy p {
-    margin: 4px 0 0;
-    color: var(--frame-ink);
-    max-width: 32rem;
-    font-size: 0.95rem;
+.site-footer p {
+    margin: 2px 0 0;
 }
 
 .site-footer-brand {
@@ -275,15 +307,8 @@ body[data-site-section="links"] .site-search {
     color: var(--frame-ink);
 }
 
-.site-footer-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 14px;
-    color: var(--frame-ink);
-}
-
 :target {
-    scroll-margin-top: 90px;
+    scroll-margin-top: 24px;
 }
 
 @media (max-width: 760px) {
@@ -296,16 +321,37 @@ body[data-site-section="links"] .site-search {
         padding: 18px 0 28px;
     }
 
-    /* Keep brand left, nav right on the same row */
-    .site-header-inner {
+    :target {
+        scroll-margin-top: 140px;
+    }
+
+    /* Sidebar becomes a sticky bar at the top */
+    body {
+        padding-left: 0;
+    }
+
+    #site-header {
+        position: sticky;
+        top: 0;
+        width: auto;
+    }
+
+    .site-header {
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
         gap: 8px;
+        height: auto;
+        padding: 8px;
+        overflow: visible;
+        border-right: none;
+        border-bottom: 1px solid var(--frame-line);
     }
 
     .site-brand {
         flex: 1 1 auto;
         min-width: 0;
+        min-height: 38px;
     }
 
     .site-brand-copy {
@@ -319,28 +365,45 @@ body[data-site-section="links"] .site-search {
         font-size: 22px;
     }
 
+    /* Nav links sit next to the brand; the sub-nav gets its own row */
     .site-nav {
-        flex-shrink: 0;
-        gap: 2px;
+        display: contents;
     }
 
     .site-nav-link {
         padding: 6px 8px;
+        border-radius: 999px;
         font-size: 0.78rem;
     }
 
-    /* Search field drops to its own second row */
     .site-search {
         order: 3;
-        flex: 0 1 100%;
+        flex: 0 0 100%;
     }
 
-    /* Footer nav stays right */
-    .site-footer-inner {
-        align-items: end;
+    .site-header .site-subnav {
+        order: 4;
+        flex: 0 0 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        border-left: none;
+        overflow-x: auto;
+        scrollbar-width: none;
     }
 
-    .site-footer-nav {
-        margin-left: auto;
+    .site-header .site-subnav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .site-header .site-subnav > * {
+        width: auto;
+        white-space: nowrap;
+    }
+
+    /* Footer belongs to the sidebar, which isn't there on small screens */
+    .site-footer {
+        display: none;
     }
 }

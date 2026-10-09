@@ -1,585 +1,525 @@
 {
-  "generatedAt": "2026-08-27T15:18:23+02:00",
+  "generatedAt": "2026-10-09T11:36:44+02:00",
   "entries": [
     {
-      "id": "cfcea8cf7f34",
+      "id": "d092758b96ec",
       "section": "news",
-      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
-      "summary": "Plaud's new 'agentic' earbuds are priced at $249.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
-      "publishedAt": "2026-08-27T15:00:00+02:00",
-      "text": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents Techcrunch Plaud's new 'agentic' earbuds are priced at $249."
-    },
-    {
-      "id": "9e61eb664686",
-      "section": "news",
-      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
-      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
-      "publishedAt": "2026-08-27T13:35:59+02:00",
-      "text": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India Techcrunch OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers."
-    },
-    {
-      "id": "38e996586105",
-      "section": "news",
-      "title": "Zhipu identifies Ox Alpha as GLM-5.3-Flash and releases model weights",
-      "summary": "Zhipu has released GLM-5.3-Flash and its model weights, confirming that the model previously tested anonymously as Ox Alpha belongs to its GLM series. The model has 320 billion total parameters and 18 billion active parameters. GLM-5.3-Flash is the first na...",
+      "title": "ByteDance researchers identify cause of inconsistent long-context retrieval in DeepSeek models",
+      "summary": "Researchers from ByteDance’s Seed team have identified a mechanism behind inconsistent long-context retrieval in DeepSeek models. Their study found that chunked KV-cache compression makes retrieval accuracy sensitive to where information falls within a comp...",
       "source": "Technode",
-      "link": "https://technode.com/2026/08/27/zhipu-identifies-ox-alpha-as-glm-5-3-flash-and-releases-model-weights/",
-      "publishedAt": "2026-08-27T09:05:00+02:00",
-      "text": "Zhipu identifies Ox Alpha as GLM-5.3-Flash and releases model weights Technode Zhipu has released GLM-5.3-Flash and its model weights, confirming that the model previously tested anonymously as Ox Alpha belongs to its GLM series. The model has 320 billion total parameters and 18 billion active parameters. GLM-5.3-Flash is the first na..."
+      "link": "https://technode.com/2026/10/09/bytedance-researchers-identify-cause-of-inconsistent-long-context-retrieval-in-deepseek-models/",
+      "publishedAt": "2026-10-09T10:54:07+02:00",
+      "text": "ByteDance researchers identify cause of inconsistent long-context retrieval in DeepSeek models Technode Researchers from ByteDance’s Seed team have identified a mechanism behind inconsistent long-context retrieval in DeepSeek models. Their study found that chunked KV-cache compression makes retrieval accuracy sensitive to where information falls within a comp..."
     },
     {
-      "id": "bffe15fe7bc8",
+      "id": "d697164d140b",
       "section": "news",
-      "title": "MiniMax’s enterprise AI and open-platform revenue jumps 703% in H1",
-      "summary": "Chinese AI company MiniMax reported its first-half 2026 financial results, with revenue from its open platform and enterprise AI services rising 703.1% year on year to US$73.9 million. The business accounted for 63.4% of MiniMax’s total revenue, up from 30....",
+      "title": "JD.com’s $2.5 billion Ceconomy takeover moves closer to EU approval",
+      "summary": "JD.com’s proposed $2.5 billion takeover of German electronics retailer Ceconomy is expected to receive European Union approval after the Chinese company revised commitments addressing regulatory concerns, according to a Reuters report cited by IT Home. The...",
       "source": "Technode",
-      "link": "https://technode.com/2026/08/27/minimaxs-enterprise-ai-and-open-platform-revenue-jumps-703-in-h1/",
-      "publishedAt": "2026-08-27T08:59:58+02:00",
-      "text": "MiniMax’s enterprise AI and open-platform revenue jumps 703% in H1 Technode Chinese AI company MiniMax reported its first-half 2026 financial results, with revenue from its open platform and enterprise AI services rising 703.1% year on year to US$73.9 million. The business accounted for 63.4% of MiniMax’s total revenue, up from 30...."
+      "link": "https://technode.com/2026/10/09/jd-coms-2-5-billion-ceconomy-takeover-moves-closer-to-eu-approval/",
+      "publishedAt": "2026-10-09T10:52:53+02:00",
+      "text": "JD.com’s $2.5 billion Ceconomy takeover moves closer to EU approval Technode JD.com’s proposed $2.5 billion takeover of German electronics retailer Ceconomy is expected to receive European Union approval after the Chinese company revised commitments addressing regulatory concerns, according to a Reuters report cited by IT Home. The..."
     },
     {
-      "id": "bb4452b95a0c",
+      "id": "af0a0f0c9266",
       "section": "news",
-      "title": "Baidu to make Hong Kong listing primary on Sept. 1",
-      "summary": "Baidu has announced that it will convert its Hong Kong secondary listing into a primary listing on Sept. 1, giving the company dual-primary listings in Hong Kong and on Nasdaq. The company said the “S” marker will be removed from its Hong Kong dollar- and y...",
+      "title": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi",
+      "summary": "German search engine Ecosia is replacing Mistral with open-weight AI models, including Chinese-developed Qwen, GLM and Kimi, through a partnership with German AI platform Melious. Founder and CEO Christian Kroll said the switch had roughly halved costs whil...",
       "source": "Technode",
-      "link": "https://technode.com/2026/08/27/baidu-to-make-hong-kong-listing-primary-on-sept-1/",
-      "publishedAt": "2026-08-27T08:52:21+02:00",
-      "text": "Baidu to make Hong Kong listing primary on Sept. 1 Technode Baidu has announced that it will convert its Hong Kong secondary listing into a primary listing on Sept. 1, giving the company dual-primary listings in Hong Kong and on Nasdaq. The company said the “S” marker will be removed from its Hong Kong dollar- and y..."
+      "link": "https://technode.com/2026/10/09/ecosia-switches-from-mistral-to-open-weight-ai-models-including-qwen-glm-and-kimi/",
+      "publishedAt": "2026-10-09T10:52:23+02:00",
+      "text": "Ecosia switches from Mistral to open-weight AI models including Qwen, GLM and Kimi Technode German search engine Ecosia is replacing Mistral with open-weight AI models, including Chinese-developed Qwen, GLM and Kimi, through a partnership with German AI platform Melious. Founder and CEO Christian Kroll said the switch had roughly halved costs whil..."
     },
     {
-      "id": "fadd63286a6b",
+      "id": "250c0a05b985",
       "section": "news",
-      "title": "Xiaomi Auto launches global website ahead of 2027 Europe entry",
-      "summary": "Xiaomi Auto has launched a global website and overseas social media accounts as it prepares for international expansion. The website says Xiaomi Auto is officially coming to Europe in 2027 and invites dealers and distribution partners to submit inquiries. I...",
+      "title": "XREAL opens AURA preorders at $1,279 for Android XR glasses",
+      "summary": "XREAL has announced a starting price of $1,279 for its AURA Android XR glasses and opened preorders to customers who placed paid reservations before October 7. The entry configuration includes a compute unit with 12GB of RAM and 256GB of storage, while a 16...",
       "source": "Technode",
-      "link": "https://technode.com/2026/08/27/xiaomi-auto-launches-global-website-ahead-of-2027-europe-entry/",
-      "publishedAt": "2026-08-27T08:48:10+02:00",
-      "text": "Xiaomi Auto launches global website ahead of 2027 Europe entry Technode Xiaomi Auto has launched a global website and overseas social media accounts as it prepares for international expansion. The website says Xiaomi Auto is officially coming to Europe in 2027 and invites dealers and distribution partners to submit inquiries. I..."
+      "link": "https://technode.com/2026/10/09/xreal-opens-aura-preorders-at-1279-for-android-xr-glasses/",
+      "publishedAt": "2026-10-09T10:48:26+02:00",
+      "text": "XREAL opens AURA preorders at $1,279 for Android XR glasses Technode XREAL has announced a starting price of $1,279 for its AURA Android XR glasses and opened preorders to customers who placed paid reservations before October 7. The entry configuration includes a compute unit with 12GB of RAM and 256GB of storage, while a 16..."
     },
     {
-      "id": "484a9c557de7",
+      "id": "a7a6125ece9a",
       "section": "news",
-      "title": "WeChat team open-sources WeMM-Embedding for multimodal search and recommendation",
-      "summary": "Tencent’s WeChat Vision team has open-sourced WeMM-Embedding, a family of multimodal embedding models that represents and matches text, images, videos and other content types. The team said the models are already deployed in WeChat Channels, Official Accoun...",
+      "title": "RISC-V chipmaker ESWIN Computing lists in Hong Kong",
+      "summary": "Beijing ESWIN Computing began trading on the Hong Kong Stock Exchange on October 9 under stock code 01256. Its shares were priced at HK$1.55 in the offering and opened at HK$1.54. Founded by former BOE chairman Wang Dongsheng, the company develops chips and...",
       "source": "Technode",
-      "link": "https://technode.com/2026/08/27/wechat-team-open-sources-wemm-embedding-for-multimodal-search-and-recommendation/",
-      "publishedAt": "2026-08-27T08:43:14+02:00",
-      "text": "WeChat team open-sources WeMM-Embedding for multimodal search and recommendation Technode Tencent’s WeChat Vision team has open-sourced WeMM-Embedding, a family of multimodal embedding models that represents and matches text, images, videos and other content types. The team said the models are already deployed in WeChat Channels, Official Accoun..."
+      "link": "https://technode.com/2026/10/09/risc-v-chipmaker-eswin-computing-lists-in-hong-kong/",
+      "publishedAt": "2026-10-09T10:47:39+02:00",
+      "text": "RISC-V chipmaker ESWIN Computing lists in Hong Kong Technode Beijing ESWIN Computing began trading on the Hong Kong Stock Exchange on October 9 under stock code 01256. Its shares were priced at HK$1.55 in the offering and opened at HK$1.54. Founded by former BOE chairman Wang Dongsheng, the company develops chips and..."
     },
     {
-      "id": "60dfb131f159",
+      "id": "e85a8990ccb6",
       "section": "news",
-      "title": "Nvidia closes in on Hugging Face acquisition",
-      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
-      "publishedAt": "2026-08-27T08:32:51+02:00",
-      "text": "Nvidia closes in on Hugging Face acquisition Techcrunch Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business."
-    },
-    {
-      "id": "1e9c0ff5d8e9",
-      "section": "news",
-      "title": "One Microsoft Employee Spent $28,000 on AI in 28 Days. Now the Company Is Watching Everyone. - Gadget Review",
-      "summary": "submitted by /u/IKeepItLayingAround [link] [comments]",
+      "title": "Judge weighs if U.S President can charge $100K for early access to Truth Social posts | Judge questioned if U.S President delaying access to Truth Social posts by a second harms the press.",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
       "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1vzjhzq/one_microsoft_employee_spent_28000_on_ai_in_28/",
-      "publishedAt": "2026-08-27T06:06:59+02:00",
-      "text": "One Microsoft Employee Spent $28,000 on AI in 28 Days. Now the Company Is Watching Everyone. - Gadget Review Reddit submitted by /u/IKeepItLayingAround [link] [comments]"
+      "link": "https://www.reddit.com/r/technology/comments/1x16yio/judge_weighs_if_us_president_can_charge_100k_for/",
+      "publishedAt": "2026-10-09T02:09:16+02:00",
+      "text": "Judge weighs if U.S President can charge $100K for early access to Truth Social posts | Judge questioned if U.S President delaying access to Truth Social posts by a second harms the press. Reddit submitted by /u/ControlCAD [link] [comments]"
     },
     {
-      "id": "4afb90046a10",
+      "id": "6f9835d750d3",
       "section": "news",
-      "title": "Nvidia Agrees to Buy Open Source Model Repository Hugging Face For $12.9 Billion",
-      "summary": "submitted by /u/aacool [link] [comments]",
-      "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1vzhm1p/nvidia_agrees_to_buy_open_source_model_repository/",
-      "publishedAt": "2026-08-27T04:36:10+02:00",
-      "text": "Nvidia Agrees to Buy Open Source Model Repository Hugging Face For $12.9 Billion Reddit submitted by /u/aacool [link] [comments]"
-    },
-    {
-      "id": "a414c10ecc54",
-      "section": "news",
-      "title": "Tempe turns off its Flock license plate reader system, citing privacy concerns and potential for 'misuse'",
-      "summary": "submitted by /u/Kooky-Balance9525 [link] [comments]",
-      "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1vzhe5w/tempe_turns_off_its_flock_license_plate_reader/",
-      "publishedAt": "2026-08-27T04:26:19+02:00",
-      "text": "Tempe turns off its Flock license plate reader system, citing privacy concerns and potential for 'misuse' Reddit submitted by /u/Kooky-Balance9525 [link] [comments]"
-    },
-    {
-      "id": "50962c44b85c",
-      "section": "news",
-      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
-      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "title": "President Trump awards Big Tech donors with nation’s highest science prizes",
+      "summary": "Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration.",
       "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
-      "publishedAt": "2026-08-27T02:24:57+02:00",
-      "text": "Viral AI startup Instinct has raised $350M at a $2.5B valuation Techcrunch The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns."
+      "link": "https://techcrunch.com/2026/10/08/president-trump-awards-big-tech-donors-with-nations-highest-science-prizes/",
+      "publishedAt": "2026-10-09T00:33:59+02:00",
+      "text": "President Trump awards Big Tech donors with nation’s highest science prizes Techcrunch Together, the awardees have donated nearly $6 billion to efforts tied to Trump and his administration."
     },
     {
-      "id": "9e15ab3b4902",
+      "id": "bd88feaf7ded",
       "section": "news",
-      "title": "A Bootiful Podcast: Joe Grandja on Spring Authorization Server, OAuth, and so much more",
-      "summary": "Hi, Spring fans! In this episode, I talk Spring Security’s Joe Grandja about Spring Authorization Server’s graduation into Spring Security 7, and the new security heavyweights DPoP and PAR.",
+      "title": "Amazon warns local communities to stop defying its massive AI data centers",
+      "summary": "submitted by /u/marketrent [link] [comments]",
+      "source": "Reddit",
+      "link": "https://www.reddit.com/r/technology/comments/1x13tdg/amazon_warns_local_communities_to_stop_defying/",
+      "publishedAt": "2026-10-08T23:47:08+02:00",
+      "text": "Amazon warns local communities to stop defying its massive AI data centers Reddit submitted by /u/marketrent [link] [comments]"
+    },
+    {
+      "id": "9c626ac0c444",
+      "section": "news",
+      "title": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website",
+      "summary": "With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+      "publishedAt": "2026-10-08T23:00:00+02:00",
+      "text": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website Techcrunch With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk."
+    },
+    {
+      "id": "9415070adec7",
+      "section": "news",
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "publishedAt": "2026-10-08T22:04:26+02:00",
+      "text": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect Techcrunch Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
+    },
+    {
+      "id": "3cd95630d967",
+      "section": "news",
+      "title": "YouTuber Builds System That Mimics Flock to Spy on Cops; Then the Cops Came Knocking",
+      "summary": "submitted by /u/efap1701 [link] [comments]",
+      "source": "Reddit",
+      "link": "https://www.reddit.com/r/technology/comments/1x0zs4d/youtuber_builds_system_that_mimics_flock_to_spy/",
+      "publishedAt": "2026-10-08T21:09:50+02:00",
+      "text": "YouTuber Builds System That Mimics Flock to Spy on Cops; Then the Cops Came Knocking Reddit submitted by /u/efap1701 [link] [comments]"
+    },
+    {
+      "id": "9f18dc1cf913",
+      "section": "news",
+      "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
+      "summary": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
+      "publishedAt": "2026-10-08T20:30:00+02:00",
+      "text": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal Techcrunch A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19."
+    },
+    {
+      "id": "f60c2e9dfc66",
+      "section": "news",
+      "title": "Ben Affleck is an AI nerd, and the internet is impressed",
+      "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+      "publishedAt": "2026-10-08T20:20:32+02:00",
+      "text": "Ben Affleck is an AI nerd, and the internet is impressed Techcrunch Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star."
+    },
+    {
+      "id": "f19c4bc916d0",
+      "section": "news",
+      "title": "Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’",
+      "summary": "submitted by /u/ConsciousBug5001 [link] [comments]",
+      "source": "Reddit",
+      "link": "https://www.reddit.com/r/technology/comments/1x0wdoe/trump_says_anyone_who_does_not_call_ai_super/",
+      "publishedAt": "2026-10-08T19:01:42+02:00",
+      "text": "Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’ Reddit submitted by /u/ConsciousBug5001 [link] [comments]"
+    },
+    {
+      "id": "1d96817312f9",
+      "section": "news",
+      "title": "\"Software is over\": Developer uses AI to build free Adobe clones after frustration with cancellation fees",
+      "summary": "submitted by /u/Federal-Block-3275 [link] [comments]",
+      "source": "Reddit",
+      "link": "https://www.reddit.com/r/technology/comments/1x0ow0f/software_is_over_developer_uses_ai_to_build_free/",
+      "publishedAt": "2026-10-08T13:51:43+02:00",
+      "text": "\"Software is over\": Developer uses AI to build free Adobe clones after frustration with cancellation fees Reddit submitted by /u/Federal-Block-3275 [link] [comments]"
+    },
+    {
+      "id": "aade4b6deab3",
+      "section": "news",
+      "title": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi",
+      "summary": "Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts...",
       "source": "Spring",
-      "link": "https://spring.io/blog/2026/08/27/a-bootiful-podcast-joe-grandja",
-      "publishedAt": "2026-08-27T02:00:00+02:00",
-      "text": "A Bootiful Podcast: Joe Grandja on Spring Authorization Server, OAuth, and so much more Spring Hi, Spring fans! In this episode, I talk Spring Security’s Joe Grandja about Spring Authorization Server’s graduation into Spring Security 7, and the new security heavyweights DPoP and PAR."
+      "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
+      "publishedAt": "2026-10-08T02:00:00+02:00",
+      "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
-      "id": "cb8b688f92c9",
-      "section": "news",
-      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
-      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
-      "publishedAt": "2026-08-27T01:47:18+02:00",
-      "text": "Amazon just tripled its order of Nvidia chips over ‘surging demand’ Techcrunch Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips."
-    },
-    {
-      "id": "4c73ffddf1e4",
-      "section": "news",
-      "title": "Flock Camera CEO Asks Americans To “Compromise” on Privacy Amidst Major Backlash: Report",
-      "summary": "submitted by /u/Limp_Fig6236 [link] [comments]",
-      "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1vzd3x8/flock_camera_ceo_asks_americans_to_compromise_on/",
-      "publishedAt": "2026-08-27T01:17:18+02:00",
-      "text": "Flock Camera CEO Asks Americans To “Compromise” on Privacy Amidst Major Backlash: Report Reddit submitted by /u/Limp_Fig6236 [link] [comments]"
-    },
-    {
-      "id": "523f6f448816",
-      "section": "news",
-      "title": "New Twitter launches, says Musk’s X gave up the name",
-      "summary": "submitted by /u/vgsa [link] [comments]",
-      "source": "Reddit",
-      "link": "https://www.reddit.com/r/technology/comments/1vzc8j9/new_twitter_launches_says_musks_x_gave_up_the_name/",
-      "publishedAt": "2026-08-27T00:40:49+02:00",
-      "text": "New Twitter launches, says Musk’s X gave up the name Reddit submitted by /u/vgsa [link] [comments]"
-    },
-    {
-      "id": "1c3d81dd1e69",
-      "section": "news",
-      "title": "This Week in Spring - August 25th, 2026",
-      "summary": "Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am...",
-      "source": "Spring",
-      "link": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
-      "publishedAt": "2026-08-25T02:00:00+02:00",
-      "text": "This Week in Spring - August 25th, 2026 Spring Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a Spring meetup (details coming soon), Am..."
-    },
-    {
-      "id": "d4b4d4e5f7a8",
+      "id": "1add43d65922",
       "section": "nyheter",
-      "title": "Gal är moderat: ”Lägre skatter är vägen till fler jobb”",
-      "summary": "",
+      "title": "Man begärs häktad efter mordet på Bellevuegården",
+      "summary": "MALMÖ. Den 52-årige man som greps efter den dödliga…",
       "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sverige/valet-direkt-vagen-till-valurnorna-2026/?ifr-dir-postId=c9bbe7d2-5bcc-4d51-8221-63ab275bf9c1",
-      "publishedAt": "2026-08-27T15:14:11+02:00",
-      "text": "Gal är moderat: ”Lägre skatter är vägen till fler jobb” Sydsvenskan"
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
+      "publishedAt": "2026-10-09T11:35:04+02:00",
+      "text": "Man begärs häktad efter mordet på Bellevuegården Sydsvenskan MALMÖ. Den 52-årige man som greps efter den dödliga…"
     },
     {
-      "id": "531cc45b76e0",
+      "id": "c22e9aeb15de",
       "section": "nyheter",
-      "title": "Totalt sex nya smittade med mässling",
-      "summary": "Totalt sex personer som inte besökt festivalen Urkult har blivit sjuka i mässling.",
+      "title": "Navanethem Pillay får Nobels fredspris 2026",
+      "summary": "Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316301",
+      "publishedAt": "2026-10-09T11:35:00+02:00",
+      "text": "Navanethem Pillay får Nobels fredspris 2026 Ekot Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry..."
+    },
+    {
+      "id": "13328f9a1027",
+      "section": "nyheter",
+      "title": "En till sjukhus – fastnade under nedfallet träd i Västerås",
+      "summary": "En person har förts till sjukhus med ambulans efter att ha fastnat under ett nedfallet träd i Västerås.",
       "source": "SVT",
-      "link": "https://www.svt.se/nyheter/inrikes/totalt-sex-nya-smittade-med-massling",
-      "publishedAt": "2026-08-27T15:11:39+02:00",
-      "text": "Totalt sex nya smittade med mässling SVT Totalt sex personer som inte besökt festivalen Urkult har blivit sjuka i mässling."
+      "link": "https://www.svt.se/nyheter/lokalt/vastmanland/en-till-sjukhus-fastnade-under-nedfallet-trad-i-vasteras",
+      "publishedAt": "2026-10-09T11:28:19+02:00",
+      "text": "En till sjukhus – fastnade under nedfallet träd i Västerås SVT En person har förts till sjukhus med ambulans efter att ha fastnat under ett nedfallet träd i Västerås."
     },
     {
-      "id": "4a0e53364da7",
+      "id": "1325f79b801e",
       "section": "nyheter",
-      "title": "DN Debatt Repliker. ”Ställ inte patientnytta mot donationsetik”",
-      "summary": "DN DEBATT REPLIK. Fyra läkare vid Sahlgrenska universitetssjukhuset som ansvarade för den omtalade handtransplantationen: Nuvarande donationssystem bygger på att var och en kan ta ställning till vad man vill donera.",
+      "title": "Nobels fredspris till Navanathem Pillay: ”Kontroversiellt”",
+      "summary": "”Det här kommer bli ett kontroversiellt val i många områden”, säger Ekots internationella korrespondent Daniel Alling om att Navanathem Pillay får Nobels fredspris 2026.Han säger att Israel förmodligen kommer att ha synpunkter på valet.",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316361",
+      "publishedAt": "2026-10-09T11:19:00+02:00",
+      "text": "Nobels fredspris till Navanathem Pillay: ”Kontroversiellt” Ekot ”Det här kommer bli ett kontroversiellt val i många områden”, säger Ekots internationella korrespondent Daniel Alling om att Navanathem Pillay får Nobels fredspris 2026.Han säger att Israel förmodligen kommer att ha synpunkter på valet."
+    },
+    {
+      "id": "46a225129a33",
+      "section": "nyheter",
+      "title": "Före detta vd från Vimmerby krävs på 54 miljoner kronor",
+      "summary": "Den tidigare vd:n för en konkursad e-handels- och elektronikkoncern riskerar att tvingas betala 54 miljoner kronor när Skatteverket vill att han hålls personligt betalningsansvarig för obetalda skulder i ett av bolagen.",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/smaland/fore-detta-vd-kravs-pa-54-miljoner-kronor",
+      "publishedAt": "2026-10-09T11:14:52+02:00",
+      "text": "Före detta vd från Vimmerby krävs på 54 miljoner kronor SVT Den tidigare vd:n för en konkursad e-handels- och elektronikkoncern riskerar att tvingas betala 54 miljoner kronor när Skatteverket vill att han hålls personligt betalningsansvarig för obetalda skulder i ett av bolagen."
+    },
+    {
+      "id": "7560920f4d71",
+      "section": "nyheter",
+      "title": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio",
+      "summary": "Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg.",
       "source": "DN",
-      "link": "https://www.dn.se/debatt/stall-inte-patientnytta-mot-donationsetik/",
-      "publishedAt": "2026-08-27T15:07:09+02:00",
-      "text": "DN Debatt Repliker. ”Ställ inte patientnytta mot donationsetik” DN DN DEBATT REPLIK. Fyra läkare vid Sahlgrenska universitetssjukhuset som ansvarade för den omtalade handtransplantationen: Nuvarande donationssystem bygger på att var och en kan ta ställning till vad man vill donera."
+      "link": "https://www.dn.se/kultur/filmlistan-vecka-41-alex-schulmans-arkipelag-och-facebook-dramat-the-social-reckoning-nya-pa-bio/",
+      "publishedAt": "2026-10-09T11:14:35+02:00",
+      "text": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio DN Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg."
     },
     {
-      "id": "4df0d164afaf",
+      "id": "5ff092bea5e3",
       "section": "nyheter",
-      "title": "Insändare. Välj ansvar före egoism",
-      "summary": "INSÄNDARE. Vi ser redan konsekvenserna av klimatförändringarna runt om i världen genom värmeböljor, skogsbränder, översvämningar och extremväder. Låt oss som vuxna medborgare välja omtanke framför rädsla, ansvar framför egoism och medmänsklighet framför lik...",
-      "source": "DN",
-      "link": "https://www.dn.se/insandare/valj-ansvar-fore-egoism/",
-      "publishedAt": "2026-08-27T15:03:28+02:00",
-      "text": "Insändare. Välj ansvar före egoism DN INSÄNDARE. Vi ser redan konsekvenserna av klimatförändringarna runt om i världen genom värmeböljor, skogsbränder, översvämningar och extremväder. Låt oss som vuxna medborgare välja omtanke framför rädsla, ansvar framför egoism och medmänsklighet framför lik..."
-    },
-    {
-      "id": "38ee8548bc93",
-      "section": "nyheter",
-      "title": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över",
-      "summary": "Blir konsthall och krog • Bryts ut ur annan storaffär •…",
+      "title": "Man slog kvinna med laddkabel – döms för misshandel",
+      "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
       "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/dygnet-runt/klassiska-saturnus-huset-i-malmo-salt-ganget-bakom-plx-tar-over/",
-      "publishedAt": "2026-08-27T15:00:00+02:00",
-      "text": "Klassiska Saturnus-huset i Malmö sålt – gänget bakom PLX tar över Sydsvenskan Blir konsthall och krog • Bryts ut ur annan storaffär •…"
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
+      "publishedAt": "2026-10-09T11:08:18+02:00",
+      "text": "Man slog kvinna med laddkabel – döms för misshandel Sydsvenskan En 28-årig man döms för att ha misshandlat sin dåvarande…"
     },
     {
-      "id": "703d39ee5472",
+      "id": "ac8656883a6c",
       "section": "nyheter",
-      "title": "Finska studenter tipsar: Så kan du hitta bostad utan svenskt personnummer",
-      "summary": "Att hitta bostad som student är svårt i många studierorter runt om i landet. En grupp som ofta är extrautsatt i bostadssökandet är studenter från andra länder utan svenskt personnummer. Men finns det något som man kan göra för att förbättra sina chanser? St...",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/uutiset/svenska/finska-studenter-tipsar-sa-kan-du-hitta-bostad-utan-svenskt-personnummer",
-      "publishedAt": "2026-08-27T14:48:12+02:00",
-      "text": "Finska studenter tipsar: Så kan du hitta bostad utan svenskt personnummer SVT Att hitta bostad som student är svårt i många studierorter runt om i landet. En grupp som ofta är extrautsatt i bostadssökandet är studenter från andra länder utan svenskt personnummer. Men finns det något som man kan göra för att förbättra sina chanser? St..."
-    },
-    {
-      "id": "4a4b8ff02f6d",
-      "section": "nyheter",
-      "title": "Ellen började studera i Linköping utan bostad",
-      "summary": "Det nya läsåret drog i gång vid Linköpings universitet förra veckan. Trots att Linköping hör till de kommuner som i år ska ha god tillgång till studentbostäder stod finlandssvenska Ellen Karlsson utan bostad när studierna började. Enligt henne har den störs...",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/uutiset/svenska/ellen-borjade-studera-i-linkoping-utan-bostad",
-      "publishedAt": "2026-08-27T14:45:47+02:00",
-      "text": "Ellen började studera i Linköping utan bostad SVT Det nya läsåret drog i gång vid Linköpings universitet förra veckan. Trots att Linköping hör till de kommuner som i år ska ha god tillgång till studentbostäder stod finlandssvenska Ellen Karlsson utan bostad när studierna började. Enligt henne har den störs..."
-    },
-    {
-      "id": "ef7e2bb22e0f",
-      "section": "nyheter",
-      "title": "Krigsförbrytaren Ratko Mladic är död",
-      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Mladic dömdes 2017 till livstids fängelse för krigsförbrytelser begångna av bosnienserbiska styrkor under Bosnienkriget på 1990-talet.Han blev 84 år gammal.",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9285421",
-      "publishedAt": "2026-08-27T14:39:00+02:00",
-      "text": "Krigsförbrytaren Ratko Mladic är död Ekot Den bosnienserbiske krigsförbrytaren Ratko Mladic är död, det rapporterar statliga serbiska medier.Mladic dömdes 2017 till livstids fängelse för krigsförbrytelser begångna av bosnienserbiska styrkor under Bosnienkriget på 1990-talet.Han blev 84 år gammal."
-    },
-    {
-      "id": "f23e7df1847a",
-      "section": "nyheter",
-      "title": "Krigsförbrytaren Ratko Mladić är död",
-      "summary": "Den bosnienserbiske krigsförbrytaren Ratko Mladić är död, rapporterar statliga serbiska medier.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/utrikes/krigsforbrytaren-mladic-ar-dod",
-      "publishedAt": "2026-08-27T14:37:27+02:00",
-      "text": "Krigsförbrytaren Ratko Mladić är död SVT Den bosnienserbiske krigsförbrytaren Ratko Mladić är död, rapporterar statliga serbiska medier."
-    },
-    {
-      "id": "020a4e5620e0",
-      "section": "nyheter",
-      "title": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik",
-      "summary": "Miljöpartiet vill lägga 1,5 miljarder kronor om året under nästa mandatperiod för att göra det enklare att gå, cykla och åka med kollektivtrafik.Partiet vill återinföra det stadsmiljöavtal som togs bort av den nuvarande regeringen, som innebar att kommuner...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9285393",
-      "publishedAt": "2026-08-27T14:30:00+02:00",
-      "text": "Miljöpartiets plan: Vill satsa på cykel och kollektivtrafik Ekot Miljöpartiet vill lägga 1,5 miljarder kronor om året under nästa mandatperiod för att göra det enklare att gå, cykla och åka med kollektivtrafik.Partiet vill återinföra det stadsmiljöavtal som togs bort av den nuvarande regeringen, som innebar att kommuner..."
-    },
-    {
-      "id": "c25c2d05556a",
-      "section": "nyheter",
-      "title": "Hovexperten: Harald är otroligt duktig på att träffa människor",
-      "summary": "Norges Kung Haralds tillstånd har försämrats och människor samlas vid slottet i Oslo och har redan nu börjat lämna blommor. Hovexperten Ebba Kleberg von Sydow förklarar vilken betydelse Harald har för det norska samhället.",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9285372",
-      "publishedAt": "2026-08-27T14:23:00+02:00",
-      "text": "Hovexperten: Harald är otroligt duktig på att träffa människor Ekot Norges Kung Haralds tillstånd har försämrats och människor samlas vid slottet i Oslo och har redan nu börjat lämna blommor. Hovexperten Ebba Kleberg von Sydow förklarar vilken betydelse Harald har för det norska samhället."
-    },
-    {
-      "id": "b1c09ede7f69",
-      "section": "nyheter",
-      "title": "Två nya mässlingsfall på Gotland",
-      "summary": "Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/ost/tva-nya-masslingsfall-pa-gotland",
-      "publishedAt": "2026-08-27T14:19:18+02:00",
-      "text": "Två nya mässlingsfall på Gotland SVT Ytterligare två fall av mässling har konstaterats på ön, uppger Region Gotland."
-    },
-    {
-      "id": "e0e0b2c6d198",
-      "section": "nyheter",
-      "title": "Börsnykomlingen rusar: ”Öppnar för notering av Voi”",
-      "summary": "Elsparkcykelbolaget Lime har rusat från 25 till drygt 43 dollar på Nasdaq sedan noteringen i början av juli. Det är goda nyheter för börsnoterade VNV Global, som har svenska branschkollegan Voi som näst största innehav, enligt analytikern Georg Attling på P...",
-      "source": "DI",
-      "link": "https://www.di.se/digital/borsnykomlingen-rusar-oppnar-for-notering-av-voi/",
-      "publishedAt": "2026-08-27T14:03:53+02:00",
-      "text": "Börsnykomlingen rusar: ”Öppnar för notering av Voi” DI Elsparkcykelbolaget Lime har rusat från 25 till drygt 43 dollar på Nasdaq sedan noteringen i början av juli. Det är goda nyheter för börsnoterade VNV Global, som har svenska branschkollegan Voi som näst största innehav, enligt analytikern Georg Attling på P..."
-    },
-    {
-      "id": "e61135d7fdb1",
-      "section": "nyheter",
-      "title": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige",
-      "summary": "I Hanna Nordenhöks roman har en förödande pandemi kommit och gått. En kvinna färdas för att bränna sin pappa på stranden.",
+      "title": "Insändare. Slå vakt om den svenska tilliten",
+      "summary": "INSÄNDARE. Vi behöver försvara gemensamma lagar och regler, men samtidigt bygga fler mötesplatser där människor faktiskt lär känna varandra. Om vi vill att Sverige även i framtiden ska vara ett samhälle där människor kan lita på varandra måste vi våga se pr...",
       "source": "DN",
-      "link": "https://www.dn.se/kultur/atmosfariskt-och-morkt-om-en-resa-genom-ett-tomt-och-odsligt-sverige/",
-      "publishedAt": "2026-08-27T14:00:00+02:00",
-      "text": "Atmosfäriskt och mörkt om en resa genom ett tomt och ödsligt Sverige DN I Hanna Nordenhöks roman har en förödande pandemi kommit och gått. En kvinna färdas för att bränna sin pappa på stranden."
+      "link": "https://www.dn.se/insandare/sla-vakt-om-den-svenska-tilliten/",
+      "publishedAt": "2026-10-09T11:03:33+02:00",
+      "text": "Insändare. Slå vakt om den svenska tilliten DN INSÄNDARE. Vi behöver försvara gemensamma lagar och regler, men samtidigt bygga fler mötesplatser där människor faktiskt lär känna varandra. Om vi vill att Sverige även i framtiden ska vara ett samhälle där människor kan lita på varandra måste vi våga se pr..."
     },
     {
-      "id": "8083851a600f",
+      "id": "9f1d491da6bc",
       "section": "nyheter",
-      "title": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan",
-      "summary": "Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…",
+      "title": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten",
+      "summary": "Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”.",
       "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/namninsamling-och-skolstrejk-mot-utvisningen-av-vaktmastaren-pa-latinskolan/",
-      "publishedAt": "2026-08-27T14:00:00+02:00",
-      "text": "Namninsamling och skolstrejk mot utvisningen av vaktmästaren på Latinskolan Sydsvenskan Mohammed Nour Oklah: ”Det är jag jätteglad och tacksam för,…"
+      "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
+      "publishedAt": "2026-10-09T11:00:00+02:00",
+      "text": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten Sydsvenskan Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”."
     },
     {
-      "id": "beb344f89df0",
+      "id": "3b894b8302f3",
       "section": "nyheter",
-      "title": "Socialdemokraterna på en minut",
-      "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+      "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
+      "summary": "Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä...",
       "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9281110",
-      "publishedAt": "2026-08-27T13:47:00+02:00",
-      "text": "Socialdemokraterna på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
+      "link": "https://www.sverigesradio.se/artikel/9316336",
+      "publishedAt": "2026-10-09T10:55:00+02:00",
+      "text": "Gabrielsson bjöd in Ådahl (C) till bastumöte Ekot Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä..."
     },
     {
-      "id": "7638d2b63f52",
+      "id": "154a1e65d5ea",
       "section": "nyheter",
-      "title": "Vänsterpartiet på en minut",
-      "summary": "Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och...",
+      "title": "Polisinsats vid internatskola – tre elever anhållna",
+      "summary": "Tre gymnasieelever har anhållits efter en planerad polisinsats vid internatskolan i Sigtuna i går kväll. Enligt åklagaren gäller misstanken allvarlig brottslighet. – Det pågår nu ett intensivt utredningsarbete, bland annat kommer ett flertal förhör att håll...",
+      "source": "DN",
+      "link": "https://www.dn.se/sverige/polisinsats-vid-internatskola-tre-elever-anhallna/",
+      "publishedAt": "2026-10-09T10:45:20+02:00",
+      "text": "Polisinsats vid internatskola – tre elever anhållna DN Tre gymnasieelever har anhållits efter en planerad polisinsats vid internatskolan i Sigtuna i går kväll. Enligt åklagaren gäller misstanken allvarlig brottslighet. – Det pågår nu ett intensivt utredningsarbete, bland annat kommer ett flertal förhör att håll..."
+    },
+    {
+      "id": "5077edca5eb9",
+      "section": "nyheter",
+      "title": "Uppgifter: Grovt sexuellt övergrepp utreds efter polisinsats på Sigtuna",
+      "summary": "Tre gymnasieelever i 18-årsåldern har anhållits efter en polisinsats på internatskolan Sigtunaskolan Humanistiska Läroverket. Enligt SVT:s uppgifter utreds grovt olaga tvång och grovt sexuellt övergrepp. – Det pågår nu ett intensivt utredningsarbete, säger...",
+      "source": "SVT",
+      "link": "https://www.svt.se/nyheter/lokalt/stockholm/uppgifter-grovt-sexuellt-overgrepp-utreds-pa-sigtuna",
+      "publishedAt": "2026-10-09T10:44:41+02:00",
+      "text": "Uppgifter: Grovt sexuellt övergrepp utreds efter polisinsats på Sigtuna SVT Tre gymnasieelever i 18-årsåldern har anhållits efter en polisinsats på internatskolan Sigtunaskolan Humanistiska Läroverket. Enligt SVT:s uppgifter utreds grovt olaga tvång och grovt sexuellt övergrepp. – Det pågår nu ett intensivt utredningsarbete, säger..."
+    },
+    {
+      "id": "e1f808a06d3f",
+      "section": "nyheter",
+      "title": "Författarförbundet varnar för skandalförlaget Lava – igen",
+      "summary": "Bookea Group, där Lava förlag ingår, befinner sig i företagsrekonstruktion. Därför varnar Författarförbundet nu än en gång författare från att ingå avtal med dem. Det skriver de i ett utskick till sina medlemmar som skickades ut under fredagen.",
+      "source": "SVT",
+      "link": "https://www.svt.se/kultur/forfattarforbundet-varnar-for-skandalforlaget-lava-igen",
+      "publishedAt": "2026-10-09T10:40:23+02:00",
+      "text": "Författarförbundet varnar för skandalförlaget Lava – igen SVT Bookea Group, där Lava förlag ingår, befinner sig i företagsrekonstruktion. Därför varnar Författarförbundet nu än en gång författare från att ingå avtal med dem. Det skriver de i ett utskick till sina medlemmar som skickades ut under fredagen."
+    },
+    {
+      "id": "518f847c580f",
+      "section": "nyheter",
+      "title": "Superlöftet Siri Benjegård inför EM-debuten: ”Då brukar jag spela bäst”",
+      "summary": "Hon är 15 år ung men har redan tagit pingisvärlden med storm. Nu väntar debut i senior-EM och matcher mot Europas elit. Något som Siri Benjegård inte räds. Tvärtom. – Då brukar jag spela som bäst, säger hon till SVT Sport.",
+      "source": "SVT",
+      "link": "https://www.svt.se/sport/bordtennis/superloftet-siri-benjegard-infor-em-debuten-da-brukar-jag-spela-bast",
+      "publishedAt": "2026-10-09T10:34:33+02:00",
+      "text": "Superlöftet Siri Benjegård inför EM-debuten: ”Då brukar jag spela bäst” SVT Hon är 15 år ung men har redan tagit pingisvärlden med storm. Nu väntar debut i senior-EM och matcher mot Europas elit. Något som Siri Benjegård inte räds. Tvärtom. – Då brukar jag spela som bäst, säger hon till SVT Sport."
+    },
+    {
+      "id": "321164eee194",
+      "section": "nyheter",
+      "title": "Barn misstänkt för skott mot villa i Malmö",
+      "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
+      "publishedAt": "2026-10-09T10:30:14+02:00",
+      "text": "Barn misstänkt för skott mot villa i Malmö Sydsvenskan En tonåring under femton sköt mot villan på Videdal – det…"
+    },
+    {
+      "id": "5dbd172a445c",
+      "section": "nyheter",
+      "title": "Varsel på HSB Malmö – så många kan få sluta",
+      "summary": "MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg.",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=c18aacf0-76ff-499e-8c64-07df43c454fb",
+      "publishedAt": "2026-10-09T10:23:06+02:00",
+      "text": "Varsel på HSB Malmö – så många kan få sluta Sydsvenskan MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg."
+    },
+    {
+      "id": "8c7ac64cf763",
+      "section": "nyheter",
+      "title": "Gissén: Inget tyder på att C kommer erkänna V",
+      "summary": "I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm.Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”.Enligt Ekots in...",
       "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9281080",
-      "publishedAt": "2026-08-27T13:47:00+02:00",
-      "text": "Vänsterpartiet på en minut Ekot Alla åtta riksdagspartier är nu ute och kampanjar för att få så många som möjligt att rösta på dem i valet den 13 september.I Ekot Radio Swedens serie ”Partierna på en minut” berättar vi kort om partiernas ideologi och historia, deras viktigaste frågor, och..."
+      "link": "https://www.sverigesradio.se/artikel/9316284",
+      "publishedAt": "2026-10-09T10:22:00+02:00",
+      "text": "Gissén: Inget tyder på att C kommer erkänna V Ekot I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm.Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”.Enligt Ekots in..."
     },
     {
-      "id": "dfcc076d377e",
+      "id": "996c9093aa77",
       "section": "nyheter",
-      "title": "Underhållande exposé om kontorets svenska historia",
-      "summary": "Har det blivit för stressigt, slimmat och anonymt på kontoren? Frågan väcks av Carl Cederströms medryckande kulturhistoria studie ”Kontoret”. Från pulpeter i dragiga mörka rum till dagens urbana kontorshubbar och coworking-platser.",
+      "title": "Expert efter intrången hos finska politiker: Mycket pekar mot Ryssland",
+      "summary": "Tiotals finländska riksdagsledamöter har drabbats av inbrott. Inget har stulits och blickarna riktas österut. På torsdagen kallades ledamöterna till ett hemligt möte. – Vi kommer inte att få något rykande vapen som visar att Putin själv beordrade operatione...",
       "source": "DN",
-      "link": "https://www.dn.se/kultur/underhallande-expose-om-kontorets-svenska-historia/",
-      "publishedAt": "2026-08-27T13:42:41+02:00",
-      "text": "Underhållande exposé om kontorets svenska historia DN Har det blivit för stressigt, slimmat och anonymt på kontoren? Frågan väcks av Carl Cederströms medryckande kulturhistoria studie ”Kontoret”. Från pulpeter i dragiga mörka rum till dagens urbana kontorshubbar och coworking-platser."
+      "link": "https://www.dn.se/varlden/expert-efter-intrangen-hos-finska-politiker-mycket-pekar-mot-ryssland/",
+      "publishedAt": "2026-10-09T10:04:12+02:00",
+      "text": "Expert efter intrången hos finska politiker: Mycket pekar mot Ryssland DN Tiotals finländska riksdagsledamöter har drabbats av inbrott. Inget har stulits och blickarna riktas österut. På torsdagen kallades ledamöterna till ett hemligt möte. – Vi kommer inte att få något rykande vapen som visar att Putin själv beordrade operatione..."
     },
     {
-      "id": "3fb2e53075c7",
+      "id": "7d8cd809944b",
       "section": "nyheter",
-      "title": "Tomas Ramberg: Inte konstigt att Andersson knorrar",
-      "summary": "Magdalena Andersson riskerar att backa i valet. Hon sitter i en klassisk knipa. Många traditionella S-väljare tycker att hon gått för långt högerut och väljer V och MP i stället. Därför är det Centern som blir Anderssons stora huvudvärk i höst.",
+      "title": "Sagor \u0026 Swings hela register ryms på duons sista skiva ”Rymdsonden”",
+      "summary": "Sagor \u0026 Swings sista album är ett nördarnas projekt från början till slut. På ”Rymdsonden” samsad det skogiga och psykedeliska med ett sista, egensinnigt egensinnigt äventyr, skriver DN:s Po Tidholm.",
       "source": "DN",
-      "link": "https://www.dn.se/sverige/tomas-ramberg-inte-konstigt-att-andersson-knorrar/",
-      "publishedAt": "2026-08-27T13:41:58+02:00",
-      "text": "Tomas Ramberg: Inte konstigt att Andersson knorrar DN Magdalena Andersson riskerar att backa i valet. Hon sitter i en klassisk knipa. Många traditionella S-väljare tycker att hon gått för långt högerut och väljer V och MP i stället. Därför är det Centern som blir Anderssons stora huvudvärk i höst."
+      "link": "https://www.dn.se/kultur/sagor-swings-hela-register-ryms-pa-duons-sista-skiva-rymdsonden/",
+      "publishedAt": "2026-10-09T10:00:00+02:00",
+      "text": "Sagor \u0026 Swings hela register ryms på duons sista skiva ”Rymdsonden” DN Sagor \u0026 Swings sista album är ett nördarnas projekt från början till slut. På ”Rymdsonden” samsad det skogiga och psykedeliska med ett sista, egensinnigt egensinnigt äventyr, skriver DN:s Po Tidholm."
     },
     {
-      "id": "bc0d126df5f9",
+      "id": "41427eeeaa93",
       "section": "nyheter",
-      "title": "1 500 kronor och en Raspberry Pi senare – nu har familjen en e-ink-dashboard",
-      "summary": "En Raspberry Pi Zero, en e-ink-skärm och lite ai-hjälp. För 1 500 kronor byggdes familjens nya användbara minimalistiska skärm.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/kroenikor/1-500-kronor-och-en-raspberry-pi-senare-nu-har-familjen-en-e-ink-dashboard/4487700",
-      "publishedAt": "2026-08-27T12:01:00+02:00",
-      "text": "1 500 kronor och en Raspberry Pi senare – nu har familjen en e-ink-dashboard NyTeknik En Raspberry Pi Zero, en e-ink-skärm och lite ai-hjälp. För 1 500 kronor byggdes familjens nya användbara minimalistiska skärm."
+      "title": "Experten inför rödgröna partiernas möte: ”Pressen behövs”",
+      "summary": "Mötet i dag där de rödgröna partierna samlas, på initiativ av Centerpartiet, kan bli en möjlighet till omstart. Den bedömningen gör Lars-Johan Åge, professor i förhandling och medling vid högskolan i Gävle.”Problemet har ju varit de här röda linjerna, som h...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316199",
+      "publishedAt": "2026-10-09T09:11:00+02:00",
+      "text": "Experten inför rödgröna partiernas möte: ”Pressen behövs” Ekot Mötet i dag där de rödgröna partierna samlas, på initiativ av Centerpartiet, kan bli en möjlighet till omstart. Den bedömningen gör Lars-Johan Åge, professor i förhandling och medling vid högskolan i Gävle.”Problemet har ju varit de här röda linjerna, som h..."
     },
     {
-      "id": "98a86cb27f90",
+      "id": "6a3812d2fd99",
       "section": "nyheter",
-      "title": "Sydsvenskan bjuder in till valdebatt: ”Malmös politiker är ganska slagfärdiga”",
-      "summary": "Den 3 september drabbar de lokala partiföreträdarna samman…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/malmo/sydsvenskan-bjuder-in-till-valdebatt-malmos-politiker-ar-ganska-slagfardiga/",
-      "publishedAt": "2026-08-27T11:53:00+02:00",
-      "text": "Sydsvenskan bjuder in till valdebatt: ”Malmös politiker är ganska slagfärdiga” Sydsvenskan Den 3 september drabbar de lokala partiföreträdarna samman…"
-    },
-    {
-      "id": "2f7a0339900c",
-      "section": "nyheter",
-      "title": "Då visar Apple upp nya telefoner – och vikbara ”Iphone Ultra”?",
-      "summary": "Världens näst största mobiltillverkare bjuder in till lanseringsfest i september. Den stora frågan är om Apple till slut ska presentera sin första Iphone med vikbar skärm – flera år efter konkurrenterna.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/tech/da-visar-apple-upp-nya-telefoner-och-vikbara-iphone-ultra/4489235",
-      "publishedAt": "2026-08-27T11:24:57+02:00",
-      "text": "Då visar Apple upp nya telefoner – och vikbara ”Iphone Ultra”? NyTeknik Världens näst största mobiltillverkare bjuder in till lanseringsfest i september. Den stora frågan är om Apple till slut ska presentera sin första Iphone med vikbar skärm – flera år efter konkurrenterna."
-    },
-    {
-      "id": "ee0bb761c245",
-      "section": "nyheter",
-      "title": "VA-arbete stänger en av Limhamns större gator",
-      "summary": "Arbetet pågår 1–4 september.",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=455070cc-547c-43c6-9f0b-a8396f83849f",
-      "publishedAt": "2026-08-27T11:12:21+02:00",
-      "text": "VA-arbete stänger en av Limhamns större gator Sydsvenskan Arbetet pågår 1–4 september."
-    },
-    {
-      "id": "40a77ac314ad",
-      "section": "nyheter",
-      "title": "Sveriges första barnstadsdel börjar ta form i Malmö",
-      "summary": "I helgen firas starten för Barnstadsdel Norra Sofielund med invigning och gatufest. Det är början på ett flerårigt arbete där Malmö stad tillsammans med barn, boende och verksamheter ska utveckla området med barns vardag som utgångspunkt.",
-      "source": "Malmö",
-      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-27-Sveriges-forsta-barnstadsdel-borjar-ta-form-i-Malmo.html",
-      "publishedAt": "2026-08-27T11:02:41+02:00",
-      "text": "Sveriges första barnstadsdel börjar ta form i Malmö Malmö I helgen firas starten för Barnstadsdel Norra Sofielund med invigning och gatufest. Det är början på ett flerårigt arbete där Malmö stad tillsammans med barn, boende och verksamheter ska utveckla området med barns vardag som utgångspunkt."
-    },
-    {
-      "id": "d893a51e50a3",
-      "section": "nyheter",
-      "title": "Börskandidaten delar ut 70 miljoner: ”Fantastiskt”",
-      "summary": "Bure- och Creades-bolaget Mentimeter gör sin första utdelning någonsin. Totalt får aktieägarna dela på 70 miljoner kronor, rapporterar Di:s systertidning Breakit. ”Det visar verkligen att vi blivit ett moget och vuxet bolag”, säger medgrundaren Johnny Warst...",
-      "source": "DI",
-      "link": "https://www.di.se/digital/borskandidaten-delar-ut-70-miljoner-fantastiskt/",
-      "publishedAt": "2026-08-27T10:52:06+02:00",
-      "text": "Börskandidaten delar ut 70 miljoner: ”Fantastiskt” DI Bure- och Creades-bolaget Mentimeter gör sin första utdelning någonsin. Totalt får aktieägarna dela på 70 miljoner kronor, rapporterar Di:s systertidning Breakit. ”Det visar verkligen att vi blivit ett moget och vuxet bolag”, säger medgrundaren Johnny Warst..."
-    },
-    {
-      "id": "878a044a1d06",
-      "section": "nyheter",
-      "title": "Kraftverk stängdes efter möjligt iranskt cyberangrepp",
-      "summary": "Hackare med kopplingar till Iran anklagas för att ha genomfört ett cyberangrepp som stängde ett brittiskt kraftverk i flera dagar.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/energi/brittiskt-kraftverk-staengdes-efter-moejligt-iranskt-cyberangrepp/4488227",
-      "publishedAt": "2026-08-27T10:20:00+02:00",
-      "text": "Kraftverk stängdes efter möjligt iranskt cyberangrepp NyTeknik Hackare med kopplingar till Iran anklagas för att ha genomfört ett cyberangrepp som stängde ett brittiskt kraftverk i flera dagar."
-    },
-    {
-      "id": "11ec2a1e0aa2",
-      "section": "nyheter",
-      "title": "Kamerabevakning med drönare i Kristianstad",
-      "summary": "Polisen kommer att kamerabevaka med hjälp av drönare i Kristianstad under Trädgården festival från och med den",
-      "source": "Polisen",
-      "link": "https://polisen.se/aktuellt/nyheter/syd/2026/augusti/kamerabevakning-med-dronare-kristianstad/",
-      "publishedAt": "2026-08-27T09:52:59+02:00",
-      "text": "Kamerabevakning med drönare i Kristianstad Polisen Polisen kommer att kamerabevaka med hjälp av drönare i Kristianstad under Trädgården festival från och med den"
-    },
-    {
-      "id": "aca2121d3fc8",
-      "section": "nyheter",
-      "title": "Tone Schunnesson till ny ung litteraturscen på Stadsbiblioteket",
-      "summary": "Litteratur live är en ny programserie med författarsamtal för unga vuxna. I höst får publiken möta tre aktuella författare – Tone Schunnesson, Siri Lidbeck och Anika Hussain.",
-      "source": "Malmö",
-      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-27-Tone-Schunnesson-till-ny-ung-litteraturscen-pa-Stadsbiblioteket.html",
-      "publishedAt": "2026-08-27T08:00:00+02:00",
-      "text": "Tone Schunnesson till ny ung litteraturscen på Stadsbiblioteket Malmö Litteratur live är en ny programserie med författarsamtal för unga vuxna. I höst får publiken möta tre aktuella författare – Tone Schunnesson, Siri Lidbeck och Anika Hussain."
-    },
-    {
-      "id": "70fd63298c4f",
-      "section": "nyheter",
-      "title": "Här bygger Volvo bort lastbilens förare: ”Varje sekund kostar”",
-      "summary": "I anrika fabriken tillverkas nu Volvos förarlösa lastbilar. ”Resan har egentligen bara börjat.”",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/fordon/haer-foeds-volvos-foerarloesa-framtid-i-en-oever-100-ar-gammal-bussfabrik/4488724",
-      "publishedAt": "2026-08-27T06:00:00+02:00",
-      "text": "Här bygger Volvo bort lastbilens förare: ”Varje sekund kostar” NyTeknik I anrika fabriken tillverkas nu Volvos förarlösa lastbilar. ”Resan har egentligen bara börjat.”"
-    },
-    {
-      "id": "24154e684c96",
-      "section": "nyheter",
-      "title": "Teslas huvudvärk – Robottaxi tappar bort passagerare och kör på villovägar",
-      "summary": "Över en timmes körning för en halvmils resa – och passagerare som släpps av flera kilometer från målet.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/elbilar/teslas-huvudvaerk-robottaxi-tappar-bort-passagerare-och-koer-pa-villovaegar/4488327",
-      "publishedAt": "2026-08-26T15:45:59+02:00",
-      "text": "Teslas huvudvärk – Robottaxi tappar bort passagerare och kör på villovägar NyTeknik Över en timmes körning för en halvmils resa – och passagerare som släpps av flera kilometer från målet."
-    },
-    {
-      "id": "6ea7928e8a1c",
-      "section": "nyheter",
-      "title": "Senior DIP Developer",
-      "summary": "About the CompanyAt Avaron, you get the security of permanent employment combined with the variety of working at different customers. We place specialists across everything from tech, IT and industry to project management and business support – and whatever...",
+      "title": "Lund: Systemutvecklare Affärssystem Hybrid",
+      "summary": "Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin...",
       "source": "WebbJobbLund",
-      "link": "https://webbjobb.io/jobb/345338/senior-dip-developer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-      "publishedAt": "2026-08-26T15:13:43+02:00",
-      "text": "Senior DIP Developer WebbJobbLund About the CompanyAt Avaron, you get the security of permanent employment combined with the variety of working at different customers. We place specialists across everything from tech, IT and industry to project management and business support – and whatever..."
+      "link": "https://webbjobb.io/jobb/348335/lund-systemutvecklare-affarssystem-hybrid?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+      "publishedAt": "2026-10-09T08:05:50+02:00",
+      "text": "Lund: Systemutvecklare Affärssystem Hybrid WebbJobbLund Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin..."
     },
     {
-      "id": "d8afb6902ad6",
+      "id": "ca54790315d4",
       "section": "nyheter",
-      "title": "Verification Engineer",
-      "summary": "Are you passionate about digital hardware verification? This is a fantastic opportunity to move into a team developing hardware to support Machine Learning and Artificial Intelligence, key technologies for the future of computing.Working on the cutting edge...",
-      "source": "WebbJobbLund",
-      "link": "https://webbjobb.io/jobb/345341/verification-engineer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-      "publishedAt": "2026-08-26T14:55:15+02:00",
-      "text": "Verification Engineer WebbJobbLund Are you passionate about digital hardware verification? This is a fantastic opportunity to move into a team developing hardware to support Machine Learning and Artificial Intelligence, key technologies for the future of computing.Working on the cutting edge..."
-    },
-    {
-      "id": "05e25a55a073",
-      "section": "nyheter",
-      "title": "Einride-grundarna på väg att ta in 400 miljoner",
-      "summary": "Einride-grundaren Robert Falck fick tidvis kämpa för att få in kapital till sin skapelse. Nu vill han hjälpa andra i samma sits genom att börja investera i tekniktunga bolag genom Norrsken-inspirerade Navisalma. ”Vi siktar på att stänga en runda över 400 mi...",
-      "source": "DI",
-      "link": "https://www.di.se/digital/einride-grundarna-pa-vag-att-ta-in-400-miljoner/",
-      "publishedAt": "2026-08-26T13:08:01+02:00",
-      "text": "Einride-grundarna på väg att ta in 400 miljoner DI Einride-grundaren Robert Falck fick tidvis kämpa för att få in kapital till sin skapelse. Nu vill han hjälpa andra i samma sits genom att börja investera i tekniktunga bolag genom Norrsken-inspirerade Navisalma. ”Vi siktar på att stänga en runda över 400 mi..."
-    },
-    {
-      "id": "b9eb7b8a3124",
-      "section": "nyheter",
-      "title": "IKONER bjuder in till samtal om identitet och inkludering",
-      "summary": "Hur ser en ikon ut? Vem får ta plats i historien – och i vår samtid? Mellan den 29 augusti och 25 september visas Ikoner – en utställning om att få finnas i Stenladan på Torup.",
-      "source": "Malmö",
-      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-26-IKONER-bjuder-in-till-samtal-om-identitet-och-inkludering.html",
-      "publishedAt": "2026-08-26T12:50:15+02:00",
-      "text": "IKONER bjuder in till samtal om identitet och inkludering Malmö Hur ser en ikon ut? Vem får ta plats i historien – och i vår samtid? Mellan den 29 augusti och 25 september visas Ikoner – en utställning om att få finnas i Stenladan på Torup."
-    },
-    {
-      "id": "7c161bf4fc0c",
-      "section": "nyheter",
-      "title": "Alexander Ernstbergers nya satsning – ska ge unga karriärråd",
-      "summary": "Ekobrottsdömda Alexander Ernstberg är ansiktet utåt för satsningen Gritch. Genom appen ska unga bland annat sälja elavtal – och får genom det tillgång till kurser och råd. “Bara för att det är gratis så betyder det inte att man får tillgång till allting dir...",
-      "source": "DI",
-      "link": "https://www.di.se/digital/alexander-ernstbergers-nya-satsning-ska-ge-unga-karriarrad/",
-      "publishedAt": "2026-08-26T12:36:36+02:00",
-      "text": "Alexander Ernstbergers nya satsning – ska ge unga karriärråd DI Ekobrottsdömda Alexander Ernstberg är ansiktet utåt för satsningen Gritch. Genom appen ska unga bland annat sälja elavtal – och får genom det tillgång till kurser och råd. “Bara för att det är gratis så betyder det inte att man får tillgång till allting dir..."
-    },
-    {
-      "id": "06a2f5ebf60e",
-      "section": "nyheter",
-      "title": "Meta redo göra upp i jättemål – rekordböter hotar",
-      "summary": "Facebookägaren Meta Platforms har tillsammans med distriktsåklagare diskuterat en eventuell uppgörelse i det mål där bolagets anklagas för att ha utformat tjänster för att vara beroendeframkallande för barn och unga. Det skriver Bloomberg News med hänvisnin...",
-      "source": "DI",
-      "link": "https://www.di.se/digital/meta-redo-gora-upp-i-jattemal-rekordboter-hotar/",
-      "publishedAt": "2026-08-26T11:20:19+02:00",
-      "text": "Meta redo göra upp i jättemål – rekordböter hotar DI Facebookägaren Meta Platforms har tillsammans med distriktsåklagare diskuterat en eventuell uppgörelse i det mål där bolagets anklagas för att ha utformat tjänster för att vara beroendeframkallande för barn och unga. Det skriver Bloomberg News med hänvisnin..."
-    },
-    {
-      "id": "68c5e10e8e00",
-      "section": "nyheter",
-      "title": "Malmö stad rustar för ett tryggt och tillgängligt val​",
-      "summary": "Den 26 augusti startar förtidsröstningen i årets allmänna val. Malmö stad arbetar för att alla Malmöbor med rösträtt ska kunna rösta säkert och med förtroende för valprocessen.",
-      "source": "Malmö",
-      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-25-Malmo-stad-rustar-for-ett-tryggt-och-tillgangligt-val​.html",
-      "publishedAt": "2026-08-25T15:43:31+02:00",
-      "text": "Malmö stad rustar för ett tryggt och tillgängligt val​ Malmö Den 26 augusti startar förtidsröstningen i årets allmänna val. Malmö stad arbetar för att alla Malmöbor med rösträtt ska kunna rösta säkert och med förtroende för valprocessen."
-    },
-    {
-      "id": "b85dff48a693",
-      "section": "nyheter",
-      "title": "Direktsändning från kommunfullmäktige",
-      "summary": "Kommunfullmäktiges sammanträde torsdag 27 augusti direktsänds på malmo.se.",
-      "source": "Malmö",
-      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-08-25-Direktsandning-fran-kommunfullmaktige.html",
-      "publishedAt": "2026-08-25T15:25:56+02:00",
-      "text": "Direktsändning från kommunfullmäktige Malmö Kommunfullmäktiges sammanträde torsdag 27 augusti direktsänds på malmo.se."
-    },
-    {
-      "id": "55bfe7e93f90",
-      "section": "nyheter",
-      "title": "QA Automation Engineer to Oplane",
-      "summary": "The StoryWith AI tools accelerating how software is built, code is being shipped faster than ever before. This acceleration comes with a major catch, being architectural and security risks are accumulating just as fast.That’s where Oplane, a Malmö based tec...",
+      "title": "Malmö: Systemutvecklare Affärssystem Hybrid",
+      "summary": "Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin...",
       "source": "WebbJobbMalmö",
-      "link": "https://webbjobb.io/jobb/345252/qa-automation-engineer-to-oplane?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
-      "publishedAt": "2026-08-25T14:50:27+02:00",
-      "text": "QA Automation Engineer to Oplane WebbJobbMalmö The StoryWith AI tools accelerating how software is built, code is being shipped faster than ever before. This acceleration comes with a major catch, being architectural and security risks are accumulating just as fast.That’s where Oplane, a Malmö based tec..."
+      "link": "https://webbjobb.io/jobb/348337/malmo-systemutvecklare-affarssystem-hybrid?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
+      "publishedAt": "2026-10-09T08:01:47+02:00",
+      "text": "Malmö: Systemutvecklare Affärssystem Hybrid WebbJobbMalmö Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin..."
     },
     {
-      "id": "2fabe2a03b62",
+      "id": "c849fcc9d0c4",
       "section": "nyheter",
-      "title": "Experienced Backend System Developer, Lund",
-      "summary": "Do you want to build backend services that make a real difference for users around the world? We are looking for an Experienced Backend System Developer to join our User Services team in Lund, Sweden - a role where you will develop, maintain and evolve the...",
+      "title": "Nya regler för ordningen på Malmös offentliga platser",
+      "summary": "Malmös lokala ordningsföreskrifter har uppdaterats. Bland annat har de blivit lättare att förstå och att veta var de gäller. Några av reglerna som påverkas är fyrverkerier, camping och fiske.",
+      "source": "Malmö",
+      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-09-Nya-regler-for-ordningen-pa-Malmos-offentliga-platser.html",
+      "publishedAt": "2026-10-09T08:00:00+02:00",
+      "text": "Nya regler för ordningen på Malmös offentliga platser Malmö Malmös lokala ordningsföreskrifter har uppdaterats. Bland annat har de blivit lättare att förstå och att veta var de gäller. Några av reglerna som påverkas är fyrverkerier, camping och fiske."
+    },
+    {
+      "id": "9ff0ed083f28",
+      "section": "nyheter",
+      "title": "Här får gamla rotorblad nytt liv – blir väggar och bullerplank",
+      "summary": "Allt fler rotorblad ska tas om hand. Nu går branschen samman för att ge dem nytt liv: ”Det behövs nya storskaliga lösningar”.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/energi/haer-far-gamla-rotorblad-nytt-liv-blir-vaeggar-och-bullerplank/4502405",
+      "publishedAt": "2026-10-09T06:00:00+02:00",
+      "text": "Här får gamla rotorblad nytt liv – blir väggar och bullerplank NyTeknik Allt fler rotorblad ska tas om hand. Nu går branschen samman för att ge dem nytt liv: ”Det behövs nya storskaliga lösningar”."
+    },
+    {
+      "id": "f9eb02f56338",
+      "section": "nyheter",
+      "title": "Frontendutvecklare till vår kund i Lund!",
+      "summary": "Följ med vår kund på en spännande resa där du utvecklar moderna molnlösningar för fastighetsoptimering globalt. Här blir du en del av ett sammansvetsat, agilt team som formar framtidens digitala användarupplevelser med ny teknik.Om tjänstenSom frontendutvec...",
       "source": "WebbJobbLund",
-      "link": "https://webbjobb.io/jobb/345223/experienced-backend-system-developer-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-      "publishedAt": "2026-08-25T10:45:23+02:00",
-      "text": "Experienced Backend System Developer, Lund WebbJobbLund Do you want to build backend services that make a real difference for users around the world? We are looking for an Experienced Backend System Developer to join our User Services team in Lund, Sweden - a role where you will develop, maintain and evolve the..."
+      "link": "https://webbjobb.io/jobb/348326/frontendutvecklare-till-var-kund-i-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+      "publishedAt": "2026-10-08T19:06:09+02:00",
+      "text": "Frontendutvecklare till vår kund i Lund! WebbJobbLund Följ med vår kund på en spännande resa där du utvecklar moderna molnlösningar för fastighetsoptimering globalt. Här blir du en del av ett sammansvetsat, agilt team som formar framtidens digitala användarupplevelser med ny teknik.Om tjänstenSom frontendutvec..."
     },
     {
-      "id": "5126cf25d37b",
+      "id": "d3345060858d",
       "section": "nyheter",
-      "title": "Tre decennier med trygghetsundersökningar",
-      "summary": "I trettio år har polisen och kommunerna i region Syd genomfört trygghetsundersökningar. För att sammanfatta al",
-      "source": "Polisen",
-      "link": "https://polisen.se/aktuellt/nyheter/syd/2026/augusti/tre-decennier-med-trygghetsundersokningar/",
-      "publishedAt": "2026-08-25T08:27:26+02:00",
-      "text": "Tre decennier med trygghetsundersökningar Polisen I trettio år har polisen och kommunerna i region Syd genomfört trygghetsundersökningar. För att sammanfatta al"
+      "title": "Årtionden av svåra matteproblem har lösts av AI – på bara några timmar",
+      "summary": "Matematiker talar om ett historiskt genombrott. Andra uppmanar nu till bojkott av Open AI.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/tech/artionden-av-svara-matteproblem-har-loests-av-ai-pa-bara-nagra-timmar/4502725",
+      "publishedAt": "2026-10-08T18:30:00+02:00",
+      "text": "Årtionden av svåra matteproblem har lösts av AI – på bara några timmar NyTeknik Matematiker talar om ett historiskt genombrott. Andra uppmanar nu till bojkott av Open AI."
+    },
+    {
+      "id": "f6e300c900c4",
+      "section": "nyheter",
+      "title": "Backend Developer med expertis inom databaser till Lund!",
+      "summary": "Vår kund utvecklar banbrytande molntjänster för smarta fastigheter globalt. Här får du chansen att optimera storskalig data som gör verklig skillnad för fastigheters prestanda.Om tjänstenSom backend-utvecklare hos vår kund blir du en nyckelspelare i att des...",
+      "source": "WebbJobbLund",
+      "link": "https://webbjobb.io/jobb/348312/backend-developer-med-expertis-inom-databaser-till-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+      "publishedAt": "2026-10-08T16:41:07+02:00",
+      "text": "Backend Developer med expertis inom databaser till Lund! WebbJobbLund Vår kund utvecklar banbrytande molntjänster för smarta fastigheter globalt. Här får du chansen att optimera storskalig data som gör verklig skillnad för fastigheters prestanda.Om tjänstenSom backend-utvecklare hos vår kund blir du en nyckelspelare i att des..."
+    },
+    {
+      "id": "dfb626f7dd76",
+      "section": "nyheter",
+      "title": "Vikariat PIM- \u0026 E-handelsredaktör",
+      "summary": "Granngården hjälper dig med allt som rör odling, djur och natur. Hos oss hittar du pålitliga produkter och tjänster, kloka råd och massor av inspiration – så att du ska få de bästa förutsättningarna för att kunna leva ett jordnära liv. Granngården har stött...",
+      "source": "WebbJobbMalmö",
+      "link": "https://webbjobb.io/jobb/348306/vikariat-pim-e-handelsredaktor?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
+      "publishedAt": "2026-10-08T15:30:01+02:00",
+      "text": "Vikariat PIM- \u0026 E-handelsredaktör WebbJobbMalmö Granngården hjälper dig med allt som rör odling, djur och natur. Hos oss hittar du pålitliga produkter och tjänster, kloka råd och massor av inspiration – så att du ska få de bästa förutsättningarna för att kunna leva ett jordnära liv. Granngården har stött..."
+    },
+    {
+      "id": "3a893609070b",
+      "section": "nyheter",
+      "title": "Först i världen: Norge vill förbjuda ”kränkarbrillor” på flera platser",
+      "summary": "Den norska regeringen har tappat tålamodet. Skolor, stränder och köpcentrum pekas ut när landet vill stoppa smygfilmning med AI-glasögon.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/tech/norge-pa-vaeg-att-foerbjuda-ai-glasoegon-pa-offentliga-platser/4501739",
+      "publishedAt": "2026-10-08T14:06:15+02:00",
+      "text": "Först i världen: Norge vill förbjuda ”kränkarbrillor” på flera platser NyTeknik Den norska regeringen har tappat tålamodet. Skolor, stränder och köpcentrum pekas ut när landet vill stoppa smygfilmning med AI-glasögon."
+    },
+    {
+      "id": "60ed8f50d3c2",
+      "section": "nyheter",
+      "title": "IAM/IGA specialist",
+      "summary": "UppdragsbeskrivningFör Region Skånes räkning söker vi efter en resurs som ska förstärka deras projekt för införande av en ny Identity and Access Management (IAM)-plattform baserad på SailPoint IdentityIQ (IIQ). Uppdraget omfattar analys, design, implementat...",
+      "source": "WebbJobbLund",
+      "link": "https://webbjobb.io/jobb/348273/iam-iga-specialist?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
+      "publishedAt": "2026-10-08T12:31:20+02:00",
+      "text": "IAM/IGA specialist WebbJobbLund UppdragsbeskrivningFör Region Skånes räkning söker vi efter en resurs som ska förstärka deras projekt för införande av en ny Identity and Access Management (IAM)-plattform baserad på SailPoint IdentityIQ (IIQ). Uppdraget omfattar analys, design, implementat..."
+    },
+    {
+      "id": "6d2ac3189df5",
+      "section": "nyheter",
+      "title": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt”",
+      "summary": "Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/tech/polisen-utreder-googles-ai-datacenter-i-finland-allvarligt/4502415",
+      "publishedAt": "2026-10-08T11:17:16+02:00",
+      "text": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt” NyTeknik Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området."
+    },
+    {
+      "id": "b0cf54d98324",
+      "section": "nyheter",
+      "title": "Honda satsar på elväg – Sverige har lagt ned sitt projekt",
+      "summary": "Upp till 150 kW i farten. Honda testar elvägen som ska klara tung trafik.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/elbilar/honda-testar-ny-elvaeg-sa-skiljer-sig-tekniken-fran-svenska-satsningen/4501901",
+      "publishedAt": "2026-10-08T09:48:41+02:00",
+      "text": "Honda satsar på elväg – Sverige har lagt ned sitt projekt NyTeknik Upp till 150 kW i farten. Honda testar elvägen som ska klara tung trafik."
+    },
+    {
+      "id": "2ff0954ff0a2",
+      "section": "nyheter",
+      "title": "Stöd efter den allvarliga händelsen på Bellevuegården",
+      "summary": "Efter det grova våldsbrottet på Bellevuegården finns Malmö stad och andra aktörer på plats för att ge stöd. Händelsen kan väcka oro och starka känslor, och det finns hjälp att få för den som behöver.",
+      "source": "Malmö",
+      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-08-Stod-efter-den-allvarliga-handelsen-pa-Bellevuegarden.html",
+      "publishedAt": "2026-10-08T08:39:11+02:00",
+      "text": "Stöd efter den allvarliga händelsen på Bellevuegården Malmö Efter det grova våldsbrottet på Bellevuegården finns Malmö stad och andra aktörer på plats för att ge stöd. Händelsen kan väcka oro och starka känslor, och det finns hjälp att få för den som behöver."
+    },
+    {
+      "id": "1054d408b89b",
+      "section": "nyheter",
+      "title": "Svensktalande Embedded Software Engineer",
+      "summary": "Svensktalande Embedded Software Engineer – flera konsultuppdrag i SkåneVi söker embedded software engineers till ett flertal spännande konsultuppdrag hos våra kunder i Skåne. Uppdragen spänner över branscher som försvar, fordonsutveckling, industriell autom...",
+      "source": "WebbJobbMalmö",
+      "link": "https://webbjobb.io/jobb/348188/svensktalande-embedded-software-engineer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
+      "publishedAt": "2026-10-07T10:35:50+02:00",
+      "text": "Svensktalande Embedded Software Engineer WebbJobbMalmö Svensktalande Embedded Software Engineer – flera konsultuppdrag i SkåneVi söker embedded software engineers till ett flertal spännande konsultuppdrag hos våra kunder i Skåne. Uppdragen spänner över branscher som försvar, fordonsutveckling, industriell autom..."
+    },
+    {
+      "id": "dac4a0614ed5",
+      "section": "nyheter",
+      "title": "Valnötsfestivalen i Torup blir en hösthelg för hela familjen",
+      "summary": "Den 10–11 oktober 2026 fylls Torup med smaker, hantverk, musik och aktiviteter när Valnötsfestivalen återvänder. Upptäck lokala producenter, prova nya smaker, träffa Valle Valnöt och ta del av ett fullspäckat program för både stora och små.",
+      "source": "Malmö",
+      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-07-Valnotsfestivalen-i-Torup-blir-en-hosthelg-for-hela-familjen.html",
+      "publishedAt": "2026-10-07T09:00:01+02:00",
+      "text": "Valnötsfestivalen i Torup blir en hösthelg för hela familjen Malmö Den 10–11 oktober 2026 fylls Torup med smaker, hantverk, musik och aktiviteter när Valnötsfestivalen återvänder. Upptäck lokala producenter, prova nya smaker, träffa Valle Valnöt och ta del av ett fullspäckat program för både stora och små."
+    },
+    {
+      "id": "bd06dcba044b",
+      "section": "nyheter",
+      "title": "Förbjuden kulturvecka invigs med musik, poesi och dans",
+      "summary": "Den 12 oktober invigs Förbjuden kulturvecka på Malmö konstmuseum i Kungsparken. Välkommen till en kväll med musik, poesi, dans och samtal om vad som står på spel när kulturarv hotas.",
+      "source": "Malmö",
+      "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-07-Forbjuden-kulturvecka-invigs-med-musik-poesi-och-dans.html",
+      "publishedAt": "2026-10-07T07:00:00+02:00",
+      "text": "Förbjuden kulturvecka invigs med musik, poesi och dans Malmö Den 12 oktober invigs Förbjuden kulturvecka på Malmö konstmuseum i Kungsparken. Välkommen till en kväll med musik, poesi, dans och samtal om vad som står på spel när kulturarv hotas."
     }
   ]
 }

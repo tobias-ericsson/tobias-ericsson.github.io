@@ -48,12 +48,22 @@ function applyPageBrand() {
   }
 }
 
+// Pages can hand the sidebar a sub-navigation (e.g. the Links tabs) by marking
+// an element with data-subnav; it is moved in right below the active nav link.
+function mountSubnav() {
+  const subnav = document.querySelector("main [data-subnav]");
+  if (!subnav) return;
+  subnav.classList.add("site-subnav");
+  const anchor = document.querySelector(".site-nav-link.is-active");
+  if (anchor) anchor.after(subnav);
+  else document.querySelector(".site-nav")?.append(subnav);
+}
+
 window.addEventListener("DOMContentLoaded", async () => {
-  await Promise.all([
-    include("#site-header", "header.html"),
-    include("#site-footer", "footer.html"),
-  ]);
+  await include("#site-header", "header.html");
+  await include("[data-site-footer]", "footer.html");
 
   markActiveNav();
   applyPageBrand();
+  mountSubnav();
 });
