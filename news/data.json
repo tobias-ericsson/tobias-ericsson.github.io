@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:55:06+02:00",
+  "generatedAt": "2026-10-09T13:57:09+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,15 @@
           "publishedAt": "2026-10-09T13:51:35+02:00"
         },
         {
+          "id": "d634801a8234",
+          "section": "nyheter",
+          "title": "Följ med till Luleås kreativa verkstad för människor i utanförskap",
+          "summary": "Nu startar Luleå kommun Krebo – en ny verksamhet med kreativa aktiviteter för människor med psykisk ohälsa och missbruksproblematik.",
+          "link": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-med-till-luleas-kreativa-verkstad-for-manniskor-i-utanforskap",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T13:50:39+02:00"
+        },
+        {
           "id": "b684da3af643",
           "section": "nyheter",
           "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
@@ -280,15 +289,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316431",
           "source": "Ekot",
           "publishedAt": "2026-10-09T12:02:00+02:00"
-        },
-        {
-          "id": "40543a8fcab3",
-          "section": "nyheter",
-          "title": "Victor Wembanyama stöttar studentprotesterna i Frankrike",
-          "summary": "NBA-stjärnan Victor Wembanyama tar nu ton gällande studentprotesterna hemma i Frankrike. – Jag hör dem, jag stöttar dem och hoppas alla människor där borta gör likadant, säger fransmannen på en presskonferens.",
-          "link": "https://www.svt.se/sport/basket/victor-wembanyama-stottar-studentprotesterna-i-frankrike",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T11:59:39+02:00"
         },
         {
           "id": "6cbe3e41a72e",
