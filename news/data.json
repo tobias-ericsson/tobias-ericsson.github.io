@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:45:15+02:00",
+  "generatedAt": "2026-10-09T11:47:24+02:00",
   "sections": [
     {
       "key": "news",
@@ -159,7 +159,7 @@
           "id": "885dc5246a33",
           "section": "nyheter",
           "title": "Insändare. Tre nycklar kan dyrka upp låsningen mellan C och V",
-          "summary": "INSÄNDARE. Om ett regeringsskifte ska bli verklighet måste Centerpartiet och Vänsterpartiet inleda ett konkret samarbete. Dessa partier behöver vara stolta över att behöva bita i det sura äpplet av komplexa kompromisser, skriver Rasmus Nertlinge.",
+          "summary": "INSÄNDARE. Om ett regeringsskifte ska bli verklighet måste både Centerpartiet och Vänsterpartiet ge och ta. Dessa partier behöver vara stolta över att behöva bita i det sura äpplet av komplexa kompromisser, skriver Rasmus Nertlinge.",
           "link": "https://www.dn.se/insandare/tre-nycklar-kan-dyrka-upp-lasningen-mellan-c-och-v/",
           "source": "DN",
           "publishedAt": "2026-10-09T11:38:41+02:00"
@@ -336,24 +336,6 @@
           "publishedAt": "2026-10-09T10:22:00+02:00"
         },
         {
-          "id": "6a3812d2fd99",
-          "section": "nyheter",
-          "title": "Lund: Systemutvecklare Affärssystem Hybrid",
-          "summary": "Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin...",
-          "link": "https://webbjobb.io/jobb/348335/lund-systemutvecklare-affarssystem-hybrid?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-          "source": "WebbJobbLund",
-          "publishedAt": "2026-10-09T08:05:50+02:00"
-        },
-        {
-          "id": "ca54790315d4",
-          "section": "nyheter",
-          "title": "Malmö: Systemutvecklare Affärssystem Hybrid",
-          "summary": "Vi arbetar sedan lång tid tillbaka med försäljning och implementation av ett marknadsledande affärssystem för företag runt om i Sverige. Om du är sugen på att arbeta i en kreativ miljö med positiva och kunniga kollegor som skapar smarta och effektiva lösnin...",
-          "link": "https://webbjobb.io/jobb/348337/malmo-systemutvecklare-affarssystem-hybrid?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
-          "source": "WebbJobbMalmö",
-          "publishedAt": "2026-10-09T08:01:47+02:00"
-        },
-        {
           "id": "c849fcc9d0c4",
           "section": "nyheter",
           "title": "Nya regler för ordningen på Malmös offentliga platser",
@@ -372,15 +354,6 @@
           "publishedAt": "2026-10-09T06:00:00+02:00"
         },
         {
-          "id": "f9eb02f56338",
-          "section": "nyheter",
-          "title": "Frontendutvecklare till vår kund i Lund!",
-          "summary": "Följ med vår kund på en spännande resa där du utvecklar moderna molnlösningar för fastighetsoptimering globalt. Här blir du en del av ett sammansvetsat, agilt team som formar framtidens digitala användarupplevelser med ny teknik.Om tjänstenSom frontendutvec...",
-          "link": "https://webbjobb.io/jobb/348326/frontendutvecklare-till-var-kund-i-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-          "source": "WebbJobbLund",
-          "publishedAt": "2026-10-08T19:06:09+02:00"
-        },
-        {
           "id": "d3345060858d",
           "section": "nyheter",
           "title": "Årtionden av svåra matteproblem har lösts av AI – på bara några timmar",
@@ -390,24 +363,6 @@
           "publishedAt": "2026-10-08T18:30:00+02:00"
         },
         {
-          "id": "f6e300c900c4",
-          "section": "nyheter",
-          "title": "Backend Developer med expertis inom databaser till Lund!",
-          "summary": "Vår kund utvecklar banbrytande molntjänster för smarta fastigheter globalt. Här får du chansen att optimera storskalig data som gör verklig skillnad för fastigheters prestanda.Om tjänstenSom backend-utvecklare hos vår kund blir du en nyckelspelare i att des...",
-          "link": "https://webbjobb.io/jobb/348312/backend-developer-med-expertis-inom-databaser-till-lund?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-          "source": "WebbJobbLund",
-          "publishedAt": "2026-10-08T16:41:07+02:00"
-        },
-        {
-          "id": "dfb626f7dd76",
-          "section": "nyheter",
-          "title": "Vikariat PIM- \u0026 E-handelsredaktör",
-          "summary": "Granngården hjälper dig med allt som rör odling, djur och natur. Hos oss hittar du pålitliga produkter och tjänster, kloka råd och massor av inspiration – så att du ska få de bästa förutsättningarna för att kunna leva ett jordnära liv. Granngården har stött...",
-          "link": "https://webbjobb.io/jobb/348306/vikariat-pim-e-handelsredaktor?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
-          "source": "WebbJobbMalmö",
-          "publishedAt": "2026-10-08T15:30:01+02:00"
-        },
-        {
           "id": "3a893609070b",
           "section": "nyheter",
           "title": "Först i världen: Norge vill förbjuda ”kränkarbrillor” på flera platser",
@@ -415,15 +370,6 @@
           "link": "https://www.nyteknik.se/tech/norge-pa-vaeg-att-foerbjuda-ai-glasoegon-pa-offentliga-platser/4501739",
           "source": "NyTeknik",
           "publishedAt": "2026-10-08T14:06:15+02:00"
-        },
-        {
-          "id": "60ed8f50d3c2",
-          "section": "nyheter",
-          "title": "IAM/IGA specialist",
-          "summary": "UppdragsbeskrivningFör Region Skånes räkning söker vi efter en resurs som ska förstärka deras projekt för införande av en ny Identity and Access Management (IAM)-plattform baserad på SailPoint IdentityIQ (IIQ). Uppdraget omfattar analys, design, implementat...",
-          "link": "https://webbjobb.io/jobb/348273/iam-iga-specialist?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
-          "source": "WebbJobbLund",
-          "publishedAt": "2026-10-08T12:31:20+02:00"
         },
         {
           "id": "6d2ac3189df5",
@@ -451,15 +397,6 @@
           "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-08-Stod-efter-den-allvarliga-handelsen-pa-Bellevuegarden.html",
           "source": "Malmö",
           "publishedAt": "2026-10-08T08:39:11+02:00"
-        },
-        {
-          "id": "1054d408b89b",
-          "section": "nyheter",
-          "title": "Svensktalande Embedded Software Engineer",
-          "summary": "Svensktalande Embedded Software Engineer – flera konsultuppdrag i SkåneVi söker embedded software engineers till ett flertal spännande konsultuppdrag hos våra kunder i Skåne. Uppdragen spänner över branscher som försvar, fordonsutveckling, industriell autom...",
-          "link": "https://webbjobb.io/jobb/348188/svensktalande-embedded-software-engineer?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Malm%C3%B6",
-          "source": "WebbJobbMalmö",
-          "publishedAt": "2026-10-07T10:35:50+02:00"
         },
         {
           "id": "dac4a0614ed5",
