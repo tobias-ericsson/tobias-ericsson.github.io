@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:57:29+02:00",
+  "generatedAt": "2026-10-09T12:59:42+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "50d0bff8212c",
+          "section": "nyheter",
+          "title": "Lisa Edwinsson: Mer verkstad och mindre snack – det här behöver Tony Gustavsson få ordning på i kväll",
+          "summary": "Tony Gustavsson har ifrågasatts och hans fotbollslandslag underpresterat. Nu är det skarpt läge. Här är tre saker som förbundskaptenen måste få ordning på när höstens VM-playoff inleds borta mot Litauen på fredagen.",
+          "link": "https://www.dn.se/sport/lisa-edwinsson-mer-verkstad-och-mindre-snack-det-har-behover-tony-gustavsson-fa-ordning-pa-i-kvall/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T12:59:18+02:00"
+        },
+        {
           "id": "07a7cb73362a",
           "section": "nyheter",
           "title": "Författarförbundet varnar för hybridförlaget Lava",
@@ -199,15 +208,6 @@
           "link": "https://www.dn.se/varlden/erik-esbjornsson-priset-en-markering-till-stod-for-internationell-rattvisan/",
           "source": "DN",
           "publishedAt": "2026-10-09T12:08:40+02:00"
-        },
-        {
-          "id": "0fd866b71a2d",
-          "section": "nyheter",
-          "title": "Navi Pillay årets Nobels fredspristagare",
-          "summary": "Sydafrikanska juristen Navanethem ”Navi” Pillay, 85, tilldelas årets fredspris, meddelar norska Nobelkommittén. ”För hennes insatser för att främja fred och internationell rätt”, lyder motiveringen.",
-          "link": "https://www.dn.se/varlden/navi-pillay-arets-nobels-fredspristagare/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:04:47+02:00"
         },
         {
           "id": "5a5b8d7682f9",
