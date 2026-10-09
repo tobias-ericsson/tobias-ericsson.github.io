@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:58:26+02:00",
+  "generatedAt": "2026-10-09T16:00:28+02:00",
   "entries": [
     {
       "id": "9f6dff3a1186",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "224b8b57bc8c",
+      "section": "nyheter",
+      "title": "Fredspristagaren: Jag trodde det hänt mina barn någonting",
+      "summary": "JOHANNESBURG. Juristen Navi Pillay befann sig i den historiska domstolen där Nürnbergrättegångarna hölls mot ledande nazister när hon fick beskedet att hon tilldelats Nobels fredspris. – Jag trodde det hänt mina barn någonting när de sade att de hade ett br...",
+      "source": "DN",
+      "link": "https://www.dn.se/varlden/fredspristagaren-jag-trodde-det-hant-mina-barn-nagonting/",
+      "publishedAt": "2026-10-09T15:59:01+02:00",
+      "text": "Fredspristagaren: Jag trodde det hänt mina barn någonting DN JOHANNESBURG. Juristen Navi Pillay befann sig i den historiska domstolen där Nürnbergrättegångarna hölls mot ledande nazister när hon fick beskedet att hon tilldelats Nobels fredspris. – Jag trodde det hänt mina barn någonting när de sade att de hade ett br..."
+    },
+    {
       "id": "d3de063b928d",
       "section": "nyheter",
       "title": "Ryska marinen flyttar i Östersjön – drönarattacker ligger bakom",
@@ -230,16 +240,6 @@
       "link": "https://www.dn.se/kultur/salon-terminal-en-gastronomisk-hojdpunkt-gommer-sig-pa-stockholms-mesta-hotellstrak/",
       "publishedAt": "2026-10-09T15:03:42+02:00",
       "text": "Salon Terminal: En gastronomisk höjdpunkt gömmer sig på Stockholms mesta hotellstråk DN Krogkommissionen. På den nyöppnade och centralt placerade hotellrestaurangen finns både viljan och kompetensen – men än så länge har gästerna inte hittat hit. Det är synd, tycker DN:s utsända."
-    },
-    {
-      "id": "ec4a712de224",
-      "section": "nyheter",
-      "title": "Boklistan vecka 41: normaliteter, register, alkoholfritt och isländska vindar",
-      "summary": "Veckans kritikerlista uppvisar inga förändringar men handlar också om normaliteter, register, spritlöshet och isländska vindar.",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/boklistan-vecka-41-normaliteter-register-alkoholfritt-och-islandska-vindar/",
-      "publishedAt": "2026-10-09T15:00:00+02:00",
-      "text": "Boklistan vecka 41: normaliteter, register, alkoholfritt och isländska vindar DN Veckans kritikerlista uppvisar inga förändringar men handlar också om normaliteter, register, spritlöshet och isländska vindar."
     },
     {
       "id": "01c12f032303",
