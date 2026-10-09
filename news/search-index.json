@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-09T16:00:28+02:00",
+  "generatedAt": "2026-10-09T16:02:37+02:00",
   "entries": [
+    {
+      "id": "c06c103f7301",
+      "section": "news",
+      "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+      "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+      "publishedAt": "2026-10-09T16:00:00+02:00",
+      "text": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise Techcrunch Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type."
+    },
     {
       "id": "9f6dff3a1186",
       "section": "news",
@@ -122,16 +132,6 @@
       "text": "Pretend you’re sitting at Elizabeth Holmes’ desk on this weirdly detailed website Techcrunch With over a thousand emails, slides, texts, and documents from the United States v. Elizabeth Holmes trial, Extend engineer Bo Lau created a website that simulates what it might have been like to rifle through the Theranos founder's desk."
     },
     {
-      "id": "9415070adec7",
-      "section": "news",
-      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-      "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-      "publishedAt": "2026-10-08T22:04:26+02:00",
-      "text": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect Techcrunch Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture."
-    },
-    {
       "id": "3cd95630d967",
       "section": "news",
       "title": "YouTuber Builds System That Mimics Flock to Spy on Cops; Then the Cops Came Knocking",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
       "publishedAt": "2026-10-08T02:00:00+02:00",
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
+    },
+    {
+      "id": "90cfd93c6d8d",
+      "section": "nyheter",
+      "title": "Man och kvinna i bråk vid Södervärn",
+      "summary": "Oklart om någon behöver föras till sjukhus.",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=680e8277-9664-4901-8af2-91f20e10985e",
+      "publishedAt": "2026-10-09T16:00:03+02:00",
+      "text": "Man och kvinna i bråk vid Södervärn Sydsvenskan Oklart om någon behöver föras till sjukhus."
     },
     {
       "id": "224b8b57bc8c",
@@ -370,16 +380,6 @@
       "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
       "publishedAt": "2026-10-09T11:35:04+02:00",
       "text": "52-åring begärs häktad efter mordet på Bellevuegården Sydsvenskan Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…"
-    },
-    {
-      "id": "5ff092bea5e3",
-      "section": "nyheter",
-      "title": "Man slog kvinna med laddkabel – döms för misshandel",
-      "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
-      "publishedAt": "2026-10-09T11:08:18+02:00",
-      "text": "Man slog kvinna med laddkabel – döms för misshandel Sydsvenskan En 28-årig man döms för att ha misshandlat sin dåvarande…"
     },
     {
       "id": "6a3812d2fd99",

@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-09T16:00:28+02:00",
+  "generatedAt": "2026-10-09T16:02:37+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "c06c103f7301",
+          "section": "news",
+          "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+          "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+          "link": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-10-09T16:00:00+02:00"
+        },
         {
           "id": "9f6dff3a1186",
           "section": "news",
@@ -114,15 +123,6 @@
           "publishedAt": "2026-10-08T23:00:00+02:00"
         },
         {
-          "id": "9415070adec7",
-          "section": "news",
-          "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
-          "summary": "Three fired OpenAI safety researchers dispute allegations of mishandling sensitive information, warning in an open letter that their dismissals are creating a chilling effect on the company’s AI safety culture.",
-          "link": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-10-08T22:04:26+02:00"
-        },
-        {
           "id": "3cd95630d967",
           "section": "news",
           "title": "YouTuber Builds System That Mimics Flock to Spy on Cops; Then the Cops Came Knocking",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "90cfd93c6d8d",
+          "section": "nyheter",
+          "title": "Man och kvinna i bråk vid Södervärn",
+          "summary": "Oklart om någon behöver föras till sjukhus.",
+          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=680e8277-9664-4901-8af2-91f20e10985e",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-10-09T16:00:03+02:00"
+        },
         {
           "id": "224b8b57bc8c",
           "section": "nyheter",
@@ -343,15 +352,6 @@
           "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:35:04+02:00"
-        },
-        {
-          "id": "5ff092bea5e3",
-          "section": "nyheter",
-          "title": "Man slog kvinna med laddkabel – döms för misshandel",
-          "summary": "En 28-årig man döms för att ha misshandlat sin dåvarande…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T11:08:18+02:00"
         },
         {
           "id": "6a3812d2fd99",
