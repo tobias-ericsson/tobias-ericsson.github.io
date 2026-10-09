@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:11:48+02:00",
+  "generatedAt": "2026-10-09T16:13:56+02:00",
   "entries": [
     {
       "id": "c06c103f7301",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "c9cd330c049a",
+      "section": "nyheter",
+      "title": "Nobelpristagaren Anne Carson rusar på boktjänsterna",
+      "summary": "Ett knappt dygn efter tillkännagivandet av Nobelpriset ser man ett omedelbart genomslag hos svenska läsare och lyssnare för Anne Carson. Trots att poesi och essäistik normalt har svårt att ta plats på listorna trendar hennes verk nu på de digitala boktjänst...",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/nobelpristagaren-anne-carson-rusar-pa-boktjansterna/",
+      "publishedAt": "2026-10-09T16:13:13+02:00",
+      "text": "Nobelpristagaren Anne Carson rusar på boktjänsterna DN Ett knappt dygn efter tillkännagivandet av Nobelpriset ser man ett omedelbart genomslag hos svenska läsare och lyssnare för Anne Carson. Trots att poesi och essäistik normalt har svårt att ta plats på listorna trendar hennes verk nu på de digitala boktjänst..."
+    },
+    {
       "id": "aff59644da4f",
       "section": "nyheter",
       "title": "IF Metall strejkskramlar till stöd för Kommunal",
@@ -250,16 +260,6 @@
       "link": "https://www.dn.se/kultur/tre-krogar-med-medelhavskansla/",
       "publishedAt": "2026-10-09T15:03:51+02:00",
       "text": "Tre krogar med Medelhavskänsla DN Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips."
-    },
-    {
-      "id": "629fd25b8602",
-      "section": "nyheter",
-      "title": "Salon Terminal: En gastronomisk höjdpunkt gömmer sig på Stockholms mesta hotellstråk",
-      "summary": "Krogkommissionen. På den nyöppnade och centralt placerade hotellrestaurangen finns både viljan och kompetensen – men än så länge har gästerna inte hittat hit. Det är synd, tycker DN:s utsända.",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/salon-terminal-en-gastronomisk-hojdpunkt-gommer-sig-pa-stockholms-mesta-hotellstrak/",
-      "publishedAt": "2026-10-09T15:03:42+02:00",
-      "text": "Salon Terminal: En gastronomisk höjdpunkt gömmer sig på Stockholms mesta hotellstråk DN Krogkommissionen. På den nyöppnade och centralt placerade hotellrestaurangen finns både viljan och kompetensen – men än så länge har gästerna inte hittat hit. Det är synd, tycker DN:s utsända."
     },
     {
       "id": "01c12f032303",
