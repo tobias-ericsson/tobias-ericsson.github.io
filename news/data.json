@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:08:02+02:00",
+  "generatedAt": "2026-10-09T12:10:09+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "b94a35d9793c",
+          "section": "nyheter",
+          "title": "Erik Esbjörnsson: Priset en markering till stöd för internationell rättvisan",
+          "summary": "JOHANNESBURG. Navi Pillay, 85, blir den femte sydafrikanen att tilldelas Nobels fredspris. Pristagaren är en tungviktare inom internationell rättvisa och har varit ordförande för den panel som pekat ut Israel som ansvarigt för folkmord.",
+          "link": "https://www.dn.se/varlden/erik-esbjornsson-priset-en-markering-till-stod-for-internationell-rattvisan/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T12:08:40+02:00"
+        },
+        {
           "id": "0fd866b71a2d",
           "section": "nyheter",
           "title": "Navi Pillay årets Nobels fredspristagare",
@@ -235,15 +244,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316400",
           "source": "Ekot",
           "publishedAt": "2026-10-09T11:37:00+02:00"
-        },
-        {
-          "id": "15947c8663ce",
-          "section": "nyheter",
-          "title": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det”",
-          "summary": "På fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet. – Jag tror inte på någon trollspösituation där det...",
-          "link": "https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T11:36:36+02:00"
         },
         {
           "id": "1add43d65922",
