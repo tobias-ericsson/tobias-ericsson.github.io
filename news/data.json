@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-09T15:39:44+02:00",
+  "generatedAt": "2026-10-09T15:41:53+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "9f6dff3a1186",
+          "section": "news",
+          "title": "Surveillance company Flock cuts staff as privacy backlash grows",
+          "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the staff cuts.",
+          "link": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-10-09T15:40:36+02:00"
+        },
         {
           "id": "21f65d7b2423",
           "section": "news",
@@ -123,15 +132,6 @@
           "publishedAt": "2026-10-08T21:09:50+02:00"
         },
         {
-          "id": "9f18dc1cf913",
-          "section": "news",
-          "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
-          "summary": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19.",
-          "link": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-10-08T20:30:00+02:00"
-        },
-        {
           "id": "f19c4bc916d0",
           "section": "news",
           "title": "Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "157a67826a01",
+          "section": "nyheter",
+          "title": "Surrogatkliniken i Colombia slutar rekrytera nya kvinnor",
+          "summary": "Hoppfulla svenskar reser till Colombia för att få barn genom surrogatarrangemang. Men nu skakar den kritiserade branschen i grunden. En av Colombias största fertilitetskliniker slutar att rekrytera nya surrogatmammor.",
+          "link": "https://www.dn.se/sverige/surrogatkliniken-i-colombia-slutar-rekrytera-nya-kvinnor/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T15:41:43+02:00"
+        },
         {
           "id": "36739e836ff0",
           "section": "nyheter",
@@ -208,15 +217,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316658",
           "source": "Ekot",
           "publishedAt": "2026-10-09T14:54:00+02:00"
-        },
-        {
-          "id": "f9b7187bfa56",
-          "section": "nyheter",
-          "title": "Spirituellt och anekdotiskt uruppförande av Turnages gitarrkonsert i Örebro",
-          "summary": "Uruppförandet av Turnages gitarrkonsert är full av heta diskussioner och introverta monologer. Stycket boar in sig väl mellan Ravel och Vaughan Williams, tycker DN:s Hanna Höglund som delar ut högsta betyg.",
-          "link": "https://www.dn.se/kultur/spirituellt-och-anekdotiskt-uruppforande-av-turnages-gitarrkonsert-i-orebro/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T14:36:14+02:00"
         },
         {
           "id": "7683de175616",

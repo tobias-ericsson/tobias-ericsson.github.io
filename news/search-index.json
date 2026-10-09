@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-10-09T15:39:44+02:00",
+  "generatedAt": "2026-10-09T15:41:53+02:00",
   "entries": [
+    {
+      "id": "9f6dff3a1186",
+      "section": "news",
+      "title": "Surveillance company Flock cuts staff as privacy backlash grows",
+      "summary": "Flock would not say if CEO Garrett Langley would take a pay cut following the staff cuts.",
+      "source": "Techcrunch",
+      "link": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+      "publishedAt": "2026-10-09T15:40:36+02:00",
+      "text": "Surveillance company Flock cuts staff as privacy backlash grows Techcrunch Flock would not say if CEO Garrett Langley would take a pay cut following the staff cuts."
+    },
     {
       "id": "21f65d7b2423",
       "section": "news",
@@ -132,16 +142,6 @@
       "text": "YouTuber Builds System That Mimics Flock to Spy on Cops; Then the Cops Came Knocking Reddit submitted by /u/efap1701 [link] [comments]"
     },
     {
-      "id": "9f18dc1cf913",
-      "section": "news",
-      "title": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal",
-      "summary": "A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19.",
-      "source": "Techcrunch",
-      "link": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
-      "publishedAt": "2026-10-08T20:30:00+02:00",
-      "text": "Watch the trailer for ‘The Altruists,’ Netflix’s show about the FTX scandal Techcrunch A fictionalized Sam Bankman-Fried is coming to your TV screen on November 19."
-    },
-    {
       "id": "f19c4bc916d0",
       "section": "news",
       "title": "Trump says anyone who does not call AI ‘super intelligence’ is ‘the enemy’",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
       "publishedAt": "2026-10-08T02:00:00+02:00",
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
+    },
+    {
+      "id": "157a67826a01",
+      "section": "nyheter",
+      "title": "Surrogatkliniken i Colombia slutar rekrytera nya kvinnor",
+      "summary": "Hoppfulla svenskar reser till Colombia för att få barn genom surrogatarrangemang. Men nu skakar den kritiserade branschen i grunden. En av Colombias största fertilitetskliniker slutar att rekrytera nya surrogatmammor.",
+      "source": "DN",
+      "link": "https://www.dn.se/sverige/surrogatkliniken-i-colombia-slutar-rekrytera-nya-kvinnor/",
+      "publishedAt": "2026-10-09T15:41:43+02:00",
+      "text": "Surrogatkliniken i Colombia slutar rekrytera nya kvinnor DN Hoppfulla svenskar reser till Colombia för att få barn genom surrogatarrangemang. Men nu skakar den kritiserade branschen i grunden. En av Colombias största fertilitetskliniker slutar att rekrytera nya surrogatmammor."
     },
     {
       "id": "36739e836ff0",
@@ -220,16 +230,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316658",
       "publishedAt": "2026-10-09T14:54:00+02:00",
       "text": "Navi Pillay om fredspriset: ”En underbar överraskning” Ekot Navi Pillay, den nyblivna fredspristagaren i Alfred Nobels minne, befann sig på en juridisk konferens i Nürnberg i Tyskland när hon tog emot beskedet.Och det är på samma plats som hon nu uttalar sig efter offentliggörandet av utmärkelsen. Den sydafrikanska..."
-    },
-    {
-      "id": "f9b7187bfa56",
-      "section": "nyheter",
-      "title": "Spirituellt och anekdotiskt uruppförande av Turnages gitarrkonsert i Örebro",
-      "summary": "Uruppförandet av Turnages gitarrkonsert är full av heta diskussioner och introverta monologer. Stycket boar in sig väl mellan Ravel och Vaughan Williams, tycker DN:s Hanna Höglund som delar ut högsta betyg.",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/spirituellt-och-anekdotiskt-uruppforande-av-turnages-gitarrkonsert-i-orebro/",
-      "publishedAt": "2026-10-09T14:36:14+02:00",
-      "text": "Spirituellt och anekdotiskt uruppförande av Turnages gitarrkonsert i Örebro DN Uruppförandet av Turnages gitarrkonsert är full av heta diskussioner och introverta monologer. Stycket boar in sig väl mellan Ravel och Vaughan Williams, tycker DN:s Hanna Höglund som delar ut högsta betyg."
     },
     {
       "id": "7683de175616",
