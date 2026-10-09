@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:36:44+02:00",
+  "generatedAt": "2026-10-09T11:38:46+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "15947c8663ce",
+          "section": "nyheter",
+          "title": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det”",
+          "summary": "På fredagen möts toppolitiker från de fyra rödgröna partierna för första gången tillsammans. Vänsterpartiets Ida Gabrielsson tror inte Magdalena Andersson (S) klarar en statsministeromröstning efter mötet. – Jag tror inte på någon trollspösituation där det...",
+          "link": "https://www.dn.se/sverige/v-toppen-infor-odesmotet-tough-shit-da-far-man-tugga-i-sig-det/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T11:36:36+02:00"
+        },
         {
           "id": "1add43d65922",
           "section": "nyheter",
@@ -316,15 +325,6 @@
           "link": "https://www.dn.se/varlden/expert-efter-intrangen-hos-finska-politiker-mycket-pekar-mot-ryssland/",
           "source": "DN",
           "publishedAt": "2026-10-09T10:04:12+02:00"
-        },
-        {
-          "id": "7d8cd809944b",
-          "section": "nyheter",
-          "title": "Sagor \u0026 Swings hela register ryms på duons sista skiva ”Rymdsonden”",
-          "summary": "Sagor \u0026 Swings sista album är ett nördarnas projekt från början till slut. På ”Rymdsonden” samsad det skogiga och psykedeliska med ett sista, egensinnigt egensinnigt äventyr, skriver DN:s Po Tidholm.",
-          "link": "https://www.dn.se/kultur/sagor-swings-hela-register-ryms-pa-duons-sista-skiva-rymdsonden/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T10:00:00+02:00"
         },
         {
           "id": "41427eeeaa93",
