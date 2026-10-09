@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:59:12+02:00",
+  "generatedAt": "2026-10-09T15:01:17+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "ec4a712de224",
+          "section": "nyheter",
+          "title": "Boklistan vecka 41: normaliteter, register, alkoholfritt och isländska vindar",
+          "summary": "Veckans kritikerlista uppvisar inga förändringar men handlar också om normaliteter, register, spritlöshet och isländska vindar.",
+          "link": "https://www.dn.se/kultur/boklistan-vecka-41-normaliteter-register-alkoholfritt-och-islandska-vindar/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T15:00:00+02:00"
+        },
+        {
+          "id": "01c12f032303",
+          "section": "nyheter",
+          "title": "Bianca och Carola bär hennes smycken – nu öppnar hon butik i hemstaden Malmö",
+          "summary": "Elin Sigrén om krossat porslin, namnbytet och styrkeringar.",
+          "link": "https://www.sydsvenskan.se/dygnet-runt/bianca-och-carola-bar-hennes-smycken-nu-oppnar-hon-butik-i-hemstaden-malmo/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-10-09T15:00:00+02:00"
+        },
+        {
           "id": "a45395a6fa81",
           "section": "nyheter",
           "title": "Navi Pillay om fredspriset: ”En underbar överraskning”",
@@ -255,15 +273,6 @@
           "publishedAt": "2026-10-09T14:04:40+02:00"
         },
         {
-          "id": "07c2be5be7d7",
-          "section": "nyheter",
-          "title": "Schröders firande av Putin i Moskva väcker tysk ilska",
-          "summary": "BERLIN. Tyska politiker går i taket sedan landets ex-kansler Gerhard Schröder återigen synts vid Vladimir Putins sida. Den här gången deltar han på den ryske presidentens födelsedagsfest.",
-          "link": "https://www.dn.se/varlden/schroders-firande-av-putin-i-moskva-vacker-tysk-ilska/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T13:57:11+02:00"
-        },
-        {
           "id": "d634801a8234",
           "section": "nyheter",
           "title": "Följ med till Luleås kreativa verkstad för människor i utanförskap",
@@ -343,15 +352,6 @@
           "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=58917866-4807-4f1c-9707-cb77ed6c36f5",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:08:18+02:00"
-        },
-        {
-          "id": "9f1d491da6bc",
-          "section": "nyheter",
-          "title": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten",
-          "summary": "Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”.",
-          "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T11:00:00+02:00"
         },
         {
           "id": "6a3812d2fd99",
