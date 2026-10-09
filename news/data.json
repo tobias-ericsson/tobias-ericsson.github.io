@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-09T13:59:09+02:00",
+  "generatedAt": "2026-10-09T14:01:26+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "071e81162e4a",
+          "section": "news",
+          "title": "Xona’s commercial GPS alternative is about to go live",
+          "summary": "Xona's precision timing and navigation service will enter beta testing after SpaceX launches six satellites designed by the company.",
+          "link": "https://techcrunch.com/2026/10/09/xonas-commercial-gps-alternative-is-about-to-go-live/",
+          "source": "Techcrunch",
+          "publishedAt": "2026-10-09T14:00:00+02:00"
+        },
         {
           "id": "a807bc0aa58a",
           "section": "news",
@@ -121,15 +130,6 @@
           "link": "https://techcrunch.com/2026/10/08/watch-the-trailer-for-the-altruists-netflixs-show-about-the-ftx-scandal/",
           "source": "Techcrunch",
           "publishedAt": "2026-10-08T20:30:00+02:00"
-        },
-        {
-          "id": "f60c2e9dfc66",
-          "section": "news",
-          "title": "Ben Affleck is an AI nerd, and the internet is impressed",
-          "summary": "Ben Affleck is going viral for his deep knowledge of AI, from neural networks and transformers to open weights. The actor, who sold his AI filmmaking startup to Netflix earlier this year, is proving he's more than just a Hollywood star.",
-          "link": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
-          "source": "Techcrunch",
-          "publishedAt": "2026-10-08T20:20:32+02:00"
         },
         {
           "id": "f19c4bc916d0",
