@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T12:04:00+02:00",
+  "generatedAt": "2026-10-09T12:06:01+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "0fd866b71a2d",
+      "section": "nyheter",
+      "title": "Navi Pillay årets Nobels fredspristagare",
+      "summary": "Sydafrikanska juristen Navanethem ”Navi” Pillay, 85, tilldelas årets fredspris, meddelar norska Nobelkommittén. ”För hennes insatser för att främja fred och internationell rätt”, lyder motiveringen.",
+      "source": "DN",
+      "link": "https://www.dn.se/varlden/navi-pillay-arets-nobels-fredspristagare/",
+      "publishedAt": "2026-10-09T12:04:47+02:00",
+      "text": "Navi Pillay årets Nobels fredspristagare DN Sydafrikanska juristen Navanethem ”Navi” Pillay, 85, tilldelas årets fredspris, meddelar norska Nobelkommittén. ”För hennes insatser för att främja fred och internationell rätt”, lyder motiveringen."
+    },
+    {
       "id": "9d10e0d163e6",
       "section": "nyheter",
       "title": "Helgens drink: Cosmopolitan",
@@ -180,6 +190,16 @@
       "link": "https://www.nyteknik.se/rymden/nasa-slaepper-800-gb-data-fran-manen-se-vad-astronauterna-sag/4502957",
       "publishedAt": "2026-10-09T12:02:35+02:00",
       "text": "Nasa släpper stora mängder data från månen – se vad astronauterna såg NyTeknik Nasa har släppt data från Artemis II. Bilder från astronauternas egna kameror ska hjälpa forskare säkra framtida månresor."
+    },
+    {
+      "id": "c65ee1b4835f",
+      "section": "nyheter",
+      "title": "Navi Pillays tilldelas Nobels fredspris: ”Kanske delar med Trump”",
+      "summary": "Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316431",
+      "publishedAt": "2026-10-09T12:02:00+02:00",
+      "text": "Navi Pillays tilldelas Nobels fredspris: ”Kanske delar med Trump” Ekot Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k..."
     },
     {
       "id": "7ce72d7621f6",
@@ -282,16 +302,6 @@
       "text": "Före detta vd från Vimmerby krävs på 54 miljoner kronor SVT Den tidigare vd:n för en konkursad e-handels- och elektronikkoncern riskerar att tvingas betala 54 miljoner kronor när Skatteverket vill att han hålls personligt betalningsansvarig för obetalda skulder i ett av bolagen."
     },
     {
-      "id": "7560920f4d71",
-      "section": "nyheter",
-      "title": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio",
-      "summary": "Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg.",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/filmlistan-vecka-41-alex-schulmans-arkipelag-och-facebook-dramat-the-social-reckoning-nya-pa-bio/",
-      "publishedAt": "2026-10-09T11:14:35+02:00",
-      "text": "Filmlistan vecka 41: Alex Schulmans ”Arkipelag” och Facebook-dramat ”The social reckoning” nya på bio DN Alex Schulmans regidebut ”Arkipelag” går in i toppen av veckans filmlista. Ny på listan är också Aaron Sorkins indignerade Facebookdrama ”The social reckoning”, där Jeremy Strong spelar Mark Zuckerberg."
-    },
-    {
       "id": "5ff092bea5e3",
       "section": "nyheter",
       "title": "Man slog kvinna med laddkabel – döms för misshandel",
@@ -360,16 +370,6 @@
       "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=c18aacf0-76ff-499e-8c64-07df43c454fb",
       "publishedAt": "2026-10-09T10:23:06+02:00",
       "text": "Varsel på HSB Malmö – så många kan få sluta Sydsvenskan MALMÖ. Neddragningar väntar på HSB Malmö och HSB Göteborg."
-    },
-    {
-      "id": "8c7ac64cf763",
-      "section": "nyheter",
-      "title": "Gissén: Inget tyder på att C kommer erkänna V",
-      "summary": "I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm.Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”.Enligt Ekots in...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316284",
-      "publishedAt": "2026-10-09T10:22:00+02:00",
-      "text": "Gissén: Inget tyder på att C kommer erkänna V Ekot I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm.Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”.Enligt Ekots in..."
     },
     {
       "id": "6a3812d2fd99",
