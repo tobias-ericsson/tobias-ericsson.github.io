@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:04:57+02:00",
+  "generatedAt": "2026-10-09T16:07:34+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "aff59644da4f",
+          "section": "nyheter",
+          "title": "IF Metall strejkskramlar till stöd för Kommunal",
+          "summary": "Fackförbundet IF Metall är redo att gå ut i strejk för att stötta Kommunal i kravet om kortare arbetstid för dem som jobbar oregelbundet.”Vi är beredda att lägga ned arbetet för att den här frågan ska lösa sig”, säger IF Metalls avtalssekreterare Simon Pete...",
+          "link": "https://www.sverigesradio.se/artikel/9316686",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T16:03:00+02:00"
+        },
         {
           "id": "90cfd93c6d8d",
           "section": "nyheter",
@@ -316,15 +325,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/norrbotten/folj-med-till-luleas-kreativa-verkstad-for-manniskor-i-utanforskap",
           "source": "SVT",
           "publishedAt": "2026-10-09T13:50:39+02:00"
-        },
-        {
-          "id": "ad76d551319c",
-          "section": "nyheter",
-          "title": "Mattsson: ”Man vill inte framstå som den som är omöjlig”",
-          "summary": "På Högberga gård på Lidingö möts nu de rödgröna partierna efter att Centerpartiet bjudit in till samtal.Utöver företrädare från partierna deltar samhällsaktörer, som fack, näringsliv och polis, i vad Centerpartiet kallat en ”gemensam lägesgenomgång”.”När de...",
-          "link": "https://www.sverigesradio.se/artikel/9316520",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T13:38:00+02:00"
         },
         {
           "id": "b6eb5d925629",
