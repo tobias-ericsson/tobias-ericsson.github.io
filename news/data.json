@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:26:28+02:00",
+  "generatedAt": "2026-10-09T16:28:26+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "48f875806d71",
+          "section": "nyheter",
+          "title": "Vinnarna i Fristadsprogrammets skrivtävling för unga 2026",
+          "summary": "Malmö stad presenterar vinnarna i Fristadsprogrammets skrivtävling 2026, där unga skribenter har bjudits in att reflektera över demokrati och yttrandefrihet.",
+          "link": "https://malmo.se/Aktuellt/Artiklar-Malmo-stad/2026-10-09-Vinnarna-i-Fristadsprogrammets-skrivtavling-for-unga-2026.html",
+          "source": "Malmö",
+          "publishedAt": "2026-10-09T16:26:48+02:00"
+        },
         {
           "id": "8166a7313f96",
           "section": "nyheter",
@@ -345,10 +354,10 @@
           "publishedAt": "2026-10-09T12:02:35+02:00"
         },
         {
-          "id": "a67a943cc036",
+          "id": "b9785e415505",
           "section": "nyheter",
-          "title": "52-åring begärs häktad efter mordet på Bellevuegården",
-          "summary": "Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…",
+          "title": "Knivmannen berättar om dödshuggen på Bellevuegården",
+          "summary": "”Kan varken erkänna eller förneka”.",
           "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:35:04+02:00"
