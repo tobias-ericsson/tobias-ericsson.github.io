@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:49:54+02:00",
+  "generatedAt": "2026-10-09T15:51:53+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "d3de063b928d",
+          "section": "nyheter",
+          "title": "Ryska marinen flyttar i Östersjön – drönarattacker ligger bakom",
+          "summary": "Den ryska marinen har den senaste tiden flyttat flera av sina fartyg från Sankt Petersburg till Kaliningrad, bara 30 mil från det svenska fastlandet.Enligt den svenska marinen beror flytten på upprepade attacker från ukrainska drönare som flera gånger slagi...",
+          "link": "https://www.sverigesradio.se/artikel/9315898",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T15:49:00+02:00"
+        },
+        {
           "id": "426b2e308e22",
           "section": "nyheter",
           "title": "Man sköt med gevär mot fastighet i Burträsk – döms till fängelse",
@@ -307,15 +316,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316520",
           "source": "Ekot",
           "publishedAt": "2026-10-09T13:38:00+02:00"
-        },
-        {
-          "id": "f44a8759e135",
-          "section": "nyheter",
-          "title": "Klytjko: ”Nu handlar det om att överleva”",
-          "summary": "Kyjivs borgmästare Vitalij Klytjko uppmanar invånarna att tillfälligt lämna staden om de har möjlighet. Detta samtidigt som ryska attacker mot energiinfrastrukturen redan orsakar strömavbrott på flera håll.”Varje dag kommer nya rapporter om attacker, förstö...",
-          "link": "https://www.sverigesradio.se/artikel/9316488",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T13:04:00+02:00"
         },
         {
           "id": "b6eb5d925629",
