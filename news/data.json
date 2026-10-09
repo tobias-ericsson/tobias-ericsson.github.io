@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-10-09T13:34:31+02:00",
+  "generatedAt": "2026-10-09T13:36:32+02:00",
   "sections": [
     {
       "key": "news",
       "label": "News",
       "articles": [
+        {
+          "id": "a807bc0aa58a",
+          "section": "news",
+          "title": "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.",
+          "summary": "submitted by /u/socoolandawesome [link] [comments]",
+          "link": "https://www.reddit.com/r/technology/comments/1x1i81q/top_executives_at_anthropic_openai_and_other_ai/",
+          "source": "Reddit",
+          "publishedAt": "2026-10-09T12:51:46+02:00"
+        },
         {
           "id": "d092758b96ec",
           "section": "news",
@@ -49,15 +58,6 @@
           "link": "https://technode.com/2026/10/09/risc-v-chipmaker-eswin-computing-lists-in-hong-kong/",
           "source": "Technode",
           "publishedAt": "2026-10-09T10:47:39+02:00"
-        },
-        {
-          "id": "9aaea4ffe8b8",
-          "section": "news",
-          "title": "OpenAI projected to bring in $20bn less in revenue than expected | OpenAI",
-          "summary": "submitted by /u/JohnHammond94 [link] [comments]",
-          "link": "https://www.reddit.com/r/technology/comments/1x1frei/openai_projected_to_bring_in_20bn_less_in_revenue/",
-          "source": "Reddit",
-          "publishedAt": "2026-10-09T10:18:56+02:00"
         },
         {
           "id": "e85a8990ccb6",
