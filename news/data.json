@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:03:57+02:00",
+  "generatedAt": "2026-10-09T13:06:00+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "f44a8759e135",
+          "section": "nyheter",
+          "title": "Klytjko: ”Nu handlar det om att överleva”",
+          "summary": "Kyjivs borgmästare Vitalij Klytjko uppmanar invånarna att tillfälligt lämna staden om de har möjlighet. Detta samtidigt som ryska attacker mot energiinfrastrukturen redan orsakar strömavbrott på flera håll.”Varje dag kommer nya rapporter om attacker, förstö...",
+          "link": "https://www.sverigesradio.se/artikel/9316488",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T13:04:00+02:00"
+        },
+        {
           "id": "b6eb5d925629",
           "section": "nyheter",
           "title": "Ny jätteanläggning ska täcka Malmös elbehov tre gånger om",
@@ -273,11 +282,11 @@
           "publishedAt": "2026-10-09T11:37:00+02:00"
         },
         {
-          "id": "bb128d754fba",
+          "id": "9b85bf6717ab",
           "section": "nyheter",
           "title": "52-årig man begärs häktad efter mordet på Bellevuegården",
-          "summary": "En 52-årig Malmöbo begärs nu häktad efter mordet på en…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
+          "summary": "Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…",
+          "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:35:04+02:00"
         },
@@ -325,15 +334,6 @@
           "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:00:00+02:00"
-        },
-        {
-          "id": "3b894b8302f3",
-          "section": "nyheter",
-          "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
-          "summary": "Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä...",
-          "link": "https://www.sverigesradio.se/artikel/9316336",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T10:55:00+02:00"
         },
         {
           "id": "321164eee194",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:03:57+02:00",
+  "generatedAt": "2026-10-09T13:06:00+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "f44a8759e135",
+      "section": "nyheter",
+      "title": "Klytjko: ”Nu handlar det om att överleva”",
+      "summary": "Kyjivs borgmästare Vitalij Klytjko uppmanar invånarna att tillfälligt lämna staden om de har möjlighet. Detta samtidigt som ryska attacker mot energiinfrastrukturen redan orsakar strömavbrott på flera håll.”Varje dag kommer nya rapporter om attacker, förstö...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316488",
+      "publishedAt": "2026-10-09T13:04:00+02:00",
+      "text": "Klytjko: ”Nu handlar det om att överleva” Ekot Kyjivs borgmästare Vitalij Klytjko uppmanar invånarna att tillfälligt lämna staden om de har möjlighet. Detta samtidigt som ryska attacker mot energiinfrastrukturen redan orsakar strömavbrott på flera håll.”Varje dag kommer nya rapporter om attacker, förstö..."
+    },
+    {
       "id": "b6eb5d925629",
       "section": "nyheter",
       "title": "Ny jätteanläggning ska täcka Malmös elbehov tre gånger om",
@@ -292,14 +302,14 @@
       "text": "Klamberg har jobbat med Pillay: ”Inte helt oväntat” Ekot Mark Klamberg, professor i folkrätt vid Stockholms universitet, har arbetat på Internationella brottsmålsdomstolen 2006 på samma avdelning som fredspristagaren ”Navi” Pillay.”Det är en person som jobbat inom internationell rättvisa i bred bemärkelse”, säger..."
     },
     {
-      "id": "bb128d754fba",
+      "id": "9b85bf6717ab",
       "section": "nyheter",
       "title": "52-årig man begärs häktad efter mordet på Bellevuegården",
-      "summary": "En 52-årig Malmöbo begärs nu häktad efter mordet på en…",
+      "summary": "Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…",
       "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
+      "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
       "publishedAt": "2026-10-09T11:35:04+02:00",
-      "text": "52-årig man begärs häktad efter mordet på Bellevuegården Sydsvenskan En 52-årig Malmöbo begärs nu häktad efter mordet på en…"
+      "text": "52-årig man begärs häktad efter mordet på Bellevuegården Sydsvenskan Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…"
     },
     {
       "id": "13328f9a1027",
@@ -350,16 +360,6 @@
       "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
       "publishedAt": "2026-10-09T11:00:00+02:00",
       "text": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten Sydsvenskan Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”."
-    },
-    {
-      "id": "3b894b8302f3",
-      "section": "nyheter",
-      "title": "Gabrielsson bjöd in Ådahl (C) till bastumöte",
-      "summary": "Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316336",
-      "publishedAt": "2026-10-09T10:55:00+02:00",
-      "text": "Gabrielsson bjöd in Ådahl (C) till bastumöte Ekot Igår ska Centerpartiets Elisabeth Thand Ringqvist och Kristdemokraternas Ebba Busch ha badat bastu – dagen innan det stora mötet mellan de rödgröna partierna och flera myndigheter på Lidingö.Men enligt Vänsterpartiets vice partiledare Ida Gabrielsson hade ä..."
     },
     {
       "id": "321164eee194",
