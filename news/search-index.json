@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:30:18+02:00",
+  "generatedAt": "2026-10-09T14:32:13+02:00",
   "entries": [
     {
       "id": "071e81162e4a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "7683de175616",
+      "section": "nyheter",
+      "title": "Miljonförluster knäckte Nöjesteatern – därför har skånska nöjesjätten gått i konkurs",
+      "summary": "Fortfarande oklart om det blir mer ”Spamalot”.",
+      "source": "Sydsvenskan",
+      "link": "https://www.sydsvenskan.se/dygnet-runt/miljonforluster-knackte-nojesteatern-darfor-har-skanska-nojesjatten-gatt-i-konkurs/",
+      "publishedAt": "2026-10-09T14:30:00+02:00",
+      "text": "Miljonförluster knäckte Nöjesteatern – därför har skånska nöjesjätten gått i konkurs Sydsvenskan Fortfarande oklart om det blir mer ”Spamalot”."
+    },
+    {
       "id": "8cb349738a5a",
       "section": "nyheter",
       "title": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år",
@@ -170,6 +180,16 @@
       "link": "https://www.nyteknik.se/innovation/vaerldens-tva-foersta-atomkaerneur-tickar-felar-en-sekund-pa-30-miljoner-ar/4503047",
       "publishedAt": "2026-10-09T14:26:46+02:00",
       "text": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år NyTeknik Tekniken väntas överträffa atomuret i noggrannhet och hjälpa till att lösa universums svåraste mysterier."
+    },
+    {
+      "id": "be90126a0005",
+      "section": "nyheter",
+      "title": "Sladjan Osmanagic död – blev 55 år gammal",
+      "summary": "Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen.",
+      "source": "SVT",
+      "link": "https://www.svt.se/sport/fotboll/sladjan-osmanagic-dod-blev-55-ar-gammal",
+      "publishedAt": "2026-10-09T14:22:19+02:00",
+      "text": "Sladjan Osmanagic död – blev 55 år gammal SVT Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen."
     },
     {
       "id": "a88a6d9c1eb3",
@@ -312,16 +332,6 @@
       "text": "Ny jätteanläggning ska täcka Malmös elbehov tre gånger om Sydsvenskan Kostar 800 miljoner • ”Utan den här hade vi slagit i…"
     },
     {
-      "id": "85d7926f6074",
-      "section": "nyheter",
-      "title": "Chatt: Ställ din fråga om läget i svensk politik",
-      "summary": "De rödgröna partierna träffas för första gången sedan valet under ordnade former. På Högberga gård ska experter föreläsa för de fyra partierna om läget i landet – blir detta islossningen som kan leda fram till regeringsförhandlingar? Vad undrar om om läget...",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/inrikes/chatt-stall-din-fraga-om-laget-i-svensk-politik",
-      "publishedAt": "2026-10-09T12:56:35+02:00",
-      "text": "Chatt: Ställ din fråga om läget i svensk politik SVT De rödgröna partierna träffas för första gången sedan valet under ordnade former. På Högberga gård ska experter föreläsa för de fyra partierna om läget i landet – blir detta islossningen som kan leda fram till regeringsförhandlingar? Vad undrar om om läget..."
-    },
-    {
       "id": "5a5b8d7682f9",
       "section": "nyheter",
       "title": "Nasa släpper stora mängder data från månen – se vad astronauterna såg",
@@ -370,16 +380,6 @@
       "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
       "publishedAt": "2026-10-09T11:00:00+02:00",
       "text": "71 Malmöbor nekades särskilt boende – samtidigt pressas hemtjänsten Sydsvenskan Vårdkris hotar Malmös äldre • ”Bara en tidsfråga”."
-    },
-    {
-      "id": "321164eee194",
-      "section": "nyheter",
-      "title": "Barn misstänkt för skott mot villa i Malmö",
-      "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
-      "source": "Sydsvenskan",
-      "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
-      "publishedAt": "2026-10-09T10:30:14+02:00",
-      "text": "Barn misstänkt för skott mot villa i Malmö Sydsvenskan En tonåring under femton sköt mot villan på Videdal – det…"
     },
     {
       "id": "6a3812d2fd99",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:30:18+02:00",
+  "generatedAt": "2026-10-09T14:32:13+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "7683de175616",
+          "section": "nyheter",
+          "title": "Miljonförluster knäckte Nöjesteatern – därför har skånska nöjesjätten gått i konkurs",
+          "summary": "Fortfarande oklart om det blir mer ”Spamalot”.",
+          "link": "https://www.sydsvenskan.se/dygnet-runt/miljonforluster-knackte-nojesteatern-darfor-har-skanska-nojesjatten-gatt-i-konkurs/",
+          "source": "Sydsvenskan",
+          "publishedAt": "2026-10-09T14:30:00+02:00"
+        },
+        {
           "id": "8cb349738a5a",
           "section": "nyheter",
           "title": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år",
@@ -163,6 +172,15 @@
           "link": "https://www.nyteknik.se/innovation/vaerldens-tva-foersta-atomkaerneur-tickar-felar-en-sekund-pa-30-miljoner-ar/4503047",
           "source": "NyTeknik",
           "publishedAt": "2026-10-09T14:26:46+02:00"
+        },
+        {
+          "id": "be90126a0005",
+          "section": "nyheter",
+          "title": "Sladjan Osmanagic död – blev 55 år gammal",
+          "summary": "Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen.",
+          "link": "https://www.svt.se/sport/fotboll/sladjan-osmanagic-dod-blev-55-ar-gammal",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T14:22:19+02:00"
         },
         {
           "id": "a88a6d9c1eb3",
@@ -291,15 +309,6 @@
           "publishedAt": "2026-10-09T13:00:00+02:00"
         },
         {
-          "id": "85d7926f6074",
-          "section": "nyheter",
-          "title": "Chatt: Ställ din fråga om läget i svensk politik",
-          "summary": "De rödgröna partierna träffas för första gången sedan valet under ordnade former. På Högberga gård ska experter föreläsa för de fyra partierna om läget i landet – blir detta islossningen som kan leda fram till regeringsförhandlingar? Vad undrar om om läget...",
-          "link": "https://www.svt.se/nyheter/inrikes/chatt-stall-din-fraga-om-laget-i-svensk-politik",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T12:56:35+02:00"
-        },
-        {
           "id": "5a5b8d7682f9",
           "section": "nyheter",
           "title": "Nasa släpper stora mängder data från månen – se vad astronauterna såg",
@@ -343,15 +352,6 @@
           "link": "https://www.sydsvenskan.se/malmo/hemtjanst-under-hard-press-kommande-aren/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:00:00+02:00"
-        },
-        {
-          "id": "321164eee194",
-          "section": "nyheter",
-          "title": "Barn misstänkt för skott mot villa i Malmö",
-          "summary": "En tonåring under femton sköt mot villan på Videdal – det…",
-          "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=03a439af-c162-4763-a563-1b22e8e7bb05",
-          "source": "Sydsvenskan",
-          "publishedAt": "2026-10-09T10:30:14+02:00"
         },
         {
           "id": "6a3812d2fd99",
