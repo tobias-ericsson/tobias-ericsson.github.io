@@ -57,6 +57,10 @@ function render() {
     panel.classList.toggle("is-active", isActive);
   }
 
+  // Show when the news was built, so a missed daily run is noticeable
+  const meta = document.querySelector(`[data-panel="${state.activeTab}"] [data-panel-meta]`);
+  if (meta) meta.textContent = `${articles.length} · updated ${formatDateTime(state.data.generatedAt)}`;
+
   const container = articleContainers.get(state.activeTab);
   if (container) renderArticles(container, articles);
 }

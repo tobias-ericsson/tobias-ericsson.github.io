@@ -1,4 +1,4 @@
-const CACHE_NAME = "dagens-news-202610091142450200";
+const CACHE_NAME = "dagens-news-202610091145150200";
 const ASSETS = [
   "./",
   "./index.html",
@@ -46,16 +46,17 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
+  // Network first so a new build (data.json, shared header/CSS) shows on the
+  // next visit; the cache is only the offline fallback.
   event.respondWith(
-    caches.match(event.request).then((cached) => {
-      if (cached) {
-        return cached;
-      }
-      return fetch(event.request).then((response) => {
-        const copy = response.clone();
-        caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+    fetch(event.request)
+      .then((response) => {
+        if (response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
+        }
         return response;
-      });
-    }),
+      })
+      .catch(() => caches.match(event.request)),
   );
 });
