@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:03:23+02:00",
+  "generatedAt": "2026-10-09T15:05:46+02:00",
   "entries": [
     {
       "id": "21f65d7b2423",
@@ -162,6 +162,26 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "fee4fbb9f960",
+      "section": "nyheter",
+      "title": "Tre krogar med Medelhavskänsla",
+      "summary": "Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/tre-krogar-med-medelhavskansla/",
+      "publishedAt": "2026-10-09T15:03:51+02:00",
+      "text": "Tre krogar med Medelhavskänsla DN Trots att hösten drar in över Stockholm finns det krogar som bjuder på sydeuropeiska smaker, tapas och varm restaurangatmosfär. Här är tre tips."
+    },
+    {
+      "id": "629fd25b8602",
+      "section": "nyheter",
+      "title": "Salon Terminal: En gastronomisk höjdpunkt gömmer sig på Stockholms mesta hotellstråk",
+      "summary": "Krogkommissionen. På den nyöppnade och centralt placerade hotellrestaurangen finns både viljan och kompetensen – men än så länge har gästerna inte hittat hit. Det är synd, tycker DN:s utsända.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/salon-terminal-en-gastronomisk-hojdpunkt-gommer-sig-pa-stockholms-mesta-hotellstrak/",
+      "publishedAt": "2026-10-09T15:03:42+02:00",
+      "text": "Salon Terminal: En gastronomisk höjdpunkt gömmer sig på Stockholms mesta hotellstråk DN Krogkommissionen. På den nyöppnade och centralt placerade hotellrestaurangen finns både viljan och kompetensen – men än så länge har gästerna inte hittat hit. Det är synd, tycker DN:s utsända."
+    },
+    {
       "id": "ec4a712de224",
       "section": "nyheter",
       "title": "Boklistan vecka 41: normaliteter, register, alkoholfritt och isländska vindar",
@@ -240,26 +260,6 @@
       "link": "https://www.svt.se/sport/fotboll/sladjan-osmanagic-dod-blev-55-ar-gammal",
       "publishedAt": "2026-10-09T14:22:19+02:00",
       "text": "Sladjan Osmanagic död – blev 55 år gammal SVT Tidigare SVT-profilen Sladjan Osmanagic har dött, rapporterar Aftonbladet. Han blev 55 år gammal. – Det kom som en chock, säger systerdottern Aleksandra Topalovic till tidningen."
-    },
-    {
-      "id": "a88a6d9c1eb3",
-      "section": "nyheter",
-      "title": "Filippa Kindblom: Nu heter alla Jane Doe",
-      "summary": "En ung kvinnlig student har anklagat flera manliga studenter på elituniversitet Cornell i USA för gruppvåldtäkt. I stämningen är hon anonym, och kallar sig bara Jane Doe. Nu sprids en rörelse, både på universitetet och i sociala medier, ett slags elituniver...",
-      "source": "DN",
-      "link": "https://www.dn.se/kultur/filippa-kindblom-nu-heter-alla-jane-doe/",
-      "publishedAt": "2026-10-09T14:20:28+02:00",
-      "text": "Filippa Kindblom: Nu heter alla Jane Doe DN En ung kvinnlig student har anklagat flera manliga studenter på elituniversitet Cornell i USA för gruppvåldtäkt. I stämningen är hon anonym, och kallar sig bara Jane Doe. Nu sprids en rörelse, både på universitetet och i sociala medier, ett slags elituniver..."
-    },
-    {
-      "id": "ca70caf3c395",
-      "section": "nyheter",
-      "title": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning",
-      "summary": "– Det känns overkligt att vakna upp till nyheten att USA ska ha sin första offentliga avrättning på nästan hundra år, säger Fredrik Bergman Evans, chef för Centrum för rättvisa och expert på det amerikanska rättssystemet.",
-      "source": "DN",
-      "link": "https://www.dn.se/varlden/horribelt-och-moraliskt-forkastligt-stark-kritik-mot-planer-pa-livesand-avrattning/",
-      "publishedAt": "2026-10-09T14:14:26+02:00",
-      "text": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning DN – Det känns overkligt att vakna upp till nyheten att USA ska ha sin första offentliga avrättning på nästan hundra år, säger Fredrik Bergman Evans, chef för Centrum för rättvisa och expert på det amerikanska rättssystemet."
     },
     {
       "id": "9dcd7a182e32",
