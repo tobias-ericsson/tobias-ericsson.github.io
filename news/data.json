@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:24:25+02:00",
+  "generatedAt": "2026-10-09T16:26:28+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "8166a7313f96",
+          "section": "nyheter",
+          "title": "Israelisk general: Netanyahus stab försökte förfalska krigsprotokollet",
+          "summary": "Benjamin Netanyahus medarbetare försökte ändra och redigera i protokoll och källmaterial efter Hamas terrorattack den 7 oktober 2023. Detta för att ställa premiärministerns insats den ödesdigra morgonen i mer fördelaktigt ljus.",
+          "link": "https://www.dn.se/varlden/israelisk-general-netanyahus-stab-forsokte-forfalska-krigsprotokollet/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T16:24:34+02:00"
+        },
+        {
+          "id": "3e25f0d01e15",
+          "section": "nyheter",
+          "title": "Centerledaren: ”Viktigt att visa att vi kan sitta i samma rum”",
+          "summary": "För första gången sedan valet samlas de rödgröna partierna till ett gemensamt möte, samtidigt som regeringsfrågan fortfarande är låst.Centerpartiet hoppas på ett bättre samtalsklimat, medan Vänsterpartiet vill tala om regeringsbildningen och kräver plats i...",
+          "link": "https://www.sverigesradio.se/artikel/9316762",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T16:23:00+02:00"
+        },
+        {
           "id": "13471046b2f1",
           "section": "nyheter",
           "title": "Johanna Frändén: Ungdomsprotesterna vänder upp och ned på Frankrike",
@@ -273,15 +291,6 @@
           "publishedAt": "2026-10-09T15:21:04+02:00"
         },
         {
-          "id": "36739e836ff0",
-          "section": "nyheter",
-          "title": "Insändare. Svar: Snälla, ge mig ”Ring så spelar vi ” utan avbrott",
-          "summary": "SVAR PÅ INSÄNDARE. Jag efterlyser en undersökning som visar att trafikupplysningen i P4 ger någon effekt. Vänligen låt mig lyssna på ”Ring så spelar vi” i morgon lördag klockan 07.00 utan avbrott, skriver Nikals Silfverberg.",
-          "link": "https://www.dn.se/insandare/svar-snalla-ge-mig-ring-sa-spelar-vi-utan-avbrott/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T15:09:47+02:00"
-        },
-        {
           "id": "01c12f032303",
           "section": "nyheter",
           "title": "Bianca och Carola bär hennes smycken – nu öppnar hon butik i hemstaden Malmö",
@@ -316,15 +325,6 @@
           "link": "https://www.nyteknik.se/innovation/vaerldens-tva-foersta-atomkaerneur-tickar-felar-en-sekund-pa-30-miljoner-ar/4503047",
           "source": "NyTeknik",
           "publishedAt": "2026-10-09T14:26:46+02:00"
-        },
-        {
-          "id": "9dcd7a182e32",
-          "section": "nyheter",
-          "title": "Ismail Jama: En pionjär i internationell rätt",
-          "summary": "Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth...",
-          "link": "https://www.sverigesradio.se/artikel/9316578",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T14:13:00+02:00"
         },
         {
           "id": "b6eb5d925629",
