@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:16:09+02:00",
+  "generatedAt": "2026-10-09T13:18:11+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "70add48e5f94",
+          "section": "nyheter",
+          "title": "Machado vill ha presidentval i Venezuela nästa år",
+          "summary": "Venezuelas oppositionsledare María Corina Machado vill ha presidentval i sommar. Det säger hon i en intervju med Financial Times. – Vi är redo att gå vidare, säger hon till tidningen.",
+          "link": "https://www.svt.se/nyheter/inrikes/machado-vill-ha-presidentval-i-venezuela-nasta-ar",
+          "source": "SVT",
+          "publishedAt": "2026-10-09T13:16:15+02:00"
+        },
+        {
           "id": "f44a8759e135",
           "section": "nyheter",
           "title": "Klytjko: ”Nu handlar det om att överleva”",
@@ -307,15 +316,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316361",
           "source": "Ekot",
           "publishedAt": "2026-10-09T11:19:00+02:00"
-        },
-        {
-          "id": "46a225129a33",
-          "section": "nyheter",
-          "title": "Före detta vd från Vimmerby krävs på 54 miljoner kronor",
-          "summary": "Den tidigare vd:n för en konkursad e-handels- och elektronikkoncern riskerar att tvingas betala 54 miljoner kronor när Skatteverket vill att han hålls personligt betalningsansvarig för obetalda skulder i ett av bolagen.",
-          "link": "https://www.svt.se/nyheter/lokalt/smaland/fore-detta-vd-kravs-pa-54-miljoner-kronor",
-          "source": "SVT",
-          "publishedAt": "2026-10-09T11:14:52+02:00"
         },
         {
           "id": "5ff092bea5e3",
