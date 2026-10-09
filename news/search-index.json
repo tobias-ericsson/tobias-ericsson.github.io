@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:53:04+02:00",
+  "generatedAt": "2026-10-09T14:55:04+02:00",
   "entries": [
     {
       "id": "071e81162e4a",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
       "publishedAt": "2026-10-08T02:00:00+02:00",
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
+    },
+    {
+      "id": "a45395a6fa81",
+      "section": "nyheter",
+      "title": "Navi Pillay om fredspriset: ”En underbar överraskning”",
+      "summary": "Navi Pillay, den nyblivna fredspristagaren i Alfred Nobels minne, befann sig på en juridisk konferens i Nürnberg i Tyskland när hon tog emot beskedet.Och det är på samma plats som hon nu uttalar sig efter offentliggörandet av utmärkelsen. Den sydafrikanska...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316658",
+      "publishedAt": "2026-10-09T14:54:00+02:00",
+      "text": "Navi Pillay om fredspriset: ”En underbar överraskning” Ekot Navi Pillay, den nyblivna fredspristagaren i Alfred Nobels minne, befann sig på en juridisk konferens i Nürnberg i Tyskland när hon tog emot beskedet.Och det är på samma plats som hon nu uttalar sig efter offentliggörandet av utmärkelsen. Den sydafrikanska..."
     },
     {
       "id": "f9b7187bfa56",
@@ -340,16 +350,6 @@
       "link": "https://www.nyteknik.se/rymden/nasa-slaepper-800-gb-data-fran-manen-se-vad-astronauterna-sag/4502957",
       "publishedAt": "2026-10-09T12:02:35+02:00",
       "text": "Nasa släpper stora mängder data från månen – se vad astronauterna såg NyTeknik Nasa har släppt data från Artemis II. Bilder från astronauternas egna kameror ska hjälpa forskare säkra framtida månresor."
-    },
-    {
-      "id": "e46b646c0b32",
-      "section": "nyheter",
-      "title": "Navi Pillay tilldelas Nobels fredspris: ”Kanske delar med Trump”",
-      "summary": "Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316431",
-      "publishedAt": "2026-10-09T12:02:00+02:00",
-      "text": "Navi Pillay tilldelas Nobels fredspris: ”Kanske delar med Trump” Ekot Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k..."
     },
     {
       "id": "a67a943cc036",

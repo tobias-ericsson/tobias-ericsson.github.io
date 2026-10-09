@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:53:04+02:00",
+  "generatedAt": "2026-10-09T14:55:04+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "a45395a6fa81",
+          "section": "nyheter",
+          "title": "Navi Pillay om fredspriset: ”En underbar överraskning”",
+          "summary": "Navi Pillay, den nyblivna fredspristagaren i Alfred Nobels minne, befann sig på en juridisk konferens i Nürnberg i Tyskland när hon tog emot beskedet.Och det är på samma plats som hon nu uttalar sig efter offentliggörandet av utmärkelsen. Den sydafrikanska...",
+          "link": "https://www.sverigesradio.se/artikel/9316658",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T14:54:00+02:00"
+        },
         {
           "id": "f9b7187bfa56",
           "section": "nyheter",
@@ -316,15 +325,6 @@
           "link": "https://www.nyteknik.se/rymden/nasa-slaepper-800-gb-data-fran-manen-se-vad-astronauterna-sag/4502957",
           "source": "NyTeknik",
           "publishedAt": "2026-10-09T12:02:35+02:00"
-        },
-        {
-          "id": "e46b646c0b32",
-          "section": "nyheter",
-          "title": "Navi Pillay tilldelas Nobels fredspris: ”Kanske delar med Trump”",
-          "summary": "Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k...",
-          "link": "https://www.sverigesradio.se/artikel/9316431",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T12:02:00+02:00"
         },
         {
           "id": "a67a943cc036",
