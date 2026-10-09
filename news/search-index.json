@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:14:01+02:00",
+  "generatedAt": "2026-10-09T14:16:03+02:00",
   "entries": [
     {
       "id": "071e81162e4a",
@@ -162,6 +162,26 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "ca70caf3c395",
+      "section": "nyheter",
+      "title": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning",
+      "summary": "– Det känns overkligt att vakna upp till nyheten att USA ska ha sin första offentliga avrättning på nästan hundra år, säger Fredrik Bergman Evans, chef för Centrum för rättvisa och expert på det amerikanska rättssystemet.",
+      "source": "DN",
+      "link": "https://www.dn.se/varlden/horribelt-och-moraliskt-forkastligt-stark-kritik-mot-planer-pa-livesand-avrattning/",
+      "publishedAt": "2026-10-09T14:14:26+02:00",
+      "text": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning DN – Det känns overkligt att vakna upp till nyheten att USA ska ha sin första offentliga avrättning på nästan hundra år, säger Fredrik Bergman Evans, chef för Centrum för rättvisa och expert på det amerikanska rättssystemet."
+    },
+    {
+      "id": "909726aa6291",
+      "section": "nyheter",
+      "title": "Ismail Jama: En pionjär i internationell rätt och fred",
+      "summary": "Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316578",
+      "publishedAt": "2026-10-09T14:13:00+02:00",
+      "text": "Ismail Jama: En pionjär i internationell rätt och fred Ekot Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth..."
+    },
+    {
       "id": "0d3f53408a5d",
       "section": "nyheter",
       "title": "Svensk ekonomi växer mer än väntat: ”Bred uppgång”",
@@ -282,16 +302,6 @@
       "text": "Ny jätteanläggning ska täcka Malmös elbehov tre gånger om Sydsvenskan Kostar 800 miljoner • ”Utan den här hade vi slagit i…"
     },
     {
-      "id": "50d0bff8212c",
-      "section": "nyheter",
-      "title": "Lisa Edwinsson: Mer verkstad och mindre snack – det här behöver Tony Gustavsson få ordning på i kväll",
-      "summary": "Tony Gustavsson har ifrågasatts och hans fotbollslandslag underpresterat. Nu är det skarpt läge. Här är tre saker som förbundskaptenen måste få ordning på när höstens VM-playoff inleds borta mot Litauen på fredagen.",
-      "source": "DN",
-      "link": "https://www.dn.se/sport/lisa-edwinsson-mer-verkstad-och-mindre-snack-det-har-behover-tony-gustavsson-fa-ordning-pa-i-kvall/",
-      "publishedAt": "2026-10-09T12:59:18+02:00",
-      "text": "Lisa Edwinsson: Mer verkstad och mindre snack – det här behöver Tony Gustavsson få ordning på i kväll DN Tony Gustavsson har ifrågasatts och hans fotbollslandslag underpresterat. Nu är det skarpt läge. Här är tre saker som förbundskaptenen måste få ordning på när höstens VM-playoff inleds borta mot Litauen på fredagen."
-    },
-    {
       "id": "85d7926f6074",
       "section": "nyheter",
       "title": "Chatt: Ställ din fråga om läget i svensk politik",
@@ -320,16 +330,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316431",
       "publishedAt": "2026-10-09T12:02:00+02:00",
       "text": "Navi Pillay tilldelas Nobels fredspris: ”Kanske delar med Trump” Ekot Den sydafrikanska förkämpen för internationell rätt Navanethem Pillay tilldelades årets Nobels fredspris och skämtade kort efter offentliggörandet om att hon kanske skulle dela priset med USA:s president Donald Trump om folk fortsatte att applådera.”Om ni k..."
-    },
-    {
-      "id": "6cbe3e41a72e",
-      "section": "nyheter",
-      "title": "Navanethem Pillay får Nobels fredspris 2026",
-      "summary": "Nobels fredspris går i år till människorättsjuristen Navanethem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316301",
-      "publishedAt": "2026-10-09T11:38:00+02:00",
-      "text": "Navanethem Pillay får Nobels fredspris 2026 Ekot Nobels fredspris går i år till människorättsjuristen Navanethem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry..."
     },
     {
       "id": "a67a943cc036",

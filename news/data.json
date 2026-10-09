@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:14:01+02:00",
+  "generatedAt": "2026-10-09T14:16:03+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,24 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "ca70caf3c395",
+          "section": "nyheter",
+          "title": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning",
+          "summary": "– Det känns overkligt att vakna upp till nyheten att USA ska ha sin första offentliga avrättning på nästan hundra år, säger Fredrik Bergman Evans, chef för Centrum för rättvisa och expert på det amerikanska rättssystemet.",
+          "link": "https://www.dn.se/varlden/horribelt-och-moraliskt-forkastligt-stark-kritik-mot-planer-pa-livesand-avrattning/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T14:14:26+02:00"
+        },
+        {
+          "id": "909726aa6291",
+          "section": "nyheter",
+          "title": "Ismail Jama: En pionjär i internationell rätt och fred",
+          "summary": "Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth...",
+          "link": "https://www.sverigesradio.se/artikel/9316578",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T14:13:00+02:00"
+        },
+        {
           "id": "0d3f53408a5d",
           "section": "nyheter",
           "title": "Svensk ekonomi växer mer än väntat: ”Bred uppgång”",
@@ -264,15 +282,6 @@
           "publishedAt": "2026-10-09T13:00:00+02:00"
         },
         {
-          "id": "50d0bff8212c",
-          "section": "nyheter",
-          "title": "Lisa Edwinsson: Mer verkstad och mindre snack – det här behöver Tony Gustavsson få ordning på i kväll",
-          "summary": "Tony Gustavsson har ifrågasatts och hans fotbollslandslag underpresterat. Nu är det skarpt läge. Här är tre saker som förbundskaptenen måste få ordning på när höstens VM-playoff inleds borta mot Litauen på fredagen.",
-          "link": "https://www.dn.se/sport/lisa-edwinsson-mer-verkstad-och-mindre-snack-det-har-behover-tony-gustavsson-fa-ordning-pa-i-kvall/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:59:18+02:00"
-        },
-        {
           "id": "85d7926f6074",
           "section": "nyheter",
           "title": "Chatt: Ställ din fråga om läget i svensk politik",
@@ -298,15 +307,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316431",
           "source": "Ekot",
           "publishedAt": "2026-10-09T12:02:00+02:00"
-        },
-        {
-          "id": "6cbe3e41a72e",
-          "section": "nyheter",
-          "title": "Navanethem Pillay får Nobels fredspris 2026",
-          "summary": "Nobels fredspris går i år till människorättsjuristen Navanethem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry...",
-          "link": "https://www.sverigesradio.se/artikel/9316301",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T11:38:00+02:00"
         },
         {
           "id": "a67a943cc036",
