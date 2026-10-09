@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:26:15+02:00",
+  "generatedAt": "2026-10-09T14:28:13+02:00",
   "sections": [
     {
       "key": "news",
@@ -155,6 +155,15 @@
       "key": "nyheter",
       "label": "Nyheter",
       "articles": [
+        {
+          "id": "8cb349738a5a",
+          "section": "nyheter",
+          "title": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år",
+          "summary": "Tekniken väntas överträffa atomuret i noggrannhet och hjälpa till att lösa universums svåraste mysterier.",
+          "link": "https://www.nyteknik.se/innovation/vaerldens-tva-foersta-atomkaerneur-tickar-felar-en-sekund-pa-30-miljoner-ar/4503047",
+          "source": "NyTeknik",
+          "publishedAt": "2026-10-09T14:26:46+02:00"
+        },
         {
           "id": "a88a6d9c1eb3",
           "section": "nyheter",
@@ -433,15 +442,6 @@
           "link": "https://webbjobb.io/jobb/348273/iam-iga-specialist?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
           "source": "WebbJobbLund",
           "publishedAt": "2026-10-08T12:31:20+02:00"
-        },
-        {
-          "id": "6d2ac3189df5",
-          "section": "nyheter",
-          "title": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt”",
-          "summary": "Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området.",
-          "link": "https://www.nyteknik.se/tech/polisen-utreder-googles-ai-datacenter-i-finland-allvarligt/4502415",
-          "source": "NyTeknik",
-          "publishedAt": "2026-10-08T11:17:16+02:00"
         },
         {
           "id": "2ff0954ff0a2",

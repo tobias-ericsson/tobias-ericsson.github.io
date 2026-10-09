@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:26:15+02:00",
+  "generatedAt": "2026-10-09T14:28:13+02:00",
   "entries": [
     {
       "id": "071e81162e4a",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
       "publishedAt": "2026-10-08T02:00:00+02:00",
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
+    },
+    {
+      "id": "8cb349738a5a",
+      "section": "nyheter",
+      "title": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år",
+      "summary": "Tekniken väntas överträffa atomuret i noggrannhet och hjälpa till att lösa universums svåraste mysterier.",
+      "source": "NyTeknik",
+      "link": "https://www.nyteknik.se/innovation/vaerldens-tva-foersta-atomkaerneur-tickar-felar-en-sekund-pa-30-miljoner-ar/4503047",
+      "publishedAt": "2026-10-09T14:26:46+02:00",
+      "text": "Världens två första atomkärneur tickar – felar en sekund på 30 miljoner år NyTeknik Tekniken väntas överträffa atomuret i noggrannhet och hjälpa till att lösa universums svåraste mysterier."
     },
     {
       "id": "a88a6d9c1eb3",
@@ -470,16 +480,6 @@
       "link": "https://webbjobb.io/jobb/348273/iam-iga-specialist?utm_source=All%20RSS\u0026utm_medium=RSS\u0026utm_campaign=Lund",
       "publishedAt": "2026-10-08T12:31:20+02:00",
       "text": "IAM/IGA specialist WebbJobbLund UppdragsbeskrivningFör Region Skånes räkning söker vi efter en resurs som ska förstärka deras projekt för införande av en ny Identity and Access Management (IAM)-plattform baserad på SailPoint IdentityIQ (IIQ). Uppdraget omfattar analys, design, implementat..."
-    },
-    {
-      "id": "6d2ac3189df5",
-      "section": "nyheter",
-      "title": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt”",
-      "summary": "Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området.",
-      "source": "NyTeknik",
-      "link": "https://www.nyteknik.se/tech/polisen-utreder-googles-ai-datacenter-i-finland-allvarligt/4502415",
-      "publishedAt": "2026-10-08T11:17:16+02:00",
-      "text": "Polisen utreder Googles AI-datacenter i Finland: ”Allvarligt” NyTeknik Sökjätten beordrades nyligen att avbryta bygget av två datacenter. Nu ska polisen undersöka om Google har begått brott vid markarbete i området."
     },
     {
       "id": "2ff0954ff0a2",
