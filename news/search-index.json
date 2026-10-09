@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T11:38:46+02:00",
+  "generatedAt": "2026-10-09T11:40:40+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,36 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "885dc5246a33",
+      "section": "nyheter",
+      "title": "Insändare. Tre nycklar kan dyrka upp låsningen mellan C och V",
+      "summary": "INSÄNDARE. Om ett regeringsskifte ska bli verklighet måste Centerpartiet och Vänsterpartiet inleda ett konkret samarbete. Dessa partier behöver vara stolta över att behöva bita i det sura äpplet av komplexa kompromisser, skriver Rasmus Nertlinge.",
+      "source": "DN",
+      "link": "https://www.dn.se/insandare/tre-nycklar-kan-dyrka-upp-lasningen-mellan-c-och-v/",
+      "publishedAt": "2026-10-09T11:38:41+02:00",
+      "text": "Insändare. Tre nycklar kan dyrka upp låsningen mellan C och V DN INSÄNDARE. Om ett regeringsskifte ska bli verklighet måste Centerpartiet och Vänsterpartiet inleda ett konkret samarbete. Dessa partier behöver vara stolta över att behöva bita i det sura äpplet av komplexa kompromisser, skriver Rasmus Nertlinge."
+    },
+    {
+      "id": "6cbe3e41a72e",
+      "section": "nyheter",
+      "title": "Navanethem Pillay får Nobels fredspris 2026",
+      "summary": "Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316301",
+      "publishedAt": "2026-10-09T11:38:00+02:00",
+      "text": "Navanethem Pillay får Nobels fredspris 2026 Ekot Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry..."
+    },
+    {
+      "id": "179f91d2a506",
+      "section": "nyheter",
+      "title": "Klamberg har jobbat med Pillay: ”Inte helt oväntat”",
+      "summary": "Mark Klamberg, professor i folkrätt vid Stockholms universitet, har arbetat på Internationella brottsmålsdomstolen 2006 på samma avdelning som fredspristagaren ”Navi” Pillay.”Det är en person som jobbat inom internationell rättvisa i bred bemärkelse”, säger...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316400",
+      "publishedAt": "2026-10-09T11:37:00+02:00",
+      "text": "Klamberg har jobbat med Pillay: ”Inte helt oväntat” Ekot Mark Klamberg, professor i folkrätt vid Stockholms universitet, har arbetat på Internationella brottsmålsdomstolen 2006 på samma avdelning som fredspristagaren ”Navi” Pillay.”Det är en person som jobbat inom internationell rättvisa i bred bemärkelse”, säger..."
+    },
+    {
       "id": "15947c8663ce",
       "section": "nyheter",
       "title": "V-toppen inför ödesmötet: ”Tough shit – då får man tugga i sig det”",
@@ -180,16 +210,6 @@
       "link": "https://www.sydsvenskan.se/sydsvenskan-direkt/?ifr-dir-postId=dba1328d-920f-4ddf-98e0-016348df875d",
       "publishedAt": "2026-10-09T11:35:04+02:00",
       "text": "Man begärs häktad efter mordet på Bellevuegården Sydsvenskan MALMÖ. Den 52-årige man som greps efter den dödliga…"
-    },
-    {
-      "id": "c22e9aeb15de",
-      "section": "nyheter",
-      "title": "Navanethem Pillay får Nobels fredspris 2026",
-      "summary": "Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316301",
-      "publishedAt": "2026-10-09T11:35:00+02:00",
-      "text": "Navanethem Pillay får Nobels fredspris 2026 Ekot Nobels fredspris går i år till människorättsjuristen Navanathem ”Navi” Pillay, meddelar norska Nobelkommittén.Pillay beskrivs som en av de mest inflytelserika juristerna i modern tid.Den 85-åriga toppjuristen har ställt människorättsförövare och krigsförbry..."
     },
     {
       "id": "13328f9a1027",
@@ -340,26 +360,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316284",
       "publishedAt": "2026-10-09T10:22:00+02:00",
       "text": "Gissén: Inget tyder på att C kommer erkänna V Ekot I eftermiddag möts de rödgröna partierna på Högberga gård på Lidingö i Stockholm.Mötet sker på initiativ av Centerpartiet som, utöver MP, S och V, även har bjudit in en rad samhällsaktörer till det partiet kallar en ”gemensam lägesgenomgång”.Enligt Ekots in..."
-    },
-    {
-      "id": "996c9093aa77",
-      "section": "nyheter",
-      "title": "Expert efter intrången hos finska politiker: Mycket pekar mot Ryssland",
-      "summary": "Tiotals finländska riksdagsledamöter har drabbats av inbrott. Inget har stulits och blickarna riktas österut. På torsdagen kallades ledamöterna till ett hemligt möte. – Vi kommer inte att få något rykande vapen som visar att Putin själv beordrade operatione...",
-      "source": "DN",
-      "link": "https://www.dn.se/varlden/expert-efter-intrangen-hos-finska-politiker-mycket-pekar-mot-ryssland/",
-      "publishedAt": "2026-10-09T10:04:12+02:00",
-      "text": "Expert efter intrången hos finska politiker: Mycket pekar mot Ryssland DN Tiotals finländska riksdagsledamöter har drabbats av inbrott. Inget har stulits och blickarna riktas österut. På torsdagen kallades ledamöterna till ett hemligt möte. – Vi kommer inte att få något rykande vapen som visar att Putin själv beordrade operatione..."
-    },
-    {
-      "id": "41427eeeaa93",
-      "section": "nyheter",
-      "title": "Experten inför rödgröna partiernas möte: ”Pressen behövs”",
-      "summary": "Mötet i dag där de rödgröna partierna samlas, på initiativ av Centerpartiet, kan bli en möjlighet till omstart. Den bedömningen gör Lars-Johan Åge, professor i förhandling och medling vid högskolan i Gävle.”Problemet har ju varit de här röda linjerna, som h...",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316199",
-      "publishedAt": "2026-10-09T09:11:00+02:00",
-      "text": "Experten inför rödgröna partiernas möte: ”Pressen behövs” Ekot Mötet i dag där de rödgröna partierna samlas, på initiativ av Centerpartiet, kan bli en möjlighet till omstart. Den bedömningen gör Lars-Johan Åge, professor i förhandling och medling vid högskolan i Gävle.”Problemet har ju varit de här röda linjerna, som h..."
     },
     {
       "id": "6a3812d2fd99",
