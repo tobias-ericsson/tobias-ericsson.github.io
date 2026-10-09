@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:32:26+02:00",
+  "generatedAt": "2026-10-09T13:34:31+02:00",
   "entries": [
     {
       "id": "d092758b96ec",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "9e8d8075118f",
+      "section": "nyheter",
+      "title": "Robyn får en radiostation i nya GTA",
+      "summary": "Musiken har alltid varit en stor del av ”Grand Theft Auto”. Nu står det klart att bland annat Bad Bunny, Burna Boy, Lana Del Rey – och Robyn får var sin radiostation i hett emotsedda nya ”GTA VI”, skriver Pitchfork.",
+      "source": "SVT",
+      "link": "https://www.svt.se/kultur/robyn-far-en-radiostation-i-nya-gta",
+      "publishedAt": "2026-10-09T13:29:17+02:00",
+      "text": "Robyn får en radiostation i nya GTA SVT Musiken har alltid varit en stor del av ”Grand Theft Auto”. Nu står det klart att bland annat Bad Bunny, Burna Boy, Lana Del Rey – och Robyn får var sin radiostation i hett emotsedda nya ”GTA VI”, skriver Pitchfork."
+    },
+    {
       "id": "70add48e5f94",
       "section": "nyheter",
       "title": "Machado vill ha presidentval i Venezuela nästa år",
@@ -320,16 +330,6 @@
       "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
       "publishedAt": "2026-10-09T11:35:04+02:00",
       "text": "52-åring häktas efter mordet på Bellevuegården Sydsvenskan Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…"
-    },
-    {
-      "id": "13328f9a1027",
-      "section": "nyheter",
-      "title": "En till sjukhus – fastnade under nedfallet träd i Västerås",
-      "summary": "En kvinna har förts till sjukhus med ambulans efter att ha fastnat under ett nedfallet träd i Västerås. Hon är svårt skadad och har lagts in för behandling, men läget ska vara stabilt.",
-      "source": "SVT",
-      "link": "https://www.svt.se/nyheter/lokalt/vastmanland/en-till-sjukhus-fastnade-under-nedfallet-trad-i-vasteras",
-      "publishedAt": "2026-10-09T11:28:19+02:00",
-      "text": "En till sjukhus – fastnade under nedfallet träd i Västerås SVT En kvinna har förts till sjukhus med ambulans efter att ha fastnat under ett nedfallet träd i Västerås. Hon är svårt skadad och har lagts in för behandling, men läget ska vara stabilt."
     },
     {
       "id": "26f603d19f48",
