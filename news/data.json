@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:46:45+02:00",
+  "generatedAt": "2026-10-09T13:48:58+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "b684da3af643",
+          "section": "nyheter",
+          "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
+          "summary": "I spöregn och kuling samlas de rödgröna partiernas ledare för första gången sedan valet. På vägen in till fredagens möte välkomnar de Centerpartiets initiativ. – Alla partier måste vara beredda att ge och ta, säger Magdalena Andersson (S).",
+          "link": "https://www.dn.se/sverige/rodgrona-partiledare-i-odesmote-alla-maste-ge-och-ta/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T13:46:38+02:00"
+        },
+        {
           "id": "ad76d551319c",
           "section": "nyheter",
           "title": "Mattsson: ”Man vill inte framstå som den som är omöjlig”",
@@ -253,15 +262,6 @@
           "link": "https://www.svt.se/nyheter/lokalt/vasterbotten/man-anstalld-pa-boliden-hittades-dod-i-vattnet-kollegor-erbjuds-krisstod",
           "source": "SVT",
           "publishedAt": "2026-10-09T12:30:06+02:00"
-        },
-        {
-          "id": "d7f993461a20",
-          "section": "nyheter",
-          "title": "Nu börjar Gardells miljonregn över svensk tennis",
-          "summary": "Affärsmannen Christer Gardells omtalade bidrag på 100 miljoner kronor till svensk tennis blir verklighet. En första utbetalning på 20 miljoner sker i oktober. – Jag har väntat länge på att vi ska kunna titta framåt, säger Ulf Rosberg, ordförande i Svenska T...",
-          "link": "https://www.dn.se/sport/nu-borjar-gardells-miljonregn-over-svensk-tennis/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:26:37+02:00"
         },
         {
           "id": "5a5b8d7682f9",
