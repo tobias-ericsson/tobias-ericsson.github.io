@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:20:16+02:00",
+  "generatedAt": "2026-10-09T14:22:17+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "a88a6d9c1eb3",
+          "section": "nyheter",
+          "title": "Filippa Kindblom: Nu heter alla Jane Doe",
+          "summary": "En ung kvinnlig student har anklagat flera manliga studenter på elituniversitet Cornell i USA för gruppvåldtäkt. I stämningen är hon anonym, och kallar sig bara Jane Doe. Nu sprids en rörelse, både på universitetet och i sociala medier, ett slags elituniver...",
+          "link": "https://www.dn.se/kultur/filippa-kindblom-nu-heter-alla-jane-doe/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T14:20:28+02:00"
+        },
+        {
           "id": "ca70caf3c395",
           "section": "nyheter",
           "title": "”Horribelt och moraliskt förkastligt” – stark kritik mot planer på livesänd avrättning",
@@ -235,15 +244,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316520",
           "source": "Ekot",
           "publishedAt": "2026-10-09T13:38:00+02:00"
-        },
-        {
-          "id": "65af9be16ba0",
-          "section": "nyheter",
-          "title": "Schröder tror på islossning i landslaget",
-          "summary": "Noll mål i landslaget. Det vill supertalangen Felicia Schröder ändra på i VM-playoffet borta mot Litauen. – Det hade såklart varit kul om det hade lossnat, säger Real Madrid-stjärnan på en pressträff i Kaunas.",
-          "link": "https://www.dn.se/sport/schroder-tror-pa-islossning-i-landslaget/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T13:36:58+02:00"
         },
         {
           "id": "9e8d8075118f",
