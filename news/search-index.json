@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:51:03+02:00",
+  "generatedAt": "2026-10-09T13:53:01+02:00",
   "entries": [
     {
       "id": "a807bc0aa58a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "4209724f6b93",
+      "section": "nyheter",
+      "title": "Insändare. Stoppa barbariet med dödstraffen",
+      "summary": "INSÄNDARE. Nu ska den amerikanske ”krigsministern” Pete Hegeseth låta direktsända en kommande avrättning. Hur länge ska detta barbari få fortsätta? undrar Åke Sintring.",
+      "source": "DN",
+      "link": "https://www.dn.se/insandare/stoppa-barbariet-med-dodstraffen/",
+      "publishedAt": "2026-10-09T13:51:35+02:00",
+      "text": "Insändare. Stoppa barbariet med dödstraffen DN INSÄNDARE. Nu ska den amerikanske ”krigsministern” Pete Hegeseth låta direktsända en kommande avrättning. Hur länge ska detta barbari få fortsätta? undrar Åke Sintring."
+    },
+    {
       "id": "b684da3af643",
       "section": "nyheter",
       "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
@@ -260,16 +270,6 @@
       "link": "https://www.dn.se/kultur/forfattarforbundet-varnar-for-hybridforlaget-lava/",
       "publishedAt": "2026-10-09T12:53:03+02:00",
       "text": "Författarförbundet varnar för hybridförlaget Lava DN Författarförbundet går ut och varnar för att ingå avtal med Bookea Group, där Lava förlag ingår. Anledningen är att företaget befinner sig i rekonstruktion."
-    },
-    {
-      "id": "5fa2f1e0da80",
-      "section": "nyheter",
-      "title": "Insändare. Stoppa privata kliniker från att misshandla barn",
-      "summary": "INSÄNDARE. Svalgoperationer av små barn måste ske på barnoperationsavdelningar. Stoppa privata vårdgivare från att misshandla fler barn i Stockholmsregionen, skriver läkaren Gun-Britt Karlsson och sjuksköterskan Maria Brännström.",
-      "source": "DN",
-      "link": "https://www.dn.se/insandare/stoppa-privata-kliniker-fran-att-misshandla-barn/",
-      "publishedAt": "2026-10-09T12:33:05+02:00",
-      "text": "Insändare. Stoppa privata kliniker från att misshandla barn DN INSÄNDARE. Svalgoperationer av små barn måste ske på barnoperationsavdelningar. Stoppa privata vårdgivare från att misshandla fler barn i Stockholmsregionen, skriver läkaren Gun-Britt Karlsson och sjuksköterskan Maria Brännström."
     },
     {
       "id": "df5a35dfc356",

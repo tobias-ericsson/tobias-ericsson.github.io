@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:51:03+02:00",
+  "generatedAt": "2026-10-09T13:53:01+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "4209724f6b93",
+          "section": "nyheter",
+          "title": "Insändare. Stoppa barbariet med dödstraffen",
+          "summary": "INSÄNDARE. Nu ska den amerikanske ”krigsministern” Pete Hegeseth låta direktsända en kommande avrättning. Hur länge ska detta barbari få fortsätta? undrar Åke Sintring.",
+          "link": "https://www.dn.se/insandare/stoppa-barbariet-med-dodstraffen/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T13:51:35+02:00"
+        },
+        {
           "id": "b684da3af643",
           "section": "nyheter",
           "title": "Rödgröna partiledare i ödesmöte: ”Alla måste ge och ta”",
@@ -244,15 +253,6 @@
           "link": "https://www.dn.se/kultur/forfattarforbundet-varnar-for-hybridforlaget-lava/",
           "source": "DN",
           "publishedAt": "2026-10-09T12:53:03+02:00"
-        },
-        {
-          "id": "5fa2f1e0da80",
-          "section": "nyheter",
-          "title": "Insändare. Stoppa privata kliniker från att misshandla barn",
-          "summary": "INSÄNDARE. Svalgoperationer av små barn måste ske på barnoperationsavdelningar. Stoppa privata vårdgivare från att misshandla fler barn i Stockholmsregionen, skriver läkaren Gun-Britt Karlsson och sjuksköterskan Maria Brännström.",
-          "link": "https://www.dn.se/insandare/stoppa-privata-kliniker-fran-att-misshandla-barn/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T12:33:05+02:00"
         },
         {
           "id": "df5a35dfc356",
