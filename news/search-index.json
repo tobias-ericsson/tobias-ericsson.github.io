@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:40:33+02:00",
+  "generatedAt": "2026-10-09T13:42:40+02:00",
   "entries": [
     {
       "id": "a807bc0aa58a",
@@ -160,6 +160,16 @@
       "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
       "publishedAt": "2026-10-08T02:00:00+02:00",
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
+    },
+    {
+      "id": "8cabf2fb849d",
+      "section": "nyheter",
+      "title": "Mattsson: Man vill inte framstå som den som är omöjlig",
+      "summary": "På Högberga gård på Lidingö möts nu de rödgröna partierna efter att Centerpartiet bjudit in till samtal.Utöver företrädare från partierna deltar samhällsaktörer, som fack, näringsliv och polis, i vad Centerpartiet kallat en ”gemensam lägesgenomgång”.”När de...",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316520",
+      "publishedAt": "2026-10-09T13:38:00+02:00",
+      "text": "Mattsson: Man vill inte framstå som den som är omöjlig Ekot På Högberga gård på Lidingö möts nu de rödgröna partierna efter att Centerpartiet bjudit in till samtal.Utöver företrädare från partierna deltar samhällsaktörer, som fack, näringsliv och polis, i vad Centerpartiet kallat en ”gemensam lägesgenomgång”.”När de..."
     },
     {
       "id": "65af9be16ba0",
@@ -330,16 +340,6 @@
       "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
       "publishedAt": "2026-10-09T11:35:04+02:00",
       "text": "52-åring häktas efter mordet på Bellevuegården Sydsvenskan Åklagaren: ”Vi vänder på varje sten för att hitta svaret på…"
-    },
-    {
-      "id": "26f603d19f48",
-      "section": "nyheter",
-      "title": "Nobels fredspris till Navanethem Pillay: ”Kontroversiellt”",
-      "summary": "”Det här kommer bli ett kontroversiellt val i många områden”, säger Ekots internationella korrespondent Daniel Alling om att Navanethem Pillay får Nobels fredspris 2026.Han säger att Israel förmodligen kommer att ha synpunkter på valet.",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316361",
-      "publishedAt": "2026-10-09T11:19:00+02:00",
-      "text": "Nobels fredspris till Navanethem Pillay: ”Kontroversiellt” Ekot ”Det här kommer bli ett kontroversiellt val i många områden”, säger Ekots internationella korrespondent Daniel Alling om att Navanethem Pillay får Nobels fredspris 2026.Han säger att Israel förmodligen kommer att ha synpunkter på valet."
     },
     {
       "id": "5ff092bea5e3",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T13:40:33+02:00",
+  "generatedAt": "2026-10-09T13:42:40+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "8cabf2fb849d",
+          "section": "nyheter",
+          "title": "Mattsson: Man vill inte framstå som den som är omöjlig",
+          "summary": "På Högberga gård på Lidingö möts nu de rödgröna partierna efter att Centerpartiet bjudit in till samtal.Utöver företrädare från partierna deltar samhällsaktörer, som fack, näringsliv och polis, i vad Centerpartiet kallat en ”gemensam lägesgenomgång”.”När de...",
+          "link": "https://www.sverigesradio.se/artikel/9316520",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T13:38:00+02:00"
+        },
+        {
           "id": "65af9be16ba0",
           "section": "nyheter",
           "title": "Schröder tror på islossning i landslaget",
@@ -307,15 +316,6 @@
           "link": "https://www.sydsvenskan.se/malmo/52-arig-man-begars-haktad-efter-mordet-pa-bellevuegarden/",
           "source": "Sydsvenskan",
           "publishedAt": "2026-10-09T11:35:04+02:00"
-        },
-        {
-          "id": "26f603d19f48",
-          "section": "nyheter",
-          "title": "Nobels fredspris till Navanethem Pillay: ”Kontroversiellt”",
-          "summary": "”Det här kommer bli ett kontroversiellt val i många områden”, säger Ekots internationella korrespondent Daniel Alling om att Navanethem Pillay får Nobels fredspris 2026.Han säger att Israel förmodligen kommer att ha synpunkter på valet.",
-          "link": "https://www.sverigesradio.se/artikel/9316361",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T11:19:00+02:00"
         },
         {
           "id": "5ff092bea5e3",
