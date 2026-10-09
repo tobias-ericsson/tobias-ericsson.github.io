@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:13:56+02:00",
+  "generatedAt": "2026-10-09T16:15:58+02:00",
   "entries": [
     {
       "id": "c06c103f7301",
@@ -172,6 +172,16 @@
       "text": "Nobelpristagaren Anne Carson rusar på boktjänsterna DN Ett knappt dygn efter tillkännagivandet av Nobelpriset ser man ett omedelbart genomslag hos svenska läsare och lyssnare för Anne Carson. Trots att poesi och essäistik normalt har svårt att ta plats på listorna trendar hennes verk nu på de digitala boktjänst..."
     },
     {
+      "id": "f0676dab3883",
+      "section": "nyheter",
+      "title": "Trump inför sanktioner mot ICC",
+      "summary": "Donald Trump inför sanktioner mot Internationella brottmålsdomstolen ICC, rapporterar Reuters.Enligt källuppgifter har administrationer förberett inför detta i flera veckor.",
+      "source": "Ekot",
+      "link": "https://www.sverigesradio.se/artikel/9316763",
+      "publishedAt": "2026-10-09T16:13:00+02:00",
+      "text": "Trump inför sanktioner mot ICC Ekot Donald Trump inför sanktioner mot Internationella brottmålsdomstolen ICC, rapporterar Reuters.Enligt källuppgifter har administrationer förberett inför detta i flera veckor."
+    },
+    {
       "id": "aff59644da4f",
       "section": "nyheter",
       "title": "IF Metall strejkskramlar till stöd för Kommunal",
@@ -320,16 +330,6 @@
       "link": "https://www.sverigesradio.se/artikel/9316578",
       "publishedAt": "2026-10-09T14:13:00+02:00",
       "text": "Ismail Jama: En pionjär i internationell rätt Ekot Navi Pillay är en sydafrikansk jurist och beskrivs som en framstående pionjär inom internationell rätt.Sveriges Radios Afrikakorrespondent Mona Ismail Jama tecknar bilden av en fredspristagare som växte upp i ett fattigt indiskt område i Durban under aparth..."
-    },
-    {
-      "id": "0d3f53408a5d",
-      "section": "nyheter",
-      "title": "Svensk ekonomi växer mer än väntat: ”Bred uppgång”",
-      "summary": "Svensk ekonomi växer snabbare än väntat, visar preliminära BNP-siffror från SCB med en uppgång på 3,5 procent på ett år. Det är bland annat hushållens konsumtion som driver tillväxt.Både Svenskt Näringsliv och LO beskriver svensk ekonomi som stark just nu....",
-      "source": "Ekot",
-      "link": "https://www.sverigesradio.se/artikel/9316466",
-      "publishedAt": "2026-10-09T14:08:00+02:00",
-      "text": "Svensk ekonomi växer mer än väntat: ”Bred uppgång” Ekot Svensk ekonomi växer snabbare än väntat, visar preliminära BNP-siffror från SCB med en uppgång på 3,5 procent på ett år. Det är bland annat hushållens konsumtion som driver tillväxt.Både Svenskt Näringsliv och LO beskriver svensk ekonomi som stark just nu...."
     },
     {
       "id": "839b14824799",

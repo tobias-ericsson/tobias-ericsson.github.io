@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:13:56+02:00",
+  "generatedAt": "2026-10-09T16:15:58+02:00",
   "sections": [
     {
       "key": "news",
@@ -165,6 +165,15 @@
           "publishedAt": "2026-10-09T16:13:13+02:00"
         },
         {
+          "id": "f0676dab3883",
+          "section": "nyheter",
+          "title": "Trump inför sanktioner mot ICC",
+          "summary": "Donald Trump inför sanktioner mot Internationella brottmålsdomstolen ICC, rapporterar Reuters.Enligt källuppgifter har administrationer förberett inför detta i flera veckor.",
+          "link": "https://www.sverigesradio.se/artikel/9316763",
+          "source": "Ekot",
+          "publishedAt": "2026-10-09T16:13:00+02:00"
+        },
+        {
           "id": "aff59644da4f",
           "section": "nyheter",
           "title": "IF Metall strejkskramlar till stöd för Kommunal",
@@ -298,15 +307,6 @@
           "link": "https://www.sverigesradio.se/artikel/9316578",
           "source": "Ekot",
           "publishedAt": "2026-10-09T14:13:00+02:00"
-        },
-        {
-          "id": "0d3f53408a5d",
-          "section": "nyheter",
-          "title": "Svensk ekonomi växer mer än väntat: ”Bred uppgång”",
-          "summary": "Svensk ekonomi växer snabbare än väntat, visar preliminära BNP-siffror från SCB med en uppgång på 3,5 procent på ett år. Det är bland annat hushållens konsumtion som driver tillväxt.Både Svenskt Näringsliv och LO beskriver svensk ekonomi som stark just nu....",
-          "link": "https://www.sverigesradio.se/artikel/9316466",
-          "source": "Ekot",
-          "publishedAt": "2026-10-09T14:08:00+02:00"
         },
         {
           "id": "839b14824799",
