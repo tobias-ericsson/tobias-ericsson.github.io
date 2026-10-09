@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T14:36:21+02:00",
+  "generatedAt": "2026-10-09T14:38:32+02:00",
   "entries": [
     {
       "id": "071e81162e4a",
@@ -162,6 +162,16 @@
       "text": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi Spring Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflection, and future-gazing. It all starts..."
     },
     {
+      "id": "f9b7187bfa56",
+      "section": "nyheter",
+      "title": "Spirituellt och anekdotiskt uruppförande av Turnages gitarrkonsert i Örebro",
+      "summary": "Uruppförandet av Turnages gitarrkonsert är full av heta diskussioner och introverta monologer. Stycket boar in sig väl mellan Ravel och Vaughan Williams, tycker DN:s Hanna Höglund som delar ut högsta betyg.",
+      "source": "DN",
+      "link": "https://www.dn.se/kultur/spirituellt-och-anekdotiskt-uruppforande-av-turnages-gitarrkonsert-i-orebro/",
+      "publishedAt": "2026-10-09T14:36:14+02:00",
+      "text": "Spirituellt och anekdotiskt uruppförande av Turnages gitarrkonsert i Örebro DN Uruppförandet av Turnages gitarrkonsert är full av heta diskussioner och introverta monologer. Stycket boar in sig väl mellan Ravel och Vaughan Williams, tycker DN:s Hanna Höglund som delar ut högsta betyg."
+    },
+    {
       "id": "40cda7a7e90b",
       "section": "nyheter",
       "title": "Misstänkt kannibalism bland instängda katter – man åtalas",
@@ -260,16 +270,6 @@
       "link": "https://www.dn.se/varlden/schroders-firande-av-putin-i-moskva-vacker-tysk-ilska/",
       "publishedAt": "2026-10-09T13:57:11+02:00",
       "text": "Schröders firande av Putin i Moskva väcker tysk ilska DN BERLIN. Tyska politiker går i taket sedan landets ex-kansler Gerhard Schröder återigen synts vid Vladimir Putins sida. Den här gången deltar han på den ryske presidentens födelsedagsfest."
-    },
-    {
-      "id": "4209724f6b93",
-      "section": "nyheter",
-      "title": "Insändare. Stoppa barbariet med dödstraffen",
-      "summary": "INSÄNDARE. Nu ska den amerikanske ”krigsministern” Pete Hegeseth låta direktsända en kommande avrättning. Hur länge ska detta barbari få fortsätta? undrar Åke Sintring.",
-      "source": "DN",
-      "link": "https://www.dn.se/insandare/stoppa-barbariet-med-dodstraffen/",
-      "publishedAt": "2026-10-09T13:51:35+02:00",
-      "text": "Insändare. Stoppa barbariet med dödstraffen DN INSÄNDARE. Nu ska den amerikanske ”krigsministern” Pete Hegeseth låta direktsända en kommande avrättning. Hur länge ska detta barbari få fortsätta? undrar Åke Sintring."
     },
     {
       "id": "d634801a8234",
