@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T15:09:53+02:00",
+  "generatedAt": "2026-10-09T15:12:02+02:00",
   "sections": [
     {
       "key": "news",
@@ -156,6 +156,15 @@
       "label": "Nyheter",
       "articles": [
         {
+          "id": "36739e836ff0",
+          "section": "nyheter",
+          "title": "Insändare. Svar: Snälla, ge mig ”Ring så spelar vi ” utan avbrott",
+          "summary": "SVAR PÅ INSÄNDARE. Jag efterlyser en undersökning som visar att trafikupplysningen i P4 ger någon effekt. Vänligen låt mig lyssna på ”Ring så spelar vi” i morgon lördag klockan 07.00 utan avbrott, skriver Nikals Silfverberg.",
+          "link": "https://www.dn.se/insandare/svar-snalla-ge-mig-ring-sa-spelar-vi-utan-avbrott/",
+          "source": "DN",
+          "publishedAt": "2026-10-09T15:09:47+02:00"
+        },
+        {
           "id": "fee4fbb9f960",
           "section": "nyheter",
           "title": "Tre krogar med Medelhavskänsla",
@@ -208,15 +217,6 @@
           "link": "https://www.dn.se/kultur/spirituellt-och-anekdotiskt-uruppforande-av-turnages-gitarrkonsert-i-orebro/",
           "source": "DN",
           "publishedAt": "2026-10-09T14:36:14+02:00"
-        },
-        {
-          "id": "40cda7a7e90b",
-          "section": "nyheter",
-          "title": "Misstänkt kannibalism bland instängda katter – man åtalas",
-          "summary": "Ett tiotal katter ska ha levt i misär i Skellefteåtrakten. Inne i huset ska bajs ha täckt golven och rester av döda katter legat utspridda. En man åtalas nu för grovt djurplågeri. Han nekar till brott och hävdar att han inte upplevde katternas situation som...",
-          "link": "https://www.dn.se/sverige/misstankt-kannibalism-bland-instangda-katter-man-atalas/",
-          "source": "DN",
-          "publishedAt": "2026-10-09T14:34:41+02:00"
         },
         {
           "id": "7683de175616",
